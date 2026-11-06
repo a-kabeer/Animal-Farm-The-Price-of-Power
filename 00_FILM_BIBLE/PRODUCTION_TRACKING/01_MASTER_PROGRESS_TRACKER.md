@@ -38,7 +38,7 @@
 | Character references | Boxer, Clover and Benjamin approved references recorded in Asset Register |
 | Locations | Existing Manor_Farm_Exterior and Barn_Exterior references; exterior-only scene; no Main_Barn interior asset required |
 | Dialogue | Two original adaptation lines for Clover and Boxer; both exact lines owner-approved 6 November 2026; audio not generated |
-| Generation | Not started; Shot001 prompt locked; explicit generation authorization not granted; zero credits used |
+| Generation | Owner authorized one Shot001 output at exactly 10 credits, conditional on live UI recheck; Flow render not yet confirmed; owner review pending |
 
 ## Active project settings (the workflow actually used so far)
 
