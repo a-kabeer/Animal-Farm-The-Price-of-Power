@@ -6,7 +6,7 @@
 
 | Sequence | Timecode | Title | Story beats in uploaded blueprint | Main characters/assets | Production status |
 |---|---|---|---|---|---|
-| S01 | 00:00–03:00 | The Hungry Farm | Establish Manor Farm; Jones neglects animals; Boxer and Clover discuss hardship; Benjamin observes | Jones, Boxer, Clover, Benjamin, farm, barn | First 2 minutes covered by ACT01_SCENE001 and ACT01_SCENE002; final 1 minute not yet planned. Scene 001/002 master assemblies need review/export sign-off. |
+| S01 | 00:00–03:00 | The Hungry Farm | Establish Manor Farm; Jones neglects animals; Boxer and Clover discuss hardship; Benjamin observes | Jones, Boxer, Clover, Benjamin, farm, barn | ACT01_SCENE001 and ACT01_SCENE002 masters are complete per project-owner confirmation. ACT01_SCENE003 is now planned for the final minute; no Scene 003 shots have been generated yet. |
 | S02 | 03:00–06:00 | Old Major's Dream | Night gathering; Old Major explains exploitation; imagines a farm without human oppression; Napoleon watches silently | Old Major, Napoleon, Snowball, Boxer, Clover, Benjamin, barn | Not started in detailed production log; Old Major/Napoleon/Snowball assets need approval |
 | S03 | 06:00–09:00 | The Rebellion | Jones forgets to feed animals; hunger triggers revolt; animals drive Jones and men away; gate closes behind them | Jones, dogs, all animals, farmyard | Not started |
 | S04 | 09:00–12:00 | A New Order | Animals celebrate; Snowball and Napoleon organize farm; commandments painted; harvest; early optimism | Snowball, Napoleon, Squealer, Boxer, Clover, barn, fields | Not started |
@@ -21,9 +21,9 @@
 
 | Working production scene | Time | Maps into master sequence | Status |
 |---|---|---|---|
-| ACT01_SCENE001 — Manor Farm Establishing | 00:00–01:00 | S01 — The Hungry Farm | Six shots approved; 60s Full HD file exists; editorial review/sign-off pending |
-| ACT01_SCENE002 — The Animals' Work | 01:00–02:00 | S01 — The Hungry Farm | Six shots approved; final 60s assembly pending |
-| ACT01_SCENE003 — Not yet defined | 02:00–03:00 | S01 — The Hungry Farm | Needs a shot/story breakdown; should cover remaining S01 beats without repeating existing footage |
+| ACT01_SCENE001 — Manor Farm Establishing | 00:00–01:00 | S01 — The Hungry Farm | Master complete — project-owner confirmed 6 Nov 2026 |
+| ACT01_SCENE002 — The Animals' Work | 01:00–02:00 | S01 — The Hungry Farm | Master complete — project-owner confirmed 6 Nov 2026 |
+| ACT01_SCENE003 — The Burden of the Day | 02:00–03:00 | S01 — The Hungry Farm | Six-shot / 60s breakdown drafted; not yet approved or generated |
 
 ## Suggested story roles (not a dialogue script)
 
