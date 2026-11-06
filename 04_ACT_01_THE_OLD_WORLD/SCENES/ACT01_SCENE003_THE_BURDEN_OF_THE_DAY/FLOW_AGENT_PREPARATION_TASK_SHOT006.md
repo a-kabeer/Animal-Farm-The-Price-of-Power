@@ -111,3 +111,35 @@ The owner supplied a corrected report confirming:
 The first mismatched prompt was corrected and is preserved in the project decision log for audit. Current status: **CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**.
 
 A separate explicit owner authorization is still required. Immediately before any authorized render, verify the exact live price is still 10 credits and all five references, settings and prompt remain unchanged. Exactly one output only; otherwise stop without generating.
+
+
+## 9. Generation report and independent MP4 review — 7 November 2026
+
+**Status:** GENERATED — AWAITING OWNER REVIEW.  
+**Media ID:** `89104e8d-e999-469f-b810-cc94725cf955`  
+**Asset:** `Animals moving toward barn entrance`  
+**Collection:** `04_ACT_01_The_Old_World` (`b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`)  
+**Flow report:** exactly one output; exactly 10 credits charged.
+
+The owner-uploaded MP4 was independently inspected. Verified: 2,777,152 bytes; 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo, 48kHz; audio stream duration 10.026667s.
+
+### Visual findings
+
+- All three animals are visible and recognizable from the rear three-quarter angle.
+- Boxer remains largest/dark-maned; Clover remains lighter-maned and unharnessed; Benjamin remains smaller and grey.
+- The animals turn toward and move closer to the red barn entrance.
+- The camera pulls back and reveals more of the barn and farmyard; the barn remains the visual destination.
+- No Old Major, night meeting or additional identifiable characters appear.
+
+### Deviations
+
+- The sky is still pink-grey twilight at the ending, rather than the intended cool blue night. Apply a cool-blue dusk-to-night grade in post.
+- A distinct warm glow through the barn doorway is not clearly visible. If practical, add a subtle warm doorway light during NLE compositing/color work.
+
+**Assistant recommendation:** retain V01 for editing; no retake recommended. The principal composition/action works and the two deviations can be addressed in post-production.
+
+### Audio
+
+AAC stereo 48kHz audio stream is present. Subjective listening review remains pending. No dialogue or narrator is intended.
+
+**Owner review/approval remains pending.** This is not owner sign-off. After owner acceptance, assemble the six Scene003 shots into the 60-second master.
