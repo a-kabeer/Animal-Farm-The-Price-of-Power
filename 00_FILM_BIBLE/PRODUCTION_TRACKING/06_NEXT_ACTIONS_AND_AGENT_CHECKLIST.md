@@ -30,7 +30,7 @@
 - [x] Record lighting discrepancy against Scene 002 Shot 006; apply cool-blue exposure/color matching in NLE during final assembly.
 - [ ] Apply and review the color grade; verify it bridges the deep-blue twilight of Scene 002 Shot 006 without crushing detail.
 - [ ] Complete a separate listening review of Shot001 native audio.
-- [x] Shot002's one conditional authorized output generated; media ID `a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a`; actual MP4 inspected; owner approval pending. Do not proceed to Shot003 until owner approves Shot002 and separately authorizes Shot003.
+- [x] Shot002's one conditional authorized output generated; media ID `a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a`; actual MP4 inspected; owner accepted V01 for editing with a minor foreleg-crop note on 6 November 2026. Detailed audio listening review remains pending.
 
 ### P3 — Close S01 and prepare S02
 
@@ -133,8 +133,8 @@
 - [x] Visual review: Boxer identity, white blaze, temporary harness, stationary loaded cart, red barn exterior, head-lowering action and subdued dusk all read clearly.
 - [x] Framing deviation recorded: the push-in crops Boxer's forelegs out in the latter half; head, harness and cart remain readable.
 - [x] Audio stream presence verified; detailed listening review remains pending.
-- [ ] Obtain explicit owner approval or rejection of Shot002 V01. Assistant recommendation: retain for editing with the foreleg-crop note; no retake.
-- [ ] Do not generate Shot003 until owner approval of Shot002 and a separate explicit, shot-specific authorization for Shot003.
+- [x] Obtain explicit owner acceptance of Shot002 V01 for editing on 6 November 2026; retain with the foreleg-crop note; no retake.
+- [x] Shot002 owner acceptance is recorded. Shot003 still requires its own separate, explicit, shot-specific generation authorization.
 
 ### Scene 003 Shot002 — owner acceptance (6 November 2026)
 
@@ -143,3 +143,16 @@
 - [x] Keep the late-shot foreleg-crop note visible for the editor.
 - [ ] Complete detailed listening review of the native audio.
 - [ ] Prepare Shot003 only; no generation until a separate explicit owner authorization for the exact live price/settings/references.
+
+
+### Scene 003 Shot003 — prompt preparation and Flow preflight (6 November 2026)
+
+- [x] Prepare exact shot prompt for Clover's Concern with the owner-approved dialogue line: “You have carried enough for one day, Boxer.”
+- [x] Record five precise reference IDs: Clover, Boxer, Barn_Exterior, Manor_Farm_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE.
+- [x] Create copy-paste task: `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT003.md`.
+- [x] Update Scene 003 breakdown, project status and shot register to show prompt-prepared / preflight-pending / not authorized.
+- [ ] In Flow, attach all five exact references, enter the prompt verbatim, verify current model/mode/resolution/aspect/duration/output count, and report the exact live displayed credit price.
+- [ ] Report whether the chosen Flow mode supports the exact spoken line and reliable lip-sync; do not guess.
+- [ ] **STOP after preflight. Do not click Generate, create a preview or spend credits.**
+- [ ] Wait for a separate explicit owner authorization for this exact shot and live price. This preparation does not authorize rendering.
+
