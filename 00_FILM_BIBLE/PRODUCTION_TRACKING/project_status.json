@@ -131,12 +131,12 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Continue Scene003 production planning with Shot003 preparation only; do not generate until exact settings, live credit price and references are checked and separate explicit owner authorization is obtained. Shot002 native audio listening review remains pending.",
-    "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE; complete separate native-audio listening review",
-    "Obtain separate explicit owner authorization for Scene003 Shot002 after corrected final prompt and live price are reviewed",
-    "Continue Scene003 one shot at a time; review every generated output",
-    "Assemble Scene003 to 60 seconds and obtain owner approval",
-    "Verify complete S01 across Scenes001–003, then prepare S02"
+    "Flow Agent: prepare and preflight Scene003 Shot003 only; report exact live credit price, current settings and all five attached references. Do not click Generate or spend credits.",
+    "Complete detailed listening review of Scene003 Shot002 native audio.",
+    "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE.",
+    "After Shot003 preflight report, obtain separate explicit owner authorization before any generation; continue one shot at a time.",
+    "Assemble Scene003 to 60 seconds and obtain owner approval.",
+    "Verify complete S01 across Scenes001–003, then prepare S02."
   ],
   "sync_status": "No automatic live sync with Google Flow or ChatGPT; update repository and re-upload latest tracking files when continuing",
   "master_complete_working_scenes": 2,
@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003–006 NOT GENERATED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 PROMPT PREPARED — PREFLIGHT PENDING — NOT AUTHORIZED; SHOT004–006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +255,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Flow Agent must recheck live UI. Generate one output only if exact 10-credit price and all settings match; otherwise stop. After rendering, report media ID and actual metadata. Owner review required; do not mark approved.",
+    "next_step": "Run Flow preflight for Shot003 only using FLOW_AGENT_PREPARATION_TASK_SHOT003.md. Report live displayed price and exact settings/references; do not generate. Obtain separate explicit owner authorization before any render.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -375,6 +375,55 @@
       "retake_authorized": false,
       "credits_spent": 10,
       "editorial_status": "ACCEPTED FOR EDITING — retain V01; note late-shot foreleg crop; detailed audio listening review pending"
+    },
+    "shot003_preparation": {
+      "shot_id": "ACT01_SCENE003_SHOT003_V01",
+      "title": "Clover's Concern",
+      "status": "PROMPT PREPARED — FLOW PREFLIGHT PENDING — GENERATION NOT AUTHORIZED",
+      "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT003.md",
+      "prompt_status": "LOCKED FOR PREPARATION; do not change without reporting to owner",
+      "model_target": "Omni 1.2 Flash — verify live selector",
+      "mode_target": "Reference-to-Video (R2V)",
+      "resolution_target": "360p (640x360)",
+      "aspect_ratio_target": "16:9 landscape",
+      "duration_seconds_target": 10,
+      "output_count_target": 1,
+      "live_displayed_credit_price": "NOT CHECKED — Flow Agent must report the live UI price; no estimate",
+      "references": [
+        {
+          "name": "Clover master",
+          "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b"
+        },
+        {
+          "name": "Boxer master",
+          "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba"
+        },
+        {
+          "name": "Barn_Exterior",
+          "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a"
+        },
+        {
+          "name": "Manor_Farm_Exterior",
+          "media_id": "8fa316c0-27e8-4df8-98af-56c73fa332f7"
+        },
+        {
+          "name": "BOXER_HAY_CART_CONTINUITY_REFERENCE",
+          "media_id": "d86c8a63-b658-4216-9740-0132bcf86282"
+        }
+      ],
+      "dialogue": {
+        "speaker": "Clover",
+        "exact_line": "You have carried enough for one day, Boxer.",
+        "voice_direction": "Warm, calm, empathetic adult female voice, softly concerned, natural pacing and clear pronunciation.",
+        "owner_approved": true,
+        "approved_date": "2026-11-06",
+        "lip_sync": "Not yet verified; Flow Agent must report support and reliability. Post-production dubbing may be required."
+      },
+      "generation_authorized": false,
+      "generation_credits_spent": 0,
+      "preflight_status": "NOT YET REPORTED",
+      "no_generation_performed": true,
+      "stop_after_preflight": true
     }
   }
 }
