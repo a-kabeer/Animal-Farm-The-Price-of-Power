@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 PROMPT PREPARED — PREFLIGHT NOT RUN — NOT AUTHORIZED; SHOT005–006 NOT GENERATED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 PREFLIGHT MISMATCH — CORRECTION REQUIRED — NOT AUTHORIZED; SHOT005–006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +255,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Flow Agent: prepare and preflight Scene003 Shot004 only using FLOW_AGENT_PREPARATION_TASK_SHOT004.md. Report exact live displayed price, settings, reference attachments and dialogue/lip-sync capability. Do not generate; explicit separate authorization required.",
+    "next_step": "Resolve Shot004 preflight discrepancy before asking for generation authorization. Required exact reference set: Boxer, Clover, Barn_Exterior. Required framing: medium close-up on Boxer with Clover shoulder at frame edge. Exact canonical prompt stored in FLOW_AGENT_PREPARATION_TASK_SHOT004.md. Recheck live price/settings after correction; no generation/preview allowed.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -514,7 +514,7 @@
     "shot004_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT004_V01",
       "title": "Boxer's Response",
-      "status": "PROMPT PREPARED — PREFLIGHT NOT RUN — GENERATION NOT AUTHORIZED",
+      "status": "PREFLIGHT REPORT RECEIVED — MISMATCH — CORRECTION REQUIRED — GENERATION NOT AUTHORIZED",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT004.md",
       "prompt_status": "LOCKED FOR PREPARATION — preserve exact breakdown prompt verbatim",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -548,10 +548,61 @@
       },
       "generation_authorized": false,
       "generation_credits_spent": 0,
-      "preflight_status": "NOT RUN",
+      "preflight_status": "MISMATCH: reported Boxer/Clover/BOXER_HAY_CART references instead of required Boxer/Clover/Barn_Exterior; reported medium two-shot instead of locked medium close-up with Clover shoulder at frame edge. Prompt reported verbatim but does not match canonical breakdown prompt.",
       "no_generation_performed": true,
       "stop_after_preflight": true,
-      "next_action": "Prepare and preflight only. Attach three exact references, enter locked prompt verbatim, report current model/settings/live displayed price and speech/lip-sync capabilities. Do not click Generate or spend credits."
+      "next_action": "Correct the preflight mismatch: replace the hay-cart reference with Barn_Exterior and restore the canonical medium close-up framing/prompt. Report updated live price/settings/reference attachments. No generation or preview.",
+      "reported_preflight": {
+        "report_date": "2026-11-07",
+        "model": "Omni 1.2 Flash",
+        "mode": "Reference-to-Video (R2V)",
+        "resolution": "360p (640x360)",
+        "aspect_ratio": "16:9 landscape",
+        "duration_seconds": 10,
+        "output_count": 1,
+        "live_displayed_credit_price": 10,
+        "audio": "Native ambient audio enabled",
+        "references_reported": [
+          {
+            "name": "Boxer",
+            "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba"
+          },
+          {
+            "name": "Clover",
+            "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b"
+          },
+          {
+            "name": "BOXER_HAY_CART_CONTINUITY_REFERENCE",
+            "media_id": "d86c8a63-b658-4216-9740-0132bcf86282"
+          }
+        ],
+        "references_expected": [
+          {
+            "name": "Boxer",
+            "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba"
+          },
+          {
+            "name": "Clover",
+            "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b"
+          },
+          {
+            "name": "Barn_Exterior",
+            "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a"
+          }
+        ],
+        "framing_reported": "Medium two-shot at animal eye level, slight focus toward Boxer",
+        "framing_expected": "Medium close-up on Boxer; Clover's shoulder softly visible at frame edge",
+        "dialogue_line": "The work still needs doing, Clover.",
+        "exact_dialogue_capability": "Flow reports exact English dialogue and reliable non-human lip-sync are not guaranteed.",
+        "prompt_verbatim_claim": true,
+        "execution_reported": "No generation performed; 0 credits spent",
+        "discrepancies": [
+          "Wrong third reference attached: hay-cart video reference is reported instead of the canonical Barn_Exterior reference.",
+          "Framing/action differs from the locked Scene Breakdown prompt: medium two-shot rather than medium close-up with Clover partly at frame edge.",
+          "Therefore this is not a valid match to the prepared production setup, despite the Flow Agent's verbatim claim."
+        ],
+        "required_correction": "Re-run preflight only using the exact three expected references and the canonical prompt from FLOW_AGENT_PREPARATION_TASK_SHOT004.md. Do not generate."
+      }
     },
     "next_actions": [
       "Complete detailed listening review of Scene003 Shot002 and Shot003 native ambient audio.",
