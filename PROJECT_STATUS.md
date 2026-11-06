@@ -2,13 +2,13 @@
 
 ## Headline
 
-**12/12 individual shots approved across two one-minute working scenes. 2:00 of approved shot footage against a 30:00 target (6.7%).** This is footage coverage, not end-to-end completion.
+**Scenes 001 and 002 are master-complete by owner confirmation; 12 approved shots / 2:00 of completed footage against a 30:00 target (6.7%). Scene 003 is planned but not generated.** This is runtime coverage, not end-to-end completion.
 
 ## Current stage
 
-- `ACT01_SCENE001` — all six individual shots approved and locked. The Agent supplied the final assembly specification and reports zero generation credits used, but confirms that timeline editing, title tracking, audio mixing and export must be executed in Flow UI / an NLE. The actual rendered master MP4, title composite, transition result, mixed audio, 1080p export and owner sign-off are not verified. See `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/FINAL_MASTER_ASSEMBLY_VERIFICATION_REPORT.md`.
-- `ACT01_SCENE002` — all six shots approved. Approved shot binaries are intentionally excluded from this GitHub package. Master scene assembly/export pending.
-- `ACT01_SCENE003` (02:00–03:00) — not planned; required to finish master sequence S01.
+- `ACT01_SCENE001` — six shots and scene master **complete — project-owner confirmed 6 November 2026**. Final export filename and detailed metadata have not yet been entered in this repository.
+- `ACT01_SCENE002` — six shots and scene master **complete — project-owner confirmed 6 November 2026**. Final export filename and detailed metadata have not yet been entered in this repository.
+- `ACT01_SCENE003` — `The Burden of the Day` (02:00–03:00): six-shot, 60-second breakdown drafted; not yet approved or generated.
 - S02–S10 — only high-level story map exists; no detailed shot production yet.
 
 ## Approved clips
@@ -25,11 +25,11 @@ Scene 002: `SHOT001_V01`, `SHOT002_V01`, `SHOT003_V01`, `SHOT004_V01`, `SHOT005_
 
 ## Next actions
 
-1. Execute Scene 001 in Flow UI / NLE, resolve the crossfade/runtime discrepancy, render and verify the actual 60s Full HD master, then obtain owner sign-off. Source clips and assembly specification are recorded.
-2. Assemble/export Scene 002 in Flow Scenebuilder and export/upscale to 1080p.
-3. Plan working Scene 003 for 02:00–03:00.
-4. Approve narrator and write full screenplay/dialogue/audio plan.
-5. Verify/create Old Major, Napoleon, Snowball, Squealer references and missing locations before their first appearances.
+1. Review and approve the Scene 003 six-shot breakdown and two draft dialogue lines; then authorize generation one shot at a time after checking live Flow costs.
+2. Generate Scene 003 one shot at a time after explicit authorization; review every actual MP4 before approval.
+3. Assemble Scene 003 to exactly 60 seconds, then review the complete S01 sequence across Scenes 001–003.
+
+See `00_FILM_BIBLE/PRODUCTION_TRACKING/` for details and status registers.
 
 See `00_FILM_BIBLE/PRODUCTION_TRACKING/` for details and status registers.
 
