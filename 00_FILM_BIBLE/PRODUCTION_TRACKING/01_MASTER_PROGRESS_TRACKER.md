@@ -220,3 +220,12 @@ The corrected Flow Agent report confirms the exact Boxer, Clover and Barn_Exteri
 Owner supplied the final pre-generation audit for `ACT01_SCENE003_SHOT004_V01 — Boxer's Response` and authorized exactly one video output at exactly 10 credits, conditional on the final live Flow UI recheck matching the audit. Verified references: Boxer, Clover and Barn_Exterior. Locked configuration: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output. The exact prompt is entered verbatim; framing is a medium close-up on Boxer with Clover's shoulder at frame edge. Exact approved line: “The work still needs doing, Clover.” Execution task: `FLOW_AGENT_EXECUTION_TASK_SHOT004.md`.
 
 Generate only if the live price is exactly 10 credits and every setting/reference/prompt remains unchanged immediately before rendering. Otherwise stop. No batch, preview, variation, retake, retry or other shot. Return actual asset and metadata for review; mark **GENERATED — AWAITING OWNER REVIEW**. The project default remains one output per shot.
+
+
+## Scene 003 Shot004 generated — awaiting owner review (7 November 2026)
+
+`ACT01_SCENE003_SHOT004_V01` generated as exactly one output; Flow reports exactly 10 credits charged. Media ID: `0b69c62d-2094-4ca6-835d-24346f727361`; asset name “Boxer speaking to Clover”. Actual uploaded MP4 independently inspected: 10s; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; 1,796,362 bytes.
+
+The corrected medium close-up is achieved: Boxer is dominant, Clover is partly visible at the left edge, Boxer's blaze and harness are readable, and the red barn remains consistent. Assistant recommendation: retain V01 for editing; no retake recommended. Flow reports ambient horse vocalization and evening wind only; dub/synchronize Boxer's exact approved line in post-production. Detailed audio listening review remains pending.
+
+**Status: GENERATED — AWAITING OWNER REVIEW.** Shot004's generation authorization is consumed. Do not generate Shot005 until it is separately prepared and explicitly authorized; default remains one output per shot.
