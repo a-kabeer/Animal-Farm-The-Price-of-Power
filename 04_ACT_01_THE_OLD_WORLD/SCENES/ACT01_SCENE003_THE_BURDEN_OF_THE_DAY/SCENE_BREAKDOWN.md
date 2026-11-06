@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 PROMPT PREPARED — PREFLIGHT NOT RUN — NOT AUTHORIZED; SHOT005–006 NOT GENERATED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 GENERATED — AWAITING OWNER REVIEW; SHOT005–006 NOT GENERATED  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -486,3 +486,31 @@ The owner provided the final pre-generation audit and authorized exactly **one**
 **Final execution gate:** Immediately before Generate, verify the live displayed price is still exactly 10 credits and every setting, reference and prompt matches. If any item differs, stop without generating. Exactly one output only; no batch, preview, variation, retake, retry or other shot. After rendering, return the actual media and report; status must be **GENERATED — AWAITING OWNER REVIEW**.
 
 **Authorization status:** AUTHORIZED — AWAITING FINAL LIVE UI RECHECK AND SINGLE RENDER.
+
+
+## 23. Shot004 generation report and independent MP4 review — 7 November 2026
+
+**Generated asset:** `ACT01_SCENE003_SHOT004_V01 — Boxer speaking to Clover`  
+**Flow media ID:** `0b69c62d-2094-4ca6-835d-24346f727361`  
+**Collection:** `04_ACT_01_The_Old_World` (collection ID `b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`)  
+**Flow report:** exactly one output generated; exactly 10 credits charged.  
+**Actual uploaded MP4 inspected:** 1,796,362 bytes; 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo, 48kHz; audio stream duration 10.026667s.
+
+### Independent visual review
+
+The uploaded MP4 was inspected using sampled frames across the clip:
+- The corrected composition is a medium close-up on Boxer as the main subject; Clover is partly visible at the left edge and remains secondary.
+- Boxer's chestnut coat, dark mane, distinctive white facial blaze and temporary leather working harness are visible.
+- Clover remains unharnessed.
+- The established red Barn_Exterior remains visible in the background.
+- The restrained framing and subtle head/eye movement read as Boxer's quiet response; the clip does not become a full two-shot.
+
+**Assistant recommendation: RETAIN V01 FOR EDITING — NO RETAKE RECOMMENDED.** The revised composition corrects the earlier preflight mismatch and supports the intended response beat. Apply a modest cool-blue continuity grade if needed to match Shot003.
+
+### Dialogue and sound
+
+Flow reports ambient horse vocalization and evening wind only. The exact owner-approved line — **“The work still needs doing, Clover.”** — was not generated as spoken dialogue. The AAC audio stream is verified, but detailed listening review has not been performed. Record/dub the approved Boxer line and synchronize it during final NLE audio editing.
+
+### Approval status
+
+**Current status: GENERATED — AWAITING OWNER REVIEW.** This is the assistant's visual review and recommendation, not owner approval. The single generation authorization is consumed. No Shot005 generation is authorized by this task.
