@@ -71,3 +71,18 @@ Keep rejected versions for comparison/audit. Never use them in the master edit.
 - Reported output: 10 seconds, 640×360, 16:9, 24fps; audio present.
 - Agent reports locked prompt used verbatim and six references attached.
 - Status: **GENERATED — AWAITING OWNER REVIEW**. Report alone does not prove visual/audio quality. Review character identities/count, cart body/wheels/shafts/hay/harness, Boxer harness, Clover unharnessed, Benjamin near barn, exterior-only geography, dusk light and ambient audio. No Shot002 or retake is authorized.
+
+
+## F. Scene 002 → Scene 003 transition audit and owner decision — 6 November 2026
+
+- Scene 002 Shot 006 V02 is officially approved and locked as the final shot of Scene 002. Owner-reported media ID: `e3c06bbd-2245-427a-8fbd-3b9bbd1cf891`; 10s; 1280×720; 24fps; 16:9; AAC stereo.
+- Scene 003 Shot 001 V01 media ID `8a46a89f-c131-4f63-868a-c729b7bf8c7c` is retained and locked for editing, not retaken. Owner-approved continuity decision: preserve the clip and correct the bright/overcast opening by NLE cool-blue exposure/color matching against Scene 002 Shot 006. The editorial grade remains pending; do not claim it has been applied.
+- Character and prop continuity (Boxer, Clover, Benjamin, cart, harness and barn) is accepted across the cut. The identified mismatch is principally lighting/color and source resolution (Scene 002 final: 720p; Scene 003 opening: 360p).
+- No generation credits are authorized or spent for this transition decision. No Shot 001 retake is authorized.
+
+## G. Next production step — Scene 003 Shot 002 preparation only
+
+- Prepare `ACT01_SCENE003_SHOT002_V01 — The Weight of the Work` with Boxer, Barn_Exterior and the exact hay-cart continuity reference.
+- Required staging: cart remains stationary and loaded beside the barn; Boxer keeps the same temporary leather harness; medium side profile from shoulder to forelegs; small weight shift, natural harness settling and one controlled tired breath; subtle push-in; late-dusk exterior.
+- Avoid repeating Scene 002 Shot 004's face close-up; no collapse, no dialogue, no new character and no interior.
+- Flow Agent must only verify references, settings, prompt and live displayed credit quote. No Generate/Run action. Preparation does not constitute generation authorization. A separate explicit owner authorization is required before rendering.
