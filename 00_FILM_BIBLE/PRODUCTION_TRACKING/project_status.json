@@ -10,11 +10,11 @@
   "coverage_pct_of_target_runtime": 6.7,
   "master_sequence_S01": {
     "timecode": "00:00-03:00",
-    "status": "Scenes 001 and 002 master-complete per owner confirmation; Scene 003 planned for final minute and not yet generated",
+    "status": "Scenes 001 and 002 master-complete; Scene 003 is in production with Shot001 accepted for editing and Shot002 in preparation only",
     "working_scenes": [
       "ACT01_SCENE001 00:00-01:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
       "ACT01_SCENE002 01:00-02:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
-      "ACT01_SCENE003 02:00-03:00 — SIX-SHOT PLAN DRAFTED; NOT GENERATED"
+      "ACT01_SCENE003 02:00-03:00 — SHOT001 V01 ACCEPTED FOR EDITING (COLOR MATCH REQUIRED); SHOT002 PREFLIGHT ONLY; remaining four shots not generated"
     ]
   },
   "scene001": {
@@ -257,7 +257,7 @@
     },
     "next_step": "Flow Agent must recheck live UI. Generate one output only if exact 10-credit price and all settings match; otherwise stop. After rendering, report media ID and actual metadata. Owner review required; do not mark approved.",
     "shot001_execution": {
-      "status": "GENERATED — AWAITING OWNER REVIEW",
+      "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
       "media_id": "8a46a89f-c131-4f63-868a-c729b7bf8c7c",
       "asset_name": "Boxer stopping cart by barn",
@@ -272,12 +272,13 @@
       "prompt_used": "Flow Agent reports locked prompt used verbatim",
       "references": "Flow Agent reports all six locked references attached",
       "report_date": "2026-11-06",
-      "evidence_source": "Project-owner-supplied Flow Agent execution report; actual MP4 not yet visually inspected in this conversation",
+      "evidence_source": "Owner-supplied MP4 independently inspected in this conversation; execution metadata/credit charge also recorded from Flow Agent report",
       "owner_visual_review": "COMPLETED",
       "owner_approval": true,
       "next_shot_authorized": false,
       "editorial_status": "ACCEPTED FOR EDITING — COOL-BLUE EXPOSURE/COLOR MATCH REQUIRED",
-      "retake_authorized": false
+      "retake_authorized": false,
+      "audio_review": "Audio stream presence verified; detailed listening review pending"
     },
     "transition_audit": {
       "from": "ACT01_SCENE002_SHOT006_V02",
