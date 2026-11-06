@@ -128,3 +128,10 @@ Keep rejected versions for comparison/audit. Never use them in the master edit.
 ## D. Owner decision — retain Scene 003 Shot002 V01 for editing (6 November 2026)
 
 The project owner accepted the assistant's recommendation and approved `ACT01_SCENE003_SHOT002_V01` for editing. The single take is retained with the known minor framing deviation: the push-in crops Boxer's forelegs during the latter half. No retake is planned or authorized. Native audio stream presence is verified; detailed listening review remains pending. This decision does not authorize Shot003 or any other generation.
+
+
+## E. Scene 003 Shot003 — preflight passed; render on hold (6 November 2026)
+
+Flow Agent reports all five exact approved references attached without substitution and the prompt entered verbatim. Live setup: Omni 1.2 Flash / Reference-to-Video / 360p / 16:9 / 10s / one output; displayed price 10 credits. Native audio enabled. Exact English dialogue and precise animal lip-sync are not guaranteed, so review the result and plan post-production dubbing/synchronization if necessary.
+
+No generation performed; zero credits spent. Shot003 remains **PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**. Recheck live price and settings immediately before any render. No preview, retake, variation or generation is included without separate explicit owner authorization.
