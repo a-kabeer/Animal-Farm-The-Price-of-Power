@@ -238,3 +238,15 @@ The actual MP4 was sampled at six timestamps and compared with Shot003 at matchi
 The intended medium close-up works: Boxer is dominant, his face/white blaze/dark mane/ears and temporary harness are clear, and the red barn is consistent. Clover's partial head/muzzle appears at the left edge rather than only her shoulder, but she remains cropped and secondary. Lighting is subdued grey/cool dusk, slightly brighter/greyer than Shot003; apply a modest cool-blue grade. The push-in gradually crops more of Boxer's body but keeps his head and ears in frame.
 
 Flow reports ambient horse vocalization and evening wind only; dub/synchronize the exact Boxer line in the NLE. Subjective audio listening review remains pending. **Assistant recommendation: retain V01 for editing; no retake recommended.** Owner review remains pending.
+
+
+## Scene 003 Shot004 accepted; Shot005 preparation started — 7 November 2026
+
+The project owner replied **“next please”** after the detailed Shot004 review and assistant recommendation to retain V01. This is recorded as owner acceptance for editing and progression to Shot005.
+
+- **Shot004:** `ACT01_SCENE003_SHOT004_V01`, media ID `0b69c62d-2094-4ca6-835d-24346f727361` — **OWNER ACCEPTED FOR EDITING — NO RETAKE**.
+- Preserve the one generated output. No retake or new generation is required.
+- Post-production: apply a modest cool-blue continuity grade if needed; dub/synchronize “The work still needs doing, Clover.” Detailed native ambient-audio listening remains pending.
+- **Next:** prepare and preflight Shot005 — Benjamin Observes — using the exact three references and canonical breakdown prompt.
+- Shot005 preparation task: `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT005.md`.
+- Shot005 is preflight-only at this stage. **No generation, preview or credit spend is authorized.** The live Flow settings and displayed price must be reported exactly, and the owner must give separate explicit authorization before one output is rendered.
