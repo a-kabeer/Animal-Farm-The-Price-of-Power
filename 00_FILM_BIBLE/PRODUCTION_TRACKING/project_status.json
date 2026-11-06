@@ -720,27 +720,39 @@
           "post_production": "Record/dub exact line and synchronize to Boxer's mouth movement during NLE audio editing."
         },
         "visual_review": {
-          "status": "ASSISTANT VISUAL REVIEW COMPLETED — RECOMMEND RETAIN FOR EDITING",
-          "evidence": "Owner-uploaded MP4 inspected with sampled frames across the 10-second clip.",
+          "status": "DETAILED ASSISTANT REVIEW COMPLETED — RECOMMEND RETAIN FOR EDITING",
+          "review_method": "Actual uploaded MP4 inspected at 0.5s, 2s, 4s, 6s, 8s and 9.5s; visually compared with Scene003 Shot003 at matching timestamps.",
           "positive_findings": [
-            "Composition is the required medium close-up with Boxer as the dominant subject and Clover partly visible at the left edge.",
-            "Boxer's chestnut coat, dark mane, white facial blaze and temporary leather working harness are readable.",
-            "Clover remains unharnessed.",
-            "The red Barn_Exterior and established farmyard remain visible.",
-            "The camera is restrained; the composition reads as a response shot focused on Boxer."
+            "The requested medium close-up is achieved: Boxer is the dominant subject and his face, white blaze, dark mane and ears remain readable throughout.",
+            "Boxer's chestnut appearance and facial markings remain consistent with the approved character reference and preceding scene.",
+            "The temporary leather working harness/collar is visible around the neck and shoulder area.",
+            "The red timber Barn_Exterior remains consistent with the approved location.",
+            "The subtle push-in supports the emotional emphasis and does not lose Boxer's head or ears.",
+            "The performance remains restrained; the final sampled frame includes a natural blink."
           ],
           "deviations": [
-            "The output is a subdued grey/cool dusk rather than pronounced deep blue twilight; apply a modest continuity grade in the NLE if needed against Shot003.",
-            "Clover is partly visible with more than only a shoulder at the frame edge in some sampled frames, but remains secondary and does not become a full two-shot."
+            "Clover is more visible than the prompt's 'shoulder softly visible at the frame edge': a portion of her head/muzzle appears along the left border. She remains cropped and secondary, so this does not become a full two-shot.",
+            "The lighting is subdued overcast dusk but slightly brighter/greyer than Shot003's cool blue-hour look; a modest cool-blue continuity grade is recommended.",
+            "The push-in gradually crops more of Boxer's body; this is consistent with the intended close-up, and his head/ears remain in frame."
           ],
-          "recommendation": "Retain V01 for editing. No retake recommended. Dub/synchronize Boxer's exact approved dialogue and apply a modest continuity grade if needed."
+          "recommendation": "Retain V01 for editing; no retake recommended. If desired, slightly darken/cool the image in the NLE. No additional video generation needed."
         },
-        "owner_visual_review": "PENDING — generated output returned for owner review; assistant review completed",
+        "owner_visual_review": "PENDING — detailed assistant review completed; awaiting explicit owner decision",
         "owner_approval": false,
-        "editorial_status": "GENERATED — AWAITING OWNER REVIEW; ASSISTANT RECOMMENDS RETAIN FOR EDITING WITH POST-PRODUCTION DIALOGUE DUB/SYNC",
+        "editorial_status": "GENERATED — AWAITING OWNER REVIEW; assistant recommends retain for editing with modest cool-blue continuity grade and post-production dialogue dubbing/synchronization",
         "retake_authorized": false,
         "next_shot_authorized": false,
-        "credits_spent": 10
+        "credits_spent": 10,
+        "audio_stream_review": "AAC stereo 48kHz stream verified via metadata. Flow reports ambient horse vocalization/evening wind only and no exact spoken dialogue. Subjective listening review not completed.",
+        "reviewed_timestamps_seconds": [
+          0.5,
+          2,
+          4,
+          6,
+          8,
+          9.5
+        ],
+        "review_date": "2026-11-07"
       }
     },
     "next_actions": [
