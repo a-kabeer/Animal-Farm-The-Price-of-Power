@@ -2,7 +2,7 @@
 
 **Timecode:** 01:00–02:00  
 **Runtime:** 60 seconds  
-**Status:** All six individual shots approved. Scene master assembly pending.  
+**Status:** MASTER COMPLETE — project-owner confirmed on 6 November 2026. All six approved shots remain locked. Final export filename and technical metadata are not recorded in this repository.  
 **Time jump:** Opens on the next morning after Scene 001 ends at dusk.  
 **Dialogue:** No spoken dialogue in the six approved shot plans.
 
@@ -78,3 +78,8 @@
 - Target runtime: exactly 60 seconds.
 - Scene assembly in Flow Scenebuilder is pending.
 - Final audio track mixing and 1080p export are pending.
+
+
+## Owner completion confirmation — 6 November 2026
+
+The project owner has confirmed that the Scene 002 master assembly/export is complete. The previous pending assembly status is superseded. Approved source versions remain unchanged; the final master filename and technical export metadata are not recorded in this repository.
