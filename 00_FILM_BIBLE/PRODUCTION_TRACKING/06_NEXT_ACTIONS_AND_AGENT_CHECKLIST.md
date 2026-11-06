@@ -169,3 +169,17 @@
 - [x] No generation performed; **0 credits spent**.
 - [ ] Obtain separate explicit owner authorization for exactly one Shot003 output at 10 credits, conditional on live price/settings/references matching immediately before generation.
 - [ ] Do not generate, preview, or create a variation before that authorization.
+
+
+### Scene 003 Shot003 — owner authorized one render (7 November 2026)
+
+- [x] Owner explicitly authorized exactly **one** Shot003 video output at exactly **10 credits**, based on the passed preflight.
+- [x] Locked settings: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / output count 1.
+- [x] All five exact references verified attached during preflight; locked prompt entered verbatim.
+- [x] Created execution task: `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_EXECUTION_TASK_SHOT003.md`.
+- [ ] Flow Agent: immediately recheck the live UI. Generate exactly one output only if the displayed price is still exactly 10 credits and all settings/references/prompt match.
+- [ ] If any item differs, stop without generating; do not substitute, batch, preview, retry or retake.
+- [ ] After the single output, return media ID and actual metadata/audio/dialogue/lip-sync report. Mark **GENERATED — AWAITING OWNER REVIEW**; do not mark approved.
+- [ ] Stop after delivering Shot003. Shot004 is not included in this authorization.
+
+**Standing production default:** one output per video shot; never ask whether to batch or make multiple takes. This output-count preference does not authorize future shots; each new shot still needs separate explicit owner authorization.
