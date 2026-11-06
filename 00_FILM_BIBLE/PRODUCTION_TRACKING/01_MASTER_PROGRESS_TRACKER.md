@@ -287,3 +287,16 @@ The project owner replied **“go ahead”** after review of Shot005 and the rec
 - **Shot006:** `Night Settles over the Farm` — preparation task created. Wide rear three-quarter view of Boxer, Clover and Benjamin moving toward the red barn entrance; dusk deepens to blue night; soft warm doorway glow; no Old Major or meeting.
 - Shot006 Flow task: `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT006.md`.
 - Shot006 is **preflight only**. No generation, preview or credit spend is authorized; wait for separate explicit owner authorization after exact live UI settings, all five references, prompt and price are verified.
+
+
+## Scene 003 Shot006 — initial preflight mismatch (7 November 2026)
+
+The owner-supplied Flow Agent report confirms Omni 1.2 Flash / R2V / 360p / 16:9 / 10s / one output; all five expected references attached; a live quote of 10 credits; and zero credits spent.
+
+The quoted prompt is materially different from the canonical prompt:
+- High-angle wide instead of wide rear three-quarter.
+- Animals enter the barn out of view instead of turning toward and beginning to move toward the barn entrance.
+- Adds slightly ajar doors and light slivers through timber.
+- Changes the dusk-to-blue-night ending to full nighttime / moonlit farm.
+
+The report's “entered verbatim” claim therefore does not match the actual quoted text. **Preflight rejected — correction required.** Do not generate. Enter the canonical prompt exactly as saved in `FLOW_AGENT_PREPARATION_TASK_SHOT006.md`, retain the exact five references/settings, then re-run preflight and report the exact live displayed price after correction. No preview or credits.
