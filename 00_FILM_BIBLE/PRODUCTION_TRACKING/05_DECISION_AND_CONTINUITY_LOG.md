@@ -222,3 +222,12 @@ The reported text changes:
 4. Dusk-to-blue-night progression to full nighttime / moonlit farm.
 
 The report's verbatim claim is contradicted by the quoted content. **Reject this preflight; no generation authorization.** Correct by entering the canonical prompt from the committed Shot006 task verbatim, recheck price after correction and report again. No preview, no credits, no generation.
+
+
+## P. Scene 003 Shot006 — corrected preflight passed — 7 November 2026
+
+The owner supplied a corrected Flow Agent report. It verifies Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output; all five exact references (Boxer, Clover, Benjamin, Manor_Farm_Exterior, Barn_Exterior) remain attached; the corrected prompt is reported entered verbatim and matches the canonical Scene Breakdown; live quote after correction is **10 credits**; no generation or preview and zero credits spent.
+
+The first preflight was rejected and remains documented in Section O/28. The corrected preflight is accepted as a valid setup.
+
+**Generation remains unauthorized.** Await separate explicit owner authorization for exactly one output at the final live-verified 10-credit price. Recheck every setting, reference and prompt immediately before Generate; stop if anything differs. No batch, preview, variation, retake or retry.
