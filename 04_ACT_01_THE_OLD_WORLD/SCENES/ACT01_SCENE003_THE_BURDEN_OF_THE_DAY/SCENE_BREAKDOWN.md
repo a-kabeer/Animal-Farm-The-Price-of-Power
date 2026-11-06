@@ -4,9 +4,9 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT PLAN DRAFTED — NOT YET APPROVED OR GENERATED  
+**Status:** SHOT001 PROMPT LOCKED — dialogue approval and generation authorization pending; not generated  
 **Shot count:** 6 planned shots × 10 seconds  
-**Generation authorization:** NOT GRANTED. Do not generate or spend Flow credits until the owner approves the shot plan, the two draft dialogue lines, and the live cost/settings for each shot.
+**Generation authorization:** NOT GRANTED. The owner has locked the Shot001 prompt and references for production planning only. Both dialogue lines remain unapproved. Do not generate or spend Flow credits until the owner approves the two draft lines and separately authorizes the specific shot at its live displayed cost.
 
 ## 1. Story purpose
 
@@ -61,16 +61,25 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 **Dialogue:** None.  
 **Sound:** Evening wind, soft harness movement and one subdued cart-wheel creak.
 
+**Preparation decision (6 November 2026): LOCKED FOR PRODUCTION PLANNING — NOT GENERATED.** The Flow Agent's corrected report verified all six selected references, Omni 1.2 Flash Reference-to-Video mode, 360p, 16:9, 10 seconds, one output and a live displayed quote of 10 credits. The quote is a point-in-time UI report, not a guarantee of future price. No credits spent.
+
+**Selected references / Ingredients (exact reported media IDs):**
+- Boxer — `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`
+- Clover — `b86cb0af-a9e4-4d02-8b25-0316f718481b`
+- Benjamin — `0595b453-1a9c-4c11-9359-fd79a6eeb951`
+- Manor_Farm_Exterior — `8fa316c0-27e8-4df8-98af-56c73fa332f7`
+- Barn_Exterior — `3919fbb9-bf69-40e5-98f4-e02680cb077a`
+- BOXER_HAY_CART_CONTINUITY_REFERENCE — `d86c8a63-b658-4216-9740-0132bcf86282`
+
+**Locked Flow configuration (reported by Flow Agent):** Omni 1.2 Flash · Reference-to-Video (R2V) · 360p · 16:9 landscape · 10 seconds · one output · 10 credits displayed. Recheck the live price immediately before any authorized generation.
+
+**Locked final Flow prompt:**
+
 ~~~text
-SHOT ID: ACT01_SCENE003_SHOT001_V01
-Duration: 10 seconds, 16:9 landscape.
-
-Use the approved Boxer, Clover and Benjamin references, Manor_Farm_Exterior and Barn_Exterior location references, and BOXER_HAY_CART_CONTINUITY_REFERENCE as Ingredients. Preserve every character design and the exact same wooden hay cart, wheels, shafts, hay load and temporary leather harness from the previous scene.
-
-Ground-level medium-wide side view in the same muddy farmyard at late dusk. The same hay cart has come to rest beside the old red timber barn. Boxer, the large chestnut working horse with a dark mane and distinctive white blaze, remains in the temporary leather harness. Clover, the lighter-built chestnut mare, stands beside him completely unharnessed. Benjamin, the older grey donkey, is visible near the barn entrance in the background. The cart is stationary by the end. Slow restrained lateral camera drift. No dialogue and no new characters.
-
-Serious cinematic 3D animated feature-film drama, natural animal anatomy and movement, detailed coat and bristle textures, restrained expressions, physically believable action, consistent 1940s English farm geography, atmospheric late-evening light, 16:9 landscape. Preserve all supplied references exactly. No text, subtitles, logos, watermark, extra limbs or duplicate animals.
+ACT01_SCENE003_SHOT001_V01: Continue directly from Scene 002 Shot 006, preserving the same late-dusk farmyard and barn geography. Use the exact wooden hay cart from the supplied continuity video reference, preserving its original body, wheels, shafts, hay load and leather harness. Boxer remains connected to the cart and wears the same working harness throughout; do not remove or alter it. The cart rolls slowly to a complete stop beside the red timber barn and remains stationary. Clover stands beside Boxer, completely unharnessed. Benjamin watches quietly from near the barn entrance. Keep all action outside. No dialogue, no Old Major, no interior meeting and no new animals. Use a ground-level medium-wide side view with restrained lateral camera movement. Include only natural horse breathing, wooden cart creaks and evening wind.
 ~~~
+
+**Authorization boundary:** Prompt and references are locked for planning. Shot001 has NOT been generated or approved. The two dialogue lines for Shots003–004 remain draft and await owner approval. No generation authorization has been granted.
 
 ### Shot 002 — The Weight of the Work (10 seconds)
 
@@ -176,6 +185,8 @@ Wide rear three-quarter view of the three animals in the farmyard at the end of 
 Serious cinematic 3D animated feature-film drama, natural animal anatomy and measured movement, detailed coats and weathered timber, atmospheric transition from dusk to blue night, consistent 1940s English farm geography, 16:9 landscape. Preserve all approved references exactly. No text, subtitles, logos, watermark, extra limbs or duplicate animals.
 ~~~
 
+**Voice capability note (Flow Agent report, 6 November 2026):** Built-in voice presets are reported as selectable in the Flow UI; no saved custom voice-reference audio assets were found in the project. Exact spoken-line generation and lip-sync are not guaranteed. Plan to inspect/test voice and lip-sync in the UI only after the dialogue is approved; use post-production dubbing if needed.
+
 ## 4. Draft dialogue cue sheet — owner approval required
 
 These are proposed original lines, not quotations from the source novel and not approved screenplay canon.
@@ -210,4 +221,4 @@ Before generating any shot, the Flow Agent must:
 7. Retrieve the actual MP4, verify duration/resolution/frame rate/audio, review continuity, then request approval before proceeding.
 8. Never mark a queued or generated clip approved without owner review.
 
-**Current authorization:** Planning and documentation only. No Scene 003 generation or credit spend has been authorized by this GitHub update.
+**Current authorization:** Shot001 prompt and six references locked for planning. Both dialogue lines are still draft and require owner approval. No Scene 003 generation or credit spend has been authorized. Shot001 has not been generated or approved.
