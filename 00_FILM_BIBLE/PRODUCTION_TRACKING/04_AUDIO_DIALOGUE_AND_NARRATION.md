@@ -66,6 +66,7 @@ The table below is a **speaker plan inferred from the story beats**, not approve
 |---|---|---|
 | ACT01_SCENE001 — Manor Farm Establishing | Six shots | All six shots specify no dialogue; narration not included in shot prompts. Audio/SFX/music are production notes only. |
 | ACT01_SCENE002 — The Animals' Work | Six shots | All six shots specify no dialogue; narration not included in shot prompts. Audio/SFX/music are production notes only. |
+| ACT01_SCENE003 — The Burden of the Day | Six planned shots | Two exact original dialogue lines for Clover (Shot003) and Boxer (Shot004) owner-approved 6 Nov 2026; audio not yet generated; no narrator assigned. |
 
 ## F. Music and SFX cues already named
 
@@ -112,13 +113,13 @@ No line is canon until it has:
 - Voice asset/reference;
 - User approval.
 
-## I. Scene 003 — draft dialogue (awaiting owner approval)
+## I. Scene 003 — owner-approved dialogue (6 November 2026)
 
-Scene 003, `ACT01_SCENE003 — The Burden of the Day` (02:00–03:00), stages the S01 beat in which Boxer and Clover discuss hardship while Benjamin observes. These original draft lines are not quotations from the novel and are not approved screenplay canon:
+Scene 003, `ACT01_SCENE003 — The Burden of the Day` (02:00–03:00), stages the S01 beat in which Boxer and Clover discuss hardship while Benjamin observes. These original adaptation lines were approved by the project owner on 6 November 2026. They are not quotations from the novel:
 
 | Cue | Shot | Speaker | Draft line | Status |
 |---|---|---|---|---|
-| DRAFT-S003-001 | SHOT003 | Clover | “You have carried enough for one day, Boxer.” | Awaiting owner approval |
-| DRAFT-S003-002 | SHOT004 | Boxer | “The work still needs doing, Clover.” | Awaiting owner approval |
+| S003-DLG-001 | SHOT003 | Clover | “You have carried enough for one day, Boxer.” | OWNER APPROVED 6 Nov 2026 |
+| S003-DLG-002 | SHOT004 | Boxer | “The work still needs doing, Clover.” | OWNER APPROVED 6 Nov 2026 |
 
-Clover's voice follows the warm, calm and empathetic direction; Boxer's follows the sincere, gentle baritone direction. Only the named character speaks in each shot. No narrator is assigned to Scene 003. If the owner does not approve these lines, keep the shots silent and revise the cue sheet before voice generation. No Scene 003 audio or video has been generated in this planning update.
+Clover's voice follows the warm, calm and empathetic direction; Boxer's follows the sincere, gentle baritone direction. Only the named character speaks in each shot. No narrator is assigned to Scene 003. The owner approved both exact lines on 6 November 2026. No Scene 003 dialogue audio or video has yet been generated. Keep dialogue recording/generation and lip-sync review as separate production steps.
