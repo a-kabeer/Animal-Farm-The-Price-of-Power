@@ -151,3 +151,10 @@ Assistant editorial disposition: **recommend retain V01 for editing; no retake r
 Owner acknowledges the Shot003 audit and accepts V01 for post-production editing. No retake required. Preserve media ID `868918c2-e7c3-4e18-83d2-ed8bca8f40ff`. Apply a modest cool-blue grade to the opening and dub/synchronize Clover's exact approved line during final audio editing. The owner reports zero credits spent during review.
 
 Shot004 — Boxer's Response — is prepared for Flow UI preflight only. Its owner-approved line is “The work still needs doing, Clover.” Use exact Boxer, Clover and Barn_Exterior references. Preflight task file: `FLOW_AGENT_PREPARATION_TASK_SHOT004.md`. Do not generate, preview or spend credits. Wait for a separate explicit owner authorization after the live UI price/settings and reference attachments are reported. Default remains one output per shot.
+
+
+## H. Scene 003 Shot004 — generation and review (7 November 2026)
+
+Exactly one output generated; Flow reports 10 credits charged. Media ID `0b69c62d-2094-4ca6-835d-24346f727361`. Actual uploaded MP4 verified: 10s, 640×360, 24fps, 16:9, H.264/AVC, AAC stereo 48kHz.
+
+Independent visual review finds the corrected medium close-up works: Boxer is the primary subject, Clover is partly visible at the left edge, harness and white blaze are readable, and the red barn setting is consistent. Assistant recommendation: retain V01 for editing; no retake recommended. Flow reports ambient horse vocalization and evening wind only; dub and synchronize the approved Boxer line in post. Detailed listening review remains pending. Owner review is still pending; no Shot005 generation is authorized.
