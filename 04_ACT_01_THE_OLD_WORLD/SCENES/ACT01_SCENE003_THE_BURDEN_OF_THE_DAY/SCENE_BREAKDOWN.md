@@ -251,3 +251,11 @@ The actual uploaded MP4 was inspected in this conversation. The owner accepted V
 - Transition audit: Scene 002 Shot 006 ends in deep blue twilight; Scene 003 Shot 001 V01 opens brighter/overcast and is 360p. Character, cart/harness and barn identity continuity are accepted.
 - Owner decision: retain Scene 003 Shot 001 V01 (`8a46a89f-c131-4f63-868a-c729b7bf8c7c`); no retake and no additional generation credits. Apply cool-blue color temperature, modest exposure/contrast matching and subtle vignette only if editorially appropriate in the NLE. This grade has not yet been applied or reviewed.
 - Next task: prepare/preflight Scene 003 Shot 002 only. No generation is authorized. Preserve the one-shot-at-a-time rule and obtain explicit approval against the exact live price before rendering.
+
+
+## 8. Owner transition decision and Shot 002 preparation — 6 November 2026
+
+- Scene 002 Shot 006 V02 (`e3c06bbd-2245-427a-8fbd-3b9bbd1cf891`) is officially approved and locked as the final Scene 002 shot; owner-reported metadata: 10s, 1280×720, 24fps, 16:9, AAC stereo.
+- Transition audit: Scene 002 Shot 006 ends in deep blue twilight; Scene 003 Shot 001 V01 opens brighter/overcast and is 360p. Character, cart/harness and barn identity continuity are accepted.
+- Owner decision: retain Scene 003 Shot 001 V01 (`8a46a89f-c131-4f63-868a-c729b7bf8c7c`); no retake and no additional generation credits. Apply cool-blue color temperature, modest exposure/contrast matching and subtle vignette only if editorially appropriate in the NLE. This grade has not yet been applied or reviewed.
+- Next task: prepare/preflight Scene 003 Shot 002 only. No generation is authorized. Preserve the one-shot-at-a-time rule and obtain explicit approval against the exact live price before rendering.
