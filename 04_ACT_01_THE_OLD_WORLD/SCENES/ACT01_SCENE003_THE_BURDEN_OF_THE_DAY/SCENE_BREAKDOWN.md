@@ -468,3 +468,21 @@ The revised preflight resolves the initial mismatch:
 - No generation or preview; zero credits spent.
 
 **Status: PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION.** This report does not itself authorize generation. A separate explicit owner authorization is required for exactly one output at the final verified live price.
+
+
+## 22. Owner authorization — Shot004 (7 November 2026)
+
+The owner provided the final pre-generation audit and authorized exactly **one** output of `ACT01_SCENE003_SHOT004_V01` at exactly **10 credits**, conditional on the final live Flow UI recheck immediately before rendering.
+
+- Model: Omni 1.2 Flash; mode: Reference-to-Video (R2V).
+- Resolution: 360p (640×360); aspect ratio: 16:9 landscape; duration: 10 seconds; exactly one output.
+- Exact references: Boxer (`7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`), Clover (`b86cb0af-a9e4-4d02-8b25-0316f718481b`), Barn_Exterior (`3919fbb9-bf69-40e5-98f4-e02680cb077a`). Do not attach the hay-cart continuity video reference.
+- Prompt verified verbatim. Composition is a medium close-up on Boxer with Clover's shoulder at the frame edge.
+- Exact dialogue: Boxer — “The work still needs doing, Clover.”
+- Native exact speech and non-human lip-sync are not guaranteed; post-production dubbing/synchronization may be required.
+- Target collection: `04_ACT_01_The_Old_World`.
+- Execution task: `FLOW_AGENT_EXECUTION_TASK_SHOT004.md`.
+
+**Final execution gate:** Immediately before Generate, verify the live displayed price is still exactly 10 credits and every setting, reference and prompt matches. If any item differs, stop without generating. Exactly one output only; no batch, preview, variation, retake, retry or other shot. After rendering, return the actual media and report; status must be **GENERATED — AWAITING OWNER REVIEW**.
+
+**Authorization status:** AUTHORIZED — AWAITING FINAL LIVE UI RECHECK AND SINGLE RENDER.
