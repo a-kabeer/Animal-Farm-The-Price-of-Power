@@ -101,3 +101,13 @@ Keep rejected versions for comparison/audit. Never use them in the master edit.
 - Required staging: cart remains stationary and loaded beside the barn; Boxer keeps the same temporary leather harness; medium side profile from shoulder to forelegs; small weight shift, natural harness settling and one controlled tired breath; subtle push-in; late-dusk exterior.
 - Avoid repeating Scene 002 Shot 004's face close-up; no collapse, no dialogue, no new character and no interior.
 - Flow Agent must only verify references, settings, prompt and live displayed credit quote. No Generate/Run action. Preparation does not constitute generation authorization. A separate explicit owner authorization is required before rendering.
+
+
+## H. Scene 003 Shot 002 preflight audit — 6 November 2026
+
+- Owner-supplied Flow Agent report confirms the expected three references were attached: Boxer `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`, Barn_Exterior `3919fbb9-bf69-40e5-98f4-e02680cb077a`, and BOXER_HAY_CART_CONTINUITY_REFERENCE `d86c8a63-b658-4216-9740-0132bcf86282`.
+- Reported setup: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output; native ambient audio enabled; live displayed quote 10 credits.
+- Preparation only: no render performed and zero credits spent. The displayed quote is not generation authorization and must be rechecked after any prompt change.
+- Audit finding: shoulder-to-forelegs framing could crop out Boxer's head despite the required head-lowering action.
+- Prompt correction: use medium three-quarter side-profile framing that includes Boxer's full head and neck, shoulder/harness and forelegs, with a readable portion of the stationary hay cart behind him.
+- Corrected preflight instruction is stored in `FLOW_AGENT_PROMPT_REVISION_SHOT002.md`. Flow Agent must reconfirm the corrected prompt, exact references/settings and live quote. No generation is authorized.
