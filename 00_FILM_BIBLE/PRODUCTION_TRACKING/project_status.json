@@ -131,9 +131,9 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Prepare and preflight Scene003 Shot002 only; verify references, settings, prompt and live price; do not generate",
+    "Revise Scene003 Shot002 framing prompt so Boxer's head-lowering action is visible; have Flow Agent update preflight only and re-report live price; do not generate",
     "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE; complete separate native-audio listening review",
-    "Obtain separate explicit owner authorization for Scene003 Shot002 at the exact displayed price before any render",
+    "Obtain separate explicit owner authorization for Scene003 Shot002 after corrected final prompt and live price are reviewed",
     "Continue Scene003 one shot at a time; review every generated output",
     "Assemble Scene003 to 60 seconds and obtain owner approval",
     "Verify complete S01 across Scenes001–003, then prepare S02"
@@ -289,7 +289,7 @@
       "additional_credits_authorized": 0
     },
     "shot002_preparation": {
-      "status": "PREPARATION ONLY — NOT GENERATED",
+      "status": "PREFLIGHT REPORT RECEIVED — PROMPT FRAMING CORRECTION REQUIRED; NOT GENERATED",
       "shot_id": "ACT01_SCENE003_SHOT002_V01",
       "title": "The Weight of the Work",
       "reference_ids": {
@@ -297,6 +297,24 @@
         "Barn_Exterior": "3919fbb9-bf69-40e5-98f4-e02680cb077a",
         "BOXER_HAY_CART_CONTINUITY_REFERENCE": "d86c8a63-b658-4216-9740-0132bcf86282"
       },
+      "preflight_report": {
+        "model": "Omni 1.2 Flash",
+        "mode": "Reference-to-Video (R2V)",
+        "resolution": "360p (640x360)",
+        "aspect_ratio": "16:9",
+        "duration_seconds": 10,
+        "output_count": 1,
+        "live_displayed_credit_quote": 10,
+        "audio": "Native Omni Flash ambient audio enabled",
+        "all_three_references_reported_attached": true,
+        "prompt_reported_entered_verbatim": true,
+        "mismatches_reported_by_agent": "None",
+        "credits_spent": 0,
+        "generation_performed": false,
+        "report_source": "Owner-supplied Flow Agent preparation report, 2026-11-06"
+      },
+      "audit_finding": "Assistant review identified a framing/action conflict: shoulder-to-forelegs crop may hide the required head-lowering action.",
+      "required_correction": "Revise framing to include Boxer's full head and neck, shoulder/harness and forelegs, while retaining a visible portion of the stationary cart behind him. Ask Flow Agent to update preflight only and re-report the live quote.",
       "generation_authorized": false,
       "credits_spent": 0
     }
