@@ -64,3 +64,27 @@ Return:
 7. Confirmation that no extra output, preview, retry or other credit spend occurred.
 
 Save the asset in `04_ACT_01_The_Old_World`. Mark it **GENERATED — AWAITING OWNER REVIEW**, never owner-approved. Stop after returning the asset and report.
+
+
+## 6. Execution completed — 7 November 2026
+
+Flow Agent execution report:
+- Exactly one output generated.
+- Exactly 10 credits reported charged.
+- Media ID: `0b69c62d-2094-4ca6-835d-24346f727361`.
+- Asset name: `Boxer speaking to Clover`.
+- Collection: `04_ACT_01_The_Old_World` (collection ID `b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`).
+- Flow reports 10 seconds, 640×360, 16:9, 24fps, H.264 video, AAC stereo.
+- All three correct references confirmed in Flow execution report; locked prompt reported used verbatim.
+- Flow reports ambient horse vocalization and evening wind only; exact Boxer dialogue not natively generated. Post-production dubbing/synchronization is required.
+- No additional output, retake or next shot initiated.
+
+Actual uploaded MP4 independently inspected:
+- File size 1,796,362 bytes.
+- Video stream: 10.000s, 640×360, 24fps, H.264/AVC.
+- Audio stream: AAC, 48kHz, stereo, 10.026667s.
+- Visual review: medium close-up composition is correct; Boxer remains dominant, Clover is partly visible at the left edge, Boxer's white blaze and harness are clear, and the red barn exterior remains consistent.
+- Assistant recommendation: retain V01 for editing; no retake recommended. Modest cool-blue continuity grade may be applied if needed.
+- Detailed subjective audio listening review remains pending.
+
+**Status: GENERATED — AWAITING OWNER REVIEW.** Do not mark owner-approved. This execution task is complete; no Shot005 generation is authorized by this task.
