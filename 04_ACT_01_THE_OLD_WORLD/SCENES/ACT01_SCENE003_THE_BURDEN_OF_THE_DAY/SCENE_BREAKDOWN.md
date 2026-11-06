@@ -453,3 +453,18 @@ The first Flow preflight report is not accepted as matching the canonical produc
 - **Reported setup:** Omni 1.2 Flash / R2V / 360p / 16:9 / 10s / one output; 10 credits displayed. This quote must be rechecked after correcting the setup.
 
 The Flow Agent must re-run preflight with the exact references and canonical prompt in `FLOW_AGENT_PREPARATION_TASK_SHOT004.md`. No generation, preview or credit spend is authorized. A fresh explicit owner authorization is required after the corrected preflight report.
+
+
+## 21. Shot004 corrected Flow preflight passed — 7 November 2026
+
+The revised preflight resolves the initial mismatch:
+- Exact references attached: Boxer (`7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`), Clover (`b86cb0af-a9e4-4d02-8b25-0316f718481b`), and Barn_Exterior (`3919fbb9-bf69-40e5-98f4-e02680cb077a`).
+- The incorrect `BOXER_HAY_CART_CONTINUITY_REFERENCE` is removed.
+- Canonical medium close-up prompt reported entered verbatim: Boxer main subject, Clover's shoulder softly visible at frame edge.
+- Settings: Omni 1.2 Flash / R2V / 360p (640×360) / 16:9 / 10 seconds / exactly one output.
+- Live displayed quote: **10 credits** (point-in-time quote; recheck immediately before any authorized render).
+- Exact owner-approved line preserved: “The work still needs doing, Clover.”
+- Exact dialogue and precise animal lip-sync are not guaranteed; plan post-production dubbing/synchronization if required.
+- No generation or preview; zero credits spent.
+
+**Status: PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION.** This report does not itself authorize generation. A separate explicit owner authorization is required for exactly one output at the final verified live price.
