@@ -229,3 +229,12 @@ Generate only if the live price is exactly 10 credits and every setting/referenc
 The corrected medium close-up is achieved: Boxer is dominant, Clover is partly visible at the left edge, Boxer's blaze and harness are readable, and the red barn remains consistent. Assistant recommendation: retain V01 for editing; no retake recommended. Flow reports ambient horse vocalization and evening wind only; dub/synchronize Boxer's exact approved line in post-production. Detailed audio listening review remains pending.
 
 **Status: GENERATED — AWAITING OWNER REVIEW.** Shot004's generation authorization is consumed. Do not generate Shot005 until it is separately prepared and explicitly authorized; default remains one output per shot.
+
+
+## Detailed Shot004 review — 7 November 2026
+
+The actual MP4 was sampled at six timestamps and compared with Shot003 at matching times. Technical metadata: 10s; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz.
+
+The intended medium close-up works: Boxer is dominant, his face/white blaze/dark mane/ears and temporary harness are clear, and the red barn is consistent. Clover's partial head/muzzle appears at the left edge rather than only her shoulder, but she remains cropped and secondary. Lighting is subdued grey/cool dusk, slightly brighter/greyer than Shot003; apply a modest cool-blue grade. The push-in gradually crops more of Boxer's body but keeps his head and ears in frame.
+
+Flow reports ambient horse vocalization and evening wind only; dub/synchronize the exact Boxer line in the NLE. Subjective audio listening review remains pending. **Assistant recommendation: retain V01 for editing; no retake recommended.** Owner review remains pending.
