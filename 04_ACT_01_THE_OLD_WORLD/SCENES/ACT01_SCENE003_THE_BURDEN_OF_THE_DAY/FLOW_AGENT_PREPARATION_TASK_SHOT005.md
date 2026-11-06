@@ -95,3 +95,31 @@ Owner-supplied Flow Agent report confirms:
 - No generation or preview; **0 credits spent**.
 
 **Status: PREFLIGHT PASSED — NOT AUTHORIZED TO GENERATE.** The 10-credit figure is a point-in-time quote. Recheck the live price and every locked setting/reference/prompt immediately before any separately authorized render. Stop if anything differs. Wait for explicit owner authorization for exactly one output.
+
+
+## 9. Generation report and independent MP4 review — 7 November 2026
+
+**Status:** GENERATED — AWAITING OWNER REVIEW.  
+**Media ID:** `7b9c7132-289d-4331-a09d-256ee969f388`  
+**Asset:** `Donkey standing in barn doorway`  
+**Collection:** `04_ACT_01_The_Old_World` (`b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`)  
+**Flow report:** exactly one output; exactly 10 credits charged.
+
+The owner-uploaded MP4 was independently inspected. Verified metadata: 1,916,991 bytes; 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; audio stream duration 10.026667s.
+
+### Visual findings
+
+- Benjamin's older grey donkey design, charcoal mane, upright ears, narrow muzzle and tired eyes remain recognizable.
+- Doorway-shadow staging and red timber Barn_Exterior are consistent; farmyard remains visible.
+- Benjamin watches toward the off-screen farmyard and lowers his gaze slightly later in the shot.
+- No other character enters frame; no dialogue is intended.
+- **Framing deviation:** push-in is stronger than the requested restrained movement, progressing from medium shot to close head-and-shoulders framing by the ending and cropping most of the body.
+- Late-dusk image is somewhat grey-pink/neutral compared with preceding cool blue-hour footage; modest cool-blue grade recommended.
+
+**Assistant recommendation:** retain V01 for editing; no retake recommended. Treat the tighter ending as an emotional close-in and grade for continuity.
+
+### Audio
+
+AAC stereo 48kHz audio stream is present. Detailed subjective listening review remains pending. Benjamin is silent; no spoken dialogue should be added.
+
+**Owner review/approval remains pending.** This is not owner sign-off. No Shot006 generation is authorized by this report.
