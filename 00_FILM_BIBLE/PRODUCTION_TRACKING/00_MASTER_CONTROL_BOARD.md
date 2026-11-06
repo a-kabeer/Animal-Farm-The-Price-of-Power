@@ -11,7 +11,7 @@
 └── S01 The Hungry Farm (00:00–03:00)
     ├── ACT01_SCENE001 Manor Farm Establishing (00:00–01:00)  MASTER COMPLETE — OWNER CONFIRMED
     ├── ACT01_SCENE002 The Animals' Work (01:00–02:00)         MASTER COMPLETE — OWNER CONFIRMED
-    └── ACT01_SCENE003 The Burden of the Day (02:00–03:00)    6-SHOT PLAN DRAFTED; NOT GENERATED
+    └── ACT01_SCENE003 The Burden of the Day (02:00–03:00)    SHOT001 PROMPT LOCKED; DIALOGUE APPROVED; NOT GENERATED
 S02–S10 (03:00–30:00)                                           NOT IN SHOT PRODUCTION
 </pre>
 
@@ -27,8 +27,8 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 | Approved shot footage | 02:00 / 30:00 (6.7%) |
 | Scene 001 master | COMPLETE — owner-confirmed 6 Nov 2026; export metadata not yet recorded |
 | Scene 002 master | COMPLETE — owner-confirmed 6 Nov 2026; export metadata not yet recorded |
-| Scene 003 breakdown | Drafted: six 10-second shots, 60-second target; awaiting owner approval |
-| Scene 003 generation | Not started; no generation authorization or credits used |
+| Scene 003 breakdown | Six 10-second shots; Shot001 prompt/references locked; two dialogue lines owner-approved 6 Nov 2026 |
+| Scene 003 generation | Not started; explicit generation authorization not granted; zero credits used |
 | Narrator script | Not written/approved |
 | Character dialogue script | Not written/approved |
 | Final music/SFX mix | Pending |
@@ -43,7 +43,7 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 
 ## Three immediate tasks
 
-1. Review and approve Scene 003's six-shot breakdown and draft dialogue; confirm saved references and live Flow costs before authorizing generation.
+1. Scene 003 breakdown and Shot001 prompt/references reviewed; both dialogue lines owner-approved. Recheck live Flow cost and obtain separate generation authorization.
 2. Generate Scene 003 one shot at a time, review each actual MP4 and obtain approval before proceeding.
 3. Assemble and approve Scene 003 to finish S01 (00:00–03:00); only then begin S02 — Old Major's Dream.
 
@@ -55,7 +55,7 @@ The project owner confirmed on 6 November 2026 that both Scene 001 and Scene 002
 
 ## Voice / dialogue decision needed
 
-The uploaded blueprint specifies character voice directions and a narrator track, but no narrator profile or exact dialogue script. Scene 001 and Scene 002 approved shot sheets state “no dialogue” on every shot. Do not represent planned dialogue as already recorded.
+The uploaded blueprint specifies character voice directions and a narrator track, but no narrator profile or complete film dialogue script. Scene 001 and Scene 002 approved shot sheets state “no dialogue” on every shot. Scene 003's two exact lines for Shots003–004 were owner-approved on 6 November 2026; they have not been recorded or generated.
 
 ## Storage / update rule
 
