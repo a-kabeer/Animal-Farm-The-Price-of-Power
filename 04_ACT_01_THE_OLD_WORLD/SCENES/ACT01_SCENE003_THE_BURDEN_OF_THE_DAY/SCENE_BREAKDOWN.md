@@ -439,3 +439,17 @@ Owner-approved exact dialogue (6 November 2026): **Boxer: “The work still need
 **Proposed preflight target:** Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output. The current live selectors and credit price have not been checked. Flow Agent must report the exact displayed price, all selected settings, reference attachment confirmations, verbatim prompt confirmation, and spoken-dialogue/lip-sync capability.
 
 **Authorization boundary:** Preparation and preflight only. Do not click Generate, create a preview, or spend credits. The standing production default is exactly one output per shot; it is not permission to render. Shot004 requires separate explicit owner authorization after its preflight report.
+
+
+## 20. Shot004 first preflight mismatch — correction required (7 November 2026)
+
+The first Flow preflight report is not accepted as matching the canonical production setup:
+
+- **Expected references:** Boxer (`7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`), Clover (`b86cb0af-a9e4-4d02-8b25-0316f718481b`), and Barn_Exterior (`3919fbb9-bf69-40e5-98f4-e02680cb077a`).
+- **Reported references:** Boxer, Clover, and BOXER_HAY_CART_CONTINUITY_REFERENCE. The latter is not the required third reference for this shot.
+- **Expected framing:** medium close-up on Boxer, with Clover's shoulder softly visible at the frame edge.
+- **Reported framing:** medium two-shot with both animals visible. This differs from the locked Shot004 breakdown prompt in Section 4 and the Flow preparation task.
+- **Dialogue:** correct exact line, “The work still needs doing, Clover.”
+- **Reported setup:** Omni 1.2 Flash / R2V / 360p / 16:9 / 10s / one output; 10 credits displayed. This quote must be rechecked after correcting the setup.
+
+The Flow Agent must re-run preflight with the exact references and canonical prompt in `FLOW_AGENT_PREPARATION_TASK_SHOT004.md`. No generation, preview or credit spend is authorized. A fresh explicit owner authorization is required after the corrected preflight report.
