@@ -20,11 +20,12 @@
 - [x] Flow Agent verified the hay-cart / harness continuity reference for Shot001; the locked prompt explicitly preserves cart body, wheels, shafts, hay load and harness.
 - [x] Shot001 final prompt and configuration recorded: Omni 1.2 Flash R2V, 360p, 16:9, 10s, one output; Flow Agent reported 10 credits displayed.
 - [x] Dialogue approval complete; exact lines are recorded in the Scene 003 breakdown and audio/dialogue tracker.
-- [ ] Obtain separate explicit owner authorization for Shot001 generation; recheck live displayed price before clicking Generate. Dialogue approval does not authorize credit spend; generation is still not authorized.
+- [x] Owner explicitly authorized exactly one Shot001 generation at exactly 10 credits on 6 November 2026, conditional on live Flow UI rechecking to exactly 10 credits and all locked settings/references matching.
+- [ ] Flow Agent must execute only if the live price is exactly 10 credits; if price/settings/references differ, stop and ask the owner.
 
 ### P2 — Generate and review Scene 003
 
-- [ ] Generate one shot at a time, one output per shot, only after owner authorization.
+- [ ] Flow Agent to generate Shot001 once only under the exact 10-credit preflight condition; then retrieve the actual MP4 for owner review.
 - [ ] Retrieve the actual MP4; verify duration, resolution, frame rate and audio.
 - [ ] Review character identity, animal anatomy, cart/harness continuity, dusk-to-night continuity and exact dialogue speaker/line.
 - [ ] Preserve all versions and obtain owner approval before marking any version approved.
