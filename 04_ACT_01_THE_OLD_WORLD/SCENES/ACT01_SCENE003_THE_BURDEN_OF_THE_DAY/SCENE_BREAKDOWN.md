@@ -4,9 +4,9 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 PROMPT LOCKED — both dialogue lines owner-approved; generation authorization pending; not generated  
+**Status:** SHOT001 GENERATION AUTHORIZED — one output at exactly 10 credits only; actual Flow preflight required; not yet generated  
 **Shot count:** 6 planned shots × 10 seconds  
-**Generation authorization:** NOT GRANTED. The owner has locked the Shot001 prompt and references and approved both Scene 003 dialogue lines on 6 November 2026. Do not generate or spend Flow credits until the owner separately authorizes the specific shot at its live displayed cost.
+**Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001 at exactly 10 credits, conditional on the live Flow UI still displaying exactly 10 credits and all locked settings/references matching. If any condition differs, stop and ask the owner. No other shot or additional take is authorized.
 
 ## 1. Story purpose
 
@@ -221,4 +221,4 @@ Before generating any shot, the Flow Agent must:
 7. Retrieve the actual MP4, verify duration/resolution/frame rate/audio, review continuity, then request approval before proceeding.
 8. Never mark a queued or generated clip approved without owner review.
 
-**Current authorization:** Shot001 prompt and six references are locked for production planning, and both dialogue lines for Shots003–004 are owner-approved. Shot001 has NOT been generated or approved. No generation authorization has been granted.
+**Current authorization:** Shot001 is authorized for exactly one generation only if the live UI confirms exactly 10 credits and every locked setting/reference matches. This is not approval of the resulting footage. The generated clip must remain awaiting owner review. No other shot or take is authorized.
