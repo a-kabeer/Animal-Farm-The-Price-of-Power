@@ -275,3 +275,15 @@ Uploaded MP4 independently inspected: 1,916,991 bytes; 10s; 640×360; 16:9; 24fp
 Visual review: Benjamin identity and doorway-shadow composition are consistent; red barn exterior and farmyard remain visible; gaze lowers slightly; no other characters enter. Framing deviation: push-in tightens more than planned, moving from medium shot to close head-and-shoulders by the end and cropping most of his body. The tighter finish remains usable. Apply a modest cool-blue grade against preceding blue-hour shots. No dialogue is intended; subjective audio listening remains pending.
 
 **Assistant recommendation: retain V01 for editing — no retake recommended.** Status remains **GENERATED — AWAITING OWNER REVIEW**. Do not generate Shot006 until Shot005 receives explicit owner review/acceptance.
+
+
+## Scene 003 Shot005 accepted for editing; Shot006 prepared — 7 November 2026
+
+The project owner replied **“go ahead”** after review of Shot005 and the recommendation to retain V01 while cropping/reframing around the unexpected wooden post.
+
+- **Shot005:** `ACT01_SCENE003_SHOT005_V01`, media ID `7b9c7132-289d-4331-a09d-256ee969f388` — **OWNER ACCEPTED FOR EDITING — NO RETAKE**.
+- An unexpected vertical wooden post/support appears at the right during the push-in. Crop/reframe the right edge to hide or minimize it, keeping Benjamin's face and ears safe throughout the clip.
+- Preserve the tighter close-up ending as an emotional close-in if the crop remains stable; apply modest cool-blue continuity grading.
+- **Shot006:** `Night Settles over the Farm` — preparation task created. Wide rear three-quarter view of Boxer, Clover and Benjamin moving toward the red barn entrance; dusk deepens to blue night; soft warm doorway glow; no Old Major or meeting.
+- Shot006 Flow task: `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT006.md`.
+- Shot006 is **preflight only**. No generation, preview or credit spend is authorized; wait for separate explicit owner authorization after exact live UI settings, all five references, prompt and price are verified.
