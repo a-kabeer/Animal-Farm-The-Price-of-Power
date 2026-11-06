@@ -25,7 +25,8 @@
 
 ### P2 — Generate and review Scene 003
 
-- [ ] Flow Agent to generate Shot001 once only under the exact 10-credit preflight condition; then retrieve the actual MP4 for owner review.
+- [x] Flow Agent reports one Shot001 output generated; 10 credits charged; media ID `8a46a89f-c131-4f63-868a-c729b7bf8c7c`; reported metadata 10s / 640x360 / 16:9 / 24fps / audio present.
+- [ ] Owner to inspect the actual video and record approval or revision. Do not generate a retake or Shot002 before review.
 - [ ] Retrieve the actual MP4; verify duration, resolution, frame rate and audio.
 - [ ] Review character identity, animal anatomy, cart/harness continuity, dusk-to-night continuity and exact dialogue speaker/line.
 - [ ] Preserve all versions and obtain owner approval before marking any version approved.
@@ -72,3 +73,11 @@
 - [ ] Preserve all versions; mark one version approved only after user approval.
 - [ ] Update shot register, asset register, change log, progress tracker and project_status.json.
 - [ ] Commit/push updates to GitHub.
+
+
+### Scene 003 Shot001 — owner review hold (6 November 2026)
+
+- [x] One-output generation reported completed; 10 credits charged.
+- [ ] Inspect the actual Flow video (media ID `8a46a89f-c131-4f63-868a-c729b7bf8c7c`) visually and listen to its audio.
+- [ ] Owner approval or revision decision required.
+- [ ] Do not generate Shot002 or a Shot001 retake until separately authorized after review.
