@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 GENERATED — AWAITING OWNER REVIEW; 10 credits reported charged; remaining shots on hold  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 PREPARATION ONLY NEXT; no generation authorized  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -46,8 +46,8 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 
 | Order | Shot ID | Working title | Duration | Status |
 |---:|---|---|---:|---|
-| 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | PLANNED |
-| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | PLANNED |
+| 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED |
+| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | PREPARATION ONLY — NOT GENERATED; no authorization |
 | 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
@@ -79,7 +79,7 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 ACT01_SCENE003_SHOT001_V01: Continue directly from Scene 002 Shot 006, preserving the same late-dusk farmyard and barn geography. Use the exact wooden hay cart from the supplied continuity video reference, preserving its original body, wheels, shafts, hay load and leather harness. Boxer remains connected to the cart and wears the same working harness throughout; do not remove or alter it. The cart rolls slowly to a complete stop beside the red timber barn and remains stationary. Clover stands beside Boxer, completely unharnessed. Benjamin watches quietly from near the barn entrance. Keep all action outside. No dialogue, no Old Major, no interior meeting and no new animals. Use a ground-level medium-wide side view with restrained lateral camera movement. Include only natural horse breathing, wooden cart creaks and evening wind.
 ~~~
 
-**Authorization boundary:** Prompt and references are locked for planning. Shot001 has NOT been generated or approved. The two dialogue lines for Shots003–004 remain draft and await owner approval. No generation authorization has been granted.
+**Authorization boundary:** Shot001 V01 has been generated and the owner has accepted it for editing, with cool-blue color/exposure matching still required in the NLE; do not retake. Shot002 may be prepared and preflighted only. Preparation and a displayed quote do not authorize generation. Obtain separate explicit owner authorization before any render.
 
 ### Shot 002 — The Weight of the Work (10 seconds)
 
@@ -226,7 +226,7 @@ Before generating any shot, the Flow Agent must:
 
 ## 7. Shot 001 execution result — 6 November 2026
 
-**Status:** GENERATED — AWAITING OWNER REVIEW (not approved)
+**Status:** OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED (6 November 2026)
 
 Flow Agent execution report:
 - Asset name: `Boxer stopping cart by barn`
@@ -242,4 +242,12 @@ Flow Agent execution report:
 - Prompt: Flow Agent reports the locked prompt was used verbatim
 - Ingredients: Flow Agent reports all six locked references were attached
 
-The report is recorded as Agent-reported execution evidence. The actual MP4 has not yet been visually or audibly inspected in this conversation. Do not mark the shot approved, generate a retake, or start Shot002 until the owner reviews this output.
+The actual uploaded MP4 was inspected in this conversation. The owner accepted V01 for retention/editing and decided against a retake; the lighting mismatch with Scene 002 Shot 006 is assigned to NLE color matching. This is source-shot acceptance, not confirmation that the color grade or final Scene 003 assembly is complete. Native audio stream presence is verified; detailed listening review remains a separate check.
+
+
+## 8. Owner transition decision and Shot 002 preparation — 6 November 2026
+
+- Scene 002 Shot 006 V02 (`e3c06bbd-2245-427a-8fbd-3b9bbd1cf891`) is officially approved and locked as the final Scene 002 shot; owner-reported metadata: 10s, 1280×720, 24fps, 16:9, AAC stereo.
+- Transition audit: Scene 002 Shot 006 ends in deep blue twilight; Scene 003 Shot 001 V01 opens brighter/overcast and is 360p. Character, cart/harness and barn identity continuity are accepted.
+- Owner decision: retain Scene 003 Shot 001 V01 (`8a46a89f-c131-4f63-868a-c729b7bf8c7c`); no retake and no additional generation credits. Apply cool-blue color temperature, modest exposure/contrast matching and subtle vignette only if editorially appropriate in the NLE. This grade has not yet been applied or reviewed.
+- Next task: prepare/preflight Scene 003 Shot 002 only. No generation is authorized. Preserve the one-shot-at-a-time rule and obtain explicit approval against the exact live price before rendering.
