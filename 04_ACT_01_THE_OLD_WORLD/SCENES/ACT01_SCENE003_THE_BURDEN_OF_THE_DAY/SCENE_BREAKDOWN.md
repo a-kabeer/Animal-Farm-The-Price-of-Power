@@ -351,3 +351,16 @@ Shot003 is a quiet medium two-shot. Clover steps gently toward Boxer and speaks 
 **Proposed preflight configuration:** Omni 1.2 Flash; R2V; 360p; 16:9 landscape; 10 seconds; one output. All selectors and attachments must be checked in the live Flow UI. The credit price is not yet checked and must be reported exactly, never estimated.
 
 **Authorization boundary:** Flow Agent is asked to set up the shot and report the current UI price, configuration, references and speech/lip-sync limitations only. It must not click Generate, create a preview or spend credits. A separate explicit owner authorization is required before rendering. Dialogue and lip-sync reliability remain unverified; post-production dubbing may be needed.
+
+
+## 15. Shot003 Flow preflight passed — 6 November 2026
+
+The owner-supplied Flow Agent report confirms:
+- All five exact references attached without substitutions: Clover, Boxer, Barn_Exterior, Manor_Farm_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE.
+- Prompt entered verbatim.
+- Omni 1.2 Flash, R2V, 360p (640×360), 16:9 landscape, 10 seconds, exactly one output.
+- Live displayed quote: **10 credits** (a point-in-time quote; it must be rechecked immediately before any authorized generation).
+- Native Omni Flash audio enabled.
+- Exact English spoken dialogue and precise animal lip-sync are not guaranteed. Inspect any future authorized output; post-production dubbing/synchronization may be required.
+
+**No generation was performed; 0 credits were spent.** The shot is **PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**. Preflight does not authorize a render. Obtain separate explicit owner authorization for exactly one output at 10 credits, conditional on the live price/settings/references still matching immediately before generation.
