@@ -229,3 +229,15 @@
 - [ ] Re-run preflight with exact canonical references and prompt from `FLOW_AGENT_PREPARATION_TASK_SHOT004.md`.
 - [ ] Recheck the live displayed credit price after corrections.
 - [ ] Stop after preflight. No generation, preview, or credit spend until a separate explicit owner authorization for the corrected setup.
+
+
+### Scene 003 Shot004 — corrected Flow preflight passed (7 November 2026)
+
+- [x] Corrected the initial preflight mismatch; removed the hay-cart continuity video reference.
+- [x] Exact references confirmed attached: Boxer (`7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`), Clover (`b86cb0af-a9e4-4d02-8b25-0316f718481b`), Barn_Exterior (`3919fbb9-bf69-40e5-98f4-e02680cb077a`).
+- [x] Canonical medium close-up prompt confirmed entered verbatim; Boxer is main subject and Clover's shoulder is at the frame edge.
+- [x] Corrected live preflight: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output; displayed quote **10 credits**.
+- [x] Exact Boxer dialogue retained: “The work still needs doing, Clover.”
+- [x] Native speech/lip-sync limitation recorded; post-production dubbing/synchronization may be required.
+- [x] No generation/preview; **0 credits spent**.
+- [ ] Await separate explicit owner authorization for exactly one output at 10 credits; recheck the live UI immediately before rendering.
