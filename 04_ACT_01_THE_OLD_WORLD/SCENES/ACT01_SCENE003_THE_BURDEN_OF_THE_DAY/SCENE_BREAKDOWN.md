@@ -4,9 +4,9 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 PROMPT LOCKED — dialogue approval and generation authorization pending; not generated  
+**Status:** SHOT001 PROMPT LOCKED — both dialogue lines owner-approved; generation authorization pending; not generated  
 **Shot count:** 6 planned shots × 10 seconds  
-**Generation authorization:** NOT GRANTED. The owner has locked the Shot001 prompt and references for production planning only. Both dialogue lines remain unapproved. Do not generate or spend Flow credits until the owner approves the two draft lines and separately authorizes the specific shot at its live displayed cost.
+**Generation authorization:** NOT GRANTED. The owner has locked the Shot001 prompt and references and approved both Scene 003 dialogue lines on 6 November 2026. Do not generate or spend Flow credits until the owner separately authorizes the specific shot at its live displayed cost.
 
 ## 1. Story purpose
 
@@ -14,7 +14,7 @@ This is the final minute of S01. The original blueprint lists these S01 beats: e
 
 This scene must **not** begin Old Major's speech or show the S02 meeting itself. Old Major's first appearance and the night gathering belong to S02.
 
-The two dialogue lines below are original draft proposals for this adaptation. They are **not approved screenplay canon**.
+The two dialogue lines below are original adaptation lines, approved by the project owner on 6 November 2026. They are not quotations from the source novel.
 
 ## 2. Continuity and asset requirements
 
@@ -48,8 +48,8 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | PLANNED |
 | 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | PLANNED |
-| 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | PLANNED — draft line |
-| 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | PLANNED — draft line |
+| 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | DIALOGUE APPROVED — NOT GENERATED |
+| 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
 | 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PLANNED |
 | | **TOTAL** | | **60s** | **Not generated** |
@@ -103,7 +103,7 @@ Serious cinematic 3D animated feature-film drama, natural horse anatomy, realist
 
 **References:** Clover, Boxer, Manor_Farm_Exterior and Barn_Exterior.  
 **Framing / action:** Medium two-shot at animal eye level; Clover in clear focus, Boxer listening. Clover takes one small step closer and looks at Boxer with quiet concern.  
-**Draft dialogue — NOT APPROVED:** Clover: “You have carried enough for one day, Boxer.”  
+**Approved dialogue — owner approved 6 November 2026:** Clover: “You have carried enough for one day, Boxer.”  
 **Performance:** Warm, calm, empathetic voice; restrained concern. Only Clover speaks.  
 **Sound:** Very low evening ambience under the line.
 
@@ -115,7 +115,7 @@ Use only the approved Clover and Boxer character references and the same exterio
 
 Medium two-shot at natural animal eye level. Clover takes one small step closer and looks at Boxer with gentle concern. Boxer remains still and listens, visibly tired but composed. Keep the camera steady with a very slight push-in.
 
-DIALOGUE — DRAFT, SUBJECT TO OWNER APPROVAL:
+APPROVED DIALOGUE — OWNER APPROVED 6 NOVEMBER 2026:
 Clover speaks exactly: "You have carried enough for one day, Boxer."
 Only Clover speaks. Boxer does not speak. Do not add, paraphrase or invent any words.
 
@@ -128,7 +128,7 @@ Serious cinematic 3D animated feature-film drama, realistic horse anatomy and su
 
 **References:** Boxer, Clover and Barn_Exterior.  
 **Framing / action:** Medium close-up on Boxer, Clover's shoulder softly visible at frame edge. Boxer raises his head slightly and turns his eyes toward Clover.  
-**Draft dialogue — NOT APPROVED:** Boxer: “The work still needs doing, Clover.”  
+**Approved dialogue — owner approved 6 November 2026:** Boxer: “The work still needs doing, Clover.”  
 **Performance:** Warm sincere baritone; simple phrasing; gentle resolve, not heroic or boastful. Only Boxer speaks.  
 **Sound:** One soft horse breath after the line; restrained evening wind.
 
@@ -140,7 +140,7 @@ Use the approved Boxer and Clover references and the same Barn_Exterior setting.
 
 Medium close-up on Boxer. After listening, he gently raises his head and turns his eyes toward Clover. His expression is tired but steady, kind and modest. Keep the camera nearly locked with a subtle push-in.
 
-DIALOGUE — DRAFT, SUBJECT TO OWNER APPROVAL:
+APPROVED DIALOGUE — OWNER APPROVED 6 NOVEMBER 2026:
 Boxer speaks exactly: "The work still needs doing, Clover."
 Only Boxer speaks. Clover remains silent. Do not add, paraphrase or invent any words.
 
@@ -187,16 +187,16 @@ Serious cinematic 3D animated feature-film drama, natural animal anatomy and mea
 
 **Voice capability note (Flow Agent report, 6 November 2026):** Built-in voice presets are reported as selectable in the Flow UI; no saved custom voice-reference audio assets were found in the project. Exact spoken-line generation and lip-sync are not guaranteed. Plan to inspect/test voice and lip-sync in the UI only after the dialogue is approved; use post-production dubbing if needed.
 
-## 4. Draft dialogue cue sheet — owner approval required
+## 4. Approved dialogue cue sheet — owner approved 6 November 2026
 
 These are proposed original lines, not quotations from the source novel and not approved screenplay canon.
 
 | Cue | Shot | Speaker | Draft line | Voice direction | Status |
 |---|---|---|---|---|---|
-| DRAFT-S003-001 | SHOT003 | Clover | “You have carried enough for one day, Boxer.” | Warm, calm, concerned female voice | Awaiting owner approval |
-| DRAFT-S003-002 | SHOT004 | Boxer | “The work still needs doing, Clover.” | Sincere, gentle male baritone | Awaiting owner approval |
+| S003-DLG-001 | SHOT003 | Clover | “You have carried enough for one day, Boxer.” | Warm, calm, concerned female voice | OWNER APPROVED 6 Nov 2026 |
+| S003-DLG-002 | SHOT004 | Boxer | “The work still needs doing, Clover.” | Sincere, gentle male baritone | OWNER APPROVED 6 Nov 2026 |
 
-If the lines are not approved, keep the corresponding shots silent and revise the cue sheet before voice generation. Do not improvise alternatives.
+The exact text and speakers are approved. Keep each line assigned only to its named speaker; do not improvise, paraphrase or add words. Voice choice and lip-sync execution remain subject to the separate production workflow and review.
 
 ## 5. Audio and edit notes
 
@@ -216,9 +216,9 @@ Before generating any shot, the Flow Agent must:
 2. Confirm the hay-cart continuity reference can be used for Shots 001–002; do not redesign the cart.
 3. Show the final prompt, selected references, model, resolution, aspect ratio, duration, output count and live displayed credit cost for the specific shot.
 4. Identify whether the selected Flow mode generates spoken audio for Shots 003–004 and confirm the character voices. Do not silently substitute voices.
-5. Wait for project-owner approval of the dialogue lines and explicit authorization for the specific shot generation.
+5. Dialogue lines have been owner-approved. Still wait for separate, explicit project-owner authorization for the specific shot generation.
 6. Generate one output for one shot only after authorization.
 7. Retrieve the actual MP4, verify duration/resolution/frame rate/audio, review continuity, then request approval before proceeding.
 8. Never mark a queued or generated clip approved without owner review.
 
-**Current authorization:** Shot001 prompt and six references locked for planning. Both dialogue lines are still draft and require owner approval. No Scene 003 generation or credit spend has been authorized. Shot001 has not been generated or approved.
+**Current authorization:** Shot001 prompt and six references are locked for production planning, and both dialogue lines for Shots003–004 are owner-approved. Shot001 has NOT been generated or approved. No generation authorization has been granted.
