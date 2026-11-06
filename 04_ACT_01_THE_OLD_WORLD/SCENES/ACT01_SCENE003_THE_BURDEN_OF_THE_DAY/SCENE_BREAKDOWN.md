@@ -4,9 +4,9 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 GENERATION AUTHORIZED — one output at exactly 10 credits only; actual Flow preflight required; not yet generated  
+**Status:** SHOT001 GENERATED — AWAITING OWNER REVIEW; 10 credits reported charged; remaining shots on hold  
 **Shot count:** 6 planned shots × 10 seconds  
-**Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001 at exactly 10 credits, conditional on the live Flow UI still displaying exactly 10 credits and all locked settings/references matching. If any condition differs, stop and ask the owner. No other shot or additional take is authorized.
+**Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
 ## 1. Story purpose
 
@@ -216,9 +216,30 @@ Before generating any shot, the Flow Agent must:
 2. Confirm the hay-cart continuity reference can be used for Shots 001–002; do not redesign the cart.
 3. Show the final prompt, selected references, model, resolution, aspect ratio, duration, output count and live displayed credit cost for the specific shot.
 4. Identify whether the selected Flow mode generates spoken audio for Shots 003–004 and confirm the character voices. Do not silently substitute voices.
-5. Dialogue lines have been owner-approved. Still wait for separate, explicit project-owner authorization for the specific shot generation.
-6. Generate one output for one shot only after authorization.
+5. Dialogue lines were owner-approved; the owner also separately authorized one Shot001 output subject to the exact 10-credit live preflight. That one-shot authorization has now been consumed.
+6. Generate one output for one shot only after authorization. The Shot001 authorization has been used; obtain a new explicit authorization for any other shot or retake.
 7. Retrieve the actual MP4, verify duration/resolution/frame rate/audio, review continuity, then request approval before proceeding.
 8. Never mark a queued or generated clip approved without owner review.
 
-**Current authorization:** Shot001 is authorized for exactly one generation only if the live UI confirms exactly 10 credits and every locked setting/reference matches. This is not approval of the resulting footage. The generated clip must remain awaiting owner review. No other shot or take is authorized.
+**Current authorization:** The single Shot001 authorization was consumed by the reported generation. The output remains awaiting owner review. No retake, Shot002, or other generation is authorized.
+
+
+## 7. Shot 001 execution result — 6 November 2026
+
+**Status:** GENERATED — AWAITING OWNER REVIEW (not approved)
+
+Flow Agent execution report:
+- Asset name: `Boxer stopping cart by barn`
+- Flow media ID: `8a46a89f-c131-4f63-868a-c729b7bf8c7c`
+- Target collection: `04_ACT_01_The_Old_World`
+- Actual credits charged (reported): **10**
+- Outputs: exactly one
+- Duration: 10.00 seconds
+- Resolution: 640×360 (360p)
+- Aspect ratio: 16:9 landscape
+- Frame rate: 24.00 fps
+- Audio: present; native Omni Flash ambient audio bed enabled
+- Prompt: Flow Agent reports the locked prompt was used verbatim
+- Ingredients: Flow Agent reports all six locked references were attached
+
+The report is recorded as Agent-reported execution evidence. The actual MP4 has not yet been visually or audibly inspected in this conversation. Do not mark the shot approved, generate a retake, or start Shot002 until the owner reviews this output.
