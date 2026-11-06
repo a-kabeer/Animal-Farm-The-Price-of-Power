@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 GENERATED — AWAITING OWNER REVIEW; SHOT004–006 NOT GENERATED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 PROMPT PREPARED — PREFLIGHT NOT RUN — NOT AUTHORIZED; SHOT005–006 NOT GENERATED  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -48,8 +48,8 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED |
 | 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION |
-| 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | GENERATED — AWAITING OWNER REVIEW |
-| 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | DIALOGUE APPROVED — NOT GENERATED |
+| 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED |
+| 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | PROMPT PREPARED — PREFLIGHT NOT RUN — GENERATION NOT AUTHORIZED |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
 | 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PLANNED |
 | | **TOTAL** | | **60s** | **Not generated** |
@@ -408,3 +408,34 @@ Flow reports ambient horse vocalization and evening wind only. The exact approve
 **Assistant recommendation: RETAIN V01 FOR EDITING — NO RETAKE RECOMMENDED.** The composition, character continuity and emotional beat are strong enough; color matching and dialogue dubbing are normal post-production tasks.
 
 **Status remains: GENERATED — AWAITING OWNER REVIEW.** This is an assistant recommendation, not recorded owner approval. No further generation or Shot004 is authorized by the consumed Shot003 authorization.
+
+
+## 18. Owner acceptance of Shot003 for post-production editing — 7 November 2026
+
+The project owner acknowledged the audit and accepted `ACT01_SCENE003_SHOT003_V01` (`868918c2-e7c3-4e18-83d2-ed8bca8f40ff`) for post-production editing. **No retake required.** This is now recorded as owner-accepted, not merely an assistant recommendation.
+
+Post-production actions:
+- Apply a modest cool-blue grade to the opening of Shot003 to match Shot002's deep blue-hour twilight.
+- Record/dub Clover's exact approved line, “You have carried enough for one day, Boxer,” and synchronize it during final audio editing.
+- Preserve the single generated video; do not spend credits on a retake.
+- The owner reports the audit/review spent zero credits. Detailed listening review of native ambient audio remains pending.
+
+## 19. Shot004 preparation — Boxer's Response (7 November 2026)
+
+**Status: PROMPT PREPARED — PREFLIGHT NOT RUN — GENERATION NOT AUTHORIZED.**
+
+Copy-paste Flow Agent task:
+`04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT004.md`
+
+Shot004 follows Shot003. Boxer gently raises his head and turns his eyes toward Clover. His expression remains tired but steady, kind and modest. Medium close-up on Boxer; Clover's shoulder is softly visible at the frame edge. Preserve Boxer's chestnut coat, dark mane, white blaze and temporary leather working harness. Clover remains unharnessed. Keep the camera nearly locked with a subtle push-in.
+
+Owner-approved exact dialogue (6 November 2026): **Boxer: “The work still needs doing, Clover.”** Warm adult male baritone, sincere, gentle and steady; no narrator. Do not add or paraphrase words.
+
+**Exact references to attach:**
+- Boxer — `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`
+- Clover — `b86cb0af-a9e4-4d02-8b25-0316f718481b`
+- Barn_Exterior — `3919fbb9-bf69-40e5-98f4-e02680cb077a`
+
+**Proposed preflight target:** Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output. The current live selectors and credit price have not been checked. Flow Agent must report the exact displayed price, all selected settings, reference attachment confirmations, verbatim prompt confirmation, and spoken-dialogue/lip-sync capability.
+
+**Authorization boundary:** Preparation and preflight only. Do not click Generate, create a preview, or spend credits. The standing production default is exactly one output per shot; it is not permission to render. Shot004 requires separate explicit owner authorization after its preflight report.
