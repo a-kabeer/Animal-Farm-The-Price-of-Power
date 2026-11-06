@@ -2,7 +2,7 @@
 
 **Timecode:** 00:00–01:00  
 **Runtime:** 60 seconds  
-**Status:** All six individual shots approved; source-asset audit passed per Flow Agent report on 6 November 2026. Final master-timeline editorial approval pending.  
+**Status:** All six individual shots approved and locked; source-asset audit passed; assembly specification recorded per Flow Agent report on 6 November 2026. Actual rendered master and final editorial approval pending.  
 **Audio:** No dialogue in any of the six approved shot plans.
 
 ## Approved shot order
@@ -80,4 +80,12 @@ The Flow Agent report supplied by the project owner records PASS for all six app
 
 **Audit boundary:** This is a source-asset audit, not proof that the assembled 60-second master edit is complete. The actual timeline, transitions, MANOR FARM title overlay, completed music/SFX mix and final 1920×1080 export still require inspection. The existing 1080p upscale is listed in the earlier production record, but was not re-verified by this audit. Final owner sign-off remains pending.
 
-Full report: `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
+Source-asset report: `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
+
+## Master assembly specification — 6 November 2026
+
+The Flow Agent supplied the intended timeline settings: Shot 001 V01 → Shot 002 V03 → Shot 003 V01 → Shot 004 V01 → Shot 005 V01 → Shot 006 V01; target 60.00s; hard cuts through Shots 001–005; 0.5s crossfade into Shot 006; MANOR FARM title tracked on the Shot 001 gate sign; continuous Music_001 plus environment SFX; intended export 1920×1080, 24fps, H.264/AAC. The Agent reports that no generation credits were spent and that the six source clips were not modified.
+
+**Important:** The Agent states that timeline editing, upscaling, title compositing and multi-track audio mixing must be performed in Flow UI / an NLE. No rendered master MP4 or export metadata was supplied with this report. Because the six source durations already total 60s, an overlapping 0.5s crossfade normally reduces timeline length to 59.5s unless compensated. Actual timeline runtime and render must be checked. Final scene approval remains pending.
+
+Full master assembly report: `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/FINAL_MASTER_ASSEMBLY_VERIFICATION_REPORT.md`.
