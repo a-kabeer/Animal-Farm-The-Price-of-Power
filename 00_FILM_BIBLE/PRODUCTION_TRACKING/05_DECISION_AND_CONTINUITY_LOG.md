@@ -209,3 +209,16 @@ The unexpected vertical wooden support/post becomes visible at the right during 
 Created `FLOW_AGENT_PREPARATION_TASK_SHOT006.md`. The shot is a wide rear three-quarter view of Boxer, Clover and Benjamin turning toward and beginning to move to the red barn entrance; dusk deepens toward blue night with a soft warm doorway glow. No Old Major or meeting. Use exactly the five planned references: Boxer, Clover, Benjamin, Manor_Farm_Exterior and Barn_Exterior.
 
 The Flow Agent must verify the live Omni 1.2 Flash / R2V / 360p / 16:9 / 10-second / one-output setup and report the exact displayed price. Enter the canonical prompt verbatim. **Preflight only**: no generation, preview or credit spend. A separate explicit owner authorization is required before a single output is rendered.
+
+
+## O. Scene 003 Shot006 — prompt mismatch in initial preflight — 7 November 2026
+
+Flow Agent reported all five exact references and target settings attached/selected, Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output, 10 credits displayed and 0 credits spent. However, the exact quoted prompt is not the canonical prompt.
+
+The reported text changes:
+1. Camera from wide rear three-quarter to high-angle wide.
+2. Animals' action from turning and beginning to move toward the barn entrance to walking into shadows and entering the barn out of view.
+3. Doorway lighting from a soft warm glow visible through the doorway to doors slightly ajar with narrow light slivers through planks.
+4. Dusk-to-blue-night progression to full nighttime / moonlit farm.
+
+The report's verbatim claim is contradicted by the quoted content. **Reject this preflight; no generation authorization.** Correct by entering the canonical prompt from the committed Shot006 task verbatim, recheck price after correction and report again. No preview, no credits, no generation.
