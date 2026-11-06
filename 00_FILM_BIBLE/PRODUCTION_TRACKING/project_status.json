@@ -131,10 +131,10 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Owner review of Scene003 Shot003 V01; assistant recommends retaining the single take for editing with a minor cool-blue continuity grade and post-production dialogue dubbing/synchronization.",
-    "Complete detailed listening review of Scene003 Shot003 native ambient audio and Scene003 Shot002 native audio.",
-    "Apply and review cool-blue color/exposure matching across Scene003 Shots001–003 in NLE.",
-    "Do not generate Shot004 until its own prompt/references are prepared and separate explicit owner authorization is received; default to one output per shot.",
+    "Flow Agent: execute ACT01_SCENE003_SHOT004_V01 exactly once, only if final live UI still displays exactly 10 credits and every setting/reference/prompt matches final audit. No preview, batch, variation, retake, auto-retry or other shot.",
+    "After the single Shot004 render, return media ID, actual credits, verified metadata and dialogue/lip-sync report; mark GENERATED — AWAITING OWNER REVIEW.",
+    "Complete post-production for Scene003 Shots001–003: cool-blue continuity grade and Clover dialogue dubbing/synchronization; complete native ambient-audio listening checks.",
+    "Review Shot004 before proceeding. Prepare Shot005 only after review; each shot gets one output by default and separate explicit authorization.",
     "Assemble Scene003 to 60 seconds and obtain owner approval.",
     "Verify complete S01 across Scenes001–003, then prepare S02."
   ],
@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION (10 CREDITS DISPLAYED); SHOT005–006 NOT GENERATED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 OWNER AUTHORIZED — EXACTLY ONE OUTPUT AT 10 CREDITS — FINAL LIVE UI RECHECK REQUIRED; SHOT005–006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +255,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Shot004 corrected preflight passed. Await separate explicit owner authorization for exactly one generation at 10 credits; immediately recheck live UI price/settings/references/prompt before Generate. Do not render before authorization.",
+    "next_step": "Execute FLOW_AGENT_EXECUTION_TASK_SHOT004.md. Immediately recheck final live Flow UI. Generate one output only if displayed price is exactly 10 credits and all locked model/mode/settings/references/prompt match. Otherwise stop without generating. After generation, return media and metadata and stop for owner review.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -514,7 +514,7 @@
     "shot004_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT004_V01",
       "title": "Boxer's Response",
-      "status": "PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
+      "status": "OWNER AUTHORIZED — EXACTLY ONE OUTPUT AT 10 CREDITS — FINAL LIVE UI RECHECK REQUIRED",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT004.md",
       "prompt_status": "LOCKED FOR PREPARATION — preserve exact breakdown prompt verbatim",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -546,12 +546,12 @@
         "approved_date": "2026-11-06",
         "lip_sync": "Not guaranteed; verify capability during preflight and plan post-production dubbing/synchronization if required."
       },
-      "generation_authorized": false,
+      "generation_authorized": true,
       "generation_credits_spent": 0,
-      "preflight_status": "PASSED — corrected report confirms all three exact references, canonical medium close-up prompt and live quote of 10 credits.",
+      "preflight_status": "PASSED — final pre-generation audit supplied 2026-11-07; exact settings, 3 references and prompt verified",
       "no_generation_performed": true,
-      "stop_after_preflight": true,
-      "next_action": "Await explicit owner authorization for exactly one output at 10 credits, conditional on final live UI recheck. No generation or preview before authorization.",
+      "stop_after_preflight": false,
+      "next_action": "Execute exactly one output only after final live UI recheck immediately before Generate confirms exactly 10 credits and all settings/references/prompt are unchanged. Stop if any discrepancy; no batch/preview/retry/retake or other shot.",
       "reported_preflight": {
         "report_date": "2026-11-07",
         "model": "Omni 1.2 Flash",
@@ -634,7 +634,47 @@
         "corrected_composition": "Medium close-up on Boxer; Clover's shoulder softly visible at the edge of frame; Boxer gently raises head and looks toward Clover.",
         "dialogue_capability": "Exact English speech and precise non-human animal lip-sync are not guaranteed; plan post-production dubbing/synchronization if needed.",
         "mismatch_resolved": true
-      }
+      },
+      "final_pre_generation_audit": {
+        "audit_date": "2026-11-07",
+        "model": "Omni 1.2 Flash",
+        "mode": "Reference-to-Video (R2V)",
+        "resolution": "360p (640x360)",
+        "aspect_ratio": "16:9 landscape",
+        "duration_seconds": 10,
+        "output_count": 1,
+        "authorized_credit_cost": 10,
+        "target_collection": "04_ACT_01_The_Old_World",
+        "references": [
+          {
+            "name": "Boxer",
+            "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba"
+          },
+          {
+            "name": "Clover",
+            "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b"
+          },
+          {
+            "name": "Barn_Exterior",
+            "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a"
+          }
+        ],
+        "prompt_verbatim_verified": true,
+        "composition": "Medium close-up on Boxer as primary subject; Clover's shoulder softly visible at frame edge",
+        "dialogue": "The work still needs doing, Clover.",
+        "dialogue_capability": "Exact spoken dialogue and precise non-human lip-sync not guaranteed; post-production dubbing/synchronization may be required.",
+        "no_generation_or_preview_during_audit": true,
+        "credits_spent_during_audit": 0,
+        "report_source": "Owner-supplied final pre-generation audit, 2026-11-07"
+      },
+      "authorized_by": "Project owner via request to provide the final execution command after final pre-generation audit",
+      "authorization_date": "2026-11-07",
+      "authorization_scope": "Exactly one video output for ACT01_SCENE003_SHOT004_V01 at exactly 10 credits, conditional on final live UI recheck.",
+      "generation_execution_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_EXECUTION_TASK_SHOT004.md",
+      "no_auto_retry": true,
+      "no_other_shots_or_takes": true,
+      "owner_output_default": "Exactly one video output per shot; no batch, variation, retake or retry.",
+      "execution_status": "AUTHORIZED — AWAITING FINAL LIVE UI RECHECK AND SINGLE RENDER"
     },
     "next_actions": [
       "Complete detailed listening review of Scene003 Shot002 and Shot003 native ambient audio.",
