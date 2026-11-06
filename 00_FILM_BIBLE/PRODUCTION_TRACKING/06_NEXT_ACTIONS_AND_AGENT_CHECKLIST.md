@@ -30,7 +30,7 @@
 - [x] Record lighting discrepancy against Scene 002 Shot 006; apply cool-blue exposure/color matching in NLE during final assembly.
 - [ ] Apply and review the color grade; verify it bridges the deep-blue twilight of Scene 002 Shot 006 without crushing detail.
 - [ ] Complete a separate listening review of Shot001 native audio.
-- [ ] Prepare Shot002 only; do not render until separate explicit owner authorization.
+- [x] Shot002's one conditional authorized output generated; media ID `a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a`; actual MP4 inspected; owner approval pending. Do not proceed to Shot003 until owner approves Shot002 and separately authorizes Shot003.
 
 ### P3 — Close S01 and prepare S02
 
@@ -84,7 +84,7 @@
 - [ ] Native audio listening review remains separate.
 - [x] Shot001 authorization consumed; no retake authorized.
 
-### Scene 003 Shot002 — PREPARATION ONLY
+### Scene 003 Shot002 — initial preparation (historical; superseded by generation)
 
 - [ ] Verify Boxer reference, Barn_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE by exact Flow media ID.
 - [ ] Verify Omni 1.2 Flash / R2V (or report the actual available selector without silently changing it), 360p, 16:9, 10 seconds, one output.
@@ -120,7 +120,18 @@
 - [x] Owner explicitly authorized exactly one output of `ACT01_SCENE003_SHOT002_V01`.
 - [x] Authorization ceiling: exactly 10 credits; Flow live UI must still display exactly 10 immediately before generation.
 - [x] Locked target: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output / exact three verified references / corrected head-visible prompt.
-- [ ] Flow Agent to recheck every locked item and the live quote, then render exactly one output only if every condition matches.
-- [ ] If price differs from 10, or any setting/reference/prompt differs, STOP and ask the owner; no generation.
-- [ ] No retake, second output, alternate version, or other shot included in this authorization.
-- [ ] After render, return media ID, actual charged credits, metadata and video for owner review. Do not mark approved automatically.
+- [x] Flow Agent reported the live recheck passed and exactly one output was generated at 10 credits.
+- [x] No retake, second output, alternate version or other shot was included in that authorization.
+- [x] Flow execution report and media ID returned; actual MP4 independently inspected; owner review is pending.
+
+
+### Scene 003 Shot002 — generation and assistant media review (6 November 2026)
+
+- [x] Conditional owner authorization consumed: exactly one output; Flow reports exactly 10 credits charged.
+- [x] Media ID `a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a`; saved in `04_ACT_01_The_Old_World`.
+- [x] Actual uploaded MP4 inspected: 10.00s; 640×360; 16:9; 24fps; H.264; AAC-LC stereo 48kHz.
+- [x] Visual review: Boxer identity, white blaze, temporary harness, stationary loaded cart, red barn exterior, head-lowering action and subdued dusk all read clearly.
+- [x] Framing deviation recorded: the push-in crops Boxer's forelegs out in the latter half; head, harness and cart remain readable.
+- [x] Audio stream presence verified; detailed listening review remains pending.
+- [ ] Obtain explicit owner approval or rejection of Shot002 V01. Assistant recommendation: retain for editing with the foreleg-crop note; no retake.
+- [ ] Do not generate Shot003 until owner approval of Shot002 and a separate explicit, shot-specific authorization for Shot003.
