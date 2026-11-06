@@ -81,3 +81,17 @@ Return all of the following:
 8. Confirmation that the scene remains silent: no generated dialogue, narration or lip movement requested.
 
 **STOP after the report.** Do not click Generate. A preflight price is only a point-in-time quote and does not itself authorize a render. Wait for separate, explicit owner authorization for exactly one output at the final verified live price. If anything differs, stop and ask the owner.
+
+
+## 8. Flow UI preflight passed — 7 November 2026
+
+Owner-supplied Flow Agent report confirms:
+- Model: Omni 1.2 Flash; mode: Reference-to-Video (R2V).
+- Resolution: 360p (640×360); aspect ratio: 16:9 landscape; duration: 10 seconds; output count: exactly 1.
+- Exact three references attached: Benjamin (`0595b453-1a9c-4c11-9359-fd79a6eeb951`), Barn_Exterior (`3919fbb9-bf69-40e5-98f4-e02680cb077a`), Manor_Farm_Exterior (`8fa316c0-27e8-4df8-98af-56c73fa332f7`).
+- Prompt entered verbatim; no reported mismatch or warning.
+- Native Omni Flash audio enabled; ambient wind, barn creaks and subtle movement reported.
+- Live displayed quote: **10 credits**.
+- No generation or preview; **0 credits spent**.
+
+**Status: PREFLIGHT PASSED — NOT AUTHORIZED TO GENERATE.** The 10-credit figure is a point-in-time quote. Recheck the live price and every locked setting/reference/prompt immediately before any separately authorized render. Stop if anything differs. Wait for explicit owner authorization for exactly one output.
