@@ -185,3 +185,10 @@ The project owner accepted `ACT01_SCENE003_SHOT002_V01` for editing, following t
 ## Shot003 preflight passed — 6 November 2026
 
 Flow Agent's owner-supplied report confirms all five exact references attached without substitution, the locked prompt entered verbatim, and the live Flow configuration as Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output. The displayed quote was **10 credits**. Native Omni Flash audio is enabled, but exact English dialogue and precise animal lip-sync are not guaranteed; inspect any authorized output and plan post-production dubbing/synchronization if needed. No generation occurred and zero credits were spent. **Generation remains unauthorized** pending separate explicit owner authorization for exactly one output, with the displayed price and settings rechecked immediately before rendering.
+
+
+## Shot003 execution authorization — 7 November 2026
+
+The owner authorized exactly one output of `ACT01_SCENE003_SHOT003_V01 — Clover's Concern` at exactly 10 credits, conditional on the final live Flow UI check matching the preflight. Locked configuration: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output, with the five previously verified exact references and verbatim prompt. Execution instructions are in `FLOW_AGENT_EXECUTION_TASK_SHOT003.md`.
+
+No generation has yet been reported. The Flow Agent must recheck the live displayed price immediately before rendering and proceed only if it is exactly 10 credits and every setting/reference/prompt is unchanged. Otherwise stop without generating. No batch, preview, variation, retake, retry or other shot is authorized. After the single output, preserve the media and return it for owner review. Default production policy is one output per shot; this does not authorize other shots.
