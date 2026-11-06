@@ -5,7 +5,7 @@
 All six shot versions approved. See `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE001_MANOR_FARM_ESTABLISHING/SCENE_BREAKDOWN.md`.
 
 Approved shot versions: 001 V01, 002 V03, 003 V01, 004 V01, 005 V01, 006 V01.  
-60-second source MP4 and 1080p upscale exist in the working production workspace but are intentionally excluded from this GitHub package; final editorial verification pending.
+The Flow Agent's source-asset audit passed on 6 November 2026 for all six approved clips, their planned order, 16:9 aspect ratio and 60-second aggregate duration; no generation credits were spent. This does not constitute final scene-master approval: the assembled timeline, title overlay, transitions, actual audio mix, 1080p export and owner sign-off remain pending. Source and 1080p export binaries are intentionally excluded from this GitHub package. See `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
 
 ## ACT01_SCENE002 — The Animals' Work
 
