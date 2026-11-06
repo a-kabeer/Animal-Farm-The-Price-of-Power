@@ -268,3 +268,16 @@
 - [ ] Complete detailed listening review of native ambient audio.
 - [ ] Owner review/acceptance remains pending; do not mark owner-approved until explicitly accepted.
 - [ ] Prepare Shot005 only after Shot004 owner review; no generation without separate explicit authorization.
+
+
+### Scene 003 Shot004 — detailed assistant review (7 November 2026)
+
+- [x] Actual MP4 sampled at 0.5s, 2s, 4s, 6s, 8s and 9.5s; compared to Shot003 at matching timestamps.
+- [x] Technical metadata verified: 10.000s, 640×360, 16:9, 24fps, H.264/AVC, AAC stereo 48kHz; 1,796,362 bytes.
+- [x] Required medium close-up achieved; Boxer remains dominant; face, blaze, mane, ears and temporary harness remain readable; Barn_Exterior continuity is consistent.
+- [x] Minor deviation logged: part of Clover's head/muzzle appears at left edge rather than only her shoulder; she remains cropped and secondary, not a full two-shot.
+- [x] Lighting comparison logged: Shot004 is subdued grey/cool dusk, slightly brighter/greyer than Shot003; modest cool-blue grade recommended.
+- [x] Assistant recommendation: retain V01 for editing; no retake recommended.
+- [x] Flow reports ambient horse vocalization/evening wind only; exact Boxer line requires post-production dubbing/synchronization.
+- [ ] Detailed subjective listening review of audio remains pending.
+- [ ] Owner review/acceptance remains pending; do not mark owner-approved until explicitly accepted.
