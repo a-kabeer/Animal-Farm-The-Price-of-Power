@@ -8,7 +8,7 @@
 
 ## Current production status
 
-- Scene 001 — `Manor Farm Establishing`: 6/6 individual shots approved. A 60-second source MP4 and a 1080p upscale were produced in the working production workspace, but both video files are intentionally excluded from this GitHub package. Final editorial verification remains pending.
+- Scene 001 — `Manor Farm Establishing`: 6/6 individual source clips approved; the Flow Agent's 6 November asset audit passed for approved versions, planned order, 16:9 aspect ratio and 60-second aggregate duration. The actual master timeline, title overlay, transitions, audio mix and final 1080p export still need verification and owner sign-off. The source MP4 and 1080p export are intentionally excluded from this GitHub package.
 - Scene 002 — `The Animals' Work`: 6/6 individual shots approved. Approved shot video binaries are intentionally excluded from this GitHub package. Scene assembly/export is pending.
 - Approved shot footage: 12 shots, 120 seconds (2:00), equal to 6.7% of the 30-minute runtime. This is footage coverage, not overall film completion.
 - Current working scenes 001 and 002 provisionally cover 00:00–02:00 of master sequence S01 — `The Hungry Farm` (00:00–03:00). Minute 02:00–03:00 is not planned yet.
