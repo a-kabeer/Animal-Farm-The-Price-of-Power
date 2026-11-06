@@ -47,7 +47,7 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 | Order | Shot ID | Working title | Duration | Status |
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED |
-| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | REVISED PREFLIGHT PASSED — AWAITING OWNER AUTHORIZATION |
+| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | OWNER AUTHORIZED — CONDITIONAL EXECUTION; LIVE UI RECHECK REQUIRED |
 | 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
@@ -281,3 +281,16 @@ Flow Agent preparation report supplied by the owner:
 - Rechecked live displayed price reported as 10 credits. No generation performed; zero credits spent.
 - Corrected medium three-quarter side-profile prompt reported entered verbatim. Composition includes Boxer's full head/neck, shoulder/harness and forelegs, with a readable portion of the stationary cart behind him.
 - **Preflight passed. Await explicit owner authorization before generating one output.** Recheck the live price and exact settings immediately before rendering; if anything differs, stop and request renewed authorization.
+
+
+## 11. Shot 002 conditional generation authorization — 6 November 2026
+
+The project owner explicitly authorized exactly one output of `ACT01_SCENE003_SHOT002_V01`, conditional on the live Flow UI immediately before rendering still showing exactly 10 credits and all locked settings, references and the corrected prompt remaining unchanged.
+
+- Model: Omni 1.2 Flash; mode: Reference-to-Video (R2V).
+- Resolution: 360p (640×360); aspect ratio: 16:9; duration: 10 seconds; output count: one.
+- References: Boxer, Barn_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE using the exact IDs already recorded in this breakdown.
+- Prompt: corrected medium three-quarter side profile; Boxer's full head/neck, shoulder/harness and forelegs visible, with stationary cart partly visible.
+- **Price condition:** exactly 10 credits. If price differs or any locked item differs, stop and request renewed owner authorization. No substitutions, extra outputs, automatic retakes, or other shots are included.
+- Authorization status at record time: conditional authorization received; render not yet confirmed; zero Shot002 credits spent.
+- After generation, preserve the single output and mark it generated-awaiting-owner-review. Do not mark approved; return the actual video and metadata for review.
