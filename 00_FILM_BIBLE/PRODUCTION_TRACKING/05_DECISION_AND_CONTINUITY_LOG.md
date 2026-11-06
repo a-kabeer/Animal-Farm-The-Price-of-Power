@@ -62,3 +62,12 @@ Keep rejected versions for comparison/audit. Never use them in the master edit.
 - Confirm Scene 002 Scenebuilder assembly uses Shot 005 V02 and Shot 006 V02.
 - Verify the actual Flow Character entities for the image references before relying on named Character/Voice objects. A saved reference image is not automatically proof of a formal Character Entity.
 - Maintain the 10-sequence master plan while using one-minute working scene modules; document mapping clearly.
+
+## E. Scene 003 Shot001 execution record — 6 November 2026
+
+- Owner authorized exactly one generation, one output, conditional on 10 credits and unchanged settings/references.
+- Flow Agent reports this single generation completed and 10 credits were charged.
+- Media ID: `8a46a89f-c131-4f63-868a-c729b7bf8c7c`; asset name: `Boxer stopping cart by barn`.
+- Reported output: 10 seconds, 640×360, 16:9, 24fps; audio present.
+- Agent reports locked prompt used verbatim and six references attached.
+- Status: **GENERATED — AWAITING OWNER REVIEW**. Report alone does not prove visual/audio quality. Review character identities/count, cart body/wheels/shafts/hay/harness, Boxer harness, Clover unharnessed, Benjamin near barn, exterior-only geography, dusk light and ambient audio. No Shot002 or retake is authorized.
