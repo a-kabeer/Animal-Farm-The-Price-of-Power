@@ -167,3 +167,14 @@ Actual MP4 sampled at 0.5s, 2s, 4s, 6s, 8s and 9.5s and compared with Shot003. T
 Technical metadata verified: 10.000s, 640×360, 16:9, 24fps, H.264/AVC, AAC stereo 48kHz. Flow reports ambient audio only; exact approved Boxer line requires post-production dubbing/synchronization. Detailed listening review pending.
 
 Assistant recommendation: **retain V01 for editing; no retake recommended.** Owner review remains pending.
+
+
+## J. Shot004 owner acceptance and Shot005 preparation boundary — 7 November 2026
+
+The project owner replied **“next please”** after the detailed Shot004 visual review and the recommendation to retain V01. Record this as owner acceptance of `ACT01_SCENE003_SHOT004_V01` for editing and permission to proceed to preparation of Shot005.
+
+**Shot004 decision:** Preserve media `0b69c62d-2094-4ca6-835d-24346f727361`; status **OWNER ACCEPTED FOR EDITING — NO RETAKE**. Do not regenerate. Apply a modest cool-blue continuity grade if needed and dub/synchronize the exact approved Boxer line during post-production. Detailed subjective listening review of native ambient audio remains pending.
+
+**Shot005 plan:** Prepare `ACT01_SCENE003_SHOT005_V01 — Benjamin Observes` using Benjamin, Barn_Exterior and Manor_Farm_Exterior only. Exterior doorway medium shot; Benjamin watches Boxer and Clover off-screen, then lowers his gaze; silent, no lip movement, no other characters in frame. No barn interior and no Old Major/night gathering.
+
+**Authorization boundary:** The Shot005 Flow task is preparation and UI preflight only. Verify the live Omni 1.2 Flash / R2V / 360p / 16:9 / 10-second / one-output selectors and report the exact live displayed price. Do not generate, preview, create variations or spend credits. Obtain a separate explicit owner authorization for exactly one output only after the complete matching preflight report.
