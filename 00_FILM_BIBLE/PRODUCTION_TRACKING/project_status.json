@@ -131,10 +131,9 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Complete Scene003 post-production notes for Shots001–004: color continuity, dialogue dubbing/synchronization and native ambient-audio listening checks.",
-    "Flow Agent: run preparation and preflight for ACT01_SCENE003_SHOT005_V01 using FLOW_AGENT_PREPARATION_TASK_SHOT005.md only. Do not generate, preview or spend credits.",
-    "After the Shot005 preflight report, review exact live settings, all three references, prompt and displayed price; obtain separate explicit owner authorization before any render.",
-    "Prepare Shot006 after Shot005 is reviewed; one output per shot by default and separate explicit authorization.",
+    "Owner review/acceptance of ACT01_SCENE003_SHOT005_V01; assistant recommends retain for editing with push-in/framing note and cool-blue grade.",
+    "Complete post-production notes for Scene003 Shots001–005: cool-blue continuity, Clover and Boxer dialogue dubbing/synchronization, and ambient-audio listening checks.",
+    "Prepare Shot006 after Shot005 is reviewed; one output per shot and separate explicit owner authorization.",
     "Assemble Scene003 to 60 seconds and obtain owner approval.",
     "Verify complete S01 across Scenes001–003, then prepare S02."
   ],
@@ -154,7 +153,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 PREPARATION READY — PREFLIGHT PENDING; SHOT006 NOT GENERATED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 GENERATED — AWAITING OWNER REVIEW; SHOT006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -190,7 +189,7 @@
       "BOXER_HAY_CART_CONTINUITY_REFERENCE"
     ],
     "generation_authorized": false,
-    "generation_credits_spent": 40,
+    "generation_credits_spent": 50,
     "preparation": {
       "report_source": "Corrected Flow Agent preparation and final production adjustment reports supplied by project owner on 2026-11-06",
       "preparation_status": "COMPLETE FOR SHOT001",
@@ -255,7 +254,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Shot005 preflight passed at a reported live quote of 10 credits with exact settings, three exact references and locked prompt; 0 credits spent. Await separate explicit owner authorization for one output, conditional on final live UI recheck.",
+    "next_step": "Review ACT01_SCENE003_SHOT005_V01 (media ID 7b9c7132-289d-4331-a09d-256ee969f388). Assistant visual review recommends retaining the single take for editing; note stronger push-in to close-up by the end and apply modest cool-blue continuity grade. Owner approval remains pending. Do not prepare/generate Shot006 until Shot005 is reviewed.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -763,10 +762,9 @@
       "owner_acceptance_note": "Owner said 'next please' following the detailed Shot004 review and recommendation to retain V01; recorded as acceptance for editing and progression to Shot005."
     },
     "next_actions": [
-      "Await explicit owner authorization for exactly one Shot005 output at exactly 10 credits, conditional on final live UI recheck; if anything differs, stop without generating.",
-      "After any separately authorized Shot005 render, inspect actual MP4 and metadata; keep status GENERATED — AWAITING OWNER REVIEW until owner accepts.",
-      "Prepare Shot006 only after Shot005 has been reviewed; one output per shot and separate explicit authorization.",
-      "Complete Scene003 post-production for Shots001–004: cool-blue continuity grading, Clover and Boxer dialogue dubbing/synchronization, and native ambient-audio listening checks.",
+      "Owner review/acceptance of Scene003 Shot005 V01; assistant recommends retain for editing with push-in/framing note and cool-blue grade.",
+      "Complete Scene003 post-production for Shots001–005: cool-blue continuity grading, exact Clover and Boxer dialogue dubbing/synchronization, and native ambient-audio listening checks.",
+      "Prepare Shot006 only after Shot005 owner review; maintain continuity toward blue night, and do not generate without separate explicit authorization.",
       "Assemble Scene003 to 60 seconds and obtain owner approval.",
       "Verify complete S01 across Scenes001–003, then prepare S02."
     ],
@@ -814,7 +812,7 @@
     "shot005_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT005_V01",
       "title": "Benjamin Observes",
-      "status": "PREFLIGHT PASSED — EXACT CONFIGURATION AND REFERENCES REPORTED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
+      "status": "GENERATED — AWAITING OWNER REVIEW",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT005.md",
       "prompt_status": "Canonical Scene Breakdown prompt copied verbatim into the task; locked for preflight",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -841,12 +839,12 @@
       "dialogue": {
         "status": "NONE — Benjamin is silent; no dialogue, narration or lip movement"
       },
-      "generation_authorized": false,
-      "generation_credits_spent": 0,
+      "generation_authorized": true,
+      "generation_credits_spent": 10,
       "preflight_status": "PASSED — OWNER-SUPPLIED FLOW AGENT REPORT, 2026-11-07",
-      "no_generation_performed": true,
-      "stop_after_preflight": true,
-      "authorization_required": "Preflight passed at a point-in-time displayed price of 10 credits. Obtain separate explicit owner authorization for exactly one output at exactly 10 credits, conditional on final live UI recheck immediately before Generate; if price or any setting/reference/prompt differs, stop without generating.",
+      "no_generation_performed": false,
+      "stop_after_preflight": false,
+      "authorization_required": "Generation completed as one output at 10 credits per the owner-supplied execution report. Authorization is consumed; no further output, retake or Shot006 is authorized without a separate explicit owner authorization.",
       "preflight_report": {
         "report_date": "2026-11-07",
         "report_source": "Owner-supplied Flow Agent preparation report",
@@ -883,7 +881,81 @@
         "credits_spent": 0,
         "authorization_status": "NOT AUTHORIZED — WAITING FOR SEPARATE EXPLICIT OWNER APPROVAL"
       },
-      "next_action": "Await explicit owner authorization for exactly one output at the final live-verified price of 10 credits. Recheck all settings, the exact three references and prompt immediately before Generate. Do not generate until approved."
+      "next_action": "Await explicit owner authorization for exactly one output at the final live-verified price of 10 credits. Recheck all settings, the exact three references and prompt immediately before Generate. Do not generate until approved.",
+      "execution_status": "CONSUMED — exactly one output reported generated at 10 credits",
+      "authorization_consumed": true,
+      "owner_visual_review": "ASSISTANT REVIEW COMPLETED — RECOMMEND RETAIN V01 FOR EDITING WITH PUSH-IN/FRAMING NOTE; OWNER DECISION PENDING",
+      "owner_approval": false,
+      "retakes_authorized": false,
+      "next_shot_authorized": false,
+      "execution_report": {
+        "report_date": "2026-11-07",
+        "status": "GENERATED — AWAITING OWNER REVIEW",
+        "shot_id": "ACT01_SCENE003_SHOT005_V01",
+        "media_id": "7b9c7132-289d-4331-a09d-256ee969f388",
+        "asset_name": "Donkey standing in barn doorway",
+        "target_collection": "04_ACT_01_The_Old_World",
+        "collection_id": "b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4",
+        "reported_actual_credits_charged": 10,
+        "reported_output_count": 1,
+        "actual_file": "Owner-uploaded MP4 inspected in this conversation: /mnt/data/Donkey_standing_in_barn_doorway_7b9c7132.mp4",
+        "file_size_bytes": 1916991,
+        "verified_duration_seconds": 10,
+        "verified_resolution": "640x360",
+        "verified_aspect_ratio": "16:9",
+        "verified_frame_rate_fps": 24,
+        "verified_video_codec": "H.264 / AVC",
+        "verified_audio_codec": "AAC",
+        "verified_audio_sample_rate_hz": 48000,
+        "verified_audio_channels": "2-channel stereo",
+        "verified_audio_stream_duration_seconds": 10.026667,
+        "prompt_used": "Flow Agent reports locked canonical prompt entered verbatim",
+        "references": [
+          {
+            "name": "Benjamin",
+            "media_id": "0595b453-1a9c-4c11-9359-fd79a6eeb951"
+          },
+          {
+            "name": "Barn_Exterior",
+            "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a"
+          },
+          {
+            "name": "Manor_Farm_Exterior",
+            "media_id": "8fa316c0-27e8-4df8-98af-56c73fa332f7"
+          }
+        ],
+        "visual_review": {
+          "status": "DETAILED ASSISTANT REVIEW COMPLETED — RECOMMEND RETAIN FOR EDITING",
+          "review_method": "Uploaded MP4 inspected via sampled frames at 0.5s, 2s, 4s, 6s, 8s and 9.5s; technical streams verified with ffprobe.",
+          "positive_findings": [
+            "Benjamin's approved older grey donkey identity, charcoal mane, long upright ears, narrow muzzle and tired eyes remain recognizable.",
+            "He is staged in the doorway shadow; red timber barn exterior and surrounding farmyard remain visible.",
+            "His gaze turns toward the off-screen farmyard and lowers slightly during the latter part of the shot.",
+            "No other character enters frame; the shot remains silent in keeping with the approved breakdown.",
+            "The visual atmosphere is cinematic and consistent with the late-dusk farm setting."
+          ],
+          "deviations": [
+            "The camera push-in is stronger than the requested restrained push-in: framing begins as a medium shot and tightens to a close head-and-shoulders view by the end; the donkey's body is largely cropped in the final portion.",
+            "The dusk sky and exterior read somewhat grey-pink/neutral rather than the cooler blue-hour appearance of the preceding shots; apply a modest cool-blue continuity grade."
+          ],
+          "recommendation": "Retain V01 for editing; no retake recommended. Preserve the tighter ending as an editorial close-in and apply modest cool-blue grading to match Shots003–004."
+        },
+        "audio_report": "AAC stereo 48kHz audio stream present and metadata verified. Flow execution report gives no detailed listening assessment; subjective listening review remains pending. Shot is intended to have no dialogue.",
+        "reviewed_timestamps_seconds": [
+          0.5,
+          2,
+          4,
+          6,
+          8,
+          9.5
+        ],
+        "review_date": "2026-11-07",
+        "owner_visual_review": "PENDING — awaiting explicit owner acceptance or rejection",
+        "owner_approval": false,
+        "editorial_status": "GENERATED — AWAITING OWNER REVIEW; assistant recommends retain V01 with closer-than-planned push-in note and cool-blue grade",
+        "retake_authorized": false,
+        "next_shot_authorized": false
+      }
     }
   },
   "production_defaults": {
