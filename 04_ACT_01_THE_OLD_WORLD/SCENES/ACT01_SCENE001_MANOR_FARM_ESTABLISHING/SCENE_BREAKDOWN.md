@@ -2,7 +2,7 @@
 
 **Timecode:** 00:00–01:00  
 **Runtime:** 60 seconds  
-**Status:** All six individual shots approved. Scene master editorial review pending.  
+**Status:** All six individual shots approved; source-asset audit passed per Flow Agent report on 6 November 2026. Final master-timeline editorial approval pending.  
 **Audio:** No dialogue in any of the six approved shot plans.
 
 ## Approved shot order
@@ -72,4 +72,12 @@
 - Planned transitions: hard cuts between shots 001–005; 0.5-second crossfade into shot 006 (planned, not verified as completed).
 - Planned title: `MANOR FARM` tracked onto blank entrance sign in Shot 001 (not verified as completed).
 - Planned audio: continuous `Music_001` with layered wind, rain, wood creak, cow, trough and chain sounds (not verified as completed).
-- Source and upscaled exports are in `DELIVERABLES/SCENE001/`. Final editorial content review remains pending.
+- Source and upscaled exports are recorded in `DELIVERABLES/SCENE001/`; their binaries are excluded from this GitHub package. The recent Agent audit did not inspect the assembled timeline or verify the final export.
+
+## Source-asset audit — 6 November 2026
+
+The Flow Agent report supplied by the project owner records PASS for all six approved clip assets, their approved versions and planned order, 16:9 aspect ratio, consistent visual style / 3D character and environment continuity, and an aggregate duration of exactly 60 seconds. The report states that no generation credits were spent.
+
+**Audit boundary:** This is a source-asset audit, not proof that the assembled 60-second master edit is complete. The actual timeline, transitions, MANOR FARM title overlay, completed music/SFX mix and final 1920×1080 export still require inspection. The existing 1080p upscale is listed in the earlier production record, but was not re-verified by this audit. Final owner sign-off remains pending.
+
+Full report: `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
