@@ -8,11 +8,11 @@
 
 ## Current production status
 
-- Scene 001 — `Manor Farm Establishing`: 6/6 individual source clips approved and locked. The Agent has supplied the 60-second master assembly specification (clip order, transition, title, audio and target export settings), but explicitly says timeline editing, title compositing, audio mixing and export are Flow UI / NLE operations. The actual rendered master MP4 has not been supplied or verified; final 1080p export and owner sign-off remain pending. See the Final Master Assembly Verification Report.
-- Scene 002 — `The Animals' Work`: 6/6 individual shots approved. Approved shot video binaries are intentionally excluded from this GitHub package. Scene assembly/export is pending.
+- Scene 001 — `Manor Farm Establishing`: six approved shots and the scene master are complete (project-owner confirmed 6 November 2026). The video binary is excluded from this documentation package; final filename/export metadata have not yet been recorded here.
+- Scene 002 — `The Animals' Work`: six approved shots and the scene master are complete (project-owner confirmed 6 November 2026). Approved video binaries are excluded; final filename/export metadata have not yet been recorded here.
 - Approved shot footage: 12 shots, 120 seconds (2:00), equal to 6.7% of the 30-minute runtime. This is footage coverage, not overall film completion.
-- Current working scenes 001 and 002 provisionally cover 00:00–02:00 of master sequence S01 — `The Hungry Farm` (00:00–03:00). Minute 02:00–03:00 is not planned yet.
-- Exact narrator script and character dialogue have not been written/approved. All 12 approved shot plans specified no dialogue.
+- Scenes 001 and 002 are owner-confirmed complete and cover 00:00–02:00 of S01 — `The Hungry Farm` (00:00–03:00). Scene 003 is planned for 02:00–03:00; no Scene 003 media has been generated.
+- Exact narrator script remains unapproved. Scene 003 has two draft dialogue lines for Clover and Boxer; both await owner approval. The 12 approved shots in Scenes 001 and 002 were dialogue-free.
 
 ## Start here
 
