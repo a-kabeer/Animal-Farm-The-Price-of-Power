@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 V01 GENERATED — AWAITING OWNER REVIEW  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -51,7 +51,7 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 | 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | OWNER ACCEPTED FOR EDITING — NO RETAKE |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST |
-| 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PREPARATION TASK CREATED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED |
+| 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | GENERATED — AWAITING OWNER REVIEW |
 | | **TOTAL** | | **60s** | **Not generated** |
 
 ### Shot 001 — The Cart Comes to Rest (10 seconds)
@@ -643,3 +643,33 @@ The corrected Flow Agent report confirms that the prompt now matches the canonic
 The earlier preflight mismatch remains documented in Section 28 as rejected and corrected. Current status: **CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**.
 
 **Authorization boundary:** The 10-credit price is point-in-time only. A separate explicit owner authorization is required. Immediately before any render, recheck the live price, every setting, all five references and the verbatim prompt; proceed only for one output at exactly 10 credits. Otherwise stop without generation.
+
+
+## 30. Shot006 generation and assistant visual review — 7 November 2026
+
+**Generated asset:** `ACT01_SCENE003_SHOT006_V01 — Animals moving toward barn entrance`  
+**Flow media ID:** `89104e8d-e999-469f-b810-cc94725cf955`  
+**Flow report:** exactly one output generated; exactly 10 credits charged; saved in collection `04_ACT_01_The_Old_World`.  
+**Uploaded MP4 independently inspected:** 2,777,152 bytes; 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; audio stream duration 10.026667s.
+
+### Visual review
+
+- All three approved animals are visible and distinguishable from the rear three-quarter view. Boxer remains the largest/dark-maned chestnut horse; Clover is lighter-maned and unharnessed; Benjamin is visibly smaller and grey.
+- The animals orient toward the red barn and move closer to its entrance.
+- The camera pulls back continuously, revealing more of the barn, yard and surrounding landscape; the barn is the visual destination.
+- The established red timber Barn_Exterior remains recognizable.
+- No Old Major, night meeting or additional identifiable character appears.
+- The serious, quiet closing mood works as a transition toward S02.
+
+### Continuity deviations and editorial treatment
+
+1. **Night transition:** the sky remains pink-grey twilight at the end. Although the upper sky darkens/cools, the shot does not fully reach the requested cool blue night. Apply a cool-blue dusk-to-night grade in the NLE.
+2. **Doorway glow:** a distinct warm glow inside the barn doorway is not clearly legible. Some warm light falls on the animals, but the doorway itself does not read as a glowing destination. If practical, add a subtle warm glow through the doorway during compositing/color work.
+
+**Assistant recommendation: RETAIN V01 FOR EDITING — NO RETAKE RECOMMENDED.** The composition, animal movement, pull-back and story transition work. The two visual gaps are post-production adjustments rather than reasons to spend credits on another take.
+
+### Technical and audio status
+
+Verified metadata: 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; 2,777,152-byte file. The audio stream is present; subjective listening review remains pending. No dialogue or narration is intended.
+
+**Approval state:** GENERATED — AWAITING OWNER REVIEW. Assistant recommendation is not owner sign-off. Do not mark Shot006 approved until the project owner explicitly accepts or rejects V01.
