@@ -255,3 +255,16 @@
 - [ ] If any condition differs, stop without generating. No batch, preview, variation, retake, retry or other shot.
 - [ ] Return the generated asset and metadata; mark GENERATED — AWAITING OWNER REVIEW; stop.
 
+
+
+### Scene 003 Shot004 — generation and assistant media review (7 November 2026)
+
+- [x] Final execution report confirms exactly one output and exactly 10 credits charged.
+- [x] Media ID: `0b69c62d-2094-4ca6-835d-24346f727361`; asset name “Boxer speaking to Clover”; saved in `04_ACT_01_The_Old_World`.
+- [x] Actual uploaded MP4 inspected: 10.000s; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; 1,796,362 bytes.
+- [x] Visual review: corrected medium close-up on Boxer; Clover partly visible at left edge; Boxer white blaze/harness and red Barn_Exterior visible.
+- [x] Assistant recommendation: retain V01 for editing; no retake recommended.
+- [x] Dialogue status: Flow reports ambient horse vocalization/evening wind only; exact Boxer line must be dubbed and synchronized in post.
+- [ ] Complete detailed listening review of native ambient audio.
+- [ ] Owner review/acceptance remains pending; do not mark owner-approved until explicitly accepted.
+- [ ] Prepare Shot005 only after Shot004 owner review; no generation without separate explicit authorization.
