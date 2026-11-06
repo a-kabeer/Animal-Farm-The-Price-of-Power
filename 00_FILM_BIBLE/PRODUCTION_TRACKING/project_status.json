@@ -104,7 +104,18 @@
     ],
     "assembly": "COMPLETE — project-owner confirmed 2026-11-06",
     "final_mp4": "COMPLETED — filename and technical metadata not recorded in latest owner update",
-    "owner_status": "MASTER COMPLETE — project-owner confirmed 2026-11-06"
+    "owner_status": "MASTER COMPLETE — project-owner confirmed 2026-11-06",
+    "final_shot": {
+      "shot_id": "ACT01_SCENE002_SHOT006_V02",
+      "media_id": "e3c06bbd-2245-427a-8fbd-3b9bbd1cf891",
+      "status": "OWNER APPROVED AND LOCKED",
+      "duration_seconds": 10,
+      "resolution": "1280x720",
+      "frame_rate_fps": 24,
+      "aspect_ratio": "16:9",
+      "audio": "AAC stereo",
+      "source": "Owner-supplied audit report, 2026-11-06"
+    }
   },
   "dialogue_and_narration": {
     "narrator_profile": "PROPOSED ONLY — NOT APPROVED",
@@ -120,10 +131,10 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Owner review of generated Scene003 Shot001 media 8a46a89f-c131-4f63-868a-c729b7bf8c7c; check character identities, count, cart and harness continuity, outside barn geography, dusk lighting, movement and audio",
-    "Record owner decision: approve Shot001 V01 or specify a revision; no retake is authorized yet",
-    "Only after Shot001 review/approval, prepare Shot002 and request separate explicit owner authorization",
-    "Generate remaining Scene003 shots one at a time with review after each",
+    "Prepare and preflight Scene003 Shot002 only; verify Boxer, Barn_Exterior and hay-cart continuity reference IDs, model/settings, prompt and live price; do not generate",
+    "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE; complete separate native-audio listening review",
+    "Obtain separate explicit owner authorization for Scene003 Shot002 at the exact displayed price before any render",
+    "Continue Scene003 one shot at a time; review every generated output",
     "Assemble Scene003 to 60 seconds and obtain owner approval",
     "Verify complete S01 across Scenes001–003, then prepare S02"
   ],
@@ -143,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 GENERATED — AWAITING OWNER REVIEW; remaining five shots not generated",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 PREPARATION ONLY; no new generation authorized",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -262,9 +273,32 @@
       "references": "Flow Agent reports all six locked references attached",
       "report_date": "2026-11-06",
       "evidence_source": "Project-owner-supplied Flow Agent execution report; actual MP4 not yet visually inspected in this conversation",
-      "owner_visual_review": "PENDING",
-      "owner_approval": false,
-      "next_shot_authorized": false
+      "owner_visual_review": "COMPLETED",
+      "owner_approval": true,
+      "next_shot_authorized": false,
+      "editorial_status": "ACCEPTED FOR EDITING — COOL-BLUE EXPOSURE/COLOR MATCH REQUIRED",
+      "retake_authorized": false
+    },
+    "transition_audit": {
+      "from": "ACT01_SCENE002_SHOT006_V02",
+      "to": "ACT01_SCENE003_SHOT001_V01",
+      "finding": "Character, cart/harness and barn continuity accepted; lighting mismatch (deep blue twilight to brighter overcast) and source resolution difference (720p to 360p) identified.",
+      "editorial_action": "Preserve Scene 003 Shot001 V01; apply cool-blue exposure/color match in NLE. Grade remains pending.",
+      "new_generation_required": false,
+      "additional_credits_authorized": 0
+    },
+    "shot002_preparation": {
+      "status": "PREPARATION ONLY — NOT GENERATED",
+      "shot_id": "ACT01_SCENE003_SHOT002_V01",
+      "title": "The Weight of the Work",
+      "reference_ids": {
+        "Boxer": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
+        "Barn_Exterior": "3919fbb9-bf69-40e5-98f4-e02680cb077a",
+        "BOXER_HAY_CART_CONTINUITY_REFERENCE": "d86c8a63-b658-4216-9740-0132bcf86282"
+      },
+      "required_action": "Flow Agent preparation/preflight only: confirm references, exact settings, final prompt and current displayed credit quote; stop without generating.",
+      "generation_authorized": false,
+      "credits_spent": 0
     }
   }
 }
