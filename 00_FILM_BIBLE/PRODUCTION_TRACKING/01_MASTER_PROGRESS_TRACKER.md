@@ -213,3 +213,10 @@ Shot004 — Boxer's Response — is prepared for Flow preflight only. The task i
 ## Scene 003 Shot004 — corrected preflight passed (7 November 2026)
 
 The corrected Flow Agent report confirms the exact Boxer, Clover and Barn_Exterior references are attached; the hay-cart video reference is removed. The canonical medium close-up prompt is entered verbatim, with Boxer as the main subject and Clover's shoulder at frame edge. Settings: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output. Live quote: **10 credits**. Exact Boxer dialogue is preserved: “The work still needs doing, Clover.” Native dialogue/lip-sync is not guaranteed; post-production dubbing/synchronization may be required. No generation or preview occurred; zero credits were spent. **Await separate explicit owner authorization** for one output; recheck the live price/settings immediately before rendering.
+
+
+## Scene 003 Shot004 — one-output generation authorized (7 November 2026)
+
+Owner supplied the final pre-generation audit for `ACT01_SCENE003_SHOT004_V01 — Boxer's Response` and authorized exactly one video output at exactly 10 credits, conditional on the final live Flow UI recheck matching the audit. Verified references: Boxer, Clover and Barn_Exterior. Locked configuration: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output. The exact prompt is entered verbatim; framing is a medium close-up on Boxer with Clover's shoulder at frame edge. Exact approved line: “The work still needs doing, Clover.” Execution task: `FLOW_AGENT_EXECUTION_TASK_SHOT004.md`.
+
+Generate only if the live price is exactly 10 credits and every setting/reference/prompt remains unchanged immediately before rendering. Otherwise stop. No batch, preview, variation, retake, retry or other shot. Return actual asset and metadata for review; mark **GENERATED — AWAITING OWNER REVIEW**. The project default remains one output per shot.
