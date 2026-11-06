@@ -29,7 +29,7 @@
     "source_360p_file": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/SCENE001_ASSEMBLED_SOURCE_360P_UPLOADED.mp4",
     "upscaled_1080p_file": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/ACT01_SCENE001_MANOR_FARM_ESTABLISHING_UPSCALED_1080P.mp4",
     "metadata": "60.000s, 24fps, source 640x360, upscaled 1920x1080, H.264/AAC",
-    "editorial_signoff": "PENDING: actual assembled timeline inspection, title overlay, transitions, completed audio mix, final 1080p export verification, and owner sign-off",
+    "editorial_signoff": "PENDING: actual NLE/Flow timeline, 60.00s runtime including transition handling, title, mixed audio, 1080p rendered MP4 and owner sign-off",
     "source_asset_audit": {
       "status": "PASSED — Flow Agent report supplied by project owner on 2026-11-06",
       "approved_versions": [
@@ -53,6 +53,40 @@
       "visual_and_character_environment_continuity": "REPORTED PASSED",
       "generation_credits_spent_for_audit": 0,
       "scope_limitation": "Individual source assets and planned sequence only; assembled master timeline not verified"
+    },
+    "assembly_specification": {
+      "status": "RECORDED — Flow Agent report supplied by project owner on 2026-11-06",
+      "source_order": [
+        "SHOT001_V01",
+        "SHOT002_V03",
+        "SHOT003_V01",
+        "SHOT004_V01",
+        "SHOT005_V01",
+        "SHOT006_V01"
+      ],
+      "source_durations_seconds": [
+        12,
+        10,
+        10,
+        10,
+        8,
+        10
+      ],
+      "target_timeline_seconds": 60,
+      "edit_plan": "Hard cuts through Shots 001–005; 0.5s crossfade into Shot 006",
+      "title": "MANOR FARM tracked onto Shot 001 gate sign — specified, not verified rendered",
+      "audio": "Music_001 plus wind, creaks, trough, chain and cow-breath SFX — specified, not verified mixed",
+      "target_export": {
+        "filename": "ACT01_SCENE001_MANOR_FARM_ESTABLISHING_FINAL.mp4",
+        "destination": "99_APPROVED_SCENES/ACT_01_THE_OLD_WORLD/",
+        "resolution": "1920x1080",
+        "fps": 24,
+        "video": "H.264",
+        "audio": "AAC"
+      },
+      "credits_spent": 0,
+      "actual_rendered_mp4": "NOT PROVIDED / NOT VERIFIED",
+      "crossfade_runtime_check": "REQUIRED: 60s source sum with 0.5s overlap normally produces 59.5s unless compensated"
     }
   },
   "scene002": {
@@ -81,7 +115,7 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Complete Scene 001 master-timeline, title, transition and audio checks; verify the 1080p export and obtain owner sign-off (source-asset audit passed)",
+    "Execute Scene 001 master assembly in Flow UI / NLE; resolve 0.5s crossfade versus exact 60s runtime; verify rendered MP4, title, audio and 1080p metadata; obtain owner sign-off",
     "Assemble/export Scene 002 from approved clips and review",
     "Plan ACT01_SCENE003 for 02:00-03:00 to complete S01",
     "Approve narrator profile and write narrator/character dialogue",
