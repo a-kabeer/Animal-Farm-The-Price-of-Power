@@ -6,7 +6,7 @@
 
 ## Current stage
 
-- `ACT01_SCENE001` — all six individual shots approved. Source 60s MP4 and 1080p upscale exist in the working production workspace, but their binaries are intentionally excluded from this GitHub package. Editorial review still needed for correct six-shot sequence, title tracking, audio mix and transitions.
+- `ACT01_SCENE001` — all six individual shots approved. The Flow Agent's source-asset audit passed on 6 November 2026 for the approved versions, planned order, 16:9 aspect ratio and 60-second aggregate duration; no generation credits were spent. The assembled master timeline, title overlay, transitions, actual audio mix, 1080p export and owner sign-off remain pending. Source and export binaries are excluded from this GitHub package.
 - `ACT01_SCENE002` — all six shots approved. Approved shot binaries are intentionally excluded from this GitHub package. Master scene assembly/export pending.
 - `ACT01_SCENE003` (02:00–03:00) — not planned; required to finish master sequence S01.
 - S02–S10 — only high-level story map exists; no detailed shot production yet.
