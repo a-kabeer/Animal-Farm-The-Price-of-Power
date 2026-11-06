@@ -1,6 +1,6 @@
 # Next Actions and Google Flow Agent Checklist
 
-## Priority order (as of 6 November 2026)
+## Priority order (updated 6 November 2026)
 
 ### P0 — Record completed scenes (owner-confirmed)
 
@@ -21,16 +21,16 @@
 - [x] Shot001 final prompt and configuration recorded: Omni 1.2 Flash R2V, 360p, 16:9, 10s, one output; Flow Agent reported 10 credits displayed.
 - [x] Dialogue approval complete; exact lines are recorded in the Scene 003 breakdown and audio/dialogue tracker.
 - [x] Owner explicitly authorized exactly one Shot001 generation at exactly 10 credits on 6 November 2026, conditional on live Flow UI rechecking to exactly 10 credits and all locked settings/references matching.
-- [ ] Flow Agent must execute only if the live price is exactly 10 credits; if price/settings/references differ, stop and ask the owner.
+- [x] The one authorized Shot001 render completed; 10 credits were reported charged. Authorization is consumed.
 
 ### P2 — Generate and review Scene 003
 
 - [x] Flow Agent reports one Shot001 output generated; 10 credits charged; media ID `8a46a89f-c131-4f63-868a-c729b7bf8c7c`; reported metadata 10s / 640x360 / 16:9 / 24fps / audio present.
-- [ ] Owner to inspect the actual video and record approval or revision. Do not generate a retake or Shot002 before review.
-- [ ] Retrieve the actual MP4; verify duration, resolution, frame rate and audio.
-- [ ] Review character identity, animal anatomy, cart/harness continuity, dusk-to-night continuity and exact dialogue speaker/line.
-- [ ] Preserve all versions and obtain owner approval before marking any version approved.
-- [ ] Update shot register, asset register if needed, decision log, progress tracker and project status after approval.
+- [x] Actual MP4 inspected; owner accepted Shot001 V01 for editing and explicitly chose no retake.
+- [x] Record lighting discrepancy against Scene 002 Shot 006; apply cool-blue exposure/color matching in NLE during final assembly.
+- [ ] Apply and review the color grade; verify it bridges the deep-blue twilight of Scene 002 Shot 006 without crushing detail.
+- [ ] Complete a separate listening review of Shot001 native audio.
+- [ ] Prepare Shot002 only; do not render until separate explicit owner authorization.
 
 ### P3 — Close S01 and prepare S02
 
@@ -75,9 +75,20 @@
 - [ ] Commit/push updates to GitHub.
 
 
-### Scene 003 Shot001 — owner review hold (6 November 2026)
+### Scene 003 Shot001 — owner accepted for editing (6 November 2026)
 
 - [x] One-output generation reported completed; 10 credits charged.
-- [ ] Inspect the actual Flow video (media ID `8a46a89f-c131-4f63-868a-c729b7bf8c7c`) visually and listen to its audio.
-- [ ] Owner approval or revision decision required.
-- [ ] Do not generate Shot002 or a Shot001 retake until separately authorized after review.
+- [x] Actual uploaded MP4 visually inspected in this conversation.
+- [x] Owner elected to preserve V01 and not spend credits on a retake.
+- [ ] NLE cool-blue color/exposure match required against Scene 002 Shot 006.
+- [ ] Native audio listening review remains separate.
+- [x] Shot001 authorization consumed; no retake authorized.
+
+### Scene 003 Shot002 — PREPARATION ONLY
+
+- [ ] Verify Boxer reference, Barn_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE by exact Flow media ID.
+- [ ] Verify Omni 1.2 Flash / R2V (or report the actual available selector without silently changing it), 360p, 16:9, 10 seconds, one output.
+- [ ] Show proposed final prompt and live displayed credit quote.
+- [ ] Confirm stationary loaded cart, same temporary harness, shoulder-to-forelegs side profile, subtle weight shift, harness settling, one controlled breath, late-dusk exterior.
+- [ ] **STOP after preparation. Do not click Generate/Run. No credits may be spent.**
+- [ ] Wait for a separate explicit owner authorization for this exact shot/settings/price.
