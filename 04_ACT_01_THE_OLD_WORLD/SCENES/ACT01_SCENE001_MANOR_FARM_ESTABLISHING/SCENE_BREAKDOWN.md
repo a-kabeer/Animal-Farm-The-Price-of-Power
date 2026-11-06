@@ -2,7 +2,7 @@
 
 **Timecode:** 00:00–01:00  
 **Runtime:** 60 seconds  
-**Status:** All six individual shots approved and locked; source-asset audit passed; assembly specification recorded per Flow Agent report on 6 November 2026. Actual rendered master and final editorial approval pending.  
+**Status:** MASTER COMPLETE — project-owner confirmed on 6 November 2026. All six approved shots remain locked. Final export filename and technical metadata are not recorded in this repository.  
 **Audio:** No dialogue in any of the six approved shot plans.
 
 ## Approved shot order
@@ -89,3 +89,8 @@ The Flow Agent supplied the intended timeline settings: Shot 001 V01 → Shot 00
 **Important:** The Agent states that timeline editing, upscaling, title compositing and multi-track audio mixing must be performed in Flow UI / an NLE. No rendered master MP4 or export metadata was supplied with this report. Because the six source durations already total 60s, an overlapping 0.5s crossfade normally reduces timeline length to 59.5s unless compensated. Actual timeline runtime and render must be checked. Final scene approval remains pending.
 
 Full master assembly report: `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/FINAL_MASTER_ASSEMBLY_VERIFICATION_REPORT.md`.
+
+
+## Owner completion confirmation — 6 November 2026
+
+The project owner has confirmed that Scene 001 and Scene 002 are completed. This owner confirmation supersedes the earlier pending editorial status in the audit notes. Earlier verification reports remain historical audit records describing what had been checked at the time they were written.
