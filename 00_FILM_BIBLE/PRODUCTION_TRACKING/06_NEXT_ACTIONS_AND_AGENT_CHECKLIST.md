@@ -281,3 +281,22 @@
 - [x] Flow reports ambient horse vocalization/evening wind only; exact Boxer line requires post-production dubbing/synchronization.
 - [ ] Detailed subjective listening review of audio remains pending.
 - [ ] Owner review/acceptance remains pending; do not mark owner-approved until explicitly accepted.
+
+
+### Scene 003 Shot004 — owner acceptance (7 November 2026)
+
+- [x] Owner replied “next please” after the detailed visual review; record Shot004 V01 as accepted for editing.
+- [x] Status updated to **OWNER ACCEPTED FOR EDITING — NO RETAKE**; preserve media ID `0b69c62d-2094-4ca6-835d-24346f727361`.
+- [x] No retake or additional generation required.
+- [x] Record post-production: modest cool-blue continuity grade if needed; dub/synchronize exact Boxer line, “The work still needs doing, Clover.”
+- [ ] Complete subjective listening review of native ambient audio.
+- [ ] Apply and review the color grade and dialogue dub/synchronization in the NLE.
+
+### Scene 003 Shot005 — preparation task created (7 November 2026)
+
+- [x] Reuse the canonical Scene Breakdown prompt for “Benjamin Observes”; no new story beat or dialogue added.
+- [x] Create `FLOW_AGENT_PREPARATION_TASK_SHOT005.md` with the exact three references: Benjamin, Barn_Exterior and Manor_Farm_Exterior.
+- [x] Preserve exterior doorway-only staging; no barn interior, no Old Major/night meeting, no other character entering frame, no dialogue or lip movement.
+- [ ] Run Flow UI preflight only: verify Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, exactly one output, all three exact attachments, verbatim prompt and exact live displayed credit price.
+- [ ] **Do not click Generate, create a preview or spend credits.** Stop after the report.
+- [ ] After a matching preflight, obtain separate explicit owner authorization for exactly one Shot005 output at the final live displayed price.
