@@ -119,8 +119,9 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Review and approve ACT01_SCENE003 six-shot breakdown and two draft dialogue lines",
-    "Verify Scene 003 Flow Ingredients and live model/settings/credit price before any generation",
+    "Obtain owner approval of the two Scene 003 draft dialogue lines",
+    "After dialogue approval, obtain separate explicit owner authorization for Shot001 at the live displayed cost; current Flow Agent quote was 10 credits",
+    "Recheck the live Flow model, Ingredients, settings and credit price immediately before generation",
     "Generate Scene 003 one shot at a time only after explicit owner authorization; review every actual MP4",
     "Assemble Scene 003 to 60 seconds and obtain owner approval",
     "Verify complete S01 across Scenes 001–003, then prepare S02 character and barn references"
@@ -141,7 +142,7 @@
       10,
       10
     ],
-    "status": "BREAKDOWN DRAFTED — awaiting owner approval; not generated",
+    "status": "SHOT001 PROMPT AND SIX REFERENCES LOCKED FOR PLANNING — dialogue approval and explicit generation authorization pending; not generated",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -160,6 +161,50 @@
       "BOXER_HAY_CART_CONTINUITY_REFERENCE"
     ],
     "generation_authorized": false,
-    "generation_credits_spent": 0
+    "generation_credits_spent": 0,
+    "preparation": {
+      "report_source": "Corrected Flow Agent preparation and final production adjustment reports supplied by project owner on 2026-11-06",
+      "preparation_status": "COMPLETE FOR SHOT001",
+      "shot001_title": "The Cart Comes to Rest",
+      "shot001_prompt_status": "LOCKED FOR PRODUCTION PLANNING",
+      "model": "Omni 1.2 Flash",
+      "mode": "Reference-to-Video (R2V)",
+      "resolution": "360p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "output_count": 1,
+      "live_displayed_credit_quote": 10,
+      "credit_quote_note": "Point-in-time Flow UI quote reported by Flow Agent; recheck immediately before generation",
+      "selected_references": [
+        {
+          "name": "Boxer",
+          "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba"
+        },
+        {
+          "name": "Clover",
+          "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b"
+        },
+        {
+          "name": "Benjamin",
+          "media_id": "0595b453-1a9c-4c11-9359-fd79a6eeb951"
+        },
+        {
+          "name": "Manor_Farm_Exterior",
+          "media_id": "8fa316c0-27e8-4df8-98af-56c73fa332f7"
+        },
+        {
+          "name": "Barn_Exterior",
+          "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a"
+        },
+        {
+          "name": "BOXER_HAY_CART_CONTINUITY_REFERENCE",
+          "media_id": "d86c8a63-b658-4216-9740-0132bcf86282"
+        }
+      ],
+      "dialogue_voice_note": "Flow Agent reports built-in voice presets are selectable; no saved custom voice reference audio assets found; exact dialogue and lip-sync are not guaranteed; post-production dubbing may be needed",
+      "draft_dialogue_approval": "AWAITING OWNER",
+      "no_generation_performed": true,
+      "credits_spent": 0
+    }
   }
 }
