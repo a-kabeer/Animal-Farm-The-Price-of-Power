@@ -28,7 +28,7 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 | Scene 001 master | COMPLETE — owner-confirmed 6 Nov 2026; export metadata not yet recorded |
 | Scene 002 master | COMPLETE — owner-confirmed 6 Nov 2026; export metadata not yet recorded |
 | Scene 003 breakdown | Six 10-second shots; Shot001 prompt/references locked; two dialogue lines owner-approved 6 Nov 2026 |
-| Scene 003 generation | Not started; explicit generation authorization not granted; zero credits used |
+| Scene 003 generation | Shot001 authorized for one output at exactly 10 credits only if live UI confirms the same price/settings; render not yet confirmed |
 | Narrator script | Not written/approved |
 | Character dialogue script | Not written/approved |
 | Final music/SFX mix | Pending |
@@ -43,7 +43,7 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 
 ## Three immediate tasks
 
-1. Scene 003 breakdown and Shot001 prompt/references reviewed; both dialogue lines owner-approved. Recheck live Flow cost and obtain separate generation authorization.
+1. Flow Agent to recheck Shot001 setup; owner authorized one generation only if live UI still shows exactly 10 credits and all locked settings/references match.
 2. Generate Scene 003 one shot at a time, review each actual MP4 and obtain approval before proceeding.
 3. Assemble and approve Scene 003 to finish S01 (00:00–03:00); only then begin S02 — Old Major's Dream.
 
