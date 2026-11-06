@@ -84,7 +84,7 @@ ACT01_SCENE003_SHOT001_V01: Continue directly from Scene 002 Shot 006, preservin
 ### Shot 002 — The Weight of the Work (10 seconds)
 
 **References:** Boxer, Barn_Exterior and hay-cart continuity anchor.  
-**Framing / action:** Medium profile from shoulder to forelegs, stationary cart readable behind him. Boxer shifts his weight, the harness settles slightly as the cart remains stopped, and he lowers his head for one controlled breath. Do not remove the harness.  
+**Framing / action:** Medium three-quarter side-profile, framed wide enough to keep Boxer's full head and neck, shoulder/harness and forelegs visible; a readable portion of the stationary cart remains behind him. Boxer shifts his weight, the harness settles slightly as the cart remains stopped, and he lowers his head for one controlled breath. Do not remove the harness. The head-lowering action must remain inside frame.  
 **Dialogue:** None.  
 **Sound:** Deep horse exhale, light leather creak and evening wind. Avoid repeating Scene 002 Shot 004's close-up exhaustion portrait.
 
@@ -94,9 +94,11 @@ Duration: 10 seconds, 16:9 landscape.
 
 Use the approved Boxer reference, Barn_Exterior and the same hay-cart / harness continuity reference. Boxer is the same muscular chestnut working horse with dark mane and white facial blaze. Keep the same temporary leather harness; do not remove it or alter its design.
 
-Medium side-profile shot beside the stationary loaded hay cart at late dusk. Frame Boxer's shoulder, harness and forelegs, with the cart still visible behind him. He slowly shifts his weight after the day's work, the harness settles naturally, and he lowers his head for one controlled tired breath. This is restrained physical action, not a dramatic collapse. Slow subtle push-in. No dialogue.
+Medium three-quarter side-profile composition, framed wide enough to keep Boxer's full head and neck, shoulder and harness, and forelegs visible in the same shot. Keep a readable portion of the stationary loaded hay cart visible behind him. Do not crop out his head: the head-lowering action must be clearly visible.
 
-Serious cinematic 3D animated feature-film drama, natural horse anatomy, realistic harness physics, detailed chestnut coat and leather textures, restrained emotional performance, consistent 1940s English farm setting, late-evening light, 16:9 landscape. Preserve the approved character and cart references exactly. No text, subtitles, logos, watermark, extra limbs or duplicated equipment.
+At late dusk beside the barn, Boxer slowly shifts his weight after the day's work. The harness settles naturally while the cart remains completely stationary. He then lowers his head and releases one controlled, tired breath. This is restrained physical action, not a dramatic collapse or stumble. Use a slow, subtle push-in while keeping his head, harness and forelegs inside the frame. No dialogue.
+
+Maintain cool, subdued late-dusk blue-hour lighting, consistent with the previous scene's twilight; do not use bright daylight or full night. Serious cinematic 3D animated feature-film drama, natural horse anatomy, realistic harness physics, detailed chestnut coat and leather textures, restrained emotional performance, consistent 1940s English farm setting, 16:9 landscape. Preserve the approved character and cart references exactly. No extra characters or animals. No text, subtitles, logos, watermark, extra limbs or duplicated equipment.
 ~~~
 
 ### Shot 003 — Clover's Concern (10 seconds)
@@ -259,3 +261,14 @@ The actual uploaded MP4 was inspected in this conversation. The owner accepted V
 - Transition audit: Scene 002 Shot 006 ends in deep blue twilight; Scene 003 Shot 001 V01 opens brighter/overcast and is 360p. Character, cart/harness and barn identity continuity are accepted.
 - Owner decision: retain Scene 003 Shot 001 V01 (`8a46a89f-c131-4f63-868a-c729b7bf8c7c`); no retake and no additional generation credits. Apply cool-blue color temperature, modest exposure/contrast matching and subtle vignette only if editorially appropriate in the NLE. This grade has not yet been applied or reviewed.
 - Next task: prepare/preflight Scene 003 Shot 002 only. No generation is authorized. Preserve the one-shot-at-a-time rule and obtain explicit approval against the exact live price before rendering.
+
+
+## 9. Shot 002 preflight audit — 6 November 2026
+
+Flow Agent preparation report supplied by the owner:
+- Boxer, Barn_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE were reported attached using the exact expected media IDs.
+- Settings reported: Omni 1.2 Flash, Reference-to-Video (R2V), 360p (640×360), 16:9, 10 seconds, one output.
+- Live displayed quote reported: 10 credits. Native ambient audio enabled. No generation performed; zero credits spent.
+- Assistant audit finding: the reported crop from shoulder to forelegs could hide Boxer's required head-lowering action. This is a prompt-framing concern, not a Flow asset or settings failure.
+- Correction: frame a medium three-quarter side profile wide enough to include Boxer's full head and neck, shoulder/harness and forelegs, while retaining a readable portion of the stationary cart behind him. The head-lowering action must remain visible.
+- The revised prompt above is for preflight only. Flow Agent must confirm the revised text, exact references/settings and current live quote. **No generation is authorized.**
