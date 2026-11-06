@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 GENERATED — AWAITING OWNER REVIEW; SHOT003–006 NOT GENERATED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 PROMPT PREPARED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED; SHOT004–006 NOT GENERATED  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -47,8 +47,8 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 | Order | Shot ID | Working title | Duration | Status |
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED |
-| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | GENERATED — AWAITING OWNER REVIEW |
-| 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | DIALOGUE APPROVED — NOT GENERATED |
+| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION |
+| 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | PROMPT PREPARED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
 | 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PLANNED |
@@ -79,7 +79,7 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 ACT01_SCENE003_SHOT001_V01: Continue directly from Scene 002 Shot 006, preserving the same late-dusk farmyard and barn geography. Use the exact wooden hay cart from the supplied continuity video reference, preserving its original body, wheels, shafts, hay load and leather harness. Boxer remains connected to the cart and wears the same working harness throughout; do not remove or alter it. The cart rolls slowly to a complete stop beside the red timber barn and remains stationary. Clover stands beside Boxer, completely unharnessed. Benjamin watches quietly from near the barn entrance. Keep all action outside. No dialogue, no Old Major, no interior meeting and no new animals. Use a ground-level medium-wide side view with restrained lateral camera movement. Include only natural horse breathing, wooden cart creaks and evening wind.
 ~~~
 
-**Authorization boundary:** Shot001 V01 has been generated and the owner has accepted it for editing, with cool-blue color/exposure matching still required in the NLE; do not retake. Shot002 may be prepared and preflighted only. Preparation and a displayed quote do not authorize generation. Obtain separate explicit owner authorization before any render.
+**Authorization boundary:** Shot001 V01 has been generated and the owner has accepted it for editing, with cool-blue color/exposure matching still required in the NLE; do not retake. Shot002 V01 has since been accepted by the owner for editing, with a minor late-shot foreleg crop noted. Shot003 may be prepared and preflighted only. Preparation and a displayed quote do not authorize generation. Obtain separate explicit owner authorization before any render.
 
 ### Shot 002 — The Weight of the Work (10 seconds)
 
@@ -330,3 +330,24 @@ The project owner accepted `ACT01_SCENE003_SHOT002_V01` for editing, accepting t
 - Editorial note: the push-in crops Boxer's forelegs in the latter half; the head, harness and cart remain readable.
 - Audio stream presence is verified; detailed listening review remains pending.
 - This acceptance does not authorize Shot003 or any further generation. Shot003 requires its own preparation, live price/settings check and explicit owner authorization.
+
+
+## 14. Shot003 preparation and preflight — 6 November 2026
+
+**Status: PROMPT PREPARED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED.**
+
+The copy-paste Flow Agent task is stored at:
+`04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT003.md`
+
+Shot003 is a quiet medium two-shot. Clover steps gently toward Boxer and speaks the exact owner-approved adaptation line: **“You have carried enough for one day, Boxer.”** Boxer listens silently. Preserve the same late-dusk exterior red-barn geography and stationary hay cart. Clover remains completely unharnessed; Boxer remains in the same temporary leather working harness.
+
+**Prepared references (attach exact existing assets):**
+- Clover — `b86cb0af-a9e4-4d02-8b25-0316f718481b`
+- Boxer — `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`
+- Barn_Exterior — `3919fbb9-bf69-40e5-98f4-e02680cb077a`
+- Manor_Farm_Exterior — `8fa316c0-27e8-4df8-98af-56c73fa332f7`
+- BOXER_HAY_CART_CONTINUITY_REFERENCE — `d86c8a63-b658-4216-9740-0132bcf86282`
+
+**Proposed preflight configuration:** Omni 1.2 Flash; R2V; 360p; 16:9 landscape; 10 seconds; one output. All selectors and attachments must be checked in the live Flow UI. The credit price is not yet checked and must be reported exactly, never estimated.
+
+**Authorization boundary:** Flow Agent is asked to set up the shot and report the current UI price, configuration, references and speech/lip-sync limitations only. It must not click Generate, create a preview or spend credits. A separate explicit owner authorization is required before rendering. Dialogue and lip-sync reliability remain unverified; post-production dubbing may be needed.
