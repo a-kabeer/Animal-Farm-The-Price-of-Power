@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 GENERATED — AWAITING OWNER REVIEW; SHOT005–006 NOT GENERATED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 PREPARATION READY — PREFLIGHT PENDING; SHOT006 NOT GENERATED  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -49,8 +49,8 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 | 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED |
 | 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION |
 | 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED |
-| 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | PROMPT PREPARED — PREFLIGHT NOT RUN — GENERATION NOT AUTHORIZED |
-| 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
+| 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | OWNER ACCEPTED FOR EDITING — NO RETAKE |
+| 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PREPARATION TASK CREATED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED |
 | 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PLANNED |
 | | **TOTAL** | | **60s** | **Not generated** |
 
@@ -538,3 +538,33 @@ The uploaded MP4 was sampled at 0.5s, 2s, 4s, 6s, 8s and 9.5s and compared again
 **Dialogue/audio:** Flow reports ambient horse vocalization and evening wind only. The exact approved line, “The work still needs doing, Clover,” was not generated as spoken dialogue and must be dubbed/synchronized in post. AAC audio metadata is verified; subjective listening review remains pending.
 
 **Assistant recommendation:** RETAIN V01 FOR EDITING — NO RETAKE RECOMMENDED. Owner review/approval remains pending; this is not an owner sign-off.
+
+
+## 25. Owner acceptance of Shot004 and Shot005 preparation — 7 November 2026
+
+The project owner said **“next please”** after receiving the detailed Shot004 visual review and recommendation to retain V01. This is recorded as acceptance of the reviewed Shot004 for editing and permission to progress to the next shot; it is **not** authorization to generate Shot005.
+
+### Shot004 — owner acceptance
+
+- Shot/version: `ACT01_SCENE003_SHOT004_V01`
+- Flow media ID: `0b69c62d-2094-4ca6-835d-24346f727361`
+- Status: **OWNER ACCEPTED FOR EDITING — NO RETAKE** (7 November 2026).
+- Preserve the single generated take. No additional generation is required or authorized.
+- Editorial notes: apply a modest cool-blue continuity grade if needed to match Shot003; dub and synchronize the exact approved Boxer line, “The work still needs doing, Clover.”
+- The detailed listening review of the native ambient audio remains pending.
+
+### Shot005 — Benjamin Observes
+
+**Preparation task:** `FLOW_AGENT_PREPARATION_TASK_SHOT005.md`  
+**Status:** PREPARATION READY — FLOW UI PREFLIGHT PENDING — GENERATION NOT AUTHORIZED.
+
+Use exactly these three existing references:
+- Benjamin — `0595b453-1a9c-4c11-9359-fd79a6eeb951`
+- Barn_Exterior — `3919fbb9-bf69-40e5-98f4-e02680cb077a`
+- Manor_Farm_Exterior — `8fa316c0-27e8-4df8-98af-56c73fa332f7`
+
+The canonical Shot005 prompt is retained: medium shot from outside the barn entrance; Benjamin stands in the doorway shadow, silently watches Boxer and Clover off-screen, then lowers his gaze slightly. Keep the red timber exterior visible. No dialogue, no lip movement, no other character entering frame, no barn interior, and no Old Major/night gathering.
+
+**Preflight target only:** Omni 1.2 Flash / Reference-to-Video (R2V) / 360p / 16:9 landscape / 10 seconds / exactly one output. Verify every live selector and the exact displayed credit price in Flow. No credit estimate is permitted.
+
+**Authorization boundary:** Flow Agent must set up and report preflight only, then stop. Do not click Generate, create a preview, create variations, or spend credits. A separate explicit owner authorization is required for exactly one output after the live prompt, settings, references and price are verified. If any item differs, stop and report.
