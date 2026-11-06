@@ -196,3 +196,16 @@ Flow execution report confirms exactly one output and 10 credits charged. Media 
 Visual review confirms Benjamin's approved grey donkey identity and the exterior red-barn doorway staging. His gaze lowers slightly; no other character enters. The camera push-in is stronger than requested, tightening from medium to close-up and cropping most of the body by the end. The shot remains usable as an emotional close-in. Apply modest cool-blue continuity grading to match the prior blue-hour shots. No dialogue is planned; subjective audio listening review remains pending.
 
 **Assistant recommendation:** retain V01 for editing; no retake recommended. **Owner approval pending.** Do not generate Shot006 until the owner reviews Shot005.
+
+
+## M. Shot005 owner acceptance — unexpected wooden post — 7 November 2026
+
+The owner said “go ahead” after the assistant recommended retaining Shot005 V01, cropping/reframing the unexpected wooden post, and applying a modest cool-blue grade. Record `ACT01_SCENE003_SHOT005_V01` (media ID `7b9c7132-289d-4331-a09d-256ee969f388`) as **OWNER ACCEPTED FOR EDITING — NO RETAKE**.
+
+The unexpected vertical wooden support/post becomes visible at the right during the camera push-in; it is not part of the shot design. In the NLE, crop/reframe the right edge to hide/minimize it without cutting into Benjamin's face or ears. Check the crop through the whole shot to avoid a jumping frame. Retain the tighter close-up ending if the crop remains stable. Apply modest cool-blue continuity grading. No additional generation is required or authorized.
+
+## N. Shot006 preparation — preflight only — 7 November 2026
+
+Created `FLOW_AGENT_PREPARATION_TASK_SHOT006.md`. The shot is a wide rear three-quarter view of Boxer, Clover and Benjamin turning toward and beginning to move to the red barn entrance; dusk deepens toward blue night with a soft warm doorway glow. No Old Major or meeting. Use exactly the five planned references: Boxer, Clover, Benjamin, Manor_Farm_Exterior and Barn_Exterior.
+
+The Flow Agent must verify the live Omni 1.2 Flash / R2V / 360p / 16:9 / 10-second / one-output setup and report the exact displayed price. Enter the canonical prompt verbatim. **Preflight only**: no generation, preview or credit spend. A separate explicit owner authorization is required before a single output is rendered.
