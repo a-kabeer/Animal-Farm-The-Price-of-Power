@@ -171,3 +171,7 @@ Owner-confirmed final: `ACT01_SCENE002_SHOT006_V02`, Flow media ID `e3c06bbd-224
 - **Editorial note:** the push-in tightens substantially in the latter half. By the final frames the forelegs are cropped out, although the head, harness and cart remain readable. This deviates from the instruction to keep the forelegs in frame throughout.
 - **Recommendation:** retain this one take for editing and treat the push-in as an intentional close-in; do not spend credits on a retake. Owner sign-off is still required.
 - No approval is inferred from generation or assistant review. Shot003 remains on hold pending explicit owner approval of Shot002 and a separate shot-specific generation authorization.
+
+## Owner decision — Scene 003 Shot002 (6 November 2026)
+
+The project owner accepted `ACT01_SCENE003_SHOT002_V01` for editing, following the recommendation to retain the single generated take. Record the status as **OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION**. Preserve the note that the push-in crops the forelegs in the latter half. No retake is planned or authorized. Native audio stream presence is verified, but detailed listening review remains pending. Shot003 has not been authorized for generation.
