@@ -10,10 +10,11 @@
   "coverage_pct_of_target_runtime": 6.7,
   "master_sequence_S01": {
     "timecode": "00:00-03:00",
-    "status": "partially covered; final minute not planned",
+    "status": "Scenes 001 and 002 master-complete per owner confirmation; Scene 003 planned for final minute and not yet generated",
     "working_scenes": [
-      "ACT01_SCENE001 00:00-01:00",
-      "ACT01_SCENE002 01:00-02:00"
+      "ACT01_SCENE001 00:00-01:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
+      "ACT01_SCENE002 01:00-02:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
+      "ACT01_SCENE003 02:00-03:00 — SIX-SHOT PLAN DRAFTED; NOT GENERATED"
     ]
   },
   "scene001": {
@@ -29,7 +30,7 @@
     "source_360p_file": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/SCENE001_ASSEMBLED_SOURCE_360P_UPLOADED.mp4",
     "upscaled_1080p_file": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/ACT01_SCENE001_MANOR_FARM_ESTABLISHING_UPSCALED_1080P.mp4",
     "metadata": "60.000s, 24fps, source 640x360, upscaled 1920x1080, H.264/AAC",
-    "editorial_signoff": "PENDING: actual NLE/Flow timeline, 60.00s runtime including transition handling, title, mixed audio, 1080p rendered MP4 and owner sign-off",
+    "editorial_signoff": "COMPLETE — project-owner confirmed 2026-11-06",
     "source_asset_audit": {
       "status": "PASSED — Flow Agent report supplied by project owner on 2026-11-06",
       "approved_versions": [
@@ -87,7 +88,9 @@
       "credits_spent": 0,
       "actual_rendered_mp4": "NOT PROVIDED / NOT VERIFIED",
       "crossfade_runtime_check": "REQUIRED: 60s source sum with 0.5s overlap normally produces 59.5s unless compensated"
-    }
+    },
+    "owner_status": "MASTER COMPLETE — project-owner confirmed 2026-11-06",
+    "final_export_filename": "NOT RECORDED IN REPOSITORY"
   },
   "scene002": {
     "duration_seconds": 60,
@@ -99,8 +102,9 @@
       "SHOT005_V02",
       "SHOT006_V02"
     ],
-    "assembly": "PENDING",
-    "final_mp4": "NOT PROVIDED"
+    "assembly": "COMPLETE — project-owner confirmed 2026-11-06",
+    "final_mp4": "COMPLETED — filename and technical metadata not recorded in latest owner update",
+    "owner_status": "MASTER COMPLETE — project-owner confirmed 2026-11-06"
   },
   "dialogue_and_narration": {
     "narrator_profile": "PROPOSED ONLY — NOT APPROVED",
@@ -115,11 +119,47 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Execute Scene 001 master assembly in Flow UI / NLE; resolve 0.5s crossfade versus exact 60s runtime; verify rendered MP4, title, audio and 1080p metadata; obtain owner sign-off",
-    "Assemble/export Scene 002 from approved clips and review",
-    "Plan ACT01_SCENE003 for 02:00-03:00 to complete S01",
-    "Approve narrator profile and write narrator/character dialogue",
-    "Verify missing main character references and locations before S02"
+    "Review and approve ACT01_SCENE003 six-shot breakdown and two draft dialogue lines",
+    "Verify Scene 003 Flow Ingredients and live model/settings/credit price before any generation",
+    "Generate Scene 003 one shot at a time only after explicit owner authorization; review every actual MP4",
+    "Assemble Scene 003 to 60 seconds and obtain owner approval",
+    "Verify complete S01 across Scenes 001–003, then prepare S02 character and barn references"
   ],
-  "sync_status": "No automatic live sync with Google Flow or ChatGPT; update repository and re-upload latest tracking files when continuing"
+  "sync_status": "No automatic live sync with Google Flow or ChatGPT; update repository and re-upload latest tracking files when continuing",
+  "master_complete_working_scenes": 2,
+  "planned_working_scenes": 3,
+  "scene003": {
+    "working_title": "The Burden of the Day",
+    "timecode": "02:00-03:00",
+    "duration_seconds": 60,
+    "planned_shots": 6,
+    "planned_shot_duration_seconds": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "status": "BREAKDOWN DRAFTED — awaiting owner approval; not generated",
+    "dialogue": {
+      "Clover": "You have carried enough for one day, Boxer.",
+      "Boxer": "The work still needs doing, Clover.",
+      "status": "DRAFT ONLY — awaiting owner approval"
+    },
+    "characters": [
+      "Boxer",
+      "Clover",
+      "Benjamin"
+    ],
+    "locations": [
+      "Manor_Farm_Exterior",
+      "Barn_Exterior"
+    ],
+    "props": [
+      "BOXER_HAY_CART_CONTINUITY_REFERENCE"
+    ],
+    "generation_authorized": false,
+    "generation_credits_spent": 0
+  }
 }
