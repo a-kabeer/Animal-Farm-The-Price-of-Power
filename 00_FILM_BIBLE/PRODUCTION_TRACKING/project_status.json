@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 GENERATED — AWAITING OWNER REVIEW; SHOT004–006 NOT GENERATED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 PROMPT PREPARED — PREFLIGHT NOT RUN — NOT AUTHORIZED; SHOT005–006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +255,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Execute FLOW_AGENT_EXECUTION_TASK_SHOT003.md. Recheck the live Flow UI immediately before generation. Generate exactly one output only if the price remains exactly 10 credits and all locked settings/references/prompt match. Afterward retrieve and report metadata, audio/dialogue/lip-sync and stop for owner review.",
+    "next_step": "Flow Agent: prepare and preflight Scene003 Shot004 only using FLOW_AGENT_PREPARATION_TASK_SHOT004.md. Report exact live displayed price, settings, reference attachments and dialogue/lip-sync capability. Do not generate; explicit separate authorization required.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -465,7 +465,7 @@
       "no_auto_retry": true
     },
     "shot003_execution": {
-      "status": "GENERATED — AWAITING OWNER REVIEW",
+      "status": "OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT003_V01",
       "media_id": "868918c2-e7c3-4e18-83d2-ed8bca8f40ff",
       "asset_name": "Clover expresses concern for Boxer",
@@ -502,13 +502,67 @@
         ],
         "recommendation": "Retain this single take for editing; no retake recommended. Use post-production dubbing for Clover's exact approved line and perform a continuity color grade."
       },
-      "owner_visual_review": "PENDING — generated output returned for owner review; assistant visual review and recommendation completed",
-      "owner_approval": false,
+      "owner_visual_review": "OWNER ACKNOWLEDGED AND ACCEPTED FOR POST-PRODUCTION EDITING — 2026-11-07",
+      "owner_approval": true,
       "next_shot_authorized": false,
       "retake_authorized": false,
       "credits_spent": 10,
-      "editorial_status": "GENERATED — AWAITING OWNER REVIEW; ASSISTANT RECOMMENDS RETAIN FOR EDITING WITH MINOR COLOR CONTINUITY GRADE AND POST-PRODUCTION DIALOGUE DUB"
-    }
+      "editorial_status": "OWNER ACCEPTED FOR POST-PRODUCTION EDITING — apply modest cool-blue grade to opening; dub and synchronize Clover's exact approved dialogue; no retake",
+      "owner_decision_date": "2026-11-07",
+      "audio_review": "Native ambient audio reported; detailed listening review remains pending. Exact dialogue to be dubbed and synchronized in post."
+    },
+    "shot004_preparation": {
+      "shot_id": "ACT01_SCENE003_SHOT004_V01",
+      "title": "Boxer's Response",
+      "status": "PROMPT PREPARED — PREFLIGHT NOT RUN — GENERATION NOT AUTHORIZED",
+      "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT004.md",
+      "prompt_status": "LOCKED FOR PREPARATION — preserve exact breakdown prompt verbatim",
+      "model_target": "Omni 1.2 Flash — verify live selector",
+      "mode_target": "Reference-to-Video (R2V)",
+      "resolution_target": "360p (640x360)",
+      "aspect_ratio_target": "16:9 landscape",
+      "duration_seconds_target": 10,
+      "output_count_target": 1,
+      "live_displayed_credit_price": "NOT CHECKED — Flow Agent to report live UI quote; no estimate",
+      "references": [
+        {
+          "name": "Boxer master",
+          "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba"
+        },
+        {
+          "name": "Clover master",
+          "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b"
+        },
+        {
+          "name": "Barn_Exterior",
+          "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a"
+        }
+      ],
+      "dialogue": {
+        "speaker": "Boxer",
+        "exact_line": "The work still needs doing, Clover.",
+        "voice_direction": "Warm adult male baritone, sincere, gentle and steady, simple phrasing.",
+        "owner_approved": true,
+        "approved_date": "2026-11-06",
+        "lip_sync": "Not guaranteed; verify capability during preflight and plan post-production dubbing/synchronization if required."
+      },
+      "generation_authorized": false,
+      "generation_credits_spent": 0,
+      "preflight_status": "NOT RUN",
+      "no_generation_performed": true,
+      "stop_after_preflight": true,
+      "next_action": "Prepare and preflight only. Attach three exact references, enter locked prompt verbatim, report current model/settings/live displayed price and speech/lip-sync capabilities. Do not click Generate or spend credits."
+    },
+    "next_actions": [
+      "Complete detailed listening review of Scene003 Shot002 and Shot003 native ambient audio.",
+      "Apply and review cool-blue color/exposure matching across Scene003 Shots001–003 in NLE.",
+      "Record and synchronize Clover's exact approved Shot003 dialogue in post-production.",
+      "Flow Agent: prepare and preflight Scene003 Shot004 only; verify the exact prompt, references, live settings and displayed credit price. No generation authorization yet.",
+      "After Shot004 preflight, await explicit owner authorization before exactly one output; standing default is one output per shot.",
+      "Complete Scene003 Shots004–006 one at a time, with owner review after every output.",
+      "Assemble Scene003 to 60 seconds and obtain owner approval.",
+      "Verify complete S01 across Scenes001–003, then prepare S02."
+    ]
   },
   "production_defaults": {
     "video_generation": {
