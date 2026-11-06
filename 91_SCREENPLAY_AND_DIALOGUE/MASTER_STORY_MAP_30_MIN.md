@@ -17,11 +17,11 @@ Source: uploaded `Animal_Farm_Google_Flow_Blueprint.md`. Ten sequences × three 
 
 ## Current detailed coverage of S01
 
-- `ACT01_SCENE001` — Manor Farm Establishing: 00:00–01:00; six shots approved.
-- `ACT01_SCENE002` — The Animals' Work: 01:00–02:00; six shots approved.
-- `ACT01_SCENE003` — 02:00–03:00; not planned yet.
+- `ACT01_SCENE001` — Manor Farm Establishing: 00:00–01:00; six shots and master scene complete per owner confirmation.
+- `ACT01_SCENE002` — The Animals' Work: 01:00–02:00; six shots and master scene complete per owner confirmation.
+- `ACT01_SCENE003` — The Burden of the Day: 02:00–03:00; six-shot breakdown drafted, not yet generated or approved.
 
-The mapping of the two one-minute working scenes into S01 is a practical inference from their story content. Confirm against the final screenplay before locking the sequence structure.
+Scene 003 stages the remaining S01 beats—Boxer and Clover discuss hardship while Benjamin observes—and ends with a visual approach to the barn at night. This is proposed staging of the source story outline, not an already approved screenplay.
 
 ## Script status
 
