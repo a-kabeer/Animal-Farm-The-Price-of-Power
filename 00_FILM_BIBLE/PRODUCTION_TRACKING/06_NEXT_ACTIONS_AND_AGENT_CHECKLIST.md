@@ -156,3 +156,16 @@
 - [ ] **STOP after preflight. Do not click Generate, create a preview or spend credits.**
 - [ ] Wait for a separate explicit owner authorization for this exact shot and live price. This preparation does not authorize rendering.
 
+
+
+### Scene 003 Shot003 — Flow preflight passed (6 November 2026)
+
+- [x] Flow Agent reports all five exact references attached without substitutions.
+- [x] Flow Agent reports prompt entered verbatim.
+- [x] Live UI preflight report: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output.
+- [x] Live displayed quote reported as **10 credits** (point-in-time quote; recheck immediately before any authorized render).
+- [x] Native Omni Flash audio enabled.
+- [x] Dialogue limitation recorded: exact English speech and precise animal lip-sync are not guaranteed; inspect the result and dub/synchronize in post if needed.
+- [x] No generation performed; **0 credits spent**.
+- [ ] Obtain separate explicit owner authorization for exactly one Shot003 output at 10 credits, conditional on live price/settings/references matching immediately before generation.
+- [ ] Do not generate, preview, or create a variation before that authorization.
