@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 PREFLIGHT MISMATCH — CORRECTION REQUIRED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +255,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Shot006 initial preflight rejected: Flow Agent's quoted prompt differs from canonical Scene Breakdown. Correct prompt only; do not generate. Re-run preflight with exact canonical prompt, same five references and same settings; report exact live price after correction. Obtain separate explicit owner authorization only after a fully matching report.",
+    "next_step": "Shot006 corrected preflight passed: exact canonical prompt, all five references, Omni 1.2 Flash / R2V / 360p / 16:9 / 10s / one output; current reported live quote 10 credits; 0 credits spent. Await separate explicit owner authorization for exactly one output, conditional on final live UI recheck.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -763,11 +763,10 @@
       "owner_acceptance_note": "Owner said 'next please' following the detailed Shot004 review and recommendation to retain V01; recorded as acceptance for editing and progression to Shot005."
     },
     "next_actions": [
-      "Correct the Shot006 prompt mismatch using the canonical prompt in FLOW_AGENT_PREPARATION_TASK_SHOT006.md; retain the exact five references and target settings.",
-      "Re-run Shot006 preflight only and report prompt entered verbatim, all five references, exact settings, and the current live displayed price. No generation or preview; 0 credits.",
-      "After a matching corrected preflight, obtain separate explicit owner authorization for exactly one output at the final live-verified price.",
-      "After any separately authorized Shot006 render, inspect the actual MP4 and metadata; keep it awaiting owner review until explicit owner acceptance.",
-      "Complete Scene003 post-production for Shots001–005: color continuity, Clover/Boxer dialogue dubbing, crop/reframe Shot005's unexpected wooden post, and audio listening checks.",
+      "Await separate explicit owner authorization for exactly one Shot006 output at exactly 10 credits, conditional on final live UI recheck of price, settings, all five references and verbatim prompt.",
+      "If authorized, generate exactly one Shot006 output; no batch, preview, variation, retake or retry. Stop if anything differs or the price is not exactly 10 credits.",
+      "After any authorized Shot006 render, inspect the actual MP4 and metadata; keep status GENERATED — AWAITING OWNER REVIEW until owner explicitly accepts.",
+      "Complete Scene003 post-production for Shots001–005: continuity grading, Clover and Boxer dialogue dubbing/synchronization, Shot005 wooden-post crop/reframe, and ambient-audio listening checks.",
       "Assemble Scene003 to 60 seconds and obtain owner approval; then verify complete S01."
     ],
     "shot004_generation_authorization": {
@@ -968,7 +967,7 @@
     "shot006_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT006_V01",
       "title": "Night Settles over the Farm",
-      "status": "PREFLIGHT MISMATCH — CORRECTION REQUIRED — GENERATION NOT AUTHORIZED",
+      "status": "CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT006.md",
       "prompt_status": "Canonical Scene Breakdown prompt copied verbatim into the task; locked for preflight",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -1005,11 +1004,11 @@
       },
       "generation_authorized": false,
       "generation_credits_spent": 0,
-      "preflight_status": "MISMATCH — OWNER-SUPPLIED FLOW AGENT REPORT, 2026-11-07",
+      "preflight_status": "PASSED — CORRECTED OWNER-SUPPLIED FLOW AGENT REPORT, 2026-11-07",
       "no_generation_performed": true,
       "stop_after_preflight": true,
-      "authorization_required": "Do not generate under the mismatched preflight. Correct the setup by entering the exact canonical prompt from FLOW_AGENT_PREPARATION_TASK_SHOT006.md verbatim; keep the exact five references and target settings. Recheck exact live displayed credit price after correction. Stop and report. A separate explicit owner authorization is required for exactly one output after a fully matching corrected preflight.",
-      "next_action": "Correct prompt mismatch: enter the canonical prompt in Section 5 verbatim. Preserve all five exact references and settings; recheck the live price after prompt correction; report preflight only. Do not generate or preview.",
+      "authorization_required": "Corrected preflight passed with a live displayed quote of 10 credits. The quote is point-in-time; immediately before rendering recheck exact live price, model, mode, resolution, aspect ratio, duration, output count, all five references and verbatim prompt. Generate exactly one output only if the live UI still displays exactly 10 credits and all items match, after separate explicit owner authorization. If any item differs, stop without generating.",
+      "next_action": "Await separate explicit owner authorization for exactly one output at exactly 10 credits, conditional on final live UI recheck. Do not generate or preview before authorization.",
       "initial_preflight_report": {
         "report_date": "2026-11-07",
         "report_source": "Owner-supplied Flow Agent preparation report",
@@ -1062,7 +1061,55 @@
         "generation_performed": false,
         "preview_performed": false,
         "credits_spent": 0,
-        "preflight_result": "REJECTED — CORRECT PROMPT VERBATIM; AFTER CORRECTION RECHECK LIVE PRICE AND ALL SETTINGS/REFERENCES. STOP."
+        "preflight_result": "REJECTED — CORRECT PROMPT VERBATIM; AFTER CORRECTION RECHECK LIVE PRICE AND ALL SETTINGS/REFERENCES. STOP.",
+        "result": "REJECTED — PROMPT MISMATCH; retained in record for audit."
+      },
+      "preflight_report": {
+        "report_date": "2026-11-07",
+        "report_source": "Owner-supplied corrected Flow Agent preparation report",
+        "model": "Omni 1.2 Flash",
+        "mode": "Reference-to-Video (R2V)",
+        "resolution": "360p (640x360)",
+        "aspect_ratio": "16:9 landscape",
+        "duration_seconds": 10,
+        "output_count": 1,
+        "live_displayed_credit_price": 10,
+        "audio": "Native Omni Flash ambient audio enabled.",
+        "references": [
+          {
+            "name": "Boxer",
+            "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
+            "status": "ATTACHED"
+          },
+          {
+            "name": "Clover",
+            "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b",
+            "status": "ATTACHED"
+          },
+          {
+            "name": "Benjamin",
+            "media_id": "0595b453-1a9c-4c11-9359-fd79a6eeb951",
+            "status": "ATTACHED"
+          },
+          {
+            "name": "Manor_Farm_Exterior",
+            "media_id": "8fa316c0-27e8-4df8-98af-56c73fa332f7",
+            "status": "ATTACHED"
+          },
+          {
+            "name": "Barn_Exterior",
+            "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a",
+            "status": "ATTACHED"
+          }
+        ],
+        "prompt_entered_verbatim": true,
+        "prompt_compliance": "Corrected prompt reported exactly matching Scene Breakdown prompt, including wide rear three-quarter composition, animals turning and beginning to move toward barn entrance, dusk deepening to cool blue night, warm doorway glow and slow continuous camera pull-back.",
+        "discrepancies": [],
+        "warnings": [],
+        "generation_performed": false,
+        "preview_performed": false,
+        "credits_spent": 0,
+        "authorization_status": "NOT AUTHORIZED — WAITING FOR SEPARATE EXPLICIT OWNER APPROVAL"
       }
     }
   },
