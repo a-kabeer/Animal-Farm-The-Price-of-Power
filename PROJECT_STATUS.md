@@ -25,7 +25,7 @@ Scene 002: `SHOT001_V01`, `SHOT002_V01`, `SHOT003_V01`, `SHOT004_V01`, `SHOT005_
 
 ## Next actions
 
-1. Final editorial review of Scene 001 1080p master.
+1. Complete Scene 001 master-timeline, title, transition and audio checks; verify the 1080p export and obtain owner sign-off. Source-asset audit has passed.
 2. Assemble/export Scene 002 in Flow Scenebuilder and export/upscale to 1080p.
 3. Plan working Scene 003 for 02:00–03:00.
 4. Approve narrator and write full screenplay/dialogue/audio plan.
