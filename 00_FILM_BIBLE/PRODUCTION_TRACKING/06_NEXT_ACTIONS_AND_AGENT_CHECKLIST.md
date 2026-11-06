@@ -103,3 +103,13 @@
 - [ ] Flow Agent to enter corrected medium three-quarter side-profile prompt showing full head/neck, shoulder/harness, forelegs and part of stationary cart.
 - [ ] Reconfirm all exact references/settings and recheck live quote after prompt revision.
 - [ ] Stop at preflight. No generation until separate explicit owner authorization for the corrected prompt and exact live price.
+
+
+### Scene 003 Shot002 — revised preflight passed (6 November 2026)
+
+- [x] Exact Boxer, Barn_Exterior and hay-cart continuity references re-verified and reported attached.
+- [x] Omni 1.2 Flash / R2V / 360p / 16:9 / 10s / one output re-confirmed by Flow Agent.
+- [x] Corrected medium three-quarter side-profile prompt reported entered verbatim; Boxer head/neck, shoulder/harness and forelegs remain visible, with the stationary cart partly visible.
+- [x] Live displayed quote rechecked and reported as 10 credits.
+- [x] No generation performed; 0 credits spent.
+- [ ] Await separate explicit owner authorization for exactly one output at 10 credits; recheck live displayed price/settings immediately before any render. If they differ, stop and ask owner.
