@@ -367,3 +367,17 @@
 - [x] No generation or preview; **0 credits spent**.
 - [ ] Await separate explicit owner authorization for one output, conditional on final immediate live UI recheck.
 - [ ] Do not render if price or any setting/reference/prompt differs.
+
+
+### Scene 003 Shot006 — generation and assistant review (7 November 2026)
+
+- [x] Exactly one output reported generated; 10 credits reported charged.
+- [x] Media ID: `89104e8d-e999-469f-b810-cc94725cf955`; asset “Animals moving toward barn entrance”.
+- [x] Uploaded MP4 independently inspected: 10s; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; 2,777,152 bytes.
+- [x] All three animals are visible, distinguishable, and move toward the red barn; camera pull-back and wide rear three-quarter view work.
+- [x] No Old Major, night meeting or additional identifiable character appears.
+- [x] Deviations documented: sky remains pink-grey rather than cool blue night; doorway glow not clearly visible.
+- [x] Assistant recommendation: retain V01; no retake; apply cool-blue grade and subtle warm doorway-glow treatment in NLE if practical.
+- [ ] Complete subjective listening review of native ambient audio.
+- [ ] Owner review/acceptance pending; do not mark approved without explicit owner decision.
+- [ ] After Shot006 acceptance, assemble Scene003 master to 60 seconds.
