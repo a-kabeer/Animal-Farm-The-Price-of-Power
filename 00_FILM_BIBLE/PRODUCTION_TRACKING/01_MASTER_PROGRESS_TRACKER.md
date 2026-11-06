@@ -208,3 +208,8 @@ Visual continuity is good: Clover and Boxer identities are consistent; Clover is
 Shot003 V01 (`868918c2-e7c3-4e18-83d2-ed8bca8f40ff`) is **OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED**. The owner has confirmed a modest cool-blue grade will be applied to its opening and Clover's exact approved line will be dubbed and synchronized in final audio editing. The review spent zero credits. The asset remains preserved.
 
 Shot004 — Boxer's Response — is prepared for Flow preflight only. The task is `FLOW_AGENT_PREPARATION_TASK_SHOT004.md`. Its exact approved line is “The work still needs doing, Clover.” Attach Boxer, Clover and Barn_Exterior references and verify the current model/settings/price. No generation or preview is authorized; obtain a separate explicit owner authorization after preflight. Default output count remains one per shot.
+
+
+## Scene 003 Shot004 — corrected preflight passed (7 November 2026)
+
+The corrected Flow Agent report confirms the exact Boxer, Clover and Barn_Exterior references are attached; the hay-cart video reference is removed. The canonical medium close-up prompt is entered verbatim, with Boxer as the main subject and Clover's shoulder at frame edge. Settings: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output. Live quote: **10 credits**. Exact Boxer dialogue is preserved: “The work still needs doing, Clover.” Native dialogue/lip-sync is not guaranteed; post-production dubbing/synchronization may be required. No generation or preview occurred; zero credits were spent. **Await separate explicit owner authorization** for one output; recheck the live price/settings immediately before rendering.
