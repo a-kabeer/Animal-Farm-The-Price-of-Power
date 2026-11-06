@@ -192,3 +192,12 @@ Flow Agent's owner-supplied report confirms all five exact references attached w
 The owner authorized exactly one output of `ACT01_SCENE003_SHOT003_V01 — Clover's Concern` at exactly 10 credits, conditional on the final live Flow UI check matching the preflight. Locked configuration: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output, with the five previously verified exact references and verbatim prompt. Execution instructions are in `FLOW_AGENT_EXECUTION_TASK_SHOT003.md`.
 
 No generation has yet been reported. The Flow Agent must recheck the live displayed price immediately before rendering and proceed only if it is exactly 10 credits and every setting/reference/prompt is unchanged. Otherwise stop without generating. No batch, preview, variation, retake, retry or other shot is authorized. After the single output, preserve the media and return it for owner review. Default production policy is one output per shot; this does not authorize other shots.
+
+
+## Scene 003 Shot003 generated — awaiting owner review (7 November 2026)
+
+`ACT01_SCENE003_SHOT003_V01` generated as exactly one output; Flow reports exactly 10 credits charged. Media ID: `868918c2-e7c3-4e18-83d2-ed8bca8f40ff`. Actual uploaded MP4 independently inspected: 10s, 640×360, 16:9, 24fps, H.264/AVC, AAC-LC stereo 48kHz.
+
+Visual continuity is good: Clover and Boxer identities are consistent; Clover is unharnessed, Boxer retains the temporary harness, and the loaded cart/red barn remain visible. The camera tightens and crops lower legs but preserves readable heads and upper bodies. Lighting is cool but somewhat brighter/greyer than deep blue twilight; a modest cool-blue continuity grade is recommended. Flow generated ambient horse vocalization and evening wind, not Clover's exact spoken line; record and synchronize the approved dialogue in post. Audio listening review remains pending.
+
+**Assistant recommendation: retain V01 for editing; no retake recommended.** Status remains **GENERATED — AWAITING OWNER REVIEW**, not owner-approved. Shot004 is not authorized by this consumed generation authorization.
