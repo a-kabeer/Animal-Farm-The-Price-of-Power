@@ -115,7 +115,7 @@ See `08_MASTER_SEQUENCE_STORY_MAP.md` for the full story map. At present, the fi
 
 ## Current next actions — in order
 
-1. **Scene 003:** Six-shot breakdown reviewed; Shot001 prompt and references locked; both dialogue lines owner-approved. Obtain separate Shot001 generation authorization after rechecking the live displayed cost.
+1. **Scene 003:** Six-shot breakdown reviewed; Shot001 prompt and references locked; both dialogue lines owner-approved. Execute the already-authorized single Shot001 generation only if the live UI still displays exactly 10 credits and all locked settings/references match; then review the video.
 2. **Scene 003 generation:** Generate one shot at a time only after explicit owner authorization; inspect the actual MP4 and continuity, then request approval before proceeding.
 3. **S01 closeout:** After Scene 003 is generated, assembled and approved, verify the full 00:00–03:00 opening sequence before entering S02.
 
