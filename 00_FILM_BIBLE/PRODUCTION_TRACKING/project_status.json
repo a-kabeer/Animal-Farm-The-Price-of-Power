@@ -131,7 +131,7 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Revised Scene003 Shot002 preflight passed; await explicit owner authorization for exactly one output at the current reported quote of 10 credits; recheck live price/settings immediately before render",
+    "Execute exactly one Scene003 Shot002 output only if Flow live UI rechecks at exactly 10 credits with all locked settings/references/prompt unchanged; otherwise stop and request renewed authorization",
     "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE; complete separate native-audio listening review",
     "Obtain separate explicit owner authorization for Scene003 Shot002 after corrected final prompt and live price are reviewed",
     "Continue Scene003 one shot at a time; review every generated output",
@@ -189,7 +189,7 @@
     "props": [
       "BOXER_HAY_CART_CONTINUITY_REFERENCE"
     ],
-    "generation_authorized": false,
+    "generation_authorized": true,
     "generation_credits_spent": 10,
     "preparation": {
       "report_source": "Corrected Flow Agent preparation and final production adjustment reports supplied by project owner on 2026-11-06",
@@ -289,7 +289,7 @@
       "additional_credits_authorized": 0
     },
     "shot002_preparation": {
-      "status": "REVISED PREFLIGHT PASSED — AWAITING EXPLICIT OWNER GENERATION AUTHORIZATION",
+      "status": "OWNER AUTHORIZED — CONDITIONAL EXECUTION; LIVE UI RECHECK REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT002_V01",
       "title": "The Weight of the Work",
       "reference_ids": {
@@ -313,9 +313,27 @@
         "generation_performed": false,
         "report_source": "Owner-supplied revised Flow Agent preparation report, 2026-11-06"
       },
-      "generation_authorized": false,
+      "generation_authorized": true,
       "credits_spent": 0,
-      "authorization_required": "Explicit owner authorization for exactly one output at 10 credits, with live price and settings rechecked immediately before generation. If price or settings differ, stop and request renewed authorization."
+      "authorization_required": "Explicit owner authorization for exactly one output at 10 credits, with live price and settings rechecked immediately before generation. If price or settings differ, stop and request renewed authorization.",
+      "authorization": {
+        "approved_by": "Project owner",
+        "approval_date": "2026-11-06",
+        "shot_id": "ACT01_SCENE003_SHOT002_V01",
+        "outputs": 1,
+        "max_credits": 10,
+        "price_condition": "Generate only if the live Flow UI immediately before rendering still displays exactly 10 credits. If the displayed price differs, or any locked setting/reference/prompt differs, stop and ask the owner; do not generate.",
+        "model": "Omni 1.2 Flash",
+        "mode": "Reference-to-Video (R2V)",
+        "resolution": "360p (640x360)",
+        "aspect_ratio": "16:9",
+        "duration_seconds": 10,
+        "prompt": "Corrected medium three-quarter side-profile prompt; full head/neck, shoulder/harness and forelegs visible; stationary cart partly visible",
+        "references_locked": true,
+        "no_other_shots_or_takes": true,
+        "execution_status": "AUTHORIZED CONDITIONALLY — NOT YET EXECUTED",
+        "authorization_consumed": false
+      }
     }
   }
 }
