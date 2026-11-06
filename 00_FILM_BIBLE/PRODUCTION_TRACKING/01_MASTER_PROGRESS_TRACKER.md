@@ -180,3 +180,8 @@ The project owner accepted `ACT01_SCENE003_SHOT002_V01` for editing, following t
 ## Current next-shot readiness — Scene 003 Shot003 (6 November 2026)
 
 `ACT01_SCENE003_SHOT003_V01 — Clover's Concern` is now **PROMPT PREPARED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED**. The exact owner-approved dialogue, five continuity references, proposed Flow configuration and full copy-paste instructions are recorded in `FLOW_AGENT_PREPARATION_TASK_SHOT003.md`. The next operation is a Flow UI setup/preflight only: attach and verify references, enter the prompt verbatim, check live model/mode/settings, read the exact displayed credit price, and report speech/lip-sync capability. No render, preview or credit spend is permitted without separate explicit owner authorization.
+
+
+## Shot003 preflight passed — 6 November 2026
+
+Flow Agent's owner-supplied report confirms all five exact references attached without substitution, the locked prompt entered verbatim, and the live Flow configuration as Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output. The displayed quote was **10 credits**. Native Omni Flash audio is enabled, but exact English dialogue and precise animal lip-sync are not guaranteed; inspect any authorized output and plan post-production dubbing/synchronization if needed. No generation occurred and zero credits were spent. **Generation remains unauthorized** pending separate explicit owner authorization for exactly one output, with the displayed price and settings rechecked immediately before rendering.
