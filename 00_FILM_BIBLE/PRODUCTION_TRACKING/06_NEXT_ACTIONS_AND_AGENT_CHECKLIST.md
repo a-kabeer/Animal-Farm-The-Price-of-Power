@@ -324,3 +324,22 @@
 - [ ] Complete subjective listening review of the ambient audio.
 - [ ] Owner review/acceptance pending; do not mark approved without explicit owner decision.
 - [ ] Do not generate Shot006 until Shot005 is reviewed and Shot006 separately authorized.
+
+
+### Scene 003 Shot005 — owner acceptance and post-production note (7 November 2026)
+
+- [x] Owner said “go ahead”; Shot005 V01 accepted for editing.
+- [x] No retake; preserve the single generated output.
+- [x] Record unexpected vertical wooden post/support on the right during camera push-in.
+- [ ] Crop/reframe right edge in NLE to hide/minimize post without cutting into Benjamin's face/ears; check full clip for crop jumps.
+- [ ] Preserve tighter close-up ending if crop remains stable; apply modest cool-blue continuity grade.
+- [ ] Complete subjective listening review of ambient audio.
+
+### Scene 003 Shot006 — preparation task created (7 November 2026)
+
+- [x] Create Flow preparation task from the canonical Shot006 Scene Breakdown prompt.
+- [x] Lock five exact references: Boxer, Clover, Benjamin, Manor_Farm_Exterior and Barn_Exterior.
+- [x] Preserve wide rear three-quarter view; three animals move toward barn entrance; dusk to blue night; soft warm doorway glow; no Old Major or meeting.
+- [ ] Run Flow UI preflight only: verify Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output; verify all five exact attachments and prompt entered verbatim; report exact live displayed credit price.
+- [ ] Do not click Generate, create preview or spend credits.
+- [ ] After a matching preflight report, obtain separate explicit owner authorization for exactly one output at the final live-verified price.
