@@ -15,12 +15,12 @@
 **Breakdown:** `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/SCENE_BREAKDOWN.md`
 
 - [x] Review the six-shot / 60-second breakdown and continuity from Scene 002 Shot 006.
-- [ ] Approve or revise the two draft lines: Clover (Shot 003) and Boxer (Shot 004). These remain proposals, not approved screenplay canon.
+- [x] Both exact dialogue lines approved by project owner on 6 November 2026: Clover (Shot 003) and Boxer (Shot 004). They are approved adaptation dialogue, not quotations from the novel.
 - [x] Flow Agent verified the six Shot001 Ingredients and reported their exact media IDs.
 - [x] Flow Agent verified the hay-cart / harness continuity reference for Shot001; the locked prompt explicitly preserves cart body, wheels, shafts, hay load and harness.
 - [x] Shot001 final prompt and configuration recorded: Omni 1.2 Flash R2V, 360p, 16:9, 10s, one output; Flow Agent reported 10 credits displayed.
-- [ ] Owner must approve both dialogue lines before proceeding under the current approval plan.
-- [ ] Obtain separate explicit owner authorization for Shot001 generation; recheck live displayed price before clicking Generate. No generation is authorized yet.
+- [x] Dialogue approval complete; exact lines are recorded in the Scene 003 breakdown and audio/dialogue tracker.
+- [ ] Obtain separate explicit owner authorization for Shot001 generation; recheck live displayed price before clicking Generate. Dialogue approval does not authorize credit spend; generation is still not authorized.
 
 ### P2 — Generate and review Scene 003
 
