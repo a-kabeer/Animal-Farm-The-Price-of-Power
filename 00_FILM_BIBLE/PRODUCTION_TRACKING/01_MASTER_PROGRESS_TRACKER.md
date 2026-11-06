@@ -11,7 +11,7 @@
 
 - **Scenes 001 and 002 are master-complete by owner confirmation (6 November 2026)**, with 12 approved source shots across 120 seconds.
 - Completed footage time: **120 seconds (2:00)** out of the 30-minute target = **6.7% of target runtime**. This is runtime coverage, not final-film completion.
-- `ACT01_SCENE003 — The Burden of the Day` is now planned for 02:00–03:00 with six 10-second shots; no Scene 003 media has been generated or approved yet.
+- `ACT01_SCENE003 — The Burden of the Day` is planned for 02:00–03:00 with six 10-second shots. Shot001 prompt/references are locked for planning, and the two dialogue lines for Shots003–004 were owner-approved on 6 November 2026; no Scene003 media has been generated or approved.
 - S01 will have a complete three-minute working-scene plan once Scene 003 is produced and reviewed.
 - Master sequences S02–S10 have not entered detailed shot production in this log.
 
@@ -37,8 +37,8 @@
 | Shot plan | 6 × 10 seconds = 60 seconds; documented in Scene 003 breakdown |
 | Character references | Boxer, Clover and Benjamin approved references recorded in Asset Register |
 | Locations | Existing Manor_Farm_Exterior and Barn_Exterior references; exterior-only scene; no Main_Barn interior asset required |
-| Dialogue | Two original draft lines for Clover and Boxer; awaiting owner approval |
-| Generation | Not started; no generation authorization or credits used |
+| Dialogue | Two original adaptation lines for Clover and Boxer; both exact lines owner-approved 6 November 2026; audio not generated |
+| Generation | Not started; Shot001 prompt locked; explicit generation authorization not granted; zero credits used |
 
 ## Active project settings (the workflow actually used so far)
 
@@ -115,8 +115,8 @@ See `08_MASTER_SEQUENCE_STORY_MAP.md` for the full story map. At present, the fi
 
 ## Current next actions — in order
 
-1. **Scene 003:** Review and approve the six-shot breakdown and both draft dialogue lines. Verify Ingredients and displayed live credit price before authorization.
-2. **Scene 003 generation:** Generate one approved shot at a time, inspect the actual MP4 and continuity, then request approval before proceeding.
+1. **Scene 003:** Six-shot breakdown reviewed; Shot001 prompt and references locked; both dialogue lines owner-approved. Obtain separate Shot001 generation authorization after rechecking the live displayed cost.
+2. **Scene 003 generation:** Generate one shot at a time only after explicit owner authorization; inspect the actual MP4 and continuity, then request approval before proceeding.
 3. **S01 closeout:** After Scene 003 is generated, assembled and approved, verify the full 00:00–03:00 opening sequence before entering S02.
 
 
