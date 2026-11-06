@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 PREPARATION ONLY NEXT; no generation authorized  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 GENERATED — AWAITING OWNER REVIEW; SHOT003–006 NOT GENERATED  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -47,7 +47,7 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 | Order | Shot ID | Working title | Duration | Status |
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED |
-| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | OWNER AUTHORIZED — CONDITIONAL EXECUTION; LIVE UI RECHECK REQUIRED |
+| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | GENERATED — AWAITING OWNER REVIEW |
 | 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
@@ -292,5 +292,32 @@ The project owner explicitly authorized exactly one output of `ACT01_SCENE003_SH
 - References: Boxer, Barn_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE using the exact IDs already recorded in this breakdown.
 - Prompt: corrected medium three-quarter side profile; Boxer's full head/neck, shoulder/harness and forelegs visible, with stationary cart partly visible.
 - **Price condition:** exactly 10 credits. If price differs or any locked item differs, stop and request renewed owner authorization. No substitutions, extra outputs, automatic retakes, or other shots are included.
-- Authorization status at record time: conditional authorization received; render not yet confirmed; zero Shot002 credits spent.
-- After generation, preserve the single output and mark it generated-awaiting-owner-review. Do not mark approved; return the actual video and metadata for review.
+- Authorization outcome: the conditional authorization was consumed. Flow Agent reports the one output generated at exactly 10 credits; no second output, retake or subsequent shot was initiated.
+
+
+## 12. Shot 002 generation report and independent MP4 review — 6 November 2026
+
+### Flow execution report (owner supplied)
+
+- Status: GENERATED — AWAITING OWNER REVIEW.
+- Shot/version: `ACT01_SCENE003_SHOT002_V01`.
+- Media ID: `a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a`.
+- Asset name: `Boxer lowering head by cart`.
+- Collection: `04_ACT_01_The_Old_World` (collection ID `40ef8957-0059-4e95-ad64-0b85dada2551`).
+- Flow reports exactly 10 credits charged and exactly one output generated.
+- Flow reports corrected prompt used verbatim and all three exact references attached: Boxer, Barn_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE.
+- Flow reports 10s, 640×360, 16:9, 24fps, H.264 video and AAC stereo audio.
+
+### Independent uploaded-MP4 verification
+
+The owner-uploaded MP4 was inspected in this conversation. Verified media metadata: 10.000s video, 640×360, 16:9, 24fps, H.264/AVC; AAC-LC audio at 48kHz, two-channel stereo, audio stream duration 10.0267s.
+
+Visual review findings:
+- Boxer remains visually recognizable, with chestnut coat, dark mane, white facial blaze and temporary leather working harness.
+- The loaded wooden hay cart remains stationary beside the red barn; the exterior setting and subdued cool dusk are preserved.
+- Boxer lowers his head clearly; visible breath vapor reinforces the tired, cold-evening beat.
+- Framing deviation: the push-in tightens noticeably through the second half. In the final frames the forelegs are cropped out, despite the prompt's instruction to keep them within the frame throughout. The head, harness and cart remain readable.
+- Assistant recommendation: retain V01 for editing and treat the stronger push-in as an editorial close-in; no retake is recommended or authorized.
+- Audio stream presence is verified, but detailed listening and subjective sound-quality review remain pending.
+
+**Current approval state:** ASSISTANT VISUAL REVIEW COMPLETE — OWNER APPROVAL PENDING. Do not mark Shot002 approved and do not generate Shot003 until the owner explicitly approves Shot002 and separately authorizes Shot003.
