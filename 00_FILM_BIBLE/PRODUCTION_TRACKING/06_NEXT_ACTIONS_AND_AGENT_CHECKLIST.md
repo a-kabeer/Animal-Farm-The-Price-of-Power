@@ -4,13 +4,21 @@
 
 ### P0 — Close Scene 001 editorially
 
-- [ ] Open `ACT01_SCENE001_MANOR_FARM_ESTABLISHING_UPSCALED_1080P.mp4`.
-- [ ] Verify the selected source shots are exactly 001 V01, 002 V03, 003 V01, 004 V01, 005 V01, 006 V01.
-- [ ] Confirm correct chronological order and exactly 60 seconds.
-- [ ] Confirm hard cuts between shots 001–005 and planned 0.5s crossfade into shot 006 (if used).
-- [ ] Confirm `MANOR FARM` title is tracked onto blank gate sign. If not, add in editor.
+**Completed source-asset audit (Flow Agent report, 6 November 2026):**
+- [x] Six approved source assets verified in the Flow collection: 001 V01, 002 V03, 003 V01, 004 V01, 005 V01, 006 V01.
+- [x] Planned order and aggregate source duration of exactly 60 seconds reported passed.
+- [x] 16:9 aspect ratio and visual/character/environment continuity reported passed.
+- [x] No generation credits spent during the audit.
+
+**Still required for editorial sign-off:**
+- [ ] Open and inspect the actual assembled 60-second master timeline / Full HD export; the Agent audit did not verify the assembled timeline.
+- [ ] Confirm hard cuts between shots 001–005 and the planned 0.5s crossfade into shot 006 (if used).
+- [ ] Confirm `MANOR FARM` title is tracked onto the blank gate sign; add it in the editor if missing.
 - [ ] Confirm Music_001 and intended SFX are actual mixed audio, not just planned cue IDs.
-- [ ] Review final 1080p MP4 and mark editorially approved only after user review.
+- [ ] Verify the final export is 1920×1080 at 24fps. An earlier record lists an existing upscale, but it was not checked in this audit.
+- [ ] Obtain the project owner's review and formal editorial approval.
+
+See `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
 
 ### P1 — Assemble Scene 002
 
