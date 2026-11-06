@@ -92,3 +92,14 @@
 - [ ] Confirm stationary loaded cart, same temporary harness, shoulder-to-forelegs side profile, subtle weight shift, harness settling, one controlled breath, late-dusk exterior.
 - [ ] **STOP after preparation. Do not click Generate/Run. No credits may be spent.**
 - [ ] Wait for a separate explicit owner authorization for this exact shot/settings/price.
+
+
+### Scene 003 Shot002 — preflight audit and prompt correction
+
+- [x] Agent reported all three required references attached: Boxer, Barn_Exterior and hay-cart continuity video.
+- [x] Agent reported Omni 1.2 Flash / R2V / 360p / 16:9 / 10s / one output; live quote 10 credits.
+- [x] No generation was performed; 0 credits spent.
+- [x] Audit identified a crop/action conflict: shoulder-to-forelegs framing could hide Boxer's head-lowering action.
+- [ ] Flow Agent to enter corrected medium three-quarter side-profile prompt showing full head/neck, shoulder/harness, forelegs and part of stationary cart.
+- [ ] Reconfirm all exact references/settings and recheck live quote after prompt revision.
+- [ ] Stop at preflight. No generation until separate explicit owner authorization for the corrected prompt and exact live price.
