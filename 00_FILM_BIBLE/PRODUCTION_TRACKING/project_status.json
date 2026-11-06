@@ -10,11 +10,11 @@
   "coverage_pct_of_target_runtime": 6.7,
   "master_sequence_S01": {
     "timecode": "00:00-03:00",
-    "status": "Scenes 001 and 002 master-complete; Scene 003 is in production with Shot001 accepted for editing and Shot002 in preparation only",
+    "status": "Scenes 001 and 002 master-complete; Scene 003 Shot001 accepted for editing and Shot002 generated — awaiting owner review",
     "working_scenes": [
       "ACT01_SCENE001 00:00-01:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
       "ACT01_SCENE002 01:00-02:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
-      "ACT01_SCENE003 02:00-03:00 — SHOT001 V01 ACCEPTED FOR EDITING (COLOR MATCH REQUIRED); SHOT002 PREFLIGHT ONLY; remaining four shots not generated"
+      "ACT01_SCENE003 02:00–03:00 — SHOT001 V01 ACCEPTED FOR EDITING (COLOR MATCH REQUIRED); SHOT002 V01 GENERATED — AWAITING OWNER REVIEW; remaining four shots not generated"
     ]
   },
   "scene001": {
@@ -131,7 +131,7 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Execute exactly one Scene003 Shot002 output only if Flow live UI rechecks at exactly 10 credits with all locked settings/references/prompt unchanged; otherwise stop and request renewed authorization",
+    "Obtain explicit owner decision on Scene003 Shot002 V01 (recommend accept for editing with late-shot foreleg crop noted); do not generate Shot003 until owner approval and separate shot-specific authorization.",
     "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE; complete separate native-audio listening review",
     "Obtain separate explicit owner authorization for Scene003 Shot002 after corrected final prompt and live price are reviewed",
     "Continue Scene003 one shot at a time; review every generated output",
@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 PREPARATION ONLY; no new generation authorized",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 GENERATED — AWAITING OWNER REVIEW; remaining four shots not generated",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -189,8 +189,8 @@
     "props": [
       "BOXER_HAY_CART_CONTINUITY_REFERENCE"
     ],
-    "generation_authorized": true,
-    "generation_credits_spent": 10,
+    "generation_authorized": false,
+    "generation_credits_spent": 20,
     "preparation": {
       "report_source": "Corrected Flow Agent preparation and final production adjustment reports supplied by project owner on 2026-11-06",
       "preparation_status": "COMPLETE FOR SHOT001",
@@ -289,7 +289,7 @@
       "additional_credits_authorized": 0
     },
     "shot002_preparation": {
-      "status": "OWNER AUTHORIZED — CONDITIONAL EXECUTION; LIVE UI RECHECK REQUIRED",
+      "status": "GENERATED — AWAITING OWNER REVIEW",
       "shot_id": "ACT01_SCENE003_SHOT002_V01",
       "title": "The Weight of the Work",
       "reference_ids": {
@@ -309,13 +309,13 @@
         "all_three_references_reported_attached": true,
         "corrected_prompt_reported_entered_verbatim": true,
         "framing_correction": "Medium three-quarter side profile keeps Boxer's full head and neck, shoulder/harness and forelegs in frame, with a readable portion of stationary cart behind him",
-        "credits_spent": 0,
-        "generation_performed": false,
+        "credits_spent": 10,
+        "generation_performed": true,
         "report_source": "Owner-supplied revised Flow Agent preparation report, 2026-11-06"
       },
-      "generation_authorized": true,
-      "credits_spent": 0,
-      "authorization_required": "Explicit owner authorization for exactly one output at 10 credits, with live price and settings rechecked immediately before generation. If price or settings differ, stop and request renewed authorization.",
+      "generation_authorized": false,
+      "credits_spent": 10,
+      "authorization_required": "The single conditional owner authorization has been consumed. No further generation, retake, alternate take or next shot is authorized without a new explicit owner authorization.",
       "authorization": {
         "approved_by": "Project owner",
         "approval_date": "2026-11-06",
@@ -331,9 +331,49 @@
         "prompt": "Corrected medium three-quarter side-profile prompt; full head/neck, shoulder/harness and forelegs visible; stationary cart partly visible",
         "references_locked": true,
         "no_other_shots_or_takes": true,
-        "execution_status": "AUTHORIZED CONDITIONALLY — NOT YET EXECUTED",
-        "authorization_consumed": false
+        "execution_status": "CONSUMED — exactly one output reported generated at the authorized 10-credit price",
+        "authorization_consumed": true
       }
+    },
+    "shot002_execution": {
+      "status": "GENERATED — AWAITING OWNER REVIEW",
+      "shot_id": "ACT01_SCENE003_SHOT002_V01",
+      "media_id": "a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a",
+      "asset_name": "Boxer lowering head by cart",
+      "target_collection": "04_ACT_01_The_Old_World",
+      "collection_id": "40ef8957-0059-4e95-ad64-0b85dada2551",
+      "reported_actual_credits_charged": 10,
+      "reported_output_count": 1,
+      "actual_file": "Owner-uploaded MP4 inspected in this conversation; 2,054,848 bytes",
+      "verified_duration_seconds": 10,
+      "verified_resolution": "640x360",
+      "verified_aspect_ratio": "16:9",
+      "verified_frame_rate_fps": 24,
+      "verified_video_codec": "H.264 / AVC",
+      "verified_audio_codec": "AAC-LC",
+      "verified_audio_sample_rate_hz": 48000,
+      "verified_audio_channels": "2-channel stereo",
+      "audio_stream": "Present; 10.0267-second audio stream. Detailed listening / sound-quality review not completed.",
+      "prompt_used": "Flow Agent reports corrected prompt used verbatim; user-supplied execution report includes complete prompt text.",
+      "references": "Flow Agent reports all three exact references attached: Boxer, Barn_Exterior, BOXER_HAY_CART_CONTINUITY_REFERENCE.",
+      "review_date": "2026-11-06",
+      "evidence_source": "Owner-supplied Flow execution report plus uploaded MP4 independently inspected for metadata and sampled visual frames.",
+      "visual_review": {
+        "status": "REVIEWED — RECOMMEND ACCEPT FOR EDITING WITH FRAMING NOTE",
+        "positive_findings": [
+          "Boxer identity is visually consistent: chestnut coat, dark mane, white facial blaze and temporary leather harness.",
+          "Stationary loaded wooden hay cart remains beside the exterior red barn.",
+          "Boxer lowers his head clearly and releases visible breath vapor.",
+          "Cool, subdued dusk atmosphere and restrained movement support the scene."
+        ],
+        "deviation": "The push-in tightens noticeably in the latter half; by the final frames Boxer's forelegs are cropped out, despite the prompt asking to keep them in frame throughout. The head, harness and cart remain readable.",
+        "recommendation": "Retain the single take for editing; treat the increasing push-in as an editorial close-in. No retake is authorized."
+      },
+      "owner_visual_review": "ASSISTANT REVIEW COMPLETE — OWNER APPROVAL PENDING",
+      "owner_approval": false,
+      "next_shot_authorized": false,
+      "retake_authorized": false,
+      "credits_spent": 10
     }
   }
 }
