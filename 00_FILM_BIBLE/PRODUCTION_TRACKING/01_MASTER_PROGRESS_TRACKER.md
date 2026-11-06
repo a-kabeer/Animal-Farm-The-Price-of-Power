@@ -9,9 +9,10 @@
 
 ### Footage status
 
-- **12 of 12 currently planned one-minute-scene shots have approved versions** across Scene 001 and Scene 002.
-- Approved footage time: **120 seconds (2:00)** out of the 30-minute target = **6.7% of target runtime**. This is shot-footage coverage, not final-film completion.
-- Master sequence S01 (`The Hungry Farm`, 00:00–03:00) is partly covered: two one-minute working scenes have shot coverage; its final minute is not yet planned.
+- **Scenes 001 and 002 are master-complete by owner confirmation (6 November 2026)**, with 12 approved source shots across 120 seconds.
+- Completed footage time: **120 seconds (2:00)** out of the 30-minute target = **6.7% of target runtime**. This is runtime coverage, not final-film completion.
+- `ACT01_SCENE003 — The Burden of the Day` is now planned for 02:00–03:00 with six 10-second shots; no Scene 003 media has been generated or approved yet.
+- S01 will have a complete three-minute working-scene plan once Scene 003 is produced and reviewed.
 - Master sequences S02–S10 have not entered detailed shot production in this log.
 
 ### Assembly/export status
@@ -23,10 +24,21 @@
 | Scene 001 Full HD upscale | Previously recorded as existing; binary excluded from this package | Earlier record: 1920×1080, 24fps, 60.000s, H.264/AAC. The new Agent audit did not inspect or re-verify this export |
 | Scene 001 source-asset audit | PASSED (6 November 2026) | Agent report confirms approved source versions, planned order, 16:9 and 60s total; see DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md |
 | Scene 001 assembly specification | RECORDED | Agent supplied six-clip order, target 60s runtime, 0.5s crossfade, title/audio plan and target export settings; see final assembly report |
-| Scene 001 rendered master / editorial sign-off | PENDING | Actual MP4 not supplied; title composite, transitions, mixed audio, 1080p export and owner approval remain unverified |
+| Scene 001 master completion | COMPLETE — owner-confirmed 6 Nov 2026 | Final filename and technical metadata have not yet been entered in this register |
 | Scene 002 source clips | 6/6 approved | Versions: 001 V01, 002 V01, 003 V01, 004 V01, 005 V02, 006 V02 |
-| Scene 002 Scenebuilder master | Pending | No assembled/exported Scene 002 MP4 supplied in the current record |
+| Scene 002 master assembly/export | COMPLETE — owner-confirmed 6 Nov 2026 | Final filename and technical metadata have not yet been entered in this register |
 | Final 30-minute film | Not started | Requires remaining story sequences, dialogue, narration, sound design and edit |
+
+### Scene 003 plan status
+
+| Item | Current status |
+|---|---|
+| Working title / timecode | The Burden of the Day / 02:00–03:00 |
+| Shot plan | 6 × 10 seconds = 60 seconds; documented in Scene 003 breakdown |
+| Character references | Boxer, Clover and Benjamin approved references recorded in Asset Register |
+| Locations | Existing Manor_Farm_Exterior and Barn_Exterior references; exterior-only scene; no Main_Barn interior asset required |
+| Dialogue | Two original draft lines for Clover and Boxer; awaiting owner approval |
+| Generation | Not started; no generation authorization or credits used |
 
 ## Active project settings (the workflow actually used so far)
 
@@ -95,7 +107,7 @@
 - Shot 005 V01 showed only three sheep and was rejected. A composition reference was generated; V02 was approved with exactly two cows and four sheep.
 - Shot 006 V01 looked like daytime and was rejected. V02 was created using video-to-video lighting correction and approved for dusk.
 - User raised concern that Boxer and Clover looked large. Continuity guidance now states Boxer is largest/more muscular, Clover similar shoulder height but lighter/less bulky, and Benjamin shorter/slimmer. V02 was accepted without further resizing.
-- Scene 002 final Scenebuilder assembly and export are still pending.
+- Scene 002 master completion was confirmed by the project owner on 6 November 2026. Its final export filename and technical metadata have not yet been added to the register.
 
 ## 30-minute master sequence progress
 
@@ -103,13 +115,11 @@ See `08_MASTER_SEQUENCE_STORY_MAP.md` for the full story map. At present, the fi
 
 ## Current next actions — in order
 
-1. **Scene 001:** Six locked sources and assembly specification are recorded. Execute the edit in Flow UI / NLE; resolve the crossfade/runtime discrepancy; render the MP4, verify title/transitions/audio/1080p metadata, and obtain owner sign-off.
-2. **Scene 002:** Add the six approved versions to Google Flow Scenebuilder in order, trim/check a 60-second sequence, export, then upscale or export 1080p and review.
-3. **Sequence mapping:** Decide what fills minute 02:00–03:00 of S01 — The Hungry Farm. Do not jump to S02 until the opening three-minute sequence is complete or deliberately restructured.
-4. **Narrator:** Approve narrator voice identity/accent/tone and write the narration script. The uploaded blueprint defines a narrator track but no narrator character/voice profile or exact lines.
-5. **Dialogue:** Write and approve exact dialogue per shot. The current Scene 001 and Scene 002 shot breakdowns specify no dialogue; character voice directions exist in the blueprint but do not constitute a script.
-6. **Scene 003 / remaining S01 minute:** Prepare shot breakdown, required references and credits; generate only after approval.
-7. Continue S02–S10 in order using the 10-sequence master map.
+1. **Scene 003:** Review and approve the six-shot breakdown and both draft dialogue lines. Verify Ingredients and displayed live credit price before authorization.
+2. **Scene 003 generation:** Generate one approved shot at a time, inspect the actual MP4 and continuity, then request approval before proceeding.
+3. **S01 closeout:** After Scene 003 is generated, assembled and approved, verify the full 00:00–03:00 opening sequence before entering S02.
+
+
 
 ## Project completion definition
 
