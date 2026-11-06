@@ -67,3 +67,11 @@ The files above are available in this current working session. They are not evid
 - Scene masters: 1920×1080 (Full HD), 16:9, target 24fps, MP4/H.264 with AAC audio.
 - For 360p source footage, upscaling increases output dimensions but cannot restore native detail that was not generated.
 - Confirm exact duration after edit; transitions/crossfades may alter total runtime unless clip lengths are adjusted accordingly.
+
+## D. Actual reported charges — Scene 003
+
+| Date | Shot | Flow media ID | Outputs | Reported actual credits charged | Metadata | Status |
+|---|---|---|---:|---:|---|---|
+| 2026-11-06 | ACT01_SCENE003_SHOT001_V01 | `8a46a89f-c131-4f63-868a-c729b7bf8c7c` | 1 | 10 | 10s; 640×360; 16:9; 24fps; audio present | Generated — awaiting owner review |
+
+**Evidence note:** Actual charge and output metadata are from the owner-supplied Flow Agent execution report. Reconcile against official Flow credit history if needed; the earlier Scene001/002 totals remain modelled estimates, not verified account billing.
