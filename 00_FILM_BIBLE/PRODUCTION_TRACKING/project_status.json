@@ -131,10 +131,11 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Flow Agent: prepare and preflight Scene003 Shot003 only; report exact live credit price, current settings and all five attached references. Do not click Generate or spend credits.",
+    "Obtain separate explicit owner authorization for exactly one ACT01_SCENE003_SHOT003_V01 generation at 10 credits, conditional on live UI price/settings/references matching immediately before rendering.",
+    "After authorization, Flow Agent may generate exactly one output only; inspect the resulting video/audio and plan post-production dubbing/lip-sync correction if required.",
     "Complete detailed listening review of Scene003 Shot002 native audio.",
     "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE.",
-    "After Shot003 preflight report, obtain separate explicit owner authorization before any generation; continue one shot at a time.",
+    "Continue Scene003 one shot at a time with a separate explicit authorization for each render.",
     "Assemble Scene003 to 60 seconds and obtain owner approval.",
     "Verify complete S01 across Scenes001–003, then prepare S02."
   ],
@@ -154,7 +155,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 PROMPT PREPARED — PREFLIGHT PENDING — NOT AUTHORIZED; SHOT004–006 NOT GENERATED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION (10 CREDITS DISPLAYED); SHOT004–006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +256,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Run Flow preflight for Shot003 only using FLOW_AGENT_PREPARATION_TASK_SHOT003.md. Report live displayed price and exact settings/references; do not generate. Obtain separate explicit owner authorization before any render.",
+    "next_step": "Shot003 preflight passed: five references attached, prompt verbatim, Omni 1.2 Flash R2V, 360p, 16:9, 10s, one output, 10 credits displayed. Await separate explicit owner authorization for exactly one generation; recheck the live price and settings immediately before the render. No generation authorized by preflight.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -379,7 +380,7 @@
     "shot003_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT003_V01",
       "title": "Clover's Concern",
-      "status": "PROMPT PREPARED — FLOW PREFLIGHT PENDING — GENERATION NOT AUTHORIZED",
+      "status": "PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT003.md",
       "prompt_status": "LOCKED FOR PREPARATION; do not change without reporting to owner",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -388,7 +389,7 @@
       "aspect_ratio_target": "16:9 landscape",
       "duration_seconds_target": 10,
       "output_count_target": 1,
-      "live_displayed_credit_price": "NOT CHECKED — Flow Agent must report the live UI price; no estimate",
+      "live_displayed_credit_price": 10,
       "references": [
         {
           "name": "Clover master",
@@ -421,9 +422,24 @@
       },
       "generation_authorized": false,
       "generation_credits_spent": 0,
-      "preflight_status": "NOT YET REPORTED",
+      "preflight_status": "PASSED — all settings/references/prompt confirmed by owner-supplied report",
       "no_generation_performed": true,
-      "stop_after_preflight": true
+      "stop_after_preflight": true,
+      "model": "Omni 1.2 Flash",
+      "mode": "Reference-to-Video (R2V)",
+      "resolution": "360p (640x360)",
+      "aspect_ratio": "16:9 landscape",
+      "duration_seconds": 10,
+      "output_count": 1,
+      "currency": "credits",
+      "quote_source": "Owner-supplied Flow Agent preflight report, 2026-11-06; point-in-time quote, must be rechecked immediately before any authorized generation",
+      "references_verified": true,
+      "reference_attachment_report": "All five exact references attached without substitutions, per owner-supplied Flow Agent report.",
+      "prompt_entered_verbatim": true,
+      "audio_configuration": "Native Omni Flash audio enabled",
+      "dialogue_capability": "Flow Agent reports exact English spoken dialogue and precise animal lip-sync are not guaranteed. Inspect generated audio/video; plan post-production dubbing and synchronization if required.",
+      "preflight_report_date": "2026-11-06",
+      "next_action": "Await separate explicit owner authorization for exactly one output at 10 credits, conditional on live UI price/settings/references still matching. Do not generate on this preflight report alone."
     }
   }
 }
