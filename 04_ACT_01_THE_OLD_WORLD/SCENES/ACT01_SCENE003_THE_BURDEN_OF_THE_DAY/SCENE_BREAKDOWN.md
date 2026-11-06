@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 PREPARATION READY — PREFLIGHT PENDING; SHOT006 NOT GENERATED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 GENERATED — AWAITING OWNER REVIEW; SHOT006 NOT GENERATED  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -50,7 +50,7 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 | 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION |
 | 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | OWNER ACCEPTED FOR EDITING — NO RETAKE |
-| 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PREPARATION TASK CREATED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED |
+| 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | GENERATED — AWAITING OWNER REVIEW |
 | 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PLANNED |
 | | **TOTAL** | | **60s** | **Not generated** |
 
@@ -568,3 +568,33 @@ The canonical Shot005 prompt is retained: medium shot from outside the barn entr
 **Preflight target only:** Omni 1.2 Flash / Reference-to-Video (R2V) / 360p / 16:9 landscape / 10 seconds / exactly one output. Verify every live selector and the exact displayed credit price in Flow. No credit estimate is permitted.
 
 **Authorization boundary:** Flow Agent must set up and report preflight only, then stop. Do not click Generate, create a preview, create variations, or spend credits. A separate explicit owner authorization is required for exactly one output after the live prompt, settings, references and price are verified. If any item differs, stop and report.
+
+
+## 26. Shot005 generation and assistant visual review — 7 November 2026
+
+**Generated asset:** `ACT01_SCENE003_SHOT005_V01 — Donkey standing in barn doorway`  
+**Flow media ID:** `7b9c7132-289d-4331-a09d-256ee969f388`  
+**Flow report:** exactly one output generated; 10 credits reported charged; saved in collection `04_ACT_01_The_Old_World`.  
+**Uploaded MP4 independently inspected:** 1,916,991 bytes; 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; audio stream duration 10.026667s.
+
+### Visual review
+
+- Benjamin's approved older grey donkey appearance, charcoal mane, long upright ears, narrow muzzle and tired eyes remain recognizable.
+- He is placed in the doorway shadow with the red timber barn exterior and farmyard visible.
+- His gaze turns toward the off-screen farmyard and lowers slightly during the later portion.
+- No other character enters frame; the shot remains silent as planned.
+- The serious cinematic late-dusk atmosphere works.
+
+**Framing deviation:** The push-in is stronger than the requested restrained movement. It begins as a medium shot and tightens into a close head-and-shoulders view by the ending, cropping most of Benjamin's body. The subject remains readable; the tighter finish can function as an emotional editorial close-in.
+
+**Continuity note:** The exterior sky reads somewhat grey-pink/neutral compared with the cooler blue-hour shots immediately before it. Apply a modest cool-blue grade in the NLE.
+
+### Audio and technical status
+
+The MP4 contains H.264 video and AAC stereo 48kHz audio. Detailed subjective listening has not been completed. No dialogue is planned for Benjamin.
+
+### Assistant recommendation and approval state
+
+**Assistant recommendation: RETAIN V01 FOR EDITING — NO RETAKE RECOMMENDED.** Preserve the single generated output and account for the tighter ending in the edit; apply modest cool-blue grading.
+
+**Status: GENERATED — AWAITING OWNER REVIEW.** This review is an assistant recommendation, not owner sign-off. Do not mark Shot005 approved or proceed to Shot006 generation until the owner explicitly accepts/rejects Shot005.
