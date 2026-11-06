@@ -28,7 +28,7 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 | Scene 001 master | COMPLETE — owner-confirmed 6 Nov 2026; export metadata not yet recorded |
 | Scene 002 master | COMPLETE — owner-confirmed 6 Nov 2026; export metadata not yet recorded |
 | Scene 003 breakdown | Six 10-second shots; Shot001 prompt/references locked; two dialogue lines owner-approved 6 Nov 2026 |
-| Scene 003 generation | Shot001 authorized for one output at exactly 10 credits only if live UI confirms the same price/settings; render not yet confirmed |
+| Scene 003 generation | Shot001 generated once; 10 credits reported charged; awaiting owner review; remaining shots not generated |
 | Narrator script | Not written/approved |
 | Character dialogue script | Not written/approved |
 | Final music/SFX mix | Pending |
@@ -60,3 +60,8 @@ The uploaded blueprint specifies character voice directions and a narrator track
 ## Storage / update rule
 
 Put this complete tracking pack in Google Flow project collection `00_FILM_BIBLE/PRODUCTION_TRACKING/` and keep a backup copy in Google Drive/local storage. ChatGPT's current project status is conversation/file-based; there is no automatic live sync with Flow. After every approved/rejected shot or export, update the Shot Register, Asset Register, Decision Log and Master Progress Tracker.
+
+
+## Scene 003 Shot001 execution result
+
+Flow Agent reports one video output generated, 10 credits charged. Media ID: `8a46a89f-c131-4f63-868a-c729b7bf8c7c`; asset: `Boxer stopping cart by barn`; reported metadata: 10s, 640×360, 16:9, 24fps; native ambient audio present. Status: **GENERATED — AWAITING OWNER REVIEW**. Do not start Shot002 until the owner reviews Shot001.
