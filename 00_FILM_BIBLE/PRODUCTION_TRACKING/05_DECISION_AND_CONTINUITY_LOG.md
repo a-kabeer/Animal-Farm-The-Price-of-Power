@@ -231,3 +231,14 @@ The owner supplied a corrected Flow Agent report. It verifies Omni 1.2 Flash / R
 The first preflight was rejected and remains documented in Section O/28. The corrected preflight is accepted as a valid setup.
 
 **Generation remains unauthorized.** Await separate explicit owner authorization for exactly one output at the final live-verified 10-credit price. Recheck every setting, reference and prompt immediately before Generate; stop if anything differs. No batch, preview, variation, retake or retry.
+
+
+## Q. Scene 003 Shot006 — generation and assistant visual review (7 November 2026)
+
+Flow report confirms exactly one output and 10 credits charged. Media ID `89104e8d-e999-469f-b810-cc94725cf955`, asset “Animals moving toward barn entrance”. Corrected canonical prompt and all five exact references are reported used.
+
+Uploaded MP4 independently inspected. Metadata: 10s; 640×360; 24fps; 16:9; H.264/AVC; AAC stereo 48kHz; 2,777,152 bytes. All three animals are distinguishable and move toward the red barn; wide rear three-quarter composition and camera pull-back work. No Old Major or meeting appears.
+
+Deviations: sky stays pink-grey twilight rather than reaching cool blue night; a separate warm glow inside the barn doorway is not clearly visible. Recommended NLE treatment: cool-blue dusk-to-night grade and subtle warm doorway glow if practical. Subjective audio listening review pending.
+
+**Assistant recommendation:** retain V01 for editing; no retake recommended. **Owner approval pending.**
