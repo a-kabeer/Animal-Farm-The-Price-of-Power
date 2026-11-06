@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 OWNER AUTHORIZED — EXACTLY ONE OUTPUT AT 10 CREDITS — FINAL LIVE UI RECHECK REQUIRED; SHOT004–006 NOT AUTHORIZED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 GENERATED — AWAITING OWNER REVIEW; SHOT004–006 NOT GENERATED  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -48,7 +48,7 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED |
 | 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION |
-| 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | PROMPT PREPARED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED |
+| 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | GENERATED — AWAITING OWNER REVIEW |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
 | 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PLANNED |
@@ -383,3 +383,28 @@ The project owner explicitly authorized exactly **one** generation of `ACT01_SCE
 **Dialogue note:** Clover's exact approved line is “You have carried enough for one day, Boxer.” Exact speech and precise animal lip-sync are not guaranteed by native generation. Review the actual result; post-production dubbing/synchronization may be required.
 
 **Current status:** AUTHORIZED — AWAITING FINAL LIVE UI RECHECK AND SINGLE RENDER. No generation has yet been reported and no credits have been spent under this authorization.
+
+
+## 17. Shot003 generation and assistant media review — 7 November 2026
+
+**Generated asset:** `ACT01_SCENE003_SHOT003_V01 — Clover expresses concern for Boxer`  
+**Flow media ID:** `868918c2-e7c3-4e18-83d2-ed8bca8f40ff`  
+**Collection:** `04_ACT_01_The_Old_World`  
+**Flow report:** exactly one output; exactly 10 credits charged.  
+**Actual uploaded MP4 inspected:** 1,967,966 bytes; 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC-LC stereo, 48kHz; audio stream duration 10.026667s.
+
+### Assistant visual review
+
+The uploaded MP4 was inspected at multiple timestamps. The two-shot reads clearly: Clover and Boxer retain their approved chestnut appearances and distinctive face/mane details; Clover is unharnessed; Boxer retains his temporary leather working harness. The loaded hay cart and red barn remain visible. The restrained framing and character interaction suit Clover's concerned beat.
+
+**Editorial notes:** The lighting is cool and subdued but reads somewhat brighter/greyer than deep blue twilight. Apply a modest cool-blue continuity grade against Shot002 and the opening of Shot001 in the NLE. The camera gradually tightens and crops the horses' lower legs; both heads and upper bodies remain readable. This is not a blocking or identity failure.
+
+### Dialogue and sound
+
+Flow reports ambient horse vocalization and evening wind only. The exact approved spoken line — **“You have carried enough for one day, Boxer.”** — is not present as spoken dialogue. Native audio stream exists, but detailed listening review has not been completed. Record Clover's line in post-production and synchronize it to the shot; review ambient sound before final mix.
+
+### Editorial recommendation and approval status
+
+**Assistant recommendation: RETAIN V01 FOR EDITING — NO RETAKE RECOMMENDED.** The composition, character continuity and emotional beat are strong enough; color matching and dialogue dubbing are normal post-production tasks.
+
+**Status remains: GENERATED — AWAITING OWNER REVIEW.** This is an assistant recommendation, not recorded owner approval. No further generation or Shot004 is authorized by the consumed Shot003 authorization.
