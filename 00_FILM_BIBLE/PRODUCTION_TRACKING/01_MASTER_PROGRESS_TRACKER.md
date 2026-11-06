@@ -136,3 +136,8 @@ Individual approved clips alone do not equal a fully finished scene master.
 ## Package scope note
 
 This archive is a documentation-and-reference package. It intentionally excludes all 12 approved shot videos, the Scene 001 source MP4 and Full HD export, and Scene 002 approved shot binaries. These remain in the Google Flow collection and/or separate production media storage; this package retains their version/status/ID records.
+
+
+### Scene 003 Shot001 execution record
+
+Flow Agent reports one output generated: `Boxer stopping cart by barn` (media ID `8a46a89f-c131-4f63-868a-c729b7bf8c7c`). Reported charge: 10 credits. Reported metadata: 10.00s, 640×360, 16:9, 24fps, audio track present. Status: **GENERATED — AWAITING OWNER REVIEW**. The actual MP4 has not been visually or audibly inspected in this conversation; no approval is implied.
