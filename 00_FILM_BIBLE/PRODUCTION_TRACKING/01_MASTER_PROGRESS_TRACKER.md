@@ -250,3 +250,17 @@ The project owner replied **“next please”** after the detailed Shot004 revie
 - **Next:** prepare and preflight Shot005 — Benjamin Observes — using the exact three references and canonical breakdown prompt.
 - Shot005 preparation task: `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT005.md`.
 - Shot005 is preflight-only at this stage. **No generation, preview or credit spend is authorized.** The live Flow settings and displayed price must be reported exactly, and the owner must give separate explicit authorization before one output is rendered.
+
+
+## Scene 003 Shot005 — Flow preflight passed (7 November 2026)
+
+Flow Agent reports the exact Shot005 setup is ready:
+- Model/mode: Omni 1.2 Flash / Reference-to-Video (R2V).
+- 360p (640×360), 16:9 landscape, 10 seconds, exactly one output.
+- Exact references attached: Benjamin (`0595b453-1a9c-4c11-9359-fd79a6eeb951`), Barn_Exterior (`3919fbb9-bf69-40e5-98f4-e02680cb077a`), Manor_Farm_Exterior (`8fa316c0-27e8-4df8-98af-56c73fa332f7`).
+- Flow Agent reports the locked prompt was entered verbatim and no mismatch or warning was found.
+- Live displayed quote: **10 credits** (point-in-time quote; must be rechecked immediately before any authorized render).
+- Native Omni Flash audio enabled; Flow Agent reports ambient wind, barn creaks and subtle movement.
+- No generation or preview performed; **0 credits spent**.
+
+**Status: PREFLIGHT PASSED — AWAITING EXPLICIT OWNER AUTHORIZATION.** This preflight report is not authorization. Do not render until the owner separately authorizes exactly one output at the final live price and all settings/references/prompt still match.
