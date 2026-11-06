@@ -110,7 +110,8 @@
     "narrator_profile": "PROPOSED ONLY — NOT APPROVED",
     "narration_script": "NOT WRITTEN",
     "character_dialogue_script": "NOT WRITTEN",
-    "approved_shot_dialogue": "No dialogue in all 12 current shots"
+    "approved_shot_dialogue": "No dialogue in all 12 current shots",
+    "scene003_dialogue_status": "Two exact character dialogue lines owner-approved 6 November 2026; dialogue recording/generation and lip-sync review not yet performed."
   },
   "credits": {
     "scene001_estimated_generation_credits": 82,
@@ -119,9 +120,8 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Obtain owner approval of the two Scene 003 draft dialogue lines",
-    "After dialogue approval, obtain separate explicit owner authorization for Shot001 at the live displayed cost; current Flow Agent quote was 10 credits",
-    "Recheck the live Flow model, Ingredients, settings and credit price immediately before generation",
+    "Prepare Shot001 generation in Flow and recheck all six Ingredients, model, settings and the live displayed credit cost",
+    "Obtain separate explicit owner authorization for Shot001 generation at the then-current displayed cost",
     "Generate Scene 003 one shot at a time only after explicit owner authorization; review every actual MP4",
     "Assemble Scene 003 to 60 seconds and obtain owner approval",
     "Verify complete S01 across Scenes 001–003, then prepare S02 character and barn references"
@@ -142,11 +142,28 @@
       10,
       10
     ],
-    "status": "SHOT001 PROMPT AND SIX REFERENCES LOCKED FOR PLANNING — dialogue approval and explicit generation authorization pending; not generated",
+    "status": "SHOT001 PROMPT LOCKED; BOTH DIALOGUE LINES OWNER-APPROVED — awaiting explicit generation authorization; not generated",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
-      "status": "DRAFT ONLY — awaiting owner approval"
+      "status": "OWNER APPROVED — both exact lines approved 6 November 2026; no dialogue audio generated",
+      "approval_date": "2026-11-06",
+      "approved_cues": [
+        {
+          "cue_id": "S003-DLG-001",
+          "shot": "ACT01_SCENE003_SHOT003",
+          "speaker": "Clover",
+          "line": "You have carried enough for one day, Boxer.",
+          "status": "OWNER APPROVED"
+        },
+        {
+          "cue_id": "S003-DLG-002",
+          "shot": "ACT01_SCENE003_SHOT004",
+          "speaker": "Boxer",
+          "line": "The work still needs doing, Clover.",
+          "status": "OWNER APPROVED"
+        }
+      ]
     },
     "characters": [
       "Boxer",
@@ -204,7 +221,8 @@
       "dialogue_voice_note": "Flow Agent reports built-in voice presets are selectable; no saved custom voice reference audio assets found; exact dialogue and lip-sync are not guaranteed; post-production dubbing may be needed",
       "draft_dialogue_approval": "AWAITING OWNER",
       "no_generation_performed": true,
-      "credits_spent": 0
+      "credits_spent": 0,
+      "dialogue_draft_approval": "APPROVED BY PROJECT OWNER — 2026-11-06"
     }
   }
 }
