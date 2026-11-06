@@ -120,9 +120,10 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Prepare Shot001 generation in Flow and recheck all six Ingredients, model, settings and the live displayed credit cost",
-    "Obtain separate explicit owner authorization for Shot001 generation at the then-current displayed cost",
-    "Generate Scene 003 one shot at a time only after explicit owner authorization; review every actual MP4",
+    "Flow Agent: execute the specifically authorized Shot001 generation only if the live UI still shows exactly 10 credits and every locked setting/reference matches",
+    "Review the returned Shot001 video and metadata; approve or request a revision",
+    "Only after Shot001 review, prepare and authorize the next Scene 003 shot separately",
+    "Generate remaining Scene 003 shots one at a time; review every actual MP4",
     "Assemble Scene 003 to 60 seconds and obtain owner approval",
     "Verify complete S01 across Scenes 001–003, then prepare S02 character and barn references"
   ],
@@ -142,7 +143,7 @@
       10,
       10
     ],
-    "status": "SHOT001 PROMPT LOCKED; BOTH DIALOGUE LINES OWNER-APPROVED — awaiting explicit generation authorization; not generated",
+    "status": "SHOT001 GENERATION AUTHORIZED — one output, conditional on live UI price exactly 10 credits; awaiting Flow execution and owner review",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -177,7 +178,7 @@
     "props": [
       "BOXER_HAY_CART_CONTINUITY_REFERENCE"
     ],
-    "generation_authorized": false,
+    "generation_authorized": true,
     "generation_credits_spent": 0,
     "preparation": {
       "report_source": "Corrected Flow Agent preparation and final production adjustment reports supplied by project owner on 2026-11-06",
@@ -223,6 +224,23 @@
       "no_generation_performed": true,
       "credits_spent": 0,
       "dialogue_draft_approval": "APPROVED BY PROJECT OWNER — 2026-11-06"
-    }
+    },
+    "generation_authorization": {
+      "approved_by": "Project owner",
+      "approval_date": "2026-11-06",
+      "shot_id": "ACT01_SCENE003_SHOT001_V01",
+      "outputs": 1,
+      "max_credits": 10,
+      "price_condition": "Generate only if live Flow UI displays exactly 10 credits. If it displays any other price or any locked setting/reference differs, stop and ask owner.",
+      "model": "Omni 1.2 Flash",
+      "mode": "Reference-to-Video (R2V)",
+      "resolution": "360p",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 10,
+      "prompt_locked": true,
+      "references_locked": true,
+      "no_other_shots_or_takes": true
+    },
+    "next_step": "Flow Agent must recheck live UI. Generate one output only if exact 10-credit price and all settings match; otherwise stop. After rendering, report media ID and actual metadata. Owner review required; do not mark approved."
   }
 }
