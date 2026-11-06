@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 PREFLIGHT MISMATCH — CORRECTION REQUIRED — NOT AUTHORIZED; SHOT005–006 NOT GENERATED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION (10 CREDITS DISPLAYED); SHOT005–006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +255,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Resolve Shot004 preflight discrepancy before asking for generation authorization. Required exact reference set: Boxer, Clover, Barn_Exterior. Required framing: medium close-up on Boxer with Clover shoulder at frame edge. Exact canonical prompt stored in FLOW_AGENT_PREPARATION_TASK_SHOT004.md. Recheck live price/settings after correction; no generation/preview allowed.",
+    "next_step": "Shot004 corrected preflight passed. Await separate explicit owner authorization for exactly one generation at 10 credits; immediately recheck live UI price/settings/references/prompt before Generate. Do not render before authorization.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -514,7 +514,7 @@
     "shot004_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT004_V01",
       "title": "Boxer's Response",
-      "status": "PREFLIGHT REPORT RECEIVED — MISMATCH — CORRECTION REQUIRED — GENERATION NOT AUTHORIZED",
+      "status": "PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT004.md",
       "prompt_status": "LOCKED FOR PREPARATION — preserve exact breakdown prompt verbatim",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -523,7 +523,7 @@
       "aspect_ratio_target": "16:9 landscape",
       "duration_seconds_target": 10,
       "output_count_target": 1,
-      "live_displayed_credit_price": "NOT CHECKED — Flow Agent to report live UI quote; no estimate",
+      "live_displayed_credit_price": 10,
       "references": [
         {
           "name": "Boxer master",
@@ -548,10 +548,10 @@
       },
       "generation_authorized": false,
       "generation_credits_spent": 0,
-      "preflight_status": "MISMATCH: reported Boxer/Clover/BOXER_HAY_CART references instead of required Boxer/Clover/Barn_Exterior; reported medium two-shot instead of locked medium close-up with Clover shoulder at frame edge. Prompt reported verbatim but does not match canonical breakdown prompt.",
+      "preflight_status": "PASSED — corrected report confirms all three exact references, canonical medium close-up prompt and live quote of 10 credits.",
       "no_generation_performed": true,
       "stop_after_preflight": true,
-      "next_action": "Correct the preflight mismatch: replace the hay-cart reference with Barn_Exterior and restore the canonical medium close-up framing/prompt. Report updated live price/settings/reference attachments. No generation or preview.",
+      "next_action": "Await explicit owner authorization for exactly one output at 10 credits, conditional on final live UI recheck. No generation or preview before authorization.",
       "reported_preflight": {
         "report_date": "2026-11-07",
         "model": "Omni 1.2 Flash",
@@ -601,7 +601,39 @@
           "Framing/action differs from the locked Scene Breakdown prompt: medium two-shot rather than medium close-up with Clover partly at frame edge.",
           "Therefore this is not a valid match to the prepared production setup, despite the Flow Agent's verbatim claim."
         ],
-        "required_correction": "Re-run preflight only using the exact three expected references and the canonical prompt from FLOW_AGENT_PREPARATION_TASK_SHOT004.md. Do not generate."
+        "required_correction": "Re-run preflight only using the exact three expected references and the canonical prompt from FLOW_AGENT_PREPARATION_TASK_SHOT004.md. Do not generate.",
+        "initial_report": "MISMATCH — wrong third reference and medium two-shot; corrected in revised preflight report.",
+        "correction_report_date": "2026-11-07",
+        "corrected_model": "Omni 1.2 Flash",
+        "corrected_mode": "Reference-to-Video (R2V)",
+        "corrected_resolution": "360p (640x360)",
+        "corrected_aspect_ratio": "16:9 landscape",
+        "corrected_duration_seconds": 10,
+        "corrected_output_count": 1,
+        "corrected_live_displayed_credit_price": 10,
+        "corrected_audio": "Native Omni Flash ambient audio enabled",
+        "corrected_references": [
+          {
+            "name": "Boxer",
+            "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
+            "verified": "ATTACHED"
+          },
+          {
+            "name": "Clover",
+            "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b",
+            "verified": "ATTACHED"
+          },
+          {
+            "name": "Barn_Exterior",
+            "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a",
+            "verified": "ATTACHED"
+          }
+        ],
+        "incorrect_hay_cart_reference_removed": true,
+        "corrected_prompt_entered_verbatim": true,
+        "corrected_composition": "Medium close-up on Boxer; Clover's shoulder softly visible at the edge of frame; Boxer gently raises head and looks toward Clover.",
+        "dialogue_capability": "Exact English speech and precise non-human animal lip-sync are not guaranteed; plan post-production dubbing/synchronization if needed.",
+        "mismatch_resolved": true
       }
     },
     "next_actions": [
