@@ -131,10 +131,10 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Flow Agent: execute ACT01_SCENE003_SHOT004_V01 exactly once, only if final live UI still displays exactly 10 credits and every setting/reference/prompt matches final audit. No preview, batch, variation, retake, auto-retry or other shot.",
-    "After the single Shot004 render, return media ID, actual credits, verified metadata and dialogue/lip-sync report; mark GENERATED — AWAITING OWNER REVIEW.",
-    "Complete post-production for Scene003 Shots001–003: cool-blue continuity grade and Clover dialogue dubbing/synchronization; complete native ambient-audio listening checks.",
-    "Review Shot004 before proceeding. Prepare Shot005 only after review; each shot gets one output by default and separate explicit authorization.",
+    "Complete Scene003 post-production notes for Shots001–004: color continuity, dialogue dubbing/synchronization and native ambient-audio listening checks.",
+    "Flow Agent: run preparation and preflight for ACT01_SCENE003_SHOT005_V01 using FLOW_AGENT_PREPARATION_TASK_SHOT005.md only. Do not generate, preview or spend credits.",
+    "After the Shot005 preflight report, review exact live settings, all three references, prompt and displayed price; obtain separate explicit owner authorization before any render.",
+    "Prepare Shot006 after Shot005 is reviewed; one output per shot by default and separate explicit authorization.",
     "Assemble Scene003 to 60 seconds and obtain owner approval.",
     "Verify complete S01 across Scenes001–003, then prepare S02."
   ],
@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 GENERATED — AWAITING OWNER REVIEW; SHOT005–006 NOT GENERATED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 PREPARATION READY — PREFLIGHT PENDING; SHOT006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +255,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Owner review of ACT01_SCENE003_SHOT004_V01. Assistant review recommends retain for editing; dub/synchronize exact Boxer line during NLE audio editing and apply modest cool-blue continuity grade if needed. Do not generate Shot005 without separate explicit shot-specific authorization.",
+    "next_step": "Shot004 V01 owner-accepted for editing on 2026-11-07; retain single output, no retake. Prepare and preflight Shot005 — Benjamin Observes — using its exact three references and canonical prompt. Preflight only; no generation until separate explicit shot-specific owner authorization after live price/settings verification.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -514,7 +514,7 @@
     "shot004_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT004_V01",
       "title": "Boxer's Response",
-      "status": "GENERATION COMPLETED — EXACTLY ONE OUTPUT — 10 CREDITS REPORTED — AWAITING OWNER REVIEW",
+      "status": "OWNER ACCEPTED FOR EDITING — NO RETAKE; COOL-BLUE CONTINUITY GRADE AND BOXER DIALOGUE DUB REQUIRED",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT004.md",
       "prompt_status": "LOCKED FOR PREPARATION — preserve exact breakdown prompt verbatim",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -551,7 +551,7 @@
       "preflight_status": "PASSED — final pre-generation audit supplied 2026-11-07; exact settings, 3 references and prompt verified",
       "no_generation_performed": false,
       "stop_after_preflight": false,
-      "next_action": "Owner review of Shot004 V01. Assistant visual review recommends retain for editing; exact Boxer dialogue to be dubbed/synchronized in post. No retake recommended.",
+      "next_action": "Prepare and preflight Scene003 Shot005 — Benjamin Observes. Do not generate until the owner separately authorizes exactly one output after live Flow settings, references, prompt and displayed price are verified.",
       "reported_preflight": {
         "report_date": "2026-11-07",
         "model": "Omni 1.2 Flash",
@@ -753,13 +753,20 @@
           9.5
         ],
         "review_date": "2026-11-07"
-      }
+      },
+      "owner_visual_review": "OWNER ACCEPTED FOR EDITING — 2026-11-07 (owner's 'next please' after the review recommendation is treated as acceptance to retain V01 and proceed)",
+      "owner_approval": true,
+      "editorial_status": "OWNER ACCEPTED FOR EDITING — retain V01; no retake; apply modest cool-blue continuity grade if needed and dub/synchronize exact Boxer line in post-production",
+      "next_shot_authorized": false,
+      "retakes_authorized": false,
+      "owner_acceptance_date": "2026-11-07",
+      "owner_acceptance_note": "Owner said 'next please' following the detailed Shot004 review and recommendation to retain V01; recorded as acceptance for editing and progression to Shot005."
     },
     "next_actions": [
-      "Owner review/acceptance of Scene003 Shot004 V01; assistant recommends retain for editing with no retake.",
-      "Complete post-production for Scene003 Shots001–004: color continuity, Clover and Boxer dialogue dubbing/synchronization, and native ambient-audio listening checks.",
-      "Prepare and preflight Scene003 Shot005 — Benjamin Observes — only after Shot004 is reviewed; do not generate without separate explicit authorization.",
-      "Complete Scene003 Shot005 and Shot006 one at a time, with one output per shot by default and separate authorization.",
+      "Complete post-production for Scene003 Shots001–004: cool-blue continuity grading, exact Clover and Boxer dialogue dubbing/synchronization, and native ambient-audio listening checks.",
+      "Run Flow UI preflight for Scene003 Shot005 — Benjamin Observes — using the exact references and prompt in FLOW_AGENT_PREPARATION_TASK_SHOT005.md; do not generate or spend credits.",
+      "After a matching Shot005 preflight report, obtain separate explicit owner authorization for exactly one output at the final live displayed price.",
+      "Prepare Shot006 only after Shot005 review; keep each shot separate with one output by default and a separate explicit authorization.",
       "Assemble Scene003 to 60 seconds and obtain owner approval.",
       "Verify complete S01 across Scenes001–003, then prepare S02."
     ],
@@ -803,6 +810,43 @@
       "authorization_consumed": true,
       "no_other_shots_or_takes": true,
       "no_auto_retry": true
+    },
+    "shot005_preparation": {
+      "shot_id": "ACT01_SCENE003_SHOT005_V01",
+      "title": "Benjamin Observes",
+      "status": "PREPARATION TASK CREATED — AWAITING FLOW UI PREFLIGHT — GENERATION NOT AUTHORIZED",
+      "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT005.md",
+      "prompt_status": "Canonical Scene Breakdown prompt copied verbatim into the task; locked for preflight",
+      "model_target": "Omni 1.2 Flash — verify live selector",
+      "mode_target": "Reference-to-Video (R2V)",
+      "resolution_target": "360p (640x360)",
+      "aspect_ratio_target": "16:9 landscape",
+      "duration_seconds_target": 10,
+      "output_count_target": 1,
+      "live_displayed_credit_price": "NOT CHECKED — Flow Agent must report exact live UI price; do not estimate",
+      "references": [
+        {
+          "name": "Benjamin master",
+          "media_id": "0595b453-1a9c-4c11-9359-fd79a6eeb951"
+        },
+        {
+          "name": "Barn_Exterior",
+          "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a"
+        },
+        {
+          "name": "Manor_Farm_Exterior",
+          "media_id": "8fa316c0-27e8-4df8-98af-56c73fa332f7"
+        }
+      ],
+      "dialogue": {
+        "status": "NONE — Benjamin is silent; no dialogue, narration or lip movement"
+      },
+      "generation_authorized": false,
+      "generation_credits_spent": 0,
+      "preflight_status": "NOT YET RUN",
+      "no_generation_performed": true,
+      "stop_after_preflight": true,
+      "authorization_required": "Separate explicit owner authorization for exactly one output, after the exact prompt/settings/references and live displayed price are verified. If price or any required setting/reference differs, stop and ask."
     }
   },
   "production_defaults": {
