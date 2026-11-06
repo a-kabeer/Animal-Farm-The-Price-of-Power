@@ -47,7 +47,7 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 | Order | Shot ID | Working title | Duration | Status |
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE003_SHOT001 | The Cart Comes to Rest | 10s | OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED |
-| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | PREPARATION ONLY — NOT GENERATED; no authorization |
+| 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | REVISED PREFLIGHT PASSED — AWAITING OWNER AUTHORIZATION |
 | 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | DIALOGUE APPROVED — NOT GENERATED |
 | 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | PLANNED |
@@ -272,3 +272,12 @@ Flow Agent preparation report supplied by the owner:
 - Assistant audit finding: the reported crop from shoulder to forelegs could hide Boxer's required head-lowering action. This is a prompt-framing concern, not a Flow asset or settings failure.
 - Correction: frame a medium three-quarter side profile wide enough to include Boxer's full head and neck, shoulder/harness and forelegs, while retaining a readable portion of the stationary cart behind him. The head-lowering action must remain visible.
 - The revised prompt above is for preflight only. Flow Agent must confirm the revised text, exact references/settings and current live quote. **No generation is authorized.**
+
+
+## 10. Revised Shot 002 preflight report — 6 November 2026
+
+- Flow Agent re-reported the exact three references attached: Boxer, Barn_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE; no substitutions.
+- Reported settings: Omni 1.2 Flash / R2V / 360p (640×360) / 16:9 / 10 seconds / one output. Native ambient audio enabled.
+- Rechecked live displayed price reported as 10 credits. No generation performed; zero credits spent.
+- Corrected medium three-quarter side-profile prompt reported entered verbatim. Composition includes Boxer's full head/neck, shoulder/harness and forelegs, with a readable portion of the stationary cart behind him.
+- **Preflight passed. Await explicit owner authorization before generating one output.** Recheck the live price and exact settings immediately before rendering; if anything differs, stop and request renewed authorization.
