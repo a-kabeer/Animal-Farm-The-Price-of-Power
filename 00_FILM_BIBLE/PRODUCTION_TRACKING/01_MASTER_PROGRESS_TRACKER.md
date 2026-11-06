@@ -22,7 +22,8 @@
 | Scene 001 60s source MP4 | Exists in working production workspace; binary excluded from this package | Previously recorded metadata: 640×360, 24fps, 60.000s, H.264 video, AAC stereo; actual assembled timeline still needs inspection |
 | Scene 001 Full HD upscale | Previously recorded as existing; binary excluded from this package | Earlier record: 1920×1080, 24fps, 60.000s, H.264/AAC. The new Agent audit did not inspect or re-verify this export |
 | Scene 001 source-asset audit | PASSED (6 November 2026) | Agent report confirms approved source versions, planned order, 16:9 and 60s total; see DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md |
-| Scene 001 editorial sign-off | PENDING | Actual master timeline, title tracking, transitions, completed audio mix, final 1080p export and owner approval remain unverified |
+| Scene 001 assembly specification | RECORDED | Agent supplied six-clip order, target 60s runtime, 0.5s crossfade, title/audio plan and target export settings; see final assembly report |
+| Scene 001 rendered master / editorial sign-off | PENDING | Actual MP4 not supplied; title composite, transitions, mixed audio, 1080p export and owner approval remain unverified |
 | Scene 002 source clips | 6/6 approved | Versions: 001 V01, 002 V01, 003 V01, 004 V01, 005 V02, 006 V02 |
 | Scene 002 Scenebuilder master | Pending | No assembled/exported Scene 002 MP4 supplied in the current record |
 | Final 30-minute film | Not started | Requires remaining story sequences, dialogue, narration, sound design and edit |
@@ -65,7 +66,7 @@
 - Mr_Jones Option 1 became the master visual reference. The image is approved; a formal reusable Flow Character entity was not independently confirmed in this chat.
 - The_Cows master reference was user-locked as Option A (even though an earlier recommendation suggested B); the user selection is authoritative.
 - Shot 006 V01 is the approved dusk transition for this scene.
-- Scene 001 assembly plan: hard cuts between shots 1–5, 0.5s crossfade into shot 6, Music_001/SFX layers, and “MANOR FARM” tracked over the blank gate sign. The Flow Agent's source-asset audit passed for all six clips, planned order, 16:9 and 60s total; it did not verify the assembled master, overlay, transitions, actual audio mix or 1080p export.
+- Scene 001 assembly plan: hard cuts between shots 1–5, 0.5s crossfade into shot 6, Music_001/SFX layers, and “MANOR FARM” tracked over the blank gate sign. The Flow Agent's source-asset audit passed for all six clips, planned order, 16:9 and 60s source total. A subsequent Agent report supplied assembly settings but explicitly states that timeline editing, title compositing, audio mixing and export must occur in Flow UI / an NLE. No rendered master MP4 was provided. The 0.5s crossfade also needs to be reconciled with the exact 60s target.
 
 **Export files:**
 - Source 60-second MP4: `Untitled_Scene_11-06_10_46_40_20261106155030.mp4` — 640×360, 24 fps, 60 seconds.
@@ -102,7 +103,7 @@ See `08_MASTER_SEQUENCE_STORY_MAP.md` for the full story map. At present, the fi
 
 ## Current next actions — in order
 
-1. **Scene 001:** Source-asset audit is passed. Now inspect the actual 60-second master timeline; verify the six-shot assembly, transitions and MANOR FARM overlay; complete/check the actual music/SFX mix; verify the 1080p export; obtain owner sign-off.
+1. **Scene 001:** Six locked sources and assembly specification are recorded. Execute the edit in Flow UI / NLE; resolve the crossfade/runtime discrepancy; render the MP4, verify title/transitions/audio/1080p metadata, and obtain owner sign-off.
 2. **Scene 002:** Add the six approved versions to Google Flow Scenebuilder in order, trim/check a 60-second sequence, export, then upscale or export 1080p and review.
 3. **Sequence mapping:** Decide what fills minute 02:00–03:00 of S01 — The Hungry Farm. Do not jump to S02 until the opening three-minute sequence is complete or deliberately restructured.
 4. **Narrator:** Approve narrator voice identity/accent/tone and write the narration script. The uploaded blueprint defines a narrator track but no narrator character/voice profile or exact lines.
