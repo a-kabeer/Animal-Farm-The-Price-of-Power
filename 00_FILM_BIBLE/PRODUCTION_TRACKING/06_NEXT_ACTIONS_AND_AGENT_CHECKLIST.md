@@ -300,3 +300,14 @@
 - [ ] Run Flow UI preflight only: verify Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, exactly one output, all three exact attachments, verbatim prompt and exact live displayed credit price.
 - [ ] **Do not click Generate, create a preview or spend credits.** Stop after the report.
 - [ ] After a matching preflight, obtain separate explicit owner authorization for exactly one Shot005 output at the final live displayed price.
+
+
+### Scene 003 Shot005 — Flow preflight passed (7 November 2026)
+
+- [x] Flow Agent reports Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output.
+- [x] Exact three references confirmed attached: Benjamin, Barn_Exterior and Manor_Farm_Exterior.
+- [x] Locked canonical prompt reported entered verbatim; no warnings or mismatches reported.
+- [x] Live displayed quote recorded: **10 credits** (point-in-time only; recheck immediately before an authorized render).
+- [x] No generation or preview; **0 credits spent**.
+- [ ] Await separate explicit owner authorization for exactly one output, conditional on final live recheck of price/settings/references/prompt.
+- [ ] If authorized, generate once only; no batch, preview, variation, retake or retry. Inspect actual media and keep status awaiting owner review.
