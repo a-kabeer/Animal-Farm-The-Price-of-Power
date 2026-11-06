@@ -123,3 +123,8 @@ Keep rejected versions for comparison/audit. Never use them in the master edit.
 - Editorial recommendation: keep the single V01 take for editing; use the push-in as an intentional tightening of the emotional focus. No retake recommended or authorized.
 - Audio stream existence verified; sound quality/listening review remains pending.
 - Status remains **GENERATED — AWAITING OWNER REVIEW** until the project owner explicitly approves. No Shot003 generation is authorized by this record.
+
+
+## D. Owner decision — retain Scene 003 Shot002 V01 for editing (6 November 2026)
+
+The project owner accepted the assistant's recommendation and approved `ACT01_SCENE003_SHOT002_V01` for editing. The single take is retained with the known minor framing deviation: the push-in crops Boxer's forelegs during the latter half. No retake is planned or authorized. Native audio stream presence is verified; detailed listening review remains pending. This decision does not authorize Shot003 or any other generation.
