@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 PREPARATION READY — PREFLIGHT PENDING",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 PREFLIGHT MISMATCH — CORRECTION REQUIRED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -255,7 +255,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Shot005 V01 owner accepted for editing on 2026-11-07; no retake. In NLE crop/reframe to remove/minimize the unexpected wooden post at right during push-in; keep Benjamin's face/ears visible, preserve the tighter close-up ending and apply modest cool-blue continuity grade. Prepare and preflight Shot006 only; do not generate without separate explicit authorization.",
+    "next_step": "Shot006 initial preflight rejected: Flow Agent's quoted prompt differs from canonical Scene Breakdown. Correct prompt only; do not generate. Re-run preflight with exact canonical prompt, same five references and same settings; report exact live price after correction. Obtain separate explicit owner authorization only after a fully matching report.",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -763,12 +763,12 @@
       "owner_acceptance_note": "Owner said 'next please' following the detailed Shot004 review and recommendation to retain V01; recorded as acceptance for editing and progression to Shot005."
     },
     "next_actions": [
-      "Post-produce Scene003 Shots001–005: apply cool-blue continuity grades; dub/synchronize exact Clover and Boxer dialogue; crop/reframe Shot005 to hide the unexpected wooden post; complete native ambient-audio listening checks.",
-      "Run Flow UI preflight for Scene003 Shot006 — Night Settles over the Farm — using the exact five references and canonical prompt in FLOW_AGENT_PREPARATION_TASK_SHOT006.md; do not generate, preview or spend credits.",
-      "After a matching Shot006 preflight report, obtain separate explicit owner authorization for exactly one output at the final live displayed price.",
-      "After any separately authorized Shot006 render, inspect the actual MP4 and metadata; keep status GENERATED — AWAITING OWNER REVIEW until owner accepts.",
-      "Assemble Scene003 to 60 seconds and obtain owner approval.",
-      "Verify complete S01 across Scenes001–003, then prepare S02."
+      "Correct the Shot006 prompt mismatch using the canonical prompt in FLOW_AGENT_PREPARATION_TASK_SHOT006.md; retain the exact five references and target settings.",
+      "Re-run Shot006 preflight only and report prompt entered verbatim, all five references, exact settings, and the current live displayed price. No generation or preview; 0 credits.",
+      "After a matching corrected preflight, obtain separate explicit owner authorization for exactly one output at the final live-verified price.",
+      "After any separately authorized Shot006 render, inspect the actual MP4 and metadata; keep it awaiting owner review until explicit owner acceptance.",
+      "Complete Scene003 post-production for Shots001–005: color continuity, Clover/Boxer dialogue dubbing, crop/reframe Shot005's unexpected wooden post, and audio listening checks.",
+      "Assemble Scene003 to 60 seconds and obtain owner approval; then verify complete S01."
     ],
     "shot004_generation_authorization": {
       "audit_date": "2026-11-07",
@@ -968,7 +968,7 @@
     "shot006_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT006_V01",
       "title": "Night Settles over the Farm",
-      "status": "PREPARATION TASK CREATED — AWAITING FLOW UI PREFLIGHT — GENERATION NOT AUTHORIZED",
+      "status": "PREFLIGHT MISMATCH — CORRECTION REQUIRED — GENERATION NOT AUTHORIZED",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT006.md",
       "prompt_status": "Canonical Scene Breakdown prompt copied verbatim into the task; locked for preflight",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -977,7 +977,7 @@
       "aspect_ratio_target": "16:9 landscape",
       "duration_seconds_target": 10,
       "output_count_target": 1,
-      "live_displayed_credit_price": "NOT CHECKED — Flow Agent must report exact live UI price; do not estimate",
+      "live_displayed_credit_price": 10,
       "references": [
         {
           "name": "Boxer master",
@@ -1005,11 +1005,65 @@
       },
       "generation_authorized": false,
       "generation_credits_spent": 0,
-      "preflight_status": "NOT YET RUN",
+      "preflight_status": "MISMATCH — OWNER-SUPPLIED FLOW AGENT REPORT, 2026-11-07",
       "no_generation_performed": true,
       "stop_after_preflight": true,
-      "authorization_required": "Separate explicit owner authorization for exactly one output after the exact prompt/settings/references and live displayed price are verified. If price or any required setting/reference differs, stop and ask.",
-      "next_action": "Run preflight only. Report exact live credit price, exact settings and all five exact references; do not generate, preview or spend credits."
+      "authorization_required": "Do not generate under the mismatched preflight. Correct the setup by entering the exact canonical prompt from FLOW_AGENT_PREPARATION_TASK_SHOT006.md verbatim; keep the exact five references and target settings. Recheck exact live displayed credit price after correction. Stop and report. A separate explicit owner authorization is required for exactly one output after a fully matching corrected preflight.",
+      "next_action": "Correct prompt mismatch: enter the canonical prompt in Section 5 verbatim. Preserve all five exact references and settings; recheck the live price after prompt correction; report preflight only. Do not generate or preview.",
+      "initial_preflight_report": {
+        "report_date": "2026-11-07",
+        "report_source": "Owner-supplied Flow Agent preparation report",
+        "model": "Omni 1.2 Flash",
+        "mode": "Reference-to-Video (R2V)",
+        "resolution": "360p (640x360)",
+        "aspect_ratio": "16:9 landscape",
+        "duration_seconds": 10,
+        "output_count": 1,
+        "live_displayed_credit_price": 10,
+        "audio": "Native Omni Flash ambient audio enabled; evening wind, barn wood creaking and soft night ambience reported.",
+        "references": [
+          {
+            "name": "Boxer",
+            "media_id": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
+            "status": "ATTACHED"
+          },
+          {
+            "name": "Clover",
+            "media_id": "b86cb0af-a9e4-4d02-8b25-0316f718481b",
+            "status": "ATTACHED"
+          },
+          {
+            "name": "Benjamin",
+            "media_id": "0595b453-1a9c-4c11-9359-fd79a6eeb951",
+            "status": "ATTACHED"
+          },
+          {
+            "name": "Manor_Farm_Exterior",
+            "media_id": "8fa316c0-27e8-4df8-98af-56c73fa332f7",
+            "status": "ATTACHED"
+          },
+          {
+            "name": "Barn_Exterior",
+            "media_id": "3919fbb9-bf69-40e5-98f4-e02680cb077a",
+            "status": "ATTACHED"
+          }
+        ],
+        "prompt_entered_verbatim": false,
+        "prompt_reported": "Wide exterior transition shot; animals walk into shadows near open barn doorway and enter the barn out of view; barn doors slightly ajar with warm light slivers; high-angle wide camera pulls back; full nighttime / moonlit farm.",
+        "canonical_prompt": "Wide rear three-quarter view; animals quietly turn toward the old red barn entrance and begin moving toward it; cool blue night deepens; soft warm glow visible through the barn doorway; slow continuous camera pull-back ending with barn entrance as visual focus; no Old Major or meeting.",
+        "discrepancies": [
+          "Camera composition changed from wide rear three-quarter to high-angle wide.",
+          "Animal action changed from turning and beginning to move toward the entrance to walking into the shadows and entering the barn out of view.",
+          "The prompt introduced doors slightly ajar with warm light slivers through timber planks; canonical prompt only specifies a soft warm glow visible through the barn doorway.",
+          "The atmosphere/end point changed to full nighttime and a moonlit farm, rather than the canonical dusk deepening into cool blue night.",
+          "The report claims verbatim entry, but the quoted prompt materially differs from the exact locked prompt."
+        ],
+        "warnings": [],
+        "generation_performed": false,
+        "preview_performed": false,
+        "credits_spent": 0,
+        "preflight_result": "REJECTED — CORRECT PROMPT VERBATIM; AFTER CORRECTION RECHECK LIVE PRICE AND ALL SETTINGS/REFERENCES. STOP."
+      }
     }
   },
   "production_defaults": {
