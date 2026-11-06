@@ -131,11 +131,10 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Flow Agent: execute ACT01_SCENE003_SHOT003_V01 only, exactly one output, only if the final live UI recheck still shows exactly 10 credits and all model/mode/settings/references/prompt match. No preview, batch, retry, variation or other shot.",
-    "After Shot003 render, return the actual video and metadata; mark it generated awaiting owner review; inspect exact dialogue and lip-sync and plan post-production dubbing/sync if needed.",
-    "Complete detailed listening review of Scene003 Shot002 native audio.",
-    "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE.",
-    "Continue remaining Scene003 shots individually; one output per shot by default, with separate explicit shot-specific authorization.",
+    "Owner review of Scene003 Shot003 V01; assistant recommends retaining the single take for editing with a minor cool-blue continuity grade and post-production dialogue dubbing/synchronization.",
+    "Complete detailed listening review of Scene003 Shot003 native ambient audio and Scene003 Shot002 native audio.",
+    "Apply and review cool-blue color/exposure matching across Scene003 Shots001–003 in NLE.",
+    "Do not generate Shot004 until its own prompt/references are prepared and separate explicit owner authorization is received; default to one output per shot.",
     "Assemble Scene003 to 60 seconds and obtain owner approval.",
     "Verify complete S01 across Scenes001–003, then prepare S02."
   ],
@@ -155,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 OWNER AUTHORIZED — EXACTLY ONE OUTPUT AT 10 CREDITS — FINAL LIVE UI RECHECK REQUIRED; SHOT004–006 NOT AUTHORIZED",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 GENERATED — AWAITING OWNER REVIEW; SHOT004–006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -191,7 +190,7 @@
       "BOXER_HAY_CART_CONTINUITY_REFERENCE"
     ],
     "generation_authorized": false,
-    "generation_credits_spent": 20,
+    "generation_credits_spent": 30,
     "preparation": {
       "report_source": "Corrected Flow Agent preparation and final production adjustment reports supplied by project owner on 2026-11-06",
       "preparation_status": "COMPLETE FOR SHOT001",
@@ -380,7 +379,7 @@
     "shot003_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT003_V01",
       "title": "Clover's Concern",
-      "status": "OWNER AUTHORIZED — EXACTLY ONE OUTPUT AT 10 CREDITS — FINAL LIVE UI RECHECK REQUIRED",
+      "status": "GENERATION COMPLETED — 1 OUTPUT — 10 CREDITS REPORTED — AWAITING OWNER REVIEW",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT003.md",
       "prompt_status": "LOCKED FOR PREPARATION; do not change without reporting to owner",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -420,10 +419,10 @@
         "approved_date": "2026-11-06",
         "lip_sync": "Not yet verified; Flow Agent must report support and reliability. Post-production dubbing may be required."
       },
-      "generation_authorized": true,
-      "generation_credits_spent": 0,
+      "generation_authorized": false,
+      "generation_credits_spent": 10,
       "preflight_status": "PASSED — OWNER AUTHORIZATION RECEIVED 2026-11-07",
-      "no_generation_performed": true,
+      "no_generation_performed": false,
       "stop_after_preflight": true,
       "model": "Omni 1.2 Flash",
       "mode": "Reference-to-Video (R2V)",
@@ -439,7 +438,8 @@
       "audio_configuration": "Native Omni Flash audio enabled",
       "dialogue_capability": "Flow Agent reports exact English spoken dialogue and precise animal lip-sync are not guaranteed. Inspect generated audio/video; plan post-production dubbing and synchronization if required.",
       "preflight_report_date": "2026-11-06",
-      "next_action": "Flow Agent execution task is authorized for exactly one output. Immediately recheck live price/settings/references; generate only if exact 10-credit price and all locked values match. No additional output, retry or other shot."
+      "next_action": "Owner review of Shot003 V01. Assistant recommends retaining for editing; no retake recommended. Dialogue must be recorded/dubbed and synchronized in post-production.",
+      "execution_status": "COMPLETED — single output reported generated; actual MP4 inspected"
     },
     "shot003_generation_authorization": {
       "authorized_by": "Project owner",
@@ -459,10 +459,55 @@
       "dialogue": "Clover: You have carried enough for one day, Boxer.",
       "preflight_evidence": "Owner-supplied Flow Agent report: all five exact references attached; prompt entered verbatim; preflight settings and 10-credit displayed quote reported; no generation and 0 credits spent.",
       "execution_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_EXECUTION_TASK_SHOT003.md",
-      "execution_status": "AUTHORIZED — AWAITING FINAL LIVE UI RECHECK AND SINGLE RENDER",
-      "authorization_consumed": false,
+      "execution_status": "CONSUMED — exactly one output generated; Flow Agent reports exactly 10 credits charged",
+      "authorization_consumed": true,
       "no_other_shots_or_takes": true,
       "no_auto_retry": true
+    },
+    "shot003_execution": {
+      "status": "GENERATED — AWAITING OWNER REVIEW",
+      "shot_id": "ACT01_SCENE003_SHOT003_V01",
+      "media_id": "868918c2-e7c3-4e18-83d2-ed8bca8f40ff",
+      "asset_name": "Clover expresses concern for Boxer",
+      "target_collection": "04_ACT_01_The_Old_World",
+      "reported_actual_credits_charged": 10,
+      "reported_output_count": 1,
+      "actual_file": "Owner-uploaded MP4 inspected in this conversation; /mnt/data/Clover_expresses_concern_for_Boxer_868918c2.mp4; 1,967,966 bytes",
+      "verified_duration_seconds": 10,
+      "verified_resolution": "640x360",
+      "verified_aspect_ratio": "16:9",
+      "verified_frame_rate_fps": 24,
+      "verified_video_codec": "H.264 / AVC",
+      "verified_audio_codec": "AAC-LC",
+      "verified_audio_sample_rate_hz": 48000,
+      "verified_audio_channels": "2-channel stereo",
+      "audio_stream": "Present; 10.026667-second stream. Flow report says ambient horse vocalization and evening wind only; exact spoken line not generated. Detailed listening review not performed.",
+      "dialogue_status": "Clover's exact approved spoken line must be dubbed and synchronized during post-production.",
+      "prompt_used": "Flow Agent reports locked Shot003 prompt entered verbatim at preflight; no prompt changes reported at generation.",
+      "references": "Flow Agent preflight report confirms all five exact references attached without substitution.",
+      "report_date": "2026-11-07",
+      "evidence_source": "Owner-supplied Flow execution report plus owner-uploaded MP4 independently inspected for metadata and sampled frames.",
+      "visual_review": {
+        "status": "ASSISTANT VISUAL REVIEW COMPLETED — RECOMMEND RETAIN FOR EDITING",
+        "positive_findings": [
+          "Clover and Boxer retain their approved chestnut appearances and distinctive mane/face markings.",
+          "Clover is unharnessed; Boxer retains the temporary leather working harness.",
+          "The loaded wooden hay cart and red barn exterior remain visible and consistent with the previous scene.",
+          "The calm medium two-shot presents Clover's concern and Boxer's listening posture clearly.",
+          "Restrained camera movement and subtle emotional performance fit the scene."
+        ],
+        "deviations": [
+          "The lighting reads as cool, subdued overcast blue-hour rather than deep blue twilight; apply a small continuity grade against Scene003 Shot002 and Shot001 in the NLE.",
+          "The camera gradually tightens, cropping lower legs from the medium two-shot; both characters' heads and upper bodies remain clearly readable."
+        ],
+        "recommendation": "Retain this single take for editing; no retake recommended. Use post-production dubbing for Clover's exact approved line and perform a continuity color grade."
+      },
+      "owner_visual_review": "PENDING — generated output returned for owner review; assistant visual review and recommendation completed",
+      "owner_approval": false,
+      "next_shot_authorized": false,
+      "retake_authorized": false,
+      "credits_spent": 10,
+      "editorial_status": "GENERATED — AWAITING OWNER REVIEW; ASSISTANT RECOMMENDS RETAIN FOR EDITING WITH MINOR COLOR CONTINUITY GRADE AND POST-PRODUCTION DIALOGUE DUB"
     }
   },
   "production_defaults": {
