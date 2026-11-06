@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 GENERATED — AWAITING OWNER REVIEW; SHOT006 NOT GENERATED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 PREPARATION READY — PREFLIGHT PENDING  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -50,8 +50,8 @@ All shots remain outside the barn. No unverified Main_Barn interior asset is req
 | 2 | ACT01_SCENE003_SHOT002 | The Weight of the Work | 10s | OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION |
 | 3 | ACT01_SCENE003_SHOT003 | Clover's Concern | 10s | OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED |
 | 4 | ACT01_SCENE003_SHOT004 | Boxer's Answer | 10s | OWNER ACCEPTED FOR EDITING — NO RETAKE |
-| 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | GENERATED — AWAITING OWNER REVIEW |
-| 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PLANNED |
+| 5 | ACT01_SCENE003_SHOT005 | Benjamin Observes | 10s | OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST |
+| 6 | ACT01_SCENE003_SHOT006 | Night Settles over the Farm | 10s | PREPARATION TASK CREATED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED |
 | | **TOTAL** | | **60s** | **Not generated** |
 
 ### Shot 001 — The Cart Comes to Rest (10 seconds)
@@ -598,3 +598,24 @@ The MP4 contains H.264 video and AAC stereo 48kHz audio. Detailed subjective lis
 **Assistant recommendation: RETAIN V01 FOR EDITING — NO RETAKE RECOMMENDED.** Preserve the single generated output and account for the tighter ending in the edit; apply modest cool-blue grading.
 
 **Status: GENERATED — AWAITING OWNER REVIEW.** This review is an assistant recommendation, not owner sign-off. Do not mark Shot005 approved or proceed to Shot006 generation until the owner explicitly accepts/rejects Shot005.
+
+
+## 27. Shot005 owner acceptance and unexpected wooden post note — 7 November 2026
+
+The project owner said **“go ahead”** after the Shot005 visual review and recommendation to retain V01, crop/reframe around the unexpected wooden post and color-match the dusk footage.
+
+**Decision:** `ACT01_SCENE003_SHOT005_V01` (media ID `7b9c7132-289d-4331-a09d-256ee969f388`) is **OWNER ACCEPTED FOR EDITING — NO RETAKE**.
+
+### Specific post-production treatment
+
+- An unexpected vertical wooden support/post becomes visible on the right side during the camera push-in. This element was not specified in the shot design and reads as an unintended continuity/set-generation artifact.
+- Crop/reframe the right edge to remove or minimize the post, keeping Benjamin's face and ears safely visible. Check the crop across the whole 10-second clip so it does not jump or cut into Benjamin.
+- The push-in also tightens from medium shot to close-up; preserve the tighter ending as an emotional close-in if the crop remains stable.
+- Apply a modest cool-blue continuity grade against Shots003–004.
+- Preserve the single generated output; no retake is required or authorized.
+
+### Shot006 preparation
+
+Shot006 — “Night Settles over the Farm” — is now prepared for Flow UI preflight only. It will show Boxer, Clover and Benjamin turning toward the red barn entrance and beginning to move toward it in a wide rear three-quarter view, with dusk deepening toward blue night and a soft warm doorway glow. No Old Major or night meeting appears in this shot.
+
+Preparation task: `FLOW_AGENT_PREPARATION_TASK_SHOT006.md`. Use the five exact references listed there and enter the canonical Scene Breakdown prompt verbatim. Preflight only; do not generate, preview or spend credits. A separate explicit owner authorization is required after live price/settings/references are verified.
