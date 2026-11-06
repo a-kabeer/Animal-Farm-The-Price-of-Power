@@ -131,7 +131,7 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Prepare and preflight Scene003 Shot002 only; verify Boxer, Barn_Exterior and hay-cart continuity reference IDs, model/settings, prompt and live price; do not generate",
+    "Prepare and preflight Scene003 Shot002 only; verify references, settings, prompt and live price; do not generate",
     "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE; complete separate native-audio listening review",
     "Obtain separate explicit owner authorization for Scene003 Shot002 at the exact displayed price before any render",
     "Continue Scene003 one shot at a time; review every generated output",
@@ -282,7 +282,7 @@
     "transition_audit": {
       "from": "ACT01_SCENE002_SHOT006_V02",
       "to": "ACT01_SCENE003_SHOT001_V01",
-      "finding": "Character, cart/harness and barn continuity accepted; lighting mismatch (deep blue twilight to brighter overcast) and source resolution difference (720p to 360p) identified.",
+      "finding": "Character, cart/harness and barn identity continuity accepted; lighting mismatch (deep blue twilight to brighter overcast) and source resolution difference (720p to 360p) identified.",
       "editorial_action": "Preserve Scene 003 Shot001 V01; apply cool-blue exposure/color match in NLE. Grade remains pending.",
       "new_generation_required": false,
       "additional_credits_authorized": 0
@@ -296,7 +296,6 @@
         "Barn_Exterior": "3919fbb9-bf69-40e5-98f4-e02680cb077a",
         "BOXER_HAY_CART_CONTINUITY_REFERENCE": "d86c8a63-b658-4216-9740-0132bcf86282"
       },
-      "required_action": "Flow Agent preparation/preflight only: confirm references, exact settings, final prompt and current displayed credit quote; stop without generating.",
       "generation_authorized": false,
       "credits_spent": 0
     }
