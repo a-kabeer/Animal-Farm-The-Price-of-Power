@@ -96,3 +96,18 @@ However, the quoted prompt in the report differs materially from the locked prom
 The report's claim that the prompt was entered verbatim is therefore contradicted by the quoted text.
 
 **Preflight result: REJECTED — CORRECTION REQUIRED.** Do not generate. Re-enter Section 5 exactly, verbatim; retain the same five references and target settings; after correcting the prompt, recheck and report the current live displayed credit price. No generation, preview or credit spend is authorized.
+
+
+## 8. Corrected Flow preflight passed — 7 November 2026
+
+The owner supplied a corrected report confirming:
+- All five exact references remain attached: Boxer, Clover, Benjamin, Manor_Farm_Exterior and Barn_Exterior.
+- Omni 1.2 Flash / Reference-to-Video (R2V) / 360p (640×360) / 16:9 landscape / 10 seconds / exactly one output.
+- Corrected prompt entered verbatim and matching this task's locked Section 5.
+- Live displayed quote rechecked after correction: **10 credits**.
+- Native Omni Flash ambient audio enabled.
+- No generation or preview performed; zero credits spent.
+
+The first mismatched prompt was corrected and is preserved in the project decision log for audit. Current status: **CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**.
+
+A separate explicit owner authorization is still required. Immediately before any authorized render, verify the exact live price is still 10 credits and all five references, settings and prompt remain unchanged. Exactly one output only; otherwise stop without generating.
