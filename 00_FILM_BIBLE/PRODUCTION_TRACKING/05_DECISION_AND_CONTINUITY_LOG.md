@@ -158,3 +158,12 @@ Shot004 — Boxer's Response — is prepared for Flow UI preflight only. Its own
 Exactly one output generated; Flow reports 10 credits charged. Media ID `0b69c62d-2094-4ca6-835d-24346f727361`. Actual uploaded MP4 verified: 10s, 640×360, 24fps, 16:9, H.264/AVC, AAC stereo 48kHz.
 
 Independent visual review finds the corrected medium close-up works: Boxer is the primary subject, Clover is partly visible at the left edge, harness and white blaze are readable, and the red barn setting is consistent. Assistant recommendation: retain V01 for editing; no retake recommended. Flow reports ambient horse vocalization and evening wind only; dub and synchronize the approved Boxer line in post. Detailed listening review remains pending. Owner review is still pending; no Shot005 generation is authorized.
+
+
+## I. Scene 003 Shot004 — detailed visual audit (7 November 2026)
+
+Actual MP4 sampled at 0.5s, 2s, 4s, 6s, 8s and 9.5s and compared with Shot003. The medium close-up correctly centers Boxer; the white blaze, mane, ears and temporary harness remain readable, with the red Barn_Exterior consistent. Clover's partial head/muzzle is visible at the left edge rather than only her shoulder, but remains cropped/secondary and does not create a full two-shot. Lighting is cool subdued dusk but a little brighter/greyer than Shot003; modest cool-blue continuity grading recommended. Push-in crops more of Boxer's body but retains his head/ears.
+
+Technical metadata verified: 10.000s, 640×360, 16:9, 24fps, H.264/AVC, AAC stereo 48kHz. Flow reports ambient audio only; exact approved Boxer line requires post-production dubbing/synchronization. Detailed listening review pending.
+
+Assistant recommendation: **retain V01 for editing; no retake recommended.** Owner review remains pending.
