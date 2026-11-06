@@ -201,3 +201,10 @@ No generation has yet been reported. The Flow Agent must recheck the live displa
 Visual continuity is good: Clover and Boxer identities are consistent; Clover is unharnessed, Boxer retains the temporary harness, and the loaded cart/red barn remain visible. The camera tightens and crops lower legs but preserves readable heads and upper bodies. Lighting is cool but somewhat brighter/greyer than deep blue twilight; a modest cool-blue continuity grade is recommended. Flow generated ambient horse vocalization and evening wind, not Clover's exact spoken line; record and synchronize the approved dialogue in post. Audio listening review remains pending.
 
 **Assistant recommendation: retain V01 for editing; no retake recommended.** Status remains **GENERATED — AWAITING OWNER REVIEW**, not owner-approved. Shot004 is not authorized by this consumed generation authorization.
+
+
+## Owner acceptance and next-shot preparation — 7 November 2026
+
+Shot003 V01 (`868918c2-e7c3-4e18-83d2-ed8bca8f40ff`) is **OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED**. The owner has confirmed a modest cool-blue grade will be applied to its opening and Clover's exact approved line will be dubbed and synchronized in final audio editing. The review spent zero credits. The asset remains preserved.
+
+Shot004 — Boxer's Response — is prepared for Flow preflight only. The task is `FLOW_AGENT_PREPARATION_TASK_SHOT004.md`. Its exact approved line is “The work still needs doing, Clover.” Attach Boxer, Clover and Barn_Exterior references and verify the current model/settings/price. No generation or preview is authorized; obtain a separate explicit owner authorization after preflight. Default output count remains one per shot.
