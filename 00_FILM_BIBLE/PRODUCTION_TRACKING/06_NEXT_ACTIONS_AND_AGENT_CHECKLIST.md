@@ -113,3 +113,14 @@
 - [x] Live displayed quote rechecked and reported as 10 credits.
 - [x] No generation performed; 0 credits spent.
 - [ ] Await separate explicit owner authorization for exactly one output at 10 credits; recheck live displayed price/settings immediately before any render. If they differ, stop and ask owner.
+
+
+### Scene 003 Shot002 — conditional owner authorization received (6 November 2026)
+
+- [x] Owner explicitly authorized exactly one output of `ACT01_SCENE003_SHOT002_V01`.
+- [x] Authorization ceiling: exactly 10 credits; Flow live UI must still display exactly 10 immediately before generation.
+- [x] Locked target: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output / exact three verified references / corrected head-visible prompt.
+- [ ] Flow Agent to recheck every locked item and the live quote, then render exactly one output only if every condition matches.
+- [ ] If price differs from 10, or any setting/reference/prompt differs, STOP and ask the owner; no generation.
+- [ ] No retake, second output, alternate version, or other shot included in this authorization.
+- [ ] After render, return media ID, actual charged credits, metadata and video for owner review. Do not mark approved automatically.
