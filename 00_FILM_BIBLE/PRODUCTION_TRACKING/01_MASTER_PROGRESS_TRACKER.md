@@ -11,7 +11,7 @@
 
 - **Scenes 001 and 002 are master-complete by owner confirmation (6 November 2026)**, with 12 approved source shots across 120 seconds.
 - Completed footage time: **120 seconds (2:00)** out of the 30-minute target = **6.7% of target runtime**. This is runtime coverage, not final-film completion.
-- `ACT01_SCENE003 — The Burden of the Day` is planned for 02:00–03:00 with six 10-second shots. Shot001 V01 is generated and owner-accepted for editing, with an NLE cool-blue color match still required; Shot002 is next for preparation only. The two dialogue lines for Shots003–004 were owner-approved on 6 November 2026.
+- `ACT01_SCENE003 — The Burden of the Day` is planned for 02:00–03:00 with six 10-second shots. Shot001 V01 is generated and owner-accepted for editing, with an NLE cool-blue color match still required. Shot002 V01 is generated and independently inspected; owner approval is pending, with a late-shot foreleg crop noted. The two dialogue lines for Shots003–004 were owner-approved on 6 November 2026.
 - S01 will have a complete three-minute working-scene plan once Scene 003 is produced and reviewed.
 - Master sequences S02–S10 have not entered detailed shot production in this log.
 
@@ -38,7 +38,7 @@
 | Character references | Boxer, Clover and Benjamin approved references recorded in Asset Register |
 | Locations | Existing Manor_Farm_Exterior and Barn_Exterior references; exterior-only scene; no Main_Barn interior asset required |
 | Dialogue | Two original adaptation lines for Clover and Boxer; both exact lines owner-approved 6 November 2026; audio not generated |
-| Generation | Shot001 V01 generated (10 credits reported charged), visually inspected and owner-accepted for editing; cool-blue NLE color match pending; Shot002 preparation only next; no new render authorized |
+| Generation | Shot001 V01 accepted for editing (cool-blue NLE match pending); Shot002 V01 generated and inspected (10 credits reported charged), awaiting owner approval; late-shot push-in crops forelegs; Shots003–006 not generated |
 
 ## Active project settings (the workflow actually used so far)
 
@@ -146,3 +146,28 @@ Flow Agent reported one output generated: `Boxer stopping cart by barn` (media I
 ### Scene 002 Shot006 final media metadata
 
 Owner-confirmed final: `ACT01_SCENE002_SHOT006_V02`, Flow media ID `e3c06bbd-2245-427a-8fbd-3b9bbd1cf891`; 10s, 1280×720, 24fps, 16:9, AAC stereo. Officially approved and locked as the final shot of Scene 002.
+
+
+## Scene 003 Shot002 — generated media review (6 November 2026)
+
+**Status:** GENERATED — AWAITING OWNER REVIEW  
+**Flow media ID:** `a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a`  
+**Asset name:** `Boxer lowering head by cart`  
+**Collection:** `04_ACT_01_The_Old_World` (`40ef8957-0059-4e95-ad64-0b85dada2551`)  
+**Flow report:** exactly one output; exactly 10 credits charged; corrected prompt reported used verbatim; all three exact references reported attached.
+
+### Independently verified MP4 metadata
+
+- Duration: 10.000 seconds (audio stream 10.0267 seconds)
+- Video: 640×360, 16:9, 24fps, H.264/AVC
+- Audio: AAC-LC, stereo, 48kHz
+- File size: 2,054,848 bytes
+- Audio stream present; detailed subjective listening review remains pending.
+
+### Visual review
+
+- **Pass:** Boxer identity (chestnut coat, dark mane, white blaze), temporary leather harness, stationary loaded wooden cart, red barn exterior and subdued cool dusk.
+- **Pass:** Boxer lowers his head clearly and releases visible breath vapor; restrained movement is suitable for the tired-work beat.
+- **Editorial note:** the push-in tightens substantially in the latter half. By the final frames the forelegs are cropped out, although the head, harness and cart remain readable. This deviates from the instruction to keep the forelegs in frame throughout.
+- **Recommendation:** retain this one take for editing and treat the push-in as an intentional close-in; do not spend credits on a retake. Owner sign-off is still required.
+- No approval is inferred from generation or assistant review. Shot003 remains on hold pending explicit owner approval of Shot002 and a separate shot-specific generation authorization.
