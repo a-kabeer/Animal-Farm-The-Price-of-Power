@@ -300,3 +300,16 @@ The quoted prompt is materially different from the canonical prompt:
 - Changes the dusk-to-blue-night ending to full nighttime / moonlit farm.
 
 The report's “entered verbatim” claim therefore does not match the actual quoted text. **Preflight rejected — correction required.** Do not generate. Enter the canonical prompt exactly as saved in `FLOW_AGENT_PREPARATION_TASK_SHOT006.md`, retain the exact five references/settings, then re-run preflight and report the exact live displayed price after correction. No preview or credits.
+
+
+## Scene 003 Shot006 — corrected preflight passed (7 November 2026)
+
+The second Flow Agent preflight report now matches the canonical prompt verbatim. Verified:
+- Omni 1.2 Flash / Reference-to-Video (R2V).
+- 360p (640×360), 16:9 landscape, 10 seconds, exactly one output.
+- Exactly five approved references attached: Boxer, Clover, Benjamin, Manor_Farm_Exterior and Barn_Exterior.
+- Correct wide rear three-quarter camera; animals turn and begin moving toward the red barn; dusk deepens into cool blue night; soft warm doorway glow; slow continuous pull-back.
+- The live price was rechecked after correction and is **10 credits**.
+- No generation or preview; **0 credits spent**.
+
+The initial prompt mismatch was corrected and remains documented. **Current status: CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT OWNER AUTHORIZATION.** The quote is point-in-time; recheck all selectors, attachments, prompt and price immediately before any separately authorized render. Exactly one output only.
