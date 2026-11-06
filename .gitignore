@@ -1,0 +1,15 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.tmp
+*.bak
+
+# Local editing caches / renders
+.cache/
+proxy_media/
+render_cache/
+
+# Approved video binaries are stored outside this lightweight package by default. Add media deliberately via Git LFS when approved for repository storage.

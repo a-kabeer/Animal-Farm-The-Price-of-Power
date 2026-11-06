@@ -1,0 +1,40 @@
+name: Shot production / review
+description: Track one Flow shot through preparation, generation, review and approval.
+title: "[SHOT] ACTXX_SCENEXXX_SHOTXXX_V01"
+labels: [production, shot]
+body:
+  - type: input
+    id: shot_id
+    attributes:
+      label: Shot ID and version
+      placeholder: ACT01_SCENE003_SHOT001_V01
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage
+      options:
+        - Preparation
+        - Awaiting authorization
+        - Queued
+        - Generated — review pending
+        - Revision required
+        - Approved
+        - Rejected / superseded
+  - type: textarea
+    id: references
+    attributes:
+      label: Required references and Flow IDs
+  - type: textarea
+    id: settings
+    attributes:
+      label: Model, duration, resolution, aspect ratio and displayed cost
+  - type: textarea
+    id: review
+    attributes:
+      label: Review notes, technical metadata and continuity result
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Media path, output ID and evidence links

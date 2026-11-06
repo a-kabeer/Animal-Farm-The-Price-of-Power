@@ -1,0 +1,351 @@
+{
+  "project": "Animal Farm \u2014 The Price of Power",
+  "created": "2026-11-06",
+  "package_profile": "GitHub project control package without approved video binaries or Scene 001 exports",
+  "file_count_excluding_this_manifest": 85,
+  "excluded_approved_video_files": 12,
+  "excluded_scene001_export_files": 2,
+  "retained_audit_video_files": 4,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 294
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/asset-request.yml",
+      "size_bytes": 661
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/shot-production.yml",
+      "size_bytes": 1082
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 303
+    },
+    {
+      "path": "00_FILM_BIBLE/Agent_Instructions_MASTER.md",
+      "size_bytes": 3271
+    },
+    {
+      "path": "00_FILM_BIBLE/Animal_Farm_Google_Flow_Blueprint_ORIGINAL.md",
+      "size_bytes": 21190
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/00_MASTER_CONTROL_BOARD.md",
+      "size_bytes": 2568
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/01_MASTER_PROGRESS_TRACKER.md",
+      "size_bytes": 8773
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv",
+      "size_bytes": 3887
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/03_ASSET_REGISTER.csv",
+      "size_bytes": 4102
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/04_AUDIO_DIALOGUE_AND_NARRATION.md",
+      "size_bytes": 7574
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/05_DECISION_AND_CONTINUITY_LOG.md",
+      "size_bytes": 6309
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/06_NEXT_ACTIONS_AND_AGENT_CHECKLIST.md",
+      "size_bytes": 3366
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/07_CREDIT_AND_EXPORT_REGISTER.md",
+      "size_bytes": 3395
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/08_MASTER_SEQUENCE_STORY_MAP.md",
+      "size_bytes": 4564
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/09_CHANGE_HISTORY.csv",
+      "size_bytes": 1911
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/10_DIALOGUE_CUE_SHEET_TEMPLATE.csv",
+      "size_bytes": 3174
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/11_AGENT_STATUS_UPDATE_TEMPLATE.md",
+      "size_bytes": 818
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/Animal_Farm_Google_Flow_Blueprint.md",
+      "size_bytes": 21190
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/CREDIT_AND_EXPORT_NOTES.md",
+      "size_bytes": 1243
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/MEDIA_SHA256_MANIFEST.json",
+      "size_bytes": 8719
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/README_REPOSITORY_BASELINE.md",
+      "size_bytes": 1190
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/README_START_HERE.md",
+      "size_bytes": 4857
+    },
+    {
+      "path": "00_FILM_BIBLE/PRODUCTION_TRACKING/project_status.json",
+      "size_bytes": 2428
+    },
+    {
+      "path": "00_FILM_BIBLE/PROJECT_SCOPE_AND_SOURCE_OF_TRUTH.md",
+      "size_bytes": 2497
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/BENJAMIN_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 113595
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/BOXER_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 419582
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/CLOVER_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 87739
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/MR_JONES_OPTION_A_MASTER_DESIGN_SHEET.jpg",
+      "size_bytes": 437905
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/THE_COWS_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 828433
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/THE_SHEEP_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 163515
+    },
+    {
+      "path": "02_LOCATIONS/APPROVED_LOCAL_REFERENCES/FIELDS_AND_ORCHARD_OPTION_A.jpg",
+      "size_bytes": 293612
+    },
+    {
+      "path": "02_LOCATIONS/FLOW_ONLY_REFERENCE_INDEX/FLOW_ONLY_ASSETS.md",
+      "size_bytes": 1112
+    },
+    {
+      "path": "03_PROPS_AND_SYMBOLS/CONTINUITY_REFERENCES/CONTINUITY_PROPS.md",
+      "size_bytes": 863
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/README.md",
+      "size_bytes": 460
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/APPROVED/SCENE001/README.md",
+      "size_bytes": 468
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/APPROVED/SCENE002/README.md",
+      "size_bytes": 468
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/MEDIA_INDEX.md",
+      "size_bytes": 1436
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE001/ACT01_SCENE001_SHOT002_V01_REJECTED.mp4",
+      "size_bytes": 2744404
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE001/ACT01_SCENE001_SHOT002_V02_REJECTED.mp4",
+      "size_bytes": 2562246
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE001/REVISION_NOTES.md",
+      "size_bytes": 198
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE002/ACT01_SCENE002_SHOT005_V01_REJECTED.mp4",
+      "size_bytes": 2787920
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE002/ACT01_SCENE002_SHOT006_V01_SUPERSEDED.mp4",
+      "size_bytes": 2916784
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE002/REVISION_NOTES.md",
+      "size_bytes": 211
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/SCENE001_SHOT002_APPROVED_COMPOSITION_REFERENCE.jpg",
+      "size_bytes": 177730
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/SCENE002_SHOT005_APPROVED_COMPOSITION_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 884968
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/scene002_shot003_review.jpg",
+      "size_bytes": 213613
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/shot002_v03_contact.jpg",
+      "size_bytes": 300960
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/shot004_review_contact.jpg",
+      "size_bytes": 233389
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/shot005_v02_contact.jpg",
+      "size_bytes": 339706
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/shot006_contact_inspect.jpg",
+      "size_bytes": 183251
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE001_MANOR_FARM_ESTABLISHING/SCENE_BREAKDOWN.md",
+      "size_bytes": 5565
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE002_THE_ANIMALS_WORK/SCENE_BREAKDOWN.md",
+      "size_bytes": 7054
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/SCENES/SHOT_BREAKDOWN_TEMPLATE.md",
+      "size_bytes": 679
+    },
+    {
+      "path": "90_AUDIO_AND_MUSIC/VOICE_CAST_AND_AUDIO_PLAN.md",
+      "size_bytes": 3389
+    },
+    {
+      "path": "91_SCREENPLAY_AND_DIALOGUE/DIALOGUE_CUE_SHEET_TEMPLATE.csv",
+      "size_bytes": 132
+    },
+    {
+      "path": "91_SCREENPLAY_AND_DIALOGUE/MASTER_STORY_MAP_30_MIN.md",
+      "size_bytes": 2743
+    },
+    {
+      "path": "92_EDITING_AND_EXPORT/MASTER_EXPORT_REQUIREMENTS.md",
+      "size_bytes": 1426
+    },
+    {
+      "path": "99_APPROVED_SCENES/APPROVAL_INDEX.md",
+      "size_bytes": 821
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 1231
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 805
+    },
+    {
+      "path": "GITHUB_SETUP.md",
+      "size_bytes": 2902
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "size_bytes": 2228
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4803
+    },
+    {
+      "path": "VIDEO_MEDIA_EXCLUSIONS.md",
+      "size_bytes": 1987
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/01_Boxer_character_concept_design_sellipsis_2224a300.jpg",
+      "size_bytes": 778558
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/02_Character_concept_design_reference_for_417b8686.jpg",
+      "size_bytes": 814720
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/03_Character_concept_design_sheet_for_059795fa_2K.jpg",
+      "size_bytes": 494814
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/04_Character_design_sheet_for_Boxer_589e2a28.jpg",
+      "size_bytes": 170476
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/05_Clover_character_concept_design_c56dce33.jpg",
+      "size_bytes": 190774
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/06_Clover_character_concept_design_ellipsis_469ce12e.jpg",
+      "size_bytes": 136907
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/07_Donkey_character_concept_design_ellipsis_54172fba.jpg",
+      "size_bytes": 189875
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/08_Donkey_character_concept_design_ellipsis_32795260.jpg",
+      "size_bytes": 161782
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/10_Character_concept_design_reference_for_29b393f6.jpg",
+      "size_bytes": 828433
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/11_Four_sheep_standing_together_c38e2f9d.jpg",
+      "size_bytes": 203650
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/12_Cows_and_sheep_near_fence_776b92ad.jpg",
+      "size_bytes": 315820
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/13_Man_holding_bottle_inside_farmhouse_fa5cebd8.jpg",
+      "size_bytes": 720761
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/14_Man_holding_bottle_inside_farmhouse_6c4339c1_2K.jpg",
+      "size_bytes": 494755
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/15_Man_holding_bottle_inside_farmhouse_6c4339c1.jpg",
+      "size_bytes": 747953
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/16_16_9_shot_of_a_modest_fa5cebd8_2K.jpg",
+      "size_bytes": 451879
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/17_ACT01_SCENE001_SHOT002_COMPOSITION_V02__16_9_composition_reference_shot_9431ab25 (1).jpg",
+      "size_bytes": 177730
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/18_a_cinematic_character_reference_sheet_for_animal.png",
+      "size_bytes": 3011306
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/19_a_cinematic_high_detail_3d_animated_character_lin.png",
+      "size_bytes": 3017538
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/20_a_cinematic_high_detail_3d_animated_character_ref.png",
+      "size_bytes": 2824572
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/21_a_cinematic_highly_detailed_cgi_character_refere.png",
+      "size_bytes": 2992115
+    }
+  ]
+}

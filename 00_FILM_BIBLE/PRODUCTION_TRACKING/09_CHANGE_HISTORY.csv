@@ -1,0 +1,15 @@
+﻿Date,Area,Change,Current_Result
+2026-11-06,Master structure,30-minute blueprint retained as 10 x 3-minute sequences,S01-S10 story map retained; detailed mapping of one-minute scenes to S01 is provisional
+2026-11-06,Scene 001 timing,Original six durations totalled 46s; revised to 12+10+10+10+8+10,Exactly 60 seconds
+2026-11-06,Scene 001 Shot 002,V01/V02 staging failed; Mr_Jones outside; composition reference created; V03 approved,Use V03 only; Mr_Jones must remain inside lit farmhouse window with bottle
+2026-11-06,Mr_Jones,Option 1 selected as master visual reference,Formal reusable Flow Character entity not independently verified
+2026-11-06,The_Cows,User selected Option A,Exactly two dairy cows locked
+2026-11-06,Scene 001 export,60s source MP4 and 1080p upscale created/uploaded,Metadata verified; editorial content/audio review pending
+2026-11-06,Scene 002 characters,"Boxer A, Clover A, Benjamin A selected and clean references approved",Character visual master references recorded
+2026-11-06,Scene 002 environment/group,Fields_And_Orchard A and The_Sheep A approved,Exactly four sheep locked
+2026-11-06,Scene 002 Shot 001,Boxer pulling hay cart approved,Hay-cart continuity anchor established
+2026-11-06,Scene 002 Shot 002,Clover walking alongside Boxer approved,Clover remains unharnessed; reuse same cart
+2026-11-06,Scene 002 Shot 003,Benjamin carrying burlap sacks approved,Use natural pack straps; background chickens/tractor accepted
+2026-11-06,Scene 002 Shot 005,V01 showed only three sheep; composition Option A created; V02 approved,Exactly two cows and four sheep
+2026-11-06,Scene 002 Shot 006,V01 looked like daytime; V2V V02 approved for dusk,Keep cart continuity and natural relative proportions
+2026-11-06,Tracking package,"GitHub-ready project pack created with media, assets, registers and templates",Repository is not automatically synced to Google Flow or ChatGPT

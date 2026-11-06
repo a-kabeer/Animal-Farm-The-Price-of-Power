@@ -1,0 +1,67 @@
+{
+  "project": "Animal Farm — The Price of Power",
+  "target_runtime_seconds": 1800,
+  "updated": "2026-11-06",
+  "baseline_source": "User-uploaded blueprint + production conversation + current uploaded media",
+  "master_sequences": 10,
+  "approved_working_scenes": 2,
+  "approved_shots": 12,
+  "approved_footage_seconds": 120,
+  "coverage_pct_of_target_runtime": 6.7,
+  "master_sequence_S01": {
+    "timecode": "00:00-03:00",
+    "status": "partially covered; final minute not planned",
+    "working_scenes": [
+      "ACT01_SCENE001 00:00-01:00",
+      "ACT01_SCENE002 01:00-02:00"
+    ]
+  },
+  "scene001": {
+    "duration_seconds": 60,
+    "approved_versions": [
+      "SHOT001_V01",
+      "SHOT002_V03",
+      "SHOT003_V01",
+      "SHOT004_V01",
+      "SHOT005_V01",
+      "SHOT006_V01"
+    ],
+    "source_360p_file": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/SCENE001_ASSEMBLED_SOURCE_360P_UPLOADED.mp4",
+    "upscaled_1080p_file": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/ACT01_SCENE001_MANOR_FARM_ESTABLISHING_UPSCALED_1080P.mp4",
+    "metadata": "60.000s, 24fps, source 640x360, upscaled 1920x1080, H.264/AAC",
+    "editorial_signoff": "PENDING: exact selected clip order, tracked title, transitions and mixed audio need review"
+  },
+  "scene002": {
+    "duration_seconds": 60,
+    "approved_versions": [
+      "SHOT001_V01",
+      "SHOT002_V01",
+      "SHOT003_V01",
+      "SHOT004_V01",
+      "SHOT005_V02",
+      "SHOT006_V02"
+    ],
+    "assembly": "PENDING",
+    "final_mp4": "NOT PROVIDED"
+  },
+  "dialogue_and_narration": {
+    "narrator_profile": "PROPOSED ONLY — NOT APPROVED",
+    "narration_script": "NOT WRITTEN",
+    "character_dialogue_script": "NOT WRITTEN",
+    "approved_shot_dialogue": "No dialogue in all 12 current shots"
+  },
+  "credits": {
+    "scene001_estimated_generation_credits": 82,
+    "scene002_estimated_generation_credits": 80,
+    "total_estimated": 162,
+    "actual_billing_verified": false
+  },
+  "next_actions": [
+    "Review Scene 001 Full HD export editorial content",
+    "Assemble/export Scene 002 from approved clips and review",
+    "Plan ACT01_SCENE003 for 02:00-03:00 to complete S01",
+    "Approve narrator profile and write narrator/character dialogue",
+    "Verify missing main character references before S02"
+  ],
+  "sync_status": "No automatic live sync with Google Flow or ChatGPT; update repository and re-upload latest tracking files when continuing"
+}

@@ -1,0 +1,196 @@
+{
+  "description": "SHA-256 manifest for local binary media retained in this package. Approved video binaries and Scene 001 exports are intentionally excluded.",
+  "file_count": 38,
+  "files": [
+    {
+      "path": "01_CHARACTERS/APPROVED/BENJAMIN_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 113595,
+      "sha256": "ef02639c0b11c6a735ff4d3762bea7c84bde36c5198896bef7f66a1c870cf933"
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/BOXER_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 419582,
+      "sha256": "6cd6ae2df9a32b4e34e1f98c2b9d27e409a8ca6717942d78c388345ad0a7ac72"
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/CLOVER_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 87739,
+      "sha256": "6b53513257fcd98a3cedc3d6a3ed9fbcae5e15697b390a7b3fb2dd4696e3c6f2"
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/MR_JONES_OPTION_A_MASTER_DESIGN_SHEET.jpg",
+      "size_bytes": 437905,
+      "sha256": "805584d91ca15fdb261dc4839daf59192941d1d57a9500dd4e9938275ca7ef26"
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/THE_COWS_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 828433,
+      "sha256": "b9a4c8691d3f19bc7b7e004b32586671817f8e1de6fea056bc9063c82fcd912d"
+    },
+    {
+      "path": "01_CHARACTERS/APPROVED/THE_SHEEP_MASTER_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 163515,
+      "sha256": "30942ee7bc198902946cd308e0807f18e234fd07a6e6e9b54ab031d13e29e7cf"
+    },
+    {
+      "path": "02_LOCATIONS/APPROVED_LOCAL_REFERENCES/FIELDS_AND_ORCHARD_OPTION_A.jpg",
+      "size_bytes": 293612,
+      "sha256": "4734a3861bd981aa625d0be3289a6be002f684d1bcec02721efdf1b63535df0b"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE001/ACT01_SCENE001_SHOT002_V01_REJECTED.mp4",
+      "size_bytes": 2744404,
+      "sha256": "f236e4be56f1a329d8372c18038935f741720db5e950d444b26a4ccd2ceb429b"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE001/ACT01_SCENE001_SHOT002_V02_REJECTED.mp4",
+      "size_bytes": 2562246,
+      "sha256": "18f66419f30191ad39001770b6607c6afcfae80f4deae560654529d165dd1025"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE002/ACT01_SCENE002_SHOT005_V01_REJECTED.mp4",
+      "size_bytes": 2787920,
+      "sha256": "fad48eb57d3ad2e0e2ee2362cdbef80357b3865b6776872d40102b3a8a1e663c"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/MEDIA/REJECTED_AND_SUPERSEDED/SCENE002/ACT01_SCENE002_SHOT006_V01_SUPERSEDED.mp4",
+      "size_bytes": 2916784,
+      "sha256": "35773ab98450bfdfcf7da824af16fd1fffb0151979a7cdd20ed1cf93f82e972d"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/SCENE001_SHOT002_APPROVED_COMPOSITION_REFERENCE.jpg",
+      "size_bytes": 177730,
+      "sha256": "23091de4ca9b3d171ed4367701d539c3eca76c8370a9bee9d511c310c8abb0dc"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/SCENE002_SHOT005_APPROVED_COMPOSITION_REFERENCE_OPTION_A.jpg",
+      "size_bytes": 884968,
+      "sha256": "063319983fb4d9cc54695bf986f0525d6e6343d72876c306cc6ac7556cae574f"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/scene002_shot003_review.jpg",
+      "size_bytes": 213613,
+      "sha256": "5b86649924d06f86ed74da4cd0c602e559028966aa9d8d8e0102464651cca6fe"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/shot002_v03_contact.jpg",
+      "size_bytes": 300960,
+      "sha256": "3fa37b62d6afacccdfe03456d5a9d5c6876fe2da81a07c5386dd4b00b99ccf54"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/shot004_review_contact.jpg",
+      "size_bytes": 233389,
+      "sha256": "71cd7532ca76d0fd0e6f19a327f6582fa95f38a9b6359b3fbfd02c32d0f5e338"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/shot005_v02_contact.jpg",
+      "size_bytes": 339706,
+      "sha256": "93b638bc7670291ddd5b3302bbd0f1582f1020409d4edaa48e3ac2a5927ff4df"
+    },
+    {
+      "path": "04_ACT_01_THE_OLD_WORLD/REVIEW_EVIDENCE/shot006_contact_inspect.jpg",
+      "size_bytes": 183251,
+      "sha256": "a36bc7a33122b4dad5dd4532c7e8042acbe7a070da2c274b28ccaf14197f01d2"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/01_Boxer_character_concept_design_sellipsis_2224a300.jpg",
+      "size_bytes": 778558,
+      "sha256": "d67a4dccde5a7dc3fe57d2097e4ed1669802c9a8ecc8104be58d1d2826570817"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/02_Character_concept_design_reference_for_417b8686.jpg",
+      "size_bytes": 814720,
+      "sha256": "7066292c6a838a621fbb474bf6a1486798123122af0de954ec934075da2f3510"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/03_Character_concept_design_sheet_for_059795fa_2K.jpg",
+      "size_bytes": 494814,
+      "sha256": "40a7919d43f60e009fa4784ec6f7c59d197e7b03b781e84a914dcfb6619f7c17"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/04_Character_design_sheet_for_Boxer_589e2a28.jpg",
+      "size_bytes": 170476,
+      "sha256": "55097e0cd8ad57b9e375e3e9d84c352ed543d1a7b9ee7fd910776deb6f403305"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/05_Clover_character_concept_design_c56dce33.jpg",
+      "size_bytes": 190774,
+      "sha256": "e293ee546a125db59516592534ac889c53ae828357b3ace666f5a6c6d84e244d"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/06_Clover_character_concept_design_ellipsis_469ce12e.jpg",
+      "size_bytes": 136907,
+      "sha256": "948234cac85374592781b2d11453d09c1f0c749cd8104e49d9667dec46bda411"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/07_Donkey_character_concept_design_ellipsis_54172fba.jpg",
+      "size_bytes": 189875,
+      "sha256": "57373a6ad6211ea0bd828aea60cbdcc0b37fce60641dba250c4529fecc2fb2d3"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/08_Donkey_character_concept_design_ellipsis_32795260.jpg",
+      "size_bytes": 161782,
+      "sha256": "eb9c941b5990fdbca972532ff2ab8a5668d3bc68a7a55b29149584fb1d3f4ddd"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/10_Character_concept_design_reference_for_29b393f6.jpg",
+      "size_bytes": 828433,
+      "sha256": "b9a4c8691d3f19bc7b7e004b32586671817f8e1de6fea056bc9063c82fcd912d"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/11_Four_sheep_standing_together_c38e2f9d.jpg",
+      "size_bytes": 203650,
+      "sha256": "35917bcf64d3868e6f59a951d1b846fa263844300e4e7e019bc6c1f5c88e29b9"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/12_Cows_and_sheep_near_fence_776b92ad.jpg",
+      "size_bytes": 315820,
+      "sha256": "b9f332fa0d676e13cb4008ed4aae6784d390978e321b26e4755a05f244408021"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/13_Man_holding_bottle_inside_farmhouse_fa5cebd8.jpg",
+      "size_bytes": 720761,
+      "sha256": "0c8047956dac8298c4fe3e64b26e55f205c463d5007cdf08b455699a7ac5c15b"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/14_Man_holding_bottle_inside_farmhouse_6c4339c1_2K.jpg",
+      "size_bytes": 494755,
+      "sha256": "cb1de857dc5f06c4ed5a56f8956aef0c860385bc35ca89c8b57e8b053d726ec1"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/15_Man_holding_bottle_inside_farmhouse_6c4339c1.jpg",
+      "size_bytes": 747953,
+      "sha256": "d69bbe50a5ef96893dd478d9cd3a9221464b3f320f0a21641c8bb72924366998"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/16_16_9_shot_of_a_modest_fa5cebd8_2K.jpg",
+      "size_bytes": 451879,
+      "sha256": "a356c9165e0653b4847efa4e6b6b93c2db8bed020128c6cea680d0c95d16ccf5"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/17_ACT01_SCENE001_SHOT002_COMPOSITION_V02__16_9_composition_reference_shot_9431ab25 (1).jpg",
+      "size_bytes": 177730,
+      "sha256": "23091de4ca9b3d171ed4367701d539c3eca76c8370a9bee9d511c310c8abb0dc"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/18_a_cinematic_character_reference_sheet_for_animal.png",
+      "size_bytes": 3011306,
+      "sha256": "b5f03b3baa03726c6ca5d02e5c1a13254fcf0971ba88c66729bd50946373c389"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/19_a_cinematic_high_detail_3d_animated_character_lin.png",
+      "size_bytes": 3017538,
+      "sha256": "de4fe73b99d22f9fa673b4719edbb7abeb8d8df2e049e025e45f7951c4bfc676"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/20_a_cinematic_high_detail_3d_animated_character_ref.png",
+      "size_bytes": 2824572,
+      "sha256": "f28b1088a0fa837f73e7c4348d7033b6fcf2c3917c21ac1bc5f3de2a6bf2a3ee"
+    },
+    {
+      "path": "assets/CONCEPT_ARCHIVE_NOT_MASTER/21_a_cinematic_highly_detailed_cgi_character_refere.png",
+      "size_bytes": 2992115,
+      "sha256": "02bbef507825e8575e69d449c93e8e26eceed2888b0d831c570511c7b702adfc"
+    }
+  ]
+}

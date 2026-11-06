@@ -1,0 +1,53 @@
+# ANIMAL FARM — MASTER CONTROL BOARD
+
+**Project:** Animal Farm — The Price of Power  
+**Target:** 30-minute cinematic 3D animated film  
+**Date:** 6 November 2026
+
+## Current position
+
+<pre>
+30-minute master blueprint
+└── S01 The Hungry Farm (00:00–03:00)
+    ├── ACT01_SCENE001 Manor Farm Establishing (00:00–01:00)  SHOTS APPROVED
+    ├── ACT01_SCENE002 The Animals' Work (01:00–02:00)         SHOTS APPROVED
+    └── ACT01_SCENE003 (02:00–03:00)                           NOT PLANNED
+S02–S10 (03:00–30:00)                                           NOT IN SHOT PRODUCTION
+</pre>
+
+## KPI dashboard
+
+| Metric | Current |
+|---|---:|
+| Target film runtime | 30:00 |
+| Master sequences | 10 × 3 minutes |
+| Working one-minute scenes with approved shot footage | 2 |
+| Approved individual shots | 12 / 12 |
+| Approved shot footage | 02:00 / 30:00 (6.7%) |
+| Scene 001 Full HD 60s file | Exists; editorial verification pending |
+| Scene 002 final 60s export | Pending |
+| Narrator script | Not written/approved |
+| Character dialogue script | Not written/approved |
+| Final music/SFX mix | Pending |
+| Final 30-minute export | Not started |
+
+## Approved shot versions
+
+| Working scene | 6 approved versions | Runtime |
+|---|---|---:|
+| ACT01_SCENE001 — Manor Farm Establishing | 001 V01; 002 V03; 003 V01; 004 V01; 005 V01; 006 V01 | 60s |
+| ACT01_SCENE002 — The Animals' Work | 001 V01; 002 V01; 003 V01; 004 V01; 005 V02; 006 V02 | 60s |
+
+## Three immediate tasks
+
+1. Review and formally close the Scene 001 1080p master file (verify six selected shots, text overlay, music, SFX and transitions).
+2. Assemble Scene 002 in Flow Scenebuilder and export the 60-second MP4; then upscale/export 1080p and review.
+3. Plan ACT01_SCENE003 for 02:00–03:00 to finish master sequence S01 — The Hungry Farm.
+
+## Voice / dialogue decision needed
+
+The uploaded blueprint specifies character voice directions and a narrator track, but no narrator profile or exact dialogue script. Scene 001 and Scene 002 approved shot sheets state “no dialogue” on every shot. Do not represent planned dialogue as already recorded.
+
+## Storage / update rule
+
+Put this complete tracking pack in Google Flow project collection `00_FILM_BIBLE/PRODUCTION_TRACKING/` and keep a backup copy in Google Drive/local storage. ChatGPT's current project status is conversation/file-based; there is no automatic live sync with Flow. After every approved/rejected shot or export, update the Shot Register, Asset Register, Decision Log and Master Progress Tracker.

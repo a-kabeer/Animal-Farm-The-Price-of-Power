@@ -1,0 +1,24 @@
+name: Character / location / prop asset
+description: Track a new reusable visual or audio reference.
+title: "[ASSET] Add asset name"
+labels: [asset, continuity]
+body:
+  - type: input
+    id: asset_name
+    attributes:
+      label: Asset name
+    validations:
+      required: true
+  - type: dropdown
+    id: asset_type
+    attributes:
+      label: Asset type
+      options: [Character, Group, Location, Prop, Audio, Other]
+  - type: textarea
+    id: bible_spec
+    attributes:
+      label: Film Bible description and continuity requirements
+  - type: textarea
+    id: id_status
+    attributes:
+      label: Flow asset ID, local file path and verification status
