@@ -111,3 +111,14 @@ No line is canon until it has:
 - Estimated spoken duration;
 - Voice asset/reference;
 - User approval.
+
+## I. Scene 003 — draft dialogue (awaiting owner approval)
+
+Scene 003, `ACT01_SCENE003 — The Burden of the Day` (02:00–03:00), stages the S01 beat in which Boxer and Clover discuss hardship while Benjamin observes. These original draft lines are not quotations from the novel and are not approved screenplay canon:
+
+| Cue | Shot | Speaker | Draft line | Status |
+|---|---|---|---|---|
+| DRAFT-S003-001 | SHOT003 | Clover | “You have carried enough for one day, Boxer.” | Awaiting owner approval |
+| DRAFT-S003-002 | SHOT004 | Boxer | “The work still needs doing, Clover.” | Awaiting owner approval |
+
+Clover's voice follows the warm, calm and empathetic direction; Boxer's follows the sincere, gentle baritone direction. Only the named character speaks in each shot. No narrator is assigned to Scene 003. If the owner does not approve these lines, keep the shots silent and revise the cue sheet before voice generation. No Scene 003 audio or video has been generated in this planning update.
