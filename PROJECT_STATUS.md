@@ -6,7 +6,7 @@
 
 ## Current stage
 
-- `ACT01_SCENE001` — all six individual shots approved. The Flow Agent's source-asset audit passed on 6 November 2026 for the approved versions, planned order, 16:9 aspect ratio and 60-second aggregate duration; no generation credits were spent. The assembled master timeline, title overlay, transitions, actual audio mix, 1080p export and owner sign-off remain pending. Source and export binaries are excluded from this GitHub package.
+- `ACT01_SCENE001` — all six individual shots approved and locked. The Agent supplied the final assembly specification and reports zero generation credits used, but confirms that timeline editing, title tracking, audio mixing and export must be executed in Flow UI / an NLE. The actual rendered master MP4, title composite, transition result, mixed audio, 1080p export and owner sign-off are not verified. See `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/FINAL_MASTER_ASSEMBLY_VERIFICATION_REPORT.md`.
 - `ACT01_SCENE002` — all six shots approved. Approved shot binaries are intentionally excluded from this GitHub package. Master scene assembly/export pending.
 - `ACT01_SCENE003` (02:00–03:00) — not planned; required to finish master sequence S01.
 - S02–S10 — only high-level story map exists; no detailed shot production yet.
@@ -25,7 +25,7 @@ Scene 002: `SHOT001_V01`, `SHOT002_V01`, `SHOT003_V01`, `SHOT004_V01`, `SHOT005_
 
 ## Next actions
 
-1. Complete Scene 001 master-timeline, title, transition and audio checks; verify the 1080p export and obtain owner sign-off. Source-asset audit has passed.
+1. Execute Scene 001 in Flow UI / NLE, resolve the crossfade/runtime discrepancy, render and verify the actual 60s Full HD master, then obtain owner sign-off. Source clips and assembly specification are recorded.
 2. Assemble/export Scene 002 in Flow Scenebuilder and export/upscale to 1080p.
 3. Plan working Scene 003 for 02:00–03:00.
 4. Approve narrator and write full screenplay/dialogue/audio plan.
