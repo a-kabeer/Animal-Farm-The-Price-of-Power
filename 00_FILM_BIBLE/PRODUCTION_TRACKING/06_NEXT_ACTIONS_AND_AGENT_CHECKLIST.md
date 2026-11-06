@@ -311,3 +311,16 @@
 - [x] No generation or preview; **0 credits spent**.
 - [ ] Await separate explicit owner authorization for exactly one output, conditional on final live recheck of price/settings/references/prompt.
 - [ ] If authorized, generate once only; no batch, preview, variation, retake or retry. Inspect actual media and keep status awaiting owner review.
+
+
+### Scene 003 Shot005 — generation and assistant review (7 November 2026)
+
+- [x] Exactly one output reported generated; 10 credits reported charged.
+- [x] Media ID: `7b9c7132-289d-4331-a09d-256ee969f388`; asset “Donkey standing in barn doorway”.
+- [x] Uploaded MP4 independently inspected: 10.000s; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; 1,916,991 bytes.
+- [x] Benjamin identity, doorway shadow and red exterior barn continuity read clearly; his gaze lowers subtly; no other characters enter.
+- [x] Framing deviation documented: push-in tightens from medium to close-up and crops most of the body by the ending.
+- [x] Assistant recommendation: retain V01 for editing; no retake recommended; apply modest cool-blue continuity grade.
+- [ ] Complete subjective listening review of the ambient audio.
+- [ ] Owner review/acceptance pending; do not mark approved without explicit owner decision.
+- [ ] Do not generate Shot006 until Shot005 is reviewed and Shot006 separately authorized.
