@@ -10,11 +10,11 @@
   "coverage_pct_of_target_runtime": 6.7,
   "master_sequence_S01": {
     "timecode": "00:00-03:00",
-    "status": "Scenes 001 and 002 master-complete; Scene 003 Shot001 accepted for editing and Shot002 generated — awaiting owner review",
+    "status": "Scenes 001 and 002 master-complete; Scene 003 Shot001 and Shot002 accepted for editing; remaining Scene 003 shots not generated",
     "working_scenes": [
       "ACT01_SCENE001 00:00-01:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
       "ACT01_SCENE002 01:00-02:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
-      "ACT01_SCENE003 02:00–03:00 — SHOT001 V01 ACCEPTED FOR EDITING (COLOR MATCH REQUIRED); SHOT002 V01 GENERATED — AWAITING OWNER REVIEW; remaining four shots not generated"
+      "ACT01_SCENE003 02:00–03:00 — SHOT001 V01 ACCEPTED FOR EDITING (COLOR MATCH REQUIRED); SHOT002 V01 ACCEPTED FOR EDITING (MINOR FRAMING DEVIATION); remaining four shots not generated"
     ]
   },
   "scene001": {
@@ -131,7 +131,7 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Obtain explicit owner decision on Scene003 Shot002 V01 (recommend accept for editing with late-shot foreleg crop noted); do not generate Shot003 until owner approval and separate shot-specific authorization.",
+    "Continue Scene003 production planning with Shot003 preparation only; do not generate until exact settings, live credit price and references are checked and separate explicit owner authorization is obtained. Shot002 native audio listening review remains pending.",
     "Apply and review cool-blue color/exposure matching to Scene003 Shot001 V01 in NLE; complete separate native-audio listening review",
     "Obtain separate explicit owner authorization for Scene003 Shot002 after corrected final prompt and live price are reviewed",
     "Continue Scene003 one shot at a time; review every generated output",
@@ -154,7 +154,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 GENERATED — AWAITING OWNER REVIEW; remaining four shots not generated",
+    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003–006 NOT GENERATED",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -336,7 +336,7 @@
       }
     },
     "shot002_execution": {
-      "status": "GENERATED — AWAITING OWNER REVIEW",
+      "status": "OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION",
       "shot_id": "ACT01_SCENE003_SHOT002_V01",
       "media_id": "a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a",
       "asset_name": "Boxer lowering head by cart",
@@ -369,11 +369,12 @@
         "deviation": "The push-in tightens noticeably in the latter half; by the final frames Boxer's forelegs are cropped out, despite the prompt asking to keep them in frame throughout. The head, harness and cart remain readable.",
         "recommendation": "Retain the single take for editing; treat the increasing push-in as an editorial close-in. No retake is authorized."
       },
-      "owner_visual_review": "ASSISTANT REVIEW COMPLETE — OWNER APPROVAL PENDING",
-      "owner_approval": false,
+      "owner_visual_review": "OWNER ACCEPTED FOR EDITING — 2026-11-06 (owner's 'okay' accepts the assistant's stated recommendation to retain V01)",
+      "owner_approval": true,
       "next_shot_authorized": false,
       "retake_authorized": false,
-      "credits_spent": 10
+      "credits_spent": 10,
+      "editorial_status": "ACCEPTED FOR EDITING — retain V01; note late-shot foreleg crop; detailed audio listening review pending"
     }
   }
 }
