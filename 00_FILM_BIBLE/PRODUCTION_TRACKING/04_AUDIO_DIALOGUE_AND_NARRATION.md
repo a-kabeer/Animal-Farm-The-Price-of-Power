@@ -123,3 +123,7 @@ Scene 003, `ACT01_SCENE003 — The Burden of the Day` (02:00–03:00), stages th
 | S003-DLG-002 | SHOT004 | Boxer | “The work still needs doing, Clover.” | OWNER APPROVED 6 Nov 2026 |
 
 Clover's voice follows the warm, calm and empathetic direction; Boxer's follows the sincere, gentle baritone direction. Only the named character speaks in each shot. No narrator is assigned to Scene 003. The owner approved both exact lines on 6 November 2026. No Scene 003 dialogue audio or video has yet been generated. Keep dialogue recording/generation and lip-sync review as separate production steps.
+
+## J. Scene 003 Shot001 native audio report — 6 November 2026
+
+Flow Agent reports that `ACT01_SCENE003_SHOT001_V01` (`8a46a89f-c131-4f63-868a-c729b7bf8c7c`) has a native Omni Flash ambient audio track. Audio is present according to the execution report, but actual listening review is pending. Check for natural horse breathing, wooden cart creaks and evening wind, and confirm there is no unwanted speech or music. This shot has no planned dialogue.
