@@ -90,3 +90,19 @@ Return:
 8. Any warning, mismatch or automatic setting change.
 
 **STOP after the report.** Do not click Generate. Wait for separate, explicit owner authorization for exactly one output at a specific live price. A preflight quote does not authorize a render.
+
+
+## 8. Preflight mismatch correction — 7 November 2026
+
+The first preflight report is **NOT ACCEPTED AS A MATCH**. The report lists `BOXER_HAY_CART_CONTINUITY_REFERENCE` as its third attachment, but the exact reference set in this task is `Boxer`, `Clover`, and `Barn_Exterior`. The report also describes a medium two-shot with both animals visible, while this task's locked composition is a **medium close-up on Boxer, with only Clover's shoulder softly visible at the frame edge**.
+
+Re-run preparation and preflight using the exact three references:
+- Boxer — `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`
+- Clover — `b86cb0af-a9e4-4d02-8b25-0316f718481b`
+- Barn_Exterior — `3919fbb9-bf69-40e5-98f4-e02680cb077a`
+
+Use section 5's canonical prompt exactly. Do not replace Barn_Exterior with the hay-cart video reference. Do not use the medium two-shot prompt from the first report. Preserve the original medium close-up with Clover's shoulder at frame edge.
+
+The first report's 10-credit quote is a point-in-time report and does not carry forward after setup correction. Read and report the current displayed price after correcting the references and prompt.
+
+**STOP after corrected preflight.** No generation, preview, variation or credit spend is authorized. This shot needs a fresh explicit owner authorization after a fully matching preflight report.
