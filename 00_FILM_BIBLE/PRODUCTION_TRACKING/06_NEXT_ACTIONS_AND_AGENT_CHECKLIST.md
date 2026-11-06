@@ -343,3 +343,15 @@
 - [ ] Run Flow UI preflight only: verify Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output; verify all five exact attachments and prompt entered verbatim; report exact live displayed credit price.
 - [ ] Do not click Generate, create preview or spend credits.
 - [ ] After a matching preflight report, obtain separate explicit owner authorization for exactly one output at the final live-verified price.
+
+
+### Scene 003 Shot006 — initial Flow preflight mismatch (7 November 2026)
+
+- [x] Five exact references reported attached.
+- [x] Target model, mode, resolution, aspect ratio, duration and one-output setting reported correctly.
+- [x] Initial live quote 10 credits; point-in-time only.
+- [x] No generation/preview; 0 credits spent.
+- [x] Identified prompt mismatch despite Flow report claiming verbatim entry: camera changed to high-angle wide; animals enter barn out of view; door-light treatment changed; ending changed to full nighttime/moonlit farm.
+- [ ] Re-enter the exact canonical prompt in `FLOW_AGENT_PREPARATION_TASK_SHOT006.md` verbatim.
+- [ ] Re-run preflight only; confirm all five references and settings, then report the current exact live price.
+- [ ] Do not generate until a matching corrected preflight is received and the owner separately authorizes exactly one output.
