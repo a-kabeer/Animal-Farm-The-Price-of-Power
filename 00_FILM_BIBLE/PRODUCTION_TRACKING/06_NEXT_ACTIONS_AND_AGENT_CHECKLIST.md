@@ -2,43 +2,38 @@
 
 ## Priority order (as of 6 November 2026)
 
-### P0 — Close Scene 001 editorially
+### P0 — Record completed scenes (owner-confirmed)
 
-**Completed source-asset audit (Flow Agent report, 6 November 2026):**
-- [x] Six approved source assets verified in the Flow collection: 001 V01, 002 V03, 003 V01, 004 V01, 005 V01, 006 V01.
-- [x] Planned order and aggregate source duration of exactly 60 seconds reported passed.
-- [x] 16:9 aspect ratio and visual/character/environment continuity reported passed.
-- [x] No generation credits spent during the audit.
+- [x] Scene 001 — Manor Farm Establishing: six approved shots and master scene complete per project-owner confirmation on 6 November 2026.
+- [x] Scene 002 — The Animals' Work: six approved shots and master scene complete per project-owner confirmation on 6 November 2026.
+- [ ] Record final master filenames, resolution, frame rate, codecs, runtime and storage paths for both scenes when available. Do not reopen completed work unless a specific defect is found.
 
-**Assembly specification received (Flow Agent report, 6 November 2026):** six locked sources, intended order, 60s target, hard cuts and 0.5s crossfade into Shot 006, MANOR FARM title, Music_001/SFX plan, and target 1920×1080 / 24fps / H.264 / AAC export. The Agent reports zero generation credits used and confirms editing/mixing/export are UI/NLE operations.
+### P1 — Prepare and approve Scene 003
 
-**Still required — actual master and editorial sign-off:**
-- [ ] Assemble the six locked source clips in Flow Scenes timeline or an NLE; do not regenerate them.
-- [ ] Resolve the timing math: source durations total 60s, while a 0.5s overlapping crossfade normally makes the timeline 59.5s. Compensate or use a non-overlapping design, then verify actual runtime is 60.00s.
-- [ ] Apply and inspect `MANOR FARM` title tracking on the Shot 001 gate sign.
-- [ ] Confirm Music_001 and intended SFX are actual mixed audio; listen to the final mix.
-- [ ] Render the final 1920×1080, 24fps, H.264/AAC MP4 and record the actual filename/path/metadata.
-- [ ] Supply the rendered MP4 or verifiable media link and obtain the project owner's formal approval.
+**Scene:** `ACT01_SCENE003 — The Burden of the Day`  
+**Timecode:** 02:00–03:00  
+**Breakdown:** `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/SCENE_BREAKDOWN.md`
 
-See `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/FINAL_MASTER_ASSEMBLY_VERIFICATION_REPORT.md`.
+- [ ] Review the six-shot / 60-second breakdown and continuity from Scene 002 Shot 006.
+- [ ] Approve or revise the two draft lines: Clover (Shot 003) and Boxer (Shot 004). These are proposals, not approved screenplay canon.
+- [ ] Verify the saved Boxer, Clover and Benjamin character references, Barn_Exterior and Manor_Farm_Exterior Ingredients in Flow.
+- [ ] Verify the same hay-cart / harness continuity reference for Shots 001–002.
+- [ ] Ask Flow Agent to show each final prompt, selected references, model, resolution, duration, output count and live displayed credit price.
+- [ ] Do not generate until the project owner approves the shot and authorizes its displayed cost.
 
-See `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
+### P2 — Generate and review Scene 003
 
-### P1 — Assemble Scene 002
+- [ ] Generate one shot at a time, one output per shot, only after owner authorization.
+- [ ] Retrieve the actual MP4; verify duration, resolution, frame rate and audio.
+- [ ] Review character identity, animal anatomy, cart/harness continuity, dusk-to-night continuity and exact dialogue speaker/line.
+- [ ] Preserve all versions and obtain owner approval before marking any version approved.
+- [ ] Update shot register, asset register if needed, decision log, progress tracker and project status after approval.
 
-- [ ] In Google Flow Scenebuilder, add approved clips in this exact order: 001 V01 (12s), 002 V01 (10s), 003 V01 (10s), 004 V01 (10s), 005 V02 (8s), 006 V02 (10s).
-- [ ] Confirm total 60 seconds.
-- [ ] Download/export master MP4.
-- [ ] Check video order, continuity, audio and transitions.
-- [ ] Upscale/export 1920×1080 at 24fps.
-- [ ] Upload master to `DELIVERABLES/SCENE002/` and update project status.
+### P3 — Close S01 and prepare S02
 
-### P2 — Complete first master sequence S01
-
-- [ ] Plan `ACT01_SCENE003` for timecode 02:00–03:00.
-- [ ] Story objective: complete remaining “The Hungry Farm” opening beats and transition naturally into Old Major's night gathering, consistent with approved screenplay decisions.
-- [ ] Prepare shot list, character/location references and audio cues.
-- [ ] Do not confuse working `ACT01_SCENE002` with master sequence `S02 — Old Major's Dream`.
+- [ ] Assemble Scene 003 to exactly 60 seconds and obtain owner approval.
+- [ ] Verify the complete S01 00:00–03:00 sequence across Scenes 001–003.
+- [ ] Only then begin S02 — Old Major's Dream; verify/create Old Major, Napoleon and Snowball references and the barn interior before generation.
 
 ### P3 — Script and voice decisions
 
