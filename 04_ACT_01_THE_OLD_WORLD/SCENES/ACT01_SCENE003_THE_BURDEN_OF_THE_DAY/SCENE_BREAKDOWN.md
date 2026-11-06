@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 PROMPT PREPARED — PREFLIGHT PENDING — GENERATION NOT AUTHORIZED; SHOT004–006 NOT GENERATED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 OWNER AUTHORIZED — EXACTLY ONE OUTPUT AT 10 CREDITS — FINAL LIVE UI RECHECK REQUIRED; SHOT004–006 NOT AUTHORIZED  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -364,3 +364,22 @@ The owner-supplied Flow Agent report confirms:
 - Exact English spoken dialogue and precise animal lip-sync are not guaranteed. Inspect any future authorized output; post-production dubbing/synchronization may be required.
 
 **No generation was performed; 0 credits were spent.** The shot is **PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**. Preflight does not authorize a render. Obtain separate explicit owner authorization for exactly one output at 10 credits, conditional on the live price/settings/references still matching immediately before generation.
+
+
+## 16. Owner generation authorization — Shot003 (7 November 2026)
+
+The project owner explicitly authorized exactly **one** generation of `ACT01_SCENE003_SHOT003_V01 — Clover's Concern`, at an exact live displayed price of **10 credits**, conditional on a final live UI recheck immediately before generation.
+
+**Locked execution configuration:** Omni 1.2 Flash · Reference-to-Video (R2V) · 360p (640×360) · 16:9 landscape · 10 seconds · exactly one output.
+
+**References:** Clover, Boxer, Barn_Exterior, Manor_Farm_Exterior and BOXER_HAY_CART_CONTINUITY_REFERENCE. All five exact media IDs were reported attached in preflight. The locked prompt must remain verbatim as recorded in the Shot003 preparation task.
+
+**Execution task:** `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_EXECUTION_TASK_SHOT003.md`.
+
+**Mandatory final gate:** Recheck the live Flow UI immediately before Generate. Proceed only if the live price is still exactly 10 credits and every selector, duration, output count, reference and prompt still matches. If anything differs, stop without generating. Do not ask the owner to choose an output count: exactly one is authorized.
+
+**Limits:** No batch, preview, variation, second take, automatic retake or retry; no other shot is included. If generation errors or the result is uncertain, stop and report rather than retrying.
+
+**Dialogue note:** Clover's exact approved line is “You have carried enough for one day, Boxer.” Exact speech and precise animal lip-sync are not guaranteed by native generation. Review the actual result; post-production dubbing/synchronization may be required.
+
+**Current status:** AUTHORIZED — AWAITING FINAL LIVE UI RECHECK AND SINGLE RENDER. No generation has yet been reported and no credits have been spent under this authorization.
