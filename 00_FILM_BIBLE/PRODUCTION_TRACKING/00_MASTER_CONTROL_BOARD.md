@@ -9,7 +9,7 @@
 <pre>
 30-minute master blueprint
 └── S01 The Hungry Farm (00:00–03:00)
-    ├── ACT01_SCENE001 Manor Farm Establishing (00:00–01:00)  SHOTS APPROVED
+    ├── ACT01_SCENE001 Manor Farm Establishing (00:00–01:00)  SOURCE AUDIT PASSED; EDITORIAL FINISH PENDING
     ├── ACT01_SCENE002 The Animals' Work (01:00–02:00)         SHOTS APPROVED
     └── ACT01_SCENE003 (02:00–03:00)                           NOT PLANNED
 S02–S10 (03:00–30:00)                                           NOT IN SHOT PRODUCTION
@@ -24,7 +24,8 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 | Working one-minute scenes with approved shot footage | 2 |
 | Approved individual shots | 12 / 12 |
 | Approved shot footage | 02:00 / 30:00 (6.7%) |
-| Scene 001 Full HD 60s file | Exists; editorial verification pending |
+| Scene 001 source-asset audit | Passed per Flow Agent report (6 Nov 2026): 6 approved versions / 60s / 16:9 |
+| Scene 001 master timeline / Full HD export | Final timeline, title, transitions, audio and 1080p export verification pending |
 | Scene 002 final 60s export | Pending |
 | Narrator script | Not written/approved |
 | Character dialogue script | Not written/approved |
@@ -40,9 +41,13 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 
 ## Three immediate tasks
 
-1. Review and formally close the Scene 001 1080p master file (verify six selected shots, text overlay, music, SFX and transitions).
+1. Complete Scene 001 editorial finishing: inspect the assembled 60s master, confirm the MANOR FARM overlay and transitions, mix/check music and SFX, verify the 1080p export, then obtain owner sign-off. The six source clips have passed the Agent asset audit.
 2. Assemble Scene 002 in Flow Scenebuilder and export the 60-second MP4; then upscale/export 1080p and review.
 3. Plan ACT01_SCENE003 for 02:00–03:00 to finish master sequence S01 — The Hungry Farm.
+
+## Scene 001 source-asset audit — 6 November 2026
+
+The Flow Agent report supplied by the owner confirms the six approved source versions, their planned order, 16:9 aspect ratio and 60-second aggregate duration. The report states that no generation credits were spent. It does **not** verify the assembled master timeline, final 1080p export, MANOR FARM title overlay, transitions or completed audio mix. Scene 001 therefore remains editorially pending; see `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
 
 ## Voice / dialogue decision needed
 
