@@ -197,3 +197,24 @@
 - [ ] Owner review/approval remains pending; do not mark shot owner-approved until explicitly accepted.
 - [ ] Detailed listening review of native ambient audio remains pending.
 - [ ] Do not generate Shot004 until it is separately prepared and separately authorized. Default remains exactly one output per shot.
+
+
+### Scene 003 Shot003 — owner acceptance (7 November 2026)
+
+- [x] Owner acknowledged audit and accepted `ACT01_SCENE003_SHOT003_V01` for post-production editing.
+- [x] No retake required; preserve the single output.
+- [x] Log modest cool-blue grade on the opening of Shot003 to match Shot002.
+- [x] Log Clover's exact approved dialogue for dubbing and lip-sync synchronization in post-production.
+- [x] Owner reports review spent 0 credits; no new generation during this review.
+- [ ] Complete detailed listening review of the native ambient audio.
+- [ ] Apply and review color grade and dialogue dub/synchronization in NLE.
+
+### Scene 003 Shot004 — preparation task created (7 November 2026)
+
+- [x] Existing approved shot breakdown and exact dialogue retained: Boxer — “The work still needs doing, Clover.”
+- [x] Create Flow preparation task: `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT004.md`.
+- [x] Record exact three reference IDs: Boxer, Clover and Barn_Exterior.
+- [x] Lock the existing breakdown prompt verbatim and target one output.
+- [ ] Run Flow preflight only; report current model/mode/settings, all attached references, exact live displayed price and speech/lip-sync capability.
+- [ ] **Do not click Generate, create a preview or spend credits.** No Shot004 generation authorization exists yet.
+- [ ] After preflight report, wait for separate explicit owner authorization for one output.
