@@ -60,13 +60,11 @@ Do not automatically change settings. If a target is unavailable or the UI chang
 SHOT ID: ACT01_SCENE003_SHOT005_V01
 Duration: 10 seconds, 16:9 landscape.
 
-Use the approved Benjamin character reference and the established Barn_Exterior and Manor_Farm_Exterior location references. Preserve Benjamin's older grey donkey appearance, charcoal mane, long upright ears, narrow muzzle and tired observant eyes.
+Use the approved Benjamin character reference and the established Barn_Exterior location reference. Preserve his older grey donkey appearance, charcoal mane, long upright ears, narrow muzzle and tired observant eyes.
 
-Medium shot from outside the barn entrance. Benjamin stands quietly within the shadow of the doorway, with the red timber exterior visible around him. His ears respond subtly as he watches Boxer and Clover speaking off-screen in the farmyard. After a moment, he lowers his gaze slightly. His expression is reserved and knowing, never comic. Slow restrained push-in.
+Medium shot from outside the barn entrance. Benjamin stands quietly within the shadow of the doorway, with the red timber exterior visible around him. His ears respond subtly as he watches Boxer and Clover speaking off-screen in the farmyard. After a moment, he lowers his gaze slightly. His expression is reserved and knowing, never comic. Slow restrained push-in. No dialogue, no lip movement and no other character entering frame.
 
-No dialogue, no lip movement and no other character entering frame. Do not show the barn interior. Do not introduce Old Major or the night gathering.
-
-Serious cinematic 3D animated feature-film drama, natural donkey anatomy and subtle expression, detailed grey coat and charcoal mane, realistic 1940s English barn exterior, late dusk moving subtly toward blue night, 16:9 landscape. Preserve the approved reference exactly. No text, subtitles, logos, watermark, extra limbs or duplicate animals.
+Serious cinematic 3D animated feature-film drama, natural donkey anatomy and subtle expression, detailed grey coat and charcoal mane, realistic 1940s English barn exterior, late dusk, 16:9 landscape. Preserve the approved reference exactly. No text, subtitles, logos, watermark, extra limbs or duplicate animals.
 ~~~
 
 ## 6. Required preflight report — then STOP
