@@ -11,7 +11,7 @@
 
 - **Scenes 001 and 002 are master-complete by owner confirmation (6 November 2026)**, with 12 approved source shots across 120 seconds.
 - Completed footage time: **120 seconds (2:00)** out of the 30-minute target = **6.7% of target runtime**. This is runtime coverage, not final-film completion.
-- `ACT01_SCENE003 — The Burden of the Day` is planned for 02:00–03:00 with six 10-second shots. Shot001 prompt/references are locked for planning, and the two dialogue lines for Shots003–004 were owner-approved on 6 November 2026; no Scene003 media has been generated or approved.
+- `ACT01_SCENE003 — The Burden of the Day` is planned for 02:00–03:00 with six 10-second shots. Shot001 V01 is generated and owner-accepted for editing, with an NLE cool-blue color match still required; Shot002 is next for preparation only. The two dialogue lines for Shots003–004 were owner-approved on 6 November 2026.
 - S01 will have a complete three-minute working-scene plan once Scene 003 is produced and reviewed.
 - Master sequences S02–S10 have not entered detailed shot production in this log.
 
@@ -38,7 +38,7 @@
 | Character references | Boxer, Clover and Benjamin approved references recorded in Asset Register |
 | Locations | Existing Manor_Farm_Exterior and Barn_Exterior references; exterior-only scene; no Main_Barn interior asset required |
 | Dialogue | Two original adaptation lines for Clover and Boxer; both exact lines owner-approved 6 November 2026; audio not generated |
-| Generation | Owner authorized one Shot001 output at exactly 10 credits, conditional on live UI recheck; Flow render not yet confirmed; owner review pending |
+| Generation | Shot001 V01 generated (10 credits reported charged), visually inspected and owner-accepted for editing; cool-blue NLE color match pending; Shot002 preparation only next; no new render authorized |
 
 ## Active project settings (the workflow actually used so far)
 
@@ -115,9 +115,10 @@ See `08_MASTER_SEQUENCE_STORY_MAP.md` for the full story map. At present, the fi
 
 ## Current next actions — in order
 
-1. **Scene 003:** Six-shot breakdown reviewed; Shot001 prompt and references locked; both dialogue lines owner-approved. Execute the already-authorized single Shot001 generation only if the live UI still displays exactly 10 credits and all locked settings/references match; then review the video.
-2. **Scene 003 generation:** Generate one shot at a time only after explicit owner authorization; inspect the actual MP4 and continuity, then request approval before proceeding.
-3. **S01 closeout:** After Scene 003 is generated, assembled and approved, verify the full 00:00–03:00 opening sequence before entering S02.
+1. **Scene 003 Shot002:** Prepare and preflight only; verify references, prompt, model/settings and live displayed price. Do not generate until a separate explicit owner authorization is received.
+2. **Scene 003 Shot001 editorial:** Apply and review cool-blue color/exposure matching in the NLE; complete separate audio listening review.
+3. **Scene 003 production:** Continue one shot at a time, with a separate explicit authorization before every render and owner review after every output.
+4. **S01 closeout:** After Scene 003 is assembled and approved, verify the full 00:00–03:00 opening sequence before entering S02.
 
 
 
@@ -138,6 +139,10 @@ Individual approved clips alone do not equal a fully finished scene master.
 This archive is a documentation-and-reference package. It intentionally excludes all 12 approved shot videos, the Scene 001 source MP4 and Full HD export, and Scene 002 approved shot binaries. These remain in the Google Flow collection and/or separate production media storage; this package retains their version/status/ID records.
 
 
-### Scene 003 Shot001 execution record
+### Scene 003 Shot001 execution and editorial decision
 
-Flow Agent reports one output generated: `Boxer stopping cart by barn` (media ID `8a46a89f-c131-4f63-868a-c729b7bf8c7c`). Reported charge: 10 credits. Reported metadata: 10.00s, 640×360, 16:9, 24fps, audio track present. Status: **GENERATED — AWAITING OWNER REVIEW**. The actual MP4 has not been visually or audibly inspected in this conversation; no approval is implied.
+Flow Agent reported one output generated: `Boxer stopping cart by barn` (media ID `8a46a89f-c131-4f63-868a-c729b7bf8c7c`). Reported charge: 10 credits. The uploaded MP4 was inspected: 10.00s, 640×360, 16:9, 24fps, audio stream present. Owner decision: **V01 ACCEPTED FOR EDITING — COLOR MATCH REQUIRED**. Preserve the clip; no retake. Apply a cool-blue exposure/color match in the NLE against Scene 002 Shot 006. The grade and detailed audio listening review remain pending.
+
+### Scene 002 Shot006 final media metadata
+
+Owner-confirmed final: `ACT01_SCENE002_SHOT006_V02`, Flow media ID `e3c06bbd-2245-427a-8fbd-3b9bbd1cf891`; 10s, 1280×720, 24fps, 16:9, AAC stereo. Officially approved and locked as the final shot of Scene 002.
