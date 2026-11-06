@@ -187,3 +187,12 @@ Owner supplied the Flow Agent preflight report for `ACT01_SCENE003_SHOT005_V01 �
 The report confirms Omni 1.2 Flash / R2V / 360p (640×360) / 16:9 landscape / 10 seconds / exactly one output; exact references Benjamin, Barn_Exterior and Manor_Farm_Exterior; locked prompt entered verbatim; no reported warning or mismatch. Live displayed quote: **10 credits**. Native Omni Flash ambient audio enabled. No generation/preview and zero credits spent.
 
 **Decision:** Mark preflight PASSED only. The displayed price is point-in-time and must be rechecked immediately before any authorized render. Generation remains unauthorized. A separate explicit owner authorization is required for exactly one output at the final verified 10-credit price. If any setting, reference, prompt or price differs, stop without generating.
+
+
+## L. Scene 003 Shot005 — generation and assistant review (7 November 2026)
+
+Flow execution report confirms exactly one output and 10 credits charged. Media ID: `7b9c7132-289d-4331-a09d-256ee969f388`, asset “Donkey standing in barn doorway”. The exact three approved references and verbatim prompt are reported used. Uploaded MP4 metadata verified: 10s; 640×360; 24fps; 16:9; H.264/AVC; AAC stereo 48kHz; 1,916,991 bytes.
+
+Visual review confirms Benjamin's approved grey donkey identity and the exterior red-barn doorway staging. His gaze lowers slightly; no other character enters. The camera push-in is stronger than requested, tightening from medium to close-up and cropping most of the body by the end. The shot remains usable as an emotional close-in. Apply modest cool-blue continuity grading to match the prior blue-hour shots. No dialogue is planned; subjective audio listening review remains pending.
+
+**Assistant recommendation:** retain V01 for editing; no retake recommended. **Owner approval pending.** Do not generate Shot006 until the owner reviews Shot005.
