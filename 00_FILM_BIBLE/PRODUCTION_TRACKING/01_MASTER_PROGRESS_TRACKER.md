@@ -313,3 +313,12 @@ The second Flow Agent preflight report now matches the canonical prompt verbatim
 - No generation or preview; **0 credits spent**.
 
 The initial prompt mismatch was corrected and remains documented. **Current status: CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT OWNER AUTHORIZATION.** The quote is point-in-time; recheck all selectors, attachments, prompt and price immediately before any separately authorized render. Exactly one output only.
+
+
+## Scene 003 Shot006 generated and visually reviewed — 7 November 2026
+
+`ACT01_SCENE003_SHOT006_V01 — Animals moving toward barn entrance` generated as exactly one output; Flow reports exactly 10 credits charged. Media ID: `89104e8d-e999-469f-b810-cc94725cf955`. Uploaded MP4 independently inspected: 2,777,152 bytes; 10s; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz.
+
+All three animals read correctly and move toward the red barn; wide rear three-quarter framing and continuous pull-back work; no Old Major or meeting appears. Two deviations: the sky remains pink-grey twilight rather than cool blue night, and the warm doorway glow is not clearly visible. Apply a cool-blue dusk-to-night grade and add a subtle warm doorway light in post if practical. Audio stream metadata verified; subjective listening pending.
+
+**Assistant recommendation: retain V01 for editing — no retake recommended.** Status: **GENERATED — AWAITING OWNER REVIEW**. Owner approval pending.
