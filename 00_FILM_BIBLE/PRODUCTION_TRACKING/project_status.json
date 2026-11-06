@@ -29,7 +29,31 @@
     "source_360p_file": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/SCENE001_ASSEMBLED_SOURCE_360P_UPLOADED.mp4",
     "upscaled_1080p_file": "04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/ACT01_SCENE001_MANOR_FARM_ESTABLISHING_UPSCALED_1080P.mp4",
     "metadata": "60.000s, 24fps, source 640x360, upscaled 1920x1080, H.264/AAC",
-    "editorial_signoff": "PENDING: exact selected clip order, tracked title, transitions and mixed audio need review"
+    "editorial_signoff": "PENDING: actual assembled timeline inspection, title overlay, transitions, completed audio mix, final 1080p export verification, and owner sign-off",
+    "source_asset_audit": {
+      "status": "PASSED — Flow Agent report supplied by project owner on 2026-11-06",
+      "approved_versions": [
+        "SHOT001_V01",
+        "SHOT002_V03",
+        "SHOT003_V01",
+        "SHOT004_V01",
+        "SHOT005_V01",
+        "SHOT006_V01"
+      ],
+      "reported_individual_durations_seconds": [
+        12,
+        10,
+        10,
+        10,
+        8,
+        10
+      ],
+      "reported_aggregate_duration_seconds": 60,
+      "reported_aspect_ratio": "16:9",
+      "visual_and_character_environment_continuity": "REPORTED PASSED",
+      "generation_credits_spent_for_audit": 0,
+      "scope_limitation": "Individual source assets and planned sequence only; assembled master timeline not verified"
+    }
   },
   "scene002": {
     "duration_seconds": 60,
@@ -57,11 +81,11 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Review Scene 001 Full HD export editorial content",
+    "Complete Scene 001 master-timeline, title, transition and audio checks; verify the 1080p export and obtain owner sign-off (source-asset audit passed)",
     "Assemble/export Scene 002 from approved clips and review",
     "Plan ACT01_SCENE003 for 02:00-03:00 to complete S01",
     "Approve narrator profile and write narrator/character dialogue",
-    "Verify missing main character references before S02"
+    "Verify missing main character references and locations before S02"
   ],
   "sync_status": "No automatic live sync with Google Flow or ChatGPT; update repository and re-upload latest tracking files when continuing"
 }
