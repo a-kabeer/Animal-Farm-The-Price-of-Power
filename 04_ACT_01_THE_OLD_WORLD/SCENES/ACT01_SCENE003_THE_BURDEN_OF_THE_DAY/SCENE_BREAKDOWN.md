@@ -514,3 +514,27 @@ Flow reports ambient horse vocalization and evening wind only. The exact owner-a
 ### Approval status
 
 **Current status: GENERATED — AWAITING OWNER REVIEW.** This is the assistant's visual review and recommendation, not owner approval. The single generation authorization is consumed. No Shot005 generation is authorized by this task.
+
+
+## 24. Detailed Shot004 visual review — 7 November 2026
+
+The uploaded MP4 was sampled at 0.5s, 2s, 4s, 6s, 8s and 9.5s and compared against Shot003 at matching timestamps.
+
+**Technical verification:** 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo, 48kHz; file size 1,796,362 bytes. Audio stream duration 10.026667s.
+
+**What works:**
+- The required medium close-up is achieved; Boxer is dominant and his face, white blaze, dark mane and ears remain readable throughout.
+- Boxer's chestnut appearance matches the approved character design and preceding shot.
+- The temporary leather working harness/collar is visible around the neck and shoulder.
+- The red timber Barn_Exterior is consistent.
+- The restrained push-in supports the emotional emphasis and keeps Boxer's head/ears in frame.
+- Performance remains restrained; final sampled frame includes a natural blink.
+
+**Minor deviations:**
+- More than Clover's shoulder is visible: part of her head and muzzle appear along the left border. She remains cropped and secondary, so the composition does not become a full two-shot.
+- Lighting is subdued overcast dusk but slightly brighter/greyer than Shot003's cool blue-hour appearance. Apply a modest cool-blue continuity grade.
+- The push-in gradually crops more of Boxer's body; this is acceptable for the intended close-up.
+
+**Dialogue/audio:** Flow reports ambient horse vocalization and evening wind only. The exact approved line, “The work still needs doing, Clover,” was not generated as spoken dialogue and must be dubbed/synchronized in post. AAC audio metadata is verified; subjective listening review remains pending.
+
+**Assistant recommendation:** RETAIN V01 FOR EDITING — NO RETAKE RECOMMENDED. Owner review/approval remains pending; this is not an owner sign-off.
