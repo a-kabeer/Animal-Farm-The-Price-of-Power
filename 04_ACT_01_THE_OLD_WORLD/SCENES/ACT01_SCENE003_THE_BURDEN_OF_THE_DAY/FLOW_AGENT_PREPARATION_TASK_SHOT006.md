@@ -79,3 +79,20 @@ Return all of the following:
 8. Confirm no dialogue or narrator is requested.
 
 **STOP after the report.** Do not click Generate. The displayed price is only a point-in-time quote and does not authorize a render. Wait for separate explicit owner authorization for exactly one output at the final live-verified price.
+
+
+## 7. Initial Flow preflight report — PROMPT MISMATCH — 7 November 2026
+
+The owner supplied a preflight report with the following verified setup:
+- Omni 1.2 Flash / Reference-to-Video (R2V).
+- 360p (640×360), 16:9 landscape, 10 seconds, exactly one output.
+- The exact five expected references were reported attached.
+- Live displayed price: **10 credits**.
+- Native ambient audio enabled.
+- No generation or preview; zero credits spent.
+
+However, the quoted prompt in the report differs materially from the locked prompt in Section 5. In particular, it uses a **high-angle wide** camera rather than a **wide rear three-quarter** view; it sends the three animals **into the barn and out of view** rather than having them turn and begin moving toward the entrance; it adds slightly ajar doors with light slivers; and it changes the ending to full nighttime/moonlit farm.
+
+The report's claim that the prompt was entered verbatim is therefore contradicted by the quoted text.
+
+**Preflight result: REJECTED — CORRECTION REQUIRED.** Do not generate. Re-enter Section 5 exactly, verbatim; retain the same five references and target settings; after correcting the prompt, recheck and report the current live displayed credit price. No generation, preview or credit spend is authorized.
