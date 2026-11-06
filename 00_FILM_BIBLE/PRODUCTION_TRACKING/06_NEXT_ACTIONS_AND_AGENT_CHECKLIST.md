@@ -355,3 +355,15 @@
 - [ ] Re-enter the exact canonical prompt in `FLOW_AGENT_PREPARATION_TASK_SHOT006.md` verbatim.
 - [ ] Re-run preflight only; confirm all five references and settings, then report the current exact live price.
 - [ ] Do not generate until a matching corrected preflight is received and the owner separately authorizes exactly one output.
+
+
+### Scene 003 Shot006 — corrected preflight passed (7 November 2026)
+
+- [x] Initial prompt mismatch corrected; earlier failed preflight retained in decision log.
+- [x] Exact five references re-confirmed attached: Boxer, Clover, Benjamin, Manor_Farm_Exterior and Barn_Exterior.
+- [x] Corrected prompt reported entered verbatim and matching canonical Scene Breakdown.
+- [x] Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output verified.
+- [x] Live displayed quote rechecked after correction: **10 credits** (point-in-time only).
+- [x] No generation or preview; **0 credits spent**.
+- [ ] Await separate explicit owner authorization for one output, conditional on final immediate live UI recheck.
+- [ ] Do not render if price or any setting/reference/prompt differs.
