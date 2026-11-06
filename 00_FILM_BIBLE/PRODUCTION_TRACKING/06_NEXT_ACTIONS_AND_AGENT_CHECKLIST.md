@@ -10,13 +10,17 @@
 - [x] 16:9 aspect ratio and visual/character/environment continuity reported passed.
 - [x] No generation credits spent during the audit.
 
-**Still required for editorial sign-off:**
-- [ ] Open and inspect the actual assembled 60-second master timeline / Full HD export; the Agent audit did not verify the assembled timeline.
-- [ ] Confirm hard cuts between shots 001–005 and the planned 0.5s crossfade into shot 006 (if used).
-- [ ] Confirm `MANOR FARM` title is tracked onto the blank gate sign; add it in the editor if missing.
-- [ ] Confirm Music_001 and intended SFX are actual mixed audio, not just planned cue IDs.
-- [ ] Verify the final export is 1920×1080 at 24fps. An earlier record lists an existing upscale, but it was not checked in this audit.
-- [ ] Obtain the project owner's review and formal editorial approval.
+**Assembly specification received (Flow Agent report, 6 November 2026):** six locked sources, intended order, 60s target, hard cuts and 0.5s crossfade into Shot 006, MANOR FARM title, Music_001/SFX plan, and target 1920×1080 / 24fps / H.264 / AAC export. The Agent reports zero generation credits used and confirms editing/mixing/export are UI/NLE operations.
+
+**Still required — actual master and editorial sign-off:**
+- [ ] Assemble the six locked source clips in Flow Scenes timeline or an NLE; do not regenerate them.
+- [ ] Resolve the timing math: source durations total 60s, while a 0.5s overlapping crossfade normally makes the timeline 59.5s. Compensate or use a non-overlapping design, then verify actual runtime is 60.00s.
+- [ ] Apply and inspect `MANOR FARM` title tracking on the Shot 001 gate sign.
+- [ ] Confirm Music_001 and intended SFX are actual mixed audio; listen to the final mix.
+- [ ] Render the final 1920×1080, 24fps, H.264/AAC MP4 and record the actual filename/path/metadata.
+- [ ] Supply the rendered MP4 or verifiable media link and obtain the project owner's formal approval.
+
+See `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/FINAL_MASTER_ASSEMBLY_VERIFICATION_REPORT.md`.
 
 See `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
 
