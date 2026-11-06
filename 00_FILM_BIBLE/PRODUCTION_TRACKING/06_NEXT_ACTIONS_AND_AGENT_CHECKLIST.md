@@ -135,3 +135,11 @@
 - [x] Audio stream presence verified; detailed listening review remains pending.
 - [ ] Obtain explicit owner approval or rejection of Shot002 V01. Assistant recommendation: retain for editing with the foreleg-crop note; no retake.
 - [ ] Do not generate Shot003 until owner approval of Shot002 and a separate explicit, shot-specific authorization for Shot003.
+
+### Scene 003 Shot002 — owner acceptance (6 November 2026)
+
+- [x] Owner accepted V01 for editing; status: **OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION**.
+- [x] Preserve the single take; no retake authorized or required.
+- [x] Keep the late-shot foreleg-crop note visible for the editor.
+- [ ] Complete detailed listening review of the native audio.
+- [ ] Prepare Shot003 only; no generation until a separate explicit owner authorization for the exact live price/settings/references.
