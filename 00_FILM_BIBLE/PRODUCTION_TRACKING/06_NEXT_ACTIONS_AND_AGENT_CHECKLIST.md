@@ -183,3 +183,17 @@
 - [ ] Stop after delivering Shot003. Shot004 is not included in this authorization.
 
 **Standing production default:** one output per video shot; never ask whether to batch or make multiple takes. This output-count preference does not authorize future shots; each new shot still needs separate explicit owner authorization.
+
+
+### Scene 003 Shot003 — generation and media review (7 November 2026)
+
+- [x] Final Flow UI execution report received; exactly one output generated and exactly 10 credits charged.
+- [x] Media ID recorded: `868918c2-e7c3-4e18-83d2-ed8bca8f40ff`, asset name “Clover expresses concern for Boxer”, collection `04_ACT_01_The_Old_World`.
+- [x] Owner-uploaded MP4 independently inspected: 10.000s; 640×360; 16:9; 24fps; H.264/AVC; AAC-LC stereo 48kHz; audio stream duration 10.026667s.
+- [x] Visual continuity review: approved Clover/Boxer identities, Clover unharnessed, Boxer in temporary harness, loaded cart and red barn visible; restrained medium two-shot reads clearly.
+- [x] Editorial findings recorded: cool but somewhat brighter/greyer than deep blue twilight; apply modest cool-blue continuity grade. Camera tightens, cropping lower legs while heads/upper bodies remain readable.
+- [x] Dialogue status: Flow produced ambient horse vocalization and evening wind, not the exact spoken line. Record Clover's approved line in post and synchronize.
+- [x] Assistant recommendation: retain V01 for editing; no retake recommended.
+- [ ] Owner review/approval remains pending; do not mark shot owner-approved until explicitly accepted.
+- [ ] Detailed listening review of native ambient audio remains pending.
+- [ ] Do not generate Shot004 until it is separately prepared and separately authorized. Default remains exactly one output per shot.
