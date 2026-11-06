@@ -178,3 +178,12 @@ The project owner replied **“next please”** after the detailed Shot004 visua
 **Shot005 plan:** Prepare `ACT01_SCENE003_SHOT005_V01 — Benjamin Observes` using Benjamin, Barn_Exterior and Manor_Farm_Exterior only. Exterior doorway medium shot; Benjamin watches Boxer and Clover off-screen, then lowers his gaze; silent, no lip movement, no other characters in frame. No barn interior and no Old Major/night gathering.
 
 **Authorization boundary:** The Shot005 Flow task is preparation and UI preflight only. Verify the live Omni 1.2 Flash / R2V / 360p / 16:9 / 10-second / one-output selectors and report the exact live displayed price. Do not generate, preview, create variations or spend credits. Obtain a separate explicit owner authorization for exactly one output only after the complete matching preflight report.
+
+
+## K. Scene 003 Shot005 — preflight passed; render not authorized (7 November 2026)
+
+Owner supplied the Flow Agent preflight report for `ACT01_SCENE003_SHOT005_V01 — Benjamin Observes`.
+
+The report confirms Omni 1.2 Flash / R2V / 360p (640×360) / 16:9 landscape / 10 seconds / exactly one output; exact references Benjamin, Barn_Exterior and Manor_Farm_Exterior; locked prompt entered verbatim; no reported warning or mismatch. Live displayed quote: **10 credits**. Native Omni Flash ambient audio enabled. No generation/preview and zero credits spent.
+
+**Decision:** Mark preflight PASSED only. The displayed price is point-in-time and must be rechecked immediately before any authorized render. Generation remains unauthorized. A separate explicit owner authorization is required for exactly one output at the final verified 10-credit price. If any setting, reference, prompt or price differs, stop without generating.
