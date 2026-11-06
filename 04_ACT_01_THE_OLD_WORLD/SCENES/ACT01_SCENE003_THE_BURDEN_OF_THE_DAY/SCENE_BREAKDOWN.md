@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 PREFLIGHT MISMATCH — CORRECTION REQUIRED  
+**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -632,3 +632,14 @@ Material changes in the reported prompt:
 - Ending changed to full nighttime / moonlit farm rather than dusk deepening toward cool blue night.
 
 **Decision:** Reject this preflight as a prompt match. Do not authorize generation. Use the locked prompt in Section 3 / Flow task Section 5 exactly, verbatim. Retain the exact five references and the target settings. After correcting the prompt, re-run preflight and report the exact current live displayed price; the previous 10-credit quote is point-in-time only. No generation, preview or credit spend is authorized.
+
+
+## 29. Shot006 corrected Flow preflight passed — 7 November 2026
+
+The corrected Flow Agent report confirms that the prompt now matches the canonical Shot006 prompt in this Scene Breakdown verbatim. It restores the required wide rear three-quarter composition; the three animals turn and begin moving toward the barn entrance; dusk deepens toward cool blue night; a soft warm glow is visible through the doorway; and the camera makes a slow continuous pull-back. It does not send the animals into the barn.
+
+**Verified setup:** Omni 1.2 Flash / R2V / 360p (640×360) / 16:9 landscape / 10 seconds / exactly one output. All five exact references remain attached: Boxer, Clover, Benjamin, Manor_Farm_Exterior and Barn_Exterior. Live displayed quote after correction: **10 credits**. No generation or preview; **0 credits spent**.
+
+The earlier preflight mismatch remains documented in Section 28 as rejected and corrected. Current status: **CORRECTED PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**.
+
+**Authorization boundary:** The 10-credit price is point-in-time only. A separate explicit owner authorization is required. Immediately before any render, recheck the live price, every setting, all five references and the verbatim prompt; proceed only for one output at exactly 10 credits. Otherwise stop without generation.
