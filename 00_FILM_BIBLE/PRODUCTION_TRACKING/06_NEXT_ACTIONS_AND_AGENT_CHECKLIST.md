@@ -241,3 +241,17 @@
 - [x] Native speech/lip-sync limitation recorded; post-production dubbing/synchronization may be required.
 - [x] No generation/preview; **0 credits spent**.
 - [ ] Await separate explicit owner authorization for exactly one output at 10 credits; recheck the live UI immediately before rendering.
+
+
+### Scene 003 Shot004 — owner authorization (7 November 2026)
+
+- [x] Corrected preflight passed with exact references: Boxer, Clover and Barn_Exterior.
+- [x] Final owner-supplied pre-generation audit confirms prompt verbatim and medium close-up composition.
+- [x] Locked settings: Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / exactly one output.
+- [x] Exact live quote in final audit: 10 credits.
+- [x] Owner authorized exactly one Shot004 output at exactly 10 credits, conditional on final live recheck.
+- [x] Execution task committed: `FLOW_AGENT_EXECUTION_TASK_SHOT004.md`.
+- [ ] Flow Agent: recheck live price/settings/references/prompt immediately before Generate. Generate one output only if all match and price is exactly 10 credits.
+- [ ] If any condition differs, stop without generating. No batch, preview, variation, retake, retry or other shot.
+- [ ] Return the generated asset and metadata; mark GENERATED — AWAITING OWNER REVIEW; stop.
+
