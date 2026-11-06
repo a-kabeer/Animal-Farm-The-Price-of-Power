@@ -321,3 +321,12 @@ Visual review findings:
 - Audio stream presence is verified, but detailed listening and subjective sound-quality review remain pending.
 
 **Current approval state:** ASSISTANT VISUAL REVIEW COMPLETE — OWNER APPROVAL PENDING. Do not mark Shot002 approved and do not generate Shot003 until the owner explicitly approves Shot002 and separately authorizes Shot003.
+
+## 13. Owner acceptance of Shot 002 V01 for editing — 6 November 2026
+
+The project owner accepted `ACT01_SCENE003_SHOT002_V01` for editing, accepting the assistant's recommendation to retain the single generated take. Status: **OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION**.
+
+- Preserve the generated media; no retake is planned or authorized.
+- Editorial note: the push-in crops Boxer's forelegs in the latter half; the head, harness and cart remain readable.
+- Audio stream presence is verified; detailed listening review remains pending.
+- This acceptance does not authorize Shot003 or any further generation. Shot003 requires its own preparation, live price/settings check and explicit owner authorization.
