@@ -111,3 +111,15 @@ Keep rejected versions for comparison/audit. Never use them in the master edit.
 - Audit finding: shoulder-to-forelegs framing could crop out Boxer's head despite the required head-lowering action.
 - Prompt correction: use medium three-quarter side-profile framing that includes Boxer's full head and neck, shoulder/harness and forelegs, with a readable portion of the stationary hay cart behind him.
 - Corrected preflight instruction is stored in `FLOW_AGENT_PROMPT_REVISION_SHOT002.md`. Flow Agent must reconfirm the corrected prompt, exact references/settings and live quote. No generation is authorized.
+
+
+## C. Scene 003 Shot002 — generation result and continuity review (6 November 2026)
+
+- Owner supplied Flow execution report for `ACT01_SCENE003_SHOT002_V01`; media ID `a8d3301a-6e49-4fc2-91d1-d4d2ae5ba86a`; asset name `Boxer lowering head by cart`; collection `04_ACT_01_The_Old_World`.
+- Flow reports the live authorization conditions were met: exactly one output, exactly 10 credits charged, Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds; all three references attached and corrected prompt used verbatim.
+- Actual uploaded MP4 metadata independently verified: 10.000s video, 640×360, 24fps, H.264/AVC; AAC-LC stereo at 48kHz.
+- Visual continuity accepted for character identity, white blaze, temporary harness, stationary loaded hay cart, Barn_Exterior and cool subdued dusk. The required head-lowering action is clear, with visible breath vapor.
+- **Framing deviation:** the camera push-in tightens too much in the latter half and crops Boxer's forelegs out of the final frames, contrary to the prompt's request to keep them visible throughout. Head, harness and cart remain readable.
+- Editorial recommendation: keep the single V01 take for editing; use the push-in as an intentional tightening of the emotional focus. No retake recommended or authorized.
+- Audio stream existence verified; sound quality/listening review remains pending.
+- Status remains **GENERATED — AWAITING OWNER REVIEW** until the project owner explicitly approves. No Shot003 generation is authorized by this record.
