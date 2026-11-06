@@ -9,9 +9,9 @@
 <pre>
 30-minute master blueprint
 └── S01 The Hungry Farm (00:00–03:00)
-    ├── ACT01_SCENE001 Manor Farm Establishing (00:00–01:00)  SOURCES LOCKED; ASSEMBLY SPEC RECORDED; RENDER PENDING
-    ├── ACT01_SCENE002 The Animals' Work (01:00–02:00)         SHOTS APPROVED
-    └── ACT01_SCENE003 (02:00–03:00)                           NOT PLANNED
+    ├── ACT01_SCENE001 Manor Farm Establishing (00:00–01:00)  MASTER COMPLETE — OWNER CONFIRMED
+    ├── ACT01_SCENE002 The Animals' Work (01:00–02:00)         MASTER COMPLETE — OWNER CONFIRMED
+    └── ACT01_SCENE003 The Burden of the Day (02:00–03:00)    6-SHOT PLAN DRAFTED; NOT GENERATED
 S02–S10 (03:00–30:00)                                           NOT IN SHOT PRODUCTION
 </pre>
 
@@ -21,13 +21,14 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 |---|---:|
 | Target film runtime | 30:00 |
 | Master sequences | 10 × 3 minutes |
-| Working one-minute scenes with approved shot footage | 2 |
-| Approved individual shots | 12 / 12 |
+| Owner-confirmed completed one-minute scene masters | 2 |
+| Scene 003 planned shots | 6 / 6 (not generated) |
+| Approved individual shots | 12 / 12 across Scenes 001–002 |
 | Approved shot footage | 02:00 / 30:00 (6.7%) |
-| Scene 001 source-asset audit | Passed per Flow Agent report (6 Nov 2026): 6 approved versions / 60s / 16:9 |
-| Scene 001 assembly specification | Recorded: six locked clips, intended order, title/audio settings and export target |
-| Scene 001 rendered master / Full HD export | Not supplied or verified; actual render and owner sign-off pending |
-| Scene 002 final 60s export | Pending |
+| Scene 001 master | COMPLETE — owner-confirmed 6 Nov 2026; export metadata not yet recorded |
+| Scene 002 master | COMPLETE — owner-confirmed 6 Nov 2026; export metadata not yet recorded |
+| Scene 003 breakdown | Drafted: six 10-second shots, 60-second target; awaiting owner approval |
+| Scene 003 generation | Not started; no generation authorization or credits used |
 | Narrator script | Not written/approved |
 | Character dialogue script | Not written/approved |
 | Final music/SFX mix | Pending |
@@ -42,13 +43,15 @@ S02–S10 (03:00–30:00)                                           NOT IN SHOT 
 
 ## Three immediate tasks
 
-1. Execute Scene 001 assembly in Flow UI / NLE; resolve the crossfade/runtime discrepancy; apply and inspect the MANOR FARM overlay, mix music/SFX, render and verify the actual 60s 1080p master, then obtain owner sign-off. Six source clips are locked and the assembly specification is recorded.
-2. Assemble Scene 002 in Flow Scenebuilder and export the 60-second MP4; then upscale/export 1080p and review.
-3. Plan ACT01_SCENE003 for 02:00–03:00 to finish master sequence S01 — The Hungry Farm.
+1. Review and approve Scene 003's six-shot breakdown and draft dialogue; confirm saved references and live Flow costs before authorizing generation.
+2. Generate Scene 003 one shot at a time, review each actual MP4 and obtain approval before proceeding.
+3. Assemble and approve Scene 003 to finish S01 (00:00–03:00); only then begin S02 — Old Major's Dream.
 
-## Scene 001 source-asset audit — 6 November 2026
+## Scene 001 and Scene 002 completion status
 
-The Flow Agent report supplied by the owner confirms the six approved source versions, their planned order, 16:9 aspect ratio and 60-second aggregate duration. The report states that no generation credits were spent. It does **not** verify the assembled master timeline, final 1080p export, MANOR FARM title overlay, transitions or completed audio mix. Scene 001 therefore remains editorially pending; see `04_ACT_01_THE_OLD_WORLD/DELIVERABLES/SCENE001/EDITORIAL_VERIFICATION_REPORT.md`.
+The project owner confirmed on 6 November 2026 that both Scene 001 and Scene 002 are complete. Their six approved source versions remain locked. The repository does not yet record the final master filenames or full technical export metadata.
+
+
 
 ## Voice / dialogue decision needed
 
