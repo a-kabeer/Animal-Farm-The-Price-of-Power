@@ -218,3 +218,14 @@
 - [ ] Run Flow preflight only; report current model/mode/settings, all attached references, exact live displayed price and speech/lip-sync capability.
 - [ ] **Do not click Generate, create a preview or spend credits.** No Shot004 generation authorization exists yet.
 - [ ] After preflight report, wait for separate explicit owner authorization for one output.
+
+
+### Scene 003 Shot004 — first preflight mismatch (7 November 2026)
+
+- [x] Initial Flow report received; model/settings were reported as Omni 1.2 Flash / R2V / 360p / 16:9 / 10s / one output; displayed quote 10 credits.
+- [x] No generation or preview; Flow reported zero credits spent.
+- [x] Identified reference mismatch: Flow reports Boxer + Clover + `BOXER_HAY_CART_CONTINUITY_REFERENCE`; canonical preparation task requires Boxer + Clover + `Barn_Exterior`.
+- [x] Identified framing/prompt mismatch: Flow reports medium two-shot; locked Scene Breakdown/task requires medium close-up on Boxer with Clover's shoulder softly visible at frame edge.
+- [ ] Re-run preflight with exact canonical references and prompt from `FLOW_AGENT_PREPARATION_TASK_SHOT004.md`.
+- [ ] Recheck the live displayed credit price after corrections.
+- [ ] Stop after preflight. No generation, preview, or credit spend until a separate explicit owner authorization for the corrected setup.
