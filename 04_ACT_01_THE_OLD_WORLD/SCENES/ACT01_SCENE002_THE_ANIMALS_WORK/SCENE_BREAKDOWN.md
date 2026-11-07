@@ -3,6 +3,7 @@
 **Timecode:** 01:00–02:00  
 **Runtime:** 60 seconds  
 **Status:** MASTER COMPLETE — project-owner confirmed on 6 November 2026. All six approved shots remain locked. Final export filename and technical metadata are not recorded in this repository.  
+> Historical note: the pending assembly/audio/export checklist near the end of this file predates the owner's completion confirmation and is superseded. Do not treat it as the current task list.
 **Time jump:** Opens on the next morning after Scene 001 ends at dusk.  
 **Dialogue:** No spoken dialogue in the six approved shot plans.
 
