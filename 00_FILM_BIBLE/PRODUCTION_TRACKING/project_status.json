@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — Shot001 explicitly authorized for exactly one output at exactly 10 credits; awaiting Flow execution report"
+      "status": "IN PRODUCTION — ACT01_SCENE004_SHOT001 generated; awaiting owner review"
     },
     {
       "id": "S03",
@@ -115,9 +115,9 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "In Google Flow, execute exactly one output for ACT01_SCENE004_SHOT001_V01 using Omni 1.2 Flash R2V, 360p, 16:9, 10 seconds, and the four locked references with the verbatim prompt.",
-    "Immediately before Generate, recheck the live displayed charge is exactly 10 credits and all settings/references/prompt match. If any mismatch or different price appears, stop without generating and report it.",
-    "After generation, record the actual output media ID, asset name, actual credits charged and technical metadata; await owner review before marking approved."
+    "Owner reviews ACT01_SCENE004_SHOT001_V01 and decides whether to accept or reject this exact output; record decision and any editorial notes.",
+    "Do not generate Shot002, retry Shot001 or create another take until separately authorized by the owner.",
+    "After Shot001 decision, continue planning the remaining ACT01_SCENE004 shots."
   ],
   "source_of_truth": {
     "shot_status": "00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv",
@@ -131,13 +131,13 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 OWNER-AUTHORIZED — AWAITING GOOGLE FLOW EXECUTION",
+    "status": "SHOT001 GENERATED — AWAITING OWNER REVIEW; NO FURTHER GENERATION AUTHORIZED",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
         "version": "V01",
         "title": "Old Major's Gathering — Barn Interior Opening",
-        "status": "OWNER AUTHORIZED — AWAITING FLOW EXECUTION",
+        "status": "GENERATED — AWAITING OWNER REVIEW",
         "duration_seconds": 10,
         "model_reported": "Omni 1.2 Flash",
         "mode_reported": "Reference-to-Video (R2V)",
@@ -145,8 +145,8 @@
         "aspect_ratio": "16:9",
         "outputs": 1,
         "live_quote_credits_reported": 10,
-        "credits_spent": 0,
-        "generated": false,
+        "credits_spent": 10,
+        "generated": true,
         "generation_authorized": true,
         "references": {
           "Boxer": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
@@ -173,6 +173,35 @@
           "scope": "ACT01_SCENE004_SHOT001_V01 only",
           "condition": "At live Generate checkpoint, verify all reported settings, exact four references, locked prompt, and exact displayed cost of 10 credits. If any mismatch or price differs, stop without generating.",
           "source": "Owner's final live preflight audit and explicit request for the command"
+        },
+        "actual_charge_credits_owner_reported": 10,
+        "media_id": "db48f283-e7f7-4e0c-b208-ce998c2ac434",
+        "asset_display_name": "Animals entering barn in moonlight",
+        "output_count_reported": 1,
+        "execution_report": "Owner reports exact locked prompt and all four references were used; one output generated in collection 04_ACT_01_THE_OLD_WORLD.",
+        "technical_metadata_independently_verified": {
+          "container_file": "/mnt/data/Animals_entering_barn_in_moonlight_db48f283.mp4",
+          "duration_seconds": 10.026667,
+          "width": 640,
+          "height": 360,
+          "frame_rate_fps": 24,
+          "video_codec": "H.264",
+          "audio_codec": "AAC",
+          "audio_sample_rate_hz": 48000,
+          "audio_channels": 2,
+          "file_size_bytes": 2557101
+        },
+        "visual_review": {
+          "status": "PRELIMINARY REVIEW COMPLETED — AWAITING OWNER DECISION",
+          "positives": [
+            "Boxer, Clover and Benjamin are visually distinguishable and consistent with the approved reference descriptions.",
+            "Main_Barn Candidate 2 architecture, open floor, timber rafters and moonlit entrance are consistent.",
+            "The three animals enter the barn and advance into the interior."
+          ],
+          "deviations": [
+            "The additional animals specified as gathered background silhouettes are not clearly visible."
+          ],
+          "audio": "AAC stereo stream present; subjective listening review not completed."
         }
       }
     ]
