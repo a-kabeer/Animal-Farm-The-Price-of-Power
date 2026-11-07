@@ -170,8 +170,8 @@ Serious cinematic 3D animated feature-film drama, realistic animal anatomy, deta
 ## Shot001 V03 replacement prompt — count and position locked
 
 **Version:** `ACT01_SCENE004_SHOT001_V03`  
-**Status:** PROMPT DRAFTED — NOT SENT TO FLOW / NOT AUTHORIZED  
-**Change from V02:** Remove all animal and camera movement. All nine animals are already in fixed, separated positions from the opening frame through the final frame. The four sheep are individually spaced in a shallow row on the right, not overlapping one another.
+**Status:** FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION  
+**Change from V02:** All nine animals remain stationary in three separate zones. The four sheep are side-by-side in one straight horizontal row at approximately the same camera depth, with visible gaps and no overlap.
 
 ### Google Flow prompt
 
@@ -201,7 +201,7 @@ COUNT AND POSITION LOCK:
 Keep the nine animals in three separate, clearly defined zones for the entire 10 seconds:
 - LEFT ZONE: exactly TWO cows, standing side by side near the left wall. Keep both heads and both full bodies separately visible.
 - CENTRE ZONE: Boxer, Clover and Benjamin, exactly THREE animals, standing in the open central aisle just inside the barn entrance. Keep all three bodies separate and fully visible.
-- RIGHT ZONE: exactly FOUR sheep, standing in one shallow, slightly staggered row along the right wall. Arrange them with clear gaps between their heads and bodies. Each of the four sheep must have its own unmistakably visible head, neck and body. Keep all four full bodies inside the frame. Do not line them up directly behind one another. Do not let one sheep cover another.
+- RIGHT ZONE — EXACTLY FOUR SHEEP: Place exactly FOUR individual white sheep side by side in a single straight horizontal row along the right wall, all at approximately the same camera depth. Maintain a clear visible gap between every sheep. Each sheep must have its own separately visible head, neck, torso and legs. All four full bodies must remain inside the frame simultaneously. Do not arrange them behind one another. Do not overlap, stagger, merge, duplicate or hide any sheep. Preserve the exact four individual sheep from the approved The_Sheep reference throughout the entire shot.
 
 ALL NINE ANIMALS ARE ALREADY IN THESE POSITIONS AT THE START. Do not animate an entrance. Do not let any animal walk away, enter, exit, cross paths, move behind another animal or leave the frame. Do not let any animal become hidden by another animal, a post, a trough, a shadow or the edge of the image.
 
@@ -238,18 +238,31 @@ VISUAL STYLE:
 Serious cinematic 3D animated feature-film drama. Realistic animal anatomy, natural fur and wool, physically believable stillness, detailed weathered timber, restrained expressions, cinematic moonlight and a consistent 1940s English farm environment. No cartoon comedy, no exaggerated expressions, no extra limbs, no duplicated animals, no morphing, no hidden or obscured animals, no count changes and no watermark.
 ```
 
+### V03 owner-reported final preflight — 7 November 2026
+
+- Exact count: three central characters, two cows and four sheep (nine total).
+- Right zone: exactly four sheep in one straight horizontal row, same camera depth, clear gaps, all full bodies visible.
+- All nine already in position at frame 0; fixed tripod; no walking, crossing, overlap or occlusion.
+- Six exact master references reported attached; V02 video not used as an ingredient.
+- Model: Omni 1.2 Flash; mode: Reference-to-Video (R2V).
+- Resolution: 360p (640×360); aspect ratio: 16:9; duration: 10 seconds; exactly one output.
+- Live displayed quote: 10 credits (owner-reported).
+- Locked revised prompt: entered verbatim (owner report).
+- Generation: NOT PERFORMED; 0 credits spent.
+- Status: **FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**.
+
 ### V03 pre-generation gate
 
-- [x] Exact count requirement stated: three central characters, two cows and four sheep.
-- [x] Four sheep assigned a dedicated zone with visible separation.
-- [x] Same four sheep required in every frame; no entry, exit, walking, overlap or camera movement.
-- [x] V02 output excluded as a visual ingredient; use only the six approved master references.
-- [ ] Owner reviews the V03 prompt.
-- [ ] Confirm all six exact references and live model limits in Flow.
-- [ ] Recheck the live model, mode, resolution, aspect ratio, duration, output count and displayed credit price.
-- [ ] Obtain separate owner authorization before any V03 generation.
+- [x] Exact count requirement: three central characters, two cows and four sheep.
+- [x] Four sheep assigned a single straight horizontal row at the same camera depth, with clear gaps and full bodies visible.
+- [x] All nine fixed in position; no walking, entering, exiting, overlap or camera movement.
+- [x] V02 output excluded; only six approved master references reported attached.
+- [x] Omni 1.2 Flash / R2V / 360p / 16:9 / 10 seconds / one output reported selected.
+- [x] Live price reported as 10 credits; prompt entered verbatim.
+- [x] No generation performed; 0 credits spent.
+- [ ] Obtain separate explicit owner authorization before any V03 generation.
 
-**Hold:** This is a prompt revision only. No V03 video has been generated and no V03 credits are authorized.
+**Hold:** V03 is preflight-ready but not authorized or generated. The 10-credit quote is not permission to spend. Recheck every setting, reference, prompt and live price immediately before Generate.
 
 ## Shot002 plan — The Other Animals Gather
 
@@ -352,4 +365,4 @@ Serious cinematic 3D animated feature-film drama, realistic animal anatomy, deta
 - [ ] Owner approves the Shot002 plan and exact prompt.
 - [ ] Separate live preflight and explicit owner authorization for Shot002.
 
-**Current hold:** V02 has a sheep-count continuity defect. V03 prompt is drafted below but has not been sent to Flow or authorized. Recheck live settings and price and obtain owner authorization before any V03 generation. Shot002 remains planning-only.
+**Current hold:** V02 has a sheep-count continuity defect. V03 final preflight is owner-reported as passed; generation remains unauthorized and unperformed. Shot002 remains planning-only.
