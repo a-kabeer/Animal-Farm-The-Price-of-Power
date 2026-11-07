@@ -18,7 +18,6 @@
 3. The relevant scene's `SCENE_BREAKDOWN.md` — read only for the active scene/task.
 4. `00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv` — exact shot states, versions, Flow IDs and review notes.
 5. `00_FILM_BIBLE/PRODUCTION_TRACKING/03_ASSET_REGISTER.csv` — consult only for required reusable assets.
-6. [Active S02 Scene004 breakdown](04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md) — Shot001 rejection record and unapproved Shot002 plan.
 
 **Do not read the whole repository or original blueprint for a routine task.** Open other files only when the task requires them.
 
