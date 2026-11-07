@@ -43,13 +43,11 @@ Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. 
 - Aspect: 16:9 landscape
 - Duration: 10 seconds
 - Output count: exactly 1
-- Live displayed quote: 10 credits (owner-reported; must be rechecked immediately before Generate)
-- Audio: native ambient audio enabled; hoofsteps on straw, wood creaks, soft wind bed
-- Generation: not performed
-- Credits spent: 0
-- Authorization: not granted
-
-The 10-credit quote is owner-reported and must be rechecked in the live Flow UI immediately before Generate. The owner-reported reference attachment state must also be confirmed in the live shot workspace.
+- Live displayed price at generation: exactly 10 credits (owner-reported actual charge)
+- Audio: native ambient audio enabled; hoofsteps on straw, wood creaks, soft wind bed (subjective listening not yet reviewed)
+- Generation: completed — one output reported; Media ID `db48f283-e7f7-4e0c-b208-ce998c2ac434`
+- Credits charged: 10 (owner-reported; account billing not independently reconciled)
+- References: owner reports all four exact references were attached to the generated R2V job.
 
 ## Shot001 execution result and preliminary media review
 
