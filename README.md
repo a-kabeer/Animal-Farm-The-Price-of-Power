@@ -8,7 +8,7 @@
 
 - 1/10 master sequences complete · 3 working scenes · 18 accepted source shots
 - Completed runtime: 03:00 / 30:00 (10%)
-- Next: **S02 — Old Major's Dream (03:00–06:00)** — plan three working scenes and prepare/approve required references.
+- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in preparation. `ACT01_SCENE004_SHOT001` prompt is locked; the Main_Barn interior master reference is still pending. No video generation is authorized.
 - The merged S01 master binary is outside GitHub; filename/export metadata have not been supplied.
 
 ## Agent start here — read only these files
@@ -18,6 +18,7 @@
 3. The relevant scene's `SCENE_BREAKDOWN.md` — read only for the active scene/task.
 4. `00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv` — exact shot states, versions, Flow IDs and review notes.
 5. `00_FILM_BIBLE/PRODUCTION_TRACKING/03_ASSET_REGISTER.csv` — consult only for required reusable assets.
+6. [Active S02 Scene004 breakdown](04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md) — locked Shot001 prompt and preparation hold.
 
 **Do not read the whole repository or original blueprint for a routine task.** Open other files only when the task requires them.
 
