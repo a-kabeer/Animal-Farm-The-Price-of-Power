@@ -23,9 +23,9 @@ The owner confirmed on 7 November 2026 that all three one-minute clips were merg
 
 ## Next milestone
 
-**S02 — Old Major's Dream (03:00–06:00): PREPARATION IN PROGRESS.**
+**S02 — Old Major's Dream (03:00–06:00): IN PRODUCTION — Shot001 generated; awaiting owner review.**
 
-ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 prompt is locked in its scene breakdown. Main_Barn Candidate 2 is owner-approved (Flow media ID `a9354e0f-70dc-4f02-8567-de36d2ab41ab`; collection ID `b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`). Boxer, Clover, Benjamin and Main_Barn are all reported attached in the R2V workspace. Reported video preflight: Omni 1.2 Flash, 360p, 16:9, 10 seconds, one output, 10-credit quote. Environment preparation is complete; recheck every live setting/attachment/price immediately before Generate. The owner has now authorized exactly one video output for Shot001 at exactly 10 credits using the reported settings. Authorization is recorded; no video has yet been generated and 0 credits have been spent. Recheck the live Flow UI; stop without generating if any setting/reference/prompt differs or the displayed charge is not exactly 10.
+ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 prompt is locked in its scene breakdown. Main_Barn Candidate 2 is owner-approved (Flow media ID `a9354e0f-70dc-4f02-8567-de36d2ab41ab`; collection ID `b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`). Boxer, Clover, Benjamin and Main_Barn are all reported attached in the R2V workspace. Reported video preflight: Omni 1.2 Flash, 360p, 16:9, 10 seconds, one output, 10-credit quote. Environment preparation is complete; recheck every live setting/attachment/price immediately before Generate. The owner reports one output generated for Shot001 at exactly 10 credits. Media ID: `db48f283-e7f7-4e0c-b208-ce998c2ac434`. The uploaded MP4 was independently checked: 10.0267s, 640×360, 24fps, H.264/AAC stereo 48kHz. Preliminary visual review confirms the three character identities and Main_Barn continuity; the extra gathered background animals are not clearly visible. Status: awaiting owner review. No further generation is authorized.
 
 ## Minimal update path
 
