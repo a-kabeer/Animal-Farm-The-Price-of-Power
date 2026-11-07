@@ -14,7 +14,7 @@ git lfs track "*.mp4"
 git lfs track "*.mov"
 ```
 
-The `.gitattributes` file is already present for future media additions. Git LFS storage and bandwidth availability depend on the GitHub account/plan. Approved video binaries are not in this archive. If you later add approved clips or exports, use Git LFS and update the media index, shot register and manifests.
+The `.gitattributes` file is already present for future media additions. Git LFS storage and bandwidth availability depend on the GitHub account/plan. Approved video binaries are not in this archive. If you later add approved clips or exports, use Git LFS and update the Shot Register; update the Asset Register only if reusable references change.
 
 ## 3. Create the GitHub repository
 
