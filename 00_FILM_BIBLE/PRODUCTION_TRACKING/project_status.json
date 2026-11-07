@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — Shot001 V01 rejected; V02 preflight passed at owner-reported 10 credits; generation authorization pending"
+      "status": "IN PRODUCTION — Shot001 V01 rejected; V02 authorized for exactly one output at exactly 10 credits; Flow execution pending"
     },
     {
       "id": "S03",
@@ -115,9 +115,8 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "Obtain explicit owner authorization for exactly one output of ACT01_SCENE004_SHOT001_V02 at the owner-reported live price of 10 credits.",
-    "Immediately before Generate, reconfirm all six exact references, verbatim V02 prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output and displayed price of exactly 10 credits; stop if any difference appears.",
-    "After generation, record Flow media ID, actual charge and inspected technical metadata; wait for owner review before approval.",
+    "Run exactly one authorized ACT01_SCENE004_SHOT001_V02 generation in Google Flow; immediately before Generate, reconfirm Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output, all six exact references, locked prompt and displayed price of exactly 10 credits; stop on any mismatch.",
+    "After execution, record the Flow media ID and actual credit charge, then inspect the output and wait for owner review before approval.",
     "Keep Shot002 planned but unauthorized until a separate owner decision."
   ],
   "source_of_truth": {
@@ -132,7 +131,7 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 V01 REJECTED — V02 FINAL PREFLIGHT PASSED; AWAITING EXPLICIT GENERATION AUTHORIZATION",
+    "status": "SHOT001 V01 REJECTED — V02 OWNER-AUTHORIZED FOR ONE OUTPUT AT 10 CREDITS; AWAITING FLOW EXECUTION",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
@@ -250,7 +249,7 @@
         "id": "ACT01_SCENE004_SHOT001",
         "version": "V02",
         "title": "Old Major's Gathering — Full Animal Gathering Visible",
-        "status": "FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
+        "status": "GENERATION AUTHORIZED — AWAITING FLOW EXECUTION",
         "duration_seconds": 10,
         "proposed_settings": {
           "model": "Omni 1.2 Flash",
@@ -261,7 +260,7 @@
           "outputs": 1,
           "live_credit_quote": 10,
           "quote_source": "Owner-reported live Flow display 2026-11-07",
-          "price_authorized": false
+          "price_authorized": true
         },
         "references": {
           "Boxer": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
@@ -271,10 +270,10 @@
           "The_Sheep": "0b75ce22-ee53-439b-9ca0-4d051731a362",
           "Main_Barn": "a9354e0f-70dc-4f02-8567-de36d2ab41ab"
         },
-        "generation_authorized": false,
+        "generation_authorized": true,
         "generated": false,
         "credits_spent": 0,
-        "preparation_note": "Owner final preflight report received 2026-11-07. All six exact references attached; Omni 1.2 Flash supports up to 10 references (owner-reported); prompt entered verbatim; live quote 10 credits. Preparation only; await separate explicit authorization.",
+        "preparation_note": "Owner final preflight report received 2026-11-07. All six exact references attached; Omni 1.2 Flash supports up to 10 references (owner-reported); prompt entered verbatim; live quote 10 credits. Owner subsequently authorized exactly one output at exactly 10 credits. Not generated in this chat; 0 credits spent; Flow execution pending.",
         "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md",
         "references_attached_reported": true,
         "reference_limit_check": {
@@ -282,7 +281,22 @@
           "attached_count": 6,
           "result": "Within reported model limit"
         },
-        "prompt_entered_verbatim_reported": true
+        "prompt_entered_verbatim_reported": true,
+        "owner_authorization": {
+          "command": "Execute Shot 001 V02",
+          "date": "2026-11-07",
+          "authorized_outputs": 1,
+          "exact_authorized_credits": 10,
+          "scope": "ACT01_SCENE004_SHOT001_V02 only",
+          "conditions": [
+            "Use Omni 1.2 Flash, Reference-to-Video (R2V), 360p (640x360), 16:9, 10 seconds and exactly one output.",
+            "Use all six exact approved references: Boxer, Clover, Benjamin, The_Cows, The_Sheep and Main_Barn.",
+            "Use the locked V02 prompt entered verbatim.",
+            "At the live Generate checkpoint, confirm the displayed price is exactly 10 credits; stop without generating if any setting, reference, prompt or price differs."
+          ],
+          "source": "Owner's final pre-generation audit and request to issue the exact command in chat"
+        },
+        "execution_pending_in_flow": true
       }
     ]
   }
