@@ -23,9 +23,9 @@ The owner confirmed on 7 November 2026 that all three one-minute clips were merg
 
 ## Next milestone
 
-**S02 — Old Major's Dream (03:00–06:00): IN PRODUCTION — Shot001 V01 rejected; V02 has sheep-count defect; V03 final preflight passed, generation authorization pending.**
+**S02 — Old Major's Dream (03:00–06:00): IN PRODUCTION — V01 rejected; V02 failed sheep-count continuity; V03 owner-reported generated as attempt 3; execution details and review pending.**
 
-ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 V01 remains owner-rejected (media ID `db48f283-e7f7-4e0c-b208-ce998c2ac434`). Shot001 V02 was generated once (media ID `e8342e45-d960-4a2b-b300-1514d6738b92`; 10 credits reported charged) but has a sheep-count continuity defect: three sheep are distinguishable early, while only two remain clearly visible later instead of the required four throughout. V02 is not approved. The V03 prompt now places the four sheep side-by-side in one straight horizontal row at the same camera depth, with visible gaps and all full bodies readable. The owner reports final preflight passed: six exact master references attached, V02 not used as an ingredient, Omni 1.2 Flash R2V, 360p, 16:9, 10 seconds, one output, prompt entered verbatim and a live quote of 10 credits. **V03 has not been generated; 0 credits spent; separate generation authorization remains pending.** Shot002 remains planned and unauthorized.
+ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 V01 (media ID `db48f283-e7f7-4e0c-b208-ce998c2ac434`) was rejected because the other gathering animals were vague/absent. V02 (media ID `e8342e45-d960-4a2b-b300-1514d6738b92`) failed count continuity: three sheep were distinguishable early, but only two later instead of four. The V03 prompt addressed this with a fixed camera, three spatial zones and four sheep side-by-side in one straight row. The owner now reports V03 generated as attempt 3. Its media ID, actual charge, output count, technical metadata and visual review are pending; the previous 10-credit figure was only the preflight quote. Do not assume the count issue is fixed. Inspect the clip at opening, middle and end, then await owner review. Shot002 remains planned and unauthorized.
 
 ## Minimal update path
 
