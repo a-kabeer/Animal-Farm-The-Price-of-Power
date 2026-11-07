@@ -672,7 +672,7 @@ The earlier preflight mismatch remains documented in Section 28 as rejected and 
 
 Verified metadata: 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; 2,777,152-byte file. The audio stream is present; subjective listening review remains pending. No dialogue or narration is intended.
 
-**Approval state:** GENERATED — AWAITING OWNER REVIEW. Assistant recommendation is not owner sign-off. Do not mark Shot006 approved until the project owner explicitly accepts or rejects V01.
+**Approval state at time of initial media review:** GENERATED — AWAITING OWNER REVIEW. This status was superseded on 7 November 2026 when the owner confirmed the three one-minute sub-scenes were merged into a ready S01 master; Shot006 is accepted by inclusion in that completed master.
 
 
 ## 31. Scene003 and S01 owner-confirmed master completion — 7 November 2026
