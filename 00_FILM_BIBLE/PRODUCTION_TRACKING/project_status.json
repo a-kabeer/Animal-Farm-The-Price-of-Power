@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — Shot001 V01 rejected; V02 regeneration requested and prompt drafted; final preflight/credit authorization pending"
+      "status": "IN PRODUCTION — Shot001 V01 rejected; V02 preflight passed at owner-reported 10 credits; generation authorization pending"
     },
     {
       "id": "S03",
@@ -115,10 +115,10 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "In Google Flow, check whether the selected R2V model supports all six exact references required by Shot001 V02; stop and report if it does not.",
-    "Perform live preflight for Shot001 V02 using the exact V02 prompt and references; confirm model, mode, resolution, aspect, duration, one output and current displayed credit price.",
-    "Obtain explicit final authorization for the displayed V02 price before Generate. The previous V01 10-credit charge does not authorize V02.",
-    "Do not generate Shot002 while Shot001 V02 is being prepared/reviewed; Shot002 remains planned but not authorized."
+    "Obtain explicit owner authorization for exactly one output of ACT01_SCENE004_SHOT001_V02 at the owner-reported live price of 10 credits.",
+    "Immediately before Generate, reconfirm all six exact references, verbatim V02 prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output and displayed price of exactly 10 credits; stop if any difference appears.",
+    "After generation, record Flow media ID, actual charge and inspected technical metadata; wait for owner review before approval.",
+    "Keep Shot002 planned but unauthorized until a separate owner decision."
   ],
   "source_of_truth": {
     "shot_status": "00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv",
@@ -132,7 +132,7 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 V01 REJECTED — V02 REGENERATION REQUESTED; PROMPT DRAFTED; FINAL PREFLIGHT AND CREDIT AUTHORIZATION REQUIRED",
+    "status": "SHOT001 V01 REJECTED — V02 FINAL PREFLIGHT PASSED; AWAITING EXPLICIT GENERATION AUTHORIZATION",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
@@ -250,15 +250,17 @@
         "id": "ACT01_SCENE004_SHOT001",
         "version": "V02",
         "title": "Old Major's Gathering — Full Animal Gathering Visible",
-        "status": "REGENERATION REQUESTED — PROMPT DRAFTED / NOT GENERATED / FINAL PREFLIGHT REQUIRED",
+        "status": "FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
         "duration_seconds": 10,
         "proposed_settings": {
-          "model": "Omni 1.2 Flash (proposed; verify live availability)",
-          "mode": "Reference-to-Video (R2V; proposed)",
-          "resolution": "360p (640x360; proposed)",
+          "model": "Omni 1.2 Flash",
+          "mode": "Reference-to-Video (R2V)",
+          "resolution": "360p (640x360)",
           "aspect_ratio": "16:9",
+          "duration_seconds": 10,
           "outputs": 1,
-          "live_credit_quote": null,
+          "live_credit_quote": 10,
+          "quote_source": "Owner-reported live Flow display 2026-11-07",
           "price_authorized": false
         },
         "references": {
@@ -272,8 +274,15 @@
         "generation_authorized": false,
         "generated": false,
         "credits_spent": 0,
-        "preparation_note": "Owner requested Shot001 regeneration after V01 rejection. Revised prompt requires all nine animals to be clearly visible. Confirm Omni supports six references; if not, stop and report rather than omit assets.",
-        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md"
+        "preparation_note": "Owner final preflight report received 2026-11-07. All six exact references attached; Omni 1.2 Flash supports up to 10 references (owner-reported); prompt entered verbatim; live quote 10 credits. Preparation only; await separate explicit authorization.",
+        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md",
+        "references_attached_reported": true,
+        "reference_limit_check": {
+          "supported_max_image_references": 10,
+          "attached_count": 6,
+          "result": "Within reported model limit"
+        },
+        "prompt_entered_verbatim_reported": true
       }
     ]
   }
