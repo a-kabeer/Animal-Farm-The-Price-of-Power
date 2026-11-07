@@ -381,3 +381,16 @@
 - [ ] Complete subjective listening review of native ambient audio.
 - [ ] Owner review/acceptance pending; do not mark approved without explicit owner decision.
 - [ ] After Shot006 acceptance, assemble Scene003 master to 60 seconds.
+
+
+### S01 — The Hungry Farm final three-minute master (7 November 2026)
+
+- [x] Owner confirms Scene001, Scene002 and Scene003 one-minute clips have been merged into one ready three-minute master.
+- [x] Mark Scene001 — Manor Farm Establishing — 00:00–01:00 master complete.
+- [x] Mark Scene002 — The Animals' Work — 01:00–02:00 master complete.
+- [x] Mark Scene003 — The Burden of the Day — 02:00–03:00 master complete.
+- [x] Mark Shot006 as accepted by inclusion in the owner-confirmed merged S01 master; its previous awaiting-review status is superseded.
+- [x] Update totals: 1/10 master sequences complete; 3 working scenes; 18 shots; 180 seconds; 10.0% of target runtime.
+- [x] Record S01 as owner-reported ready.
+- [ ] Record final merged MP4 filename and technical metadata when available; do not treat this as blocking owner-confirmed completion.
+- [ ] Begin S02 — Old Major's Dream (03:00–06:00) planning.
