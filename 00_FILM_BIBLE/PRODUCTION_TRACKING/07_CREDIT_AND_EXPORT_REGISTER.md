@@ -9,7 +9,7 @@
 | Scene003 | Six shots, one output each | 60 reported actual | Owner-supplied Flow reports; not reconciled to account billing |
 | Scene004 / Shot001 | One output; `db48f283-e7f7-4e0c-b208-ce998c2ac434` — OWNER-REJECTED | 10 reported actual | Owner-supplied Flow execution report; MP4 metadata independently inspected; output rejected after review; account billing/refund status not independently verified |
 
-Scene001 + Scene002 sum to 162 estimated credits. Scene003 reports six charges of 10 credits each (60); Scene004 Shot001 reports 10 credits. These are owner/agent-reported Flow charges, not independently reconciled account billing. Shot001's 10-credit charge remains recorded despite owner rejection; no refund has been reported.
+Scene001 + Scene002 sum to 162 estimated credits. Scene003 reports six charges of 10 credits each (60); Scene004 Shot001 reports 10 credits. These are owner/agent-reported Flow charges, not independently reconciled account billing. Shot001 V01's 10-credit charge remains recorded despite owner rejection; no refund has been reported. Shot001 V02 is requested but not generated; no new credits authorized or spent.
 
 ## S01 merged master
 
