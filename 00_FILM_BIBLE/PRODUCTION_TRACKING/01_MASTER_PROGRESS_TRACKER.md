@@ -3,16 +3,15 @@
 **Project:** Animal Farm — The Price of Power  
 **Target runtime:** 30 minutes  
 **Production platform:** Google Flow; final sound mix/export in CapCut or DaVinci Resolve  
-**Tracking date:** 6 November 2026
+**Tracking date:** 7 November 2026
 
 ## Overall progress
 
 ### Footage status
 
-- **Scenes 001 and 002 are master-complete by owner confirmation (6 November 2026)**, with 12 approved source shots across 120 seconds.
-- Completed footage time: **120 seconds (2:00)** out of the 30-minute target = **6.7% of target runtime**. This is runtime coverage, not final-film completion.
-- `ACT01_SCENE003 — The Burden of the Day` is planned for 02:00–03:00 with six 10-second shots. Shot001 V01 is generated and owner-accepted for editing, with an NLE cool-blue color match still required. Shot002 V01 is generated and independently inspected; owner approval is pending, with a late-shot foreleg crop noted. The two dialogue lines for Shots003–004 were owner-approved on 6 November 2026.
-- S01 will have a complete three-minute working-scene plan once Scene 003 is produced and reviewed.
+- **Scenes 001, 002 and 003 are master-complete by owner confirmation (7 November 2026)**, with 18 approved source shots across 180 seconds.
+- Completed footage time: **180 seconds (3:00)** out of the 30-minute target = **10.0% of target runtime**. This is runtime coverage, not final-film completion.
+- `ACT01_SCENE003 — The Burden of the Day` is complete. The owner confirms Scenes001–003 have been merged into a ready three-minute S01 master (7 November 2026). All six Scene003 shots are included in the owner-confirmed master.
 - Master sequences S02–S10 have not entered detailed shot production in this log.
 
 ### Assembly/export status
@@ -27,7 +26,8 @@
 | Scene 001 master completion | COMPLETE — owner-confirmed 6 Nov 2026 | Final filename and technical metadata have not yet been entered in this register |
 | Scene 002 source clips | 6/6 approved | Versions: 001 V01, 002 V01, 003 V01, 004 V01, 005 V02, 006 V02 |
 | Scene 002 master assembly/export | COMPLETE — owner-confirmed 6 Nov 2026 | Final filename and technical metadata have not yet been entered in this register |
-| Final 30-minute film | Not started | Requires remaining story sequences, dialogue, narration, sound design and edit |
+| S01 — The Hungry Farm three-minute master | COMPLETE — owner-confirmed 7 Nov 2026 | Three one-minute sub-scenes merged in story order; export filename and technical metadata not yet supplied |
+| Final 30-minute film | In progress — S01 complete (3:00 / 30:00) | Remaining sequences S02–S10 require production and assembly |
 
 ### Scene 003 plan status
 
@@ -322,3 +322,35 @@ The initial prompt mismatch was corrected and remains documented. **Current stat
 All three animals read correctly and move toward the red barn; wide rear three-quarter framing and continuous pull-back work; no Old Major or meeting appears. Two deviations: the sky remains pink-grey twilight rather than cool blue night, and the warm doorway glow is not clearly visible. Apply a cool-blue dusk-to-night grade and add a subtle warm doorway light in post if practical. Audio stream metadata verified; subjective listening pending.
 
 **Assistant recommendation: retain V01 for editing — no retake recommended.** Status: **GENERATED — AWAITING OWNER REVIEW**. Owner approval pending.
+
+
+## S01 — The Hungry Farm: three-minute master completed (owner-confirmed 7 November 2026)
+
+<badge>MASTER COMPLETE</badge>
+
+The project owner confirms that the three one-minute sub-scene clips have been merged into one ready three-minute sequence:
+
+| Order | Working scene | Timecode | Runtime | Status |
+|---:|---|---|---:|---|
+| 1 | ACT01_SCENE001 — Manor Farm Establishing | 00:00–01:00 | 60s | MASTER COMPLETE |
+| 2 | ACT01_SCENE002 — The Animals' Work | 01:00–02:00 | 60s | MASTER COMPLETE |
+| 3 | ACT01_SCENE003 — The Burden of the Day | 02:00–03:00 | 60s | MASTER COMPLETE |
+| | **S01 — The Hungry Farm** | **00:00–03:00** | **180s** | **OWNER-CONFIRMED COMPLETE** |
+
+### Updated project totals
+
+- Master sequences complete: **1 of 10**.
+- Working scenes complete: **3**.
+- Accepted source shots: **18**.
+- Completed sequence runtime: **180 seconds (3 minutes)**.
+- Coverage of 30-minute target: **10.0%**.
+
+### Assembly evidence and metadata
+
+The merged S01 master is recorded as **OWNER-REPORTED READY** on 7 November 2026. The final merged file has not been uploaded in this conversation. Its filename, exact duration, resolution, frame rate, video/audio codecs and file size therefore remain unverified and are intentionally not guessed.
+
+The six Scene003 shots, including Shot006, are recorded as included in the owner-confirmed merged master. This supersedes the prior “Shot006 awaiting owner review” status for this sequence.
+
+### Next production milestone
+
+Proceed to **S02 — Old Major's Dream (03:00–06:00)**. Start with sequence planning, working-scene breakdown, Old Major character continuity and the night-gathering environment. Do not reopen S01 unless the owner reports a defect in the merged master.
