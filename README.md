@@ -8,7 +8,7 @@
 
 - 1/10 master sequences complete · 3 working scenes · 18 accepted source shots
 - Completed runtime: 03:00 / 30:00 (10%)
-- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in preparation. `ACT01_SCENE004_SHOT001` prompt is locked; Main_Barn Candidate 2 is owner-approved and all four references are reported attached. Owner has authorized exactly one Shot001 video output at exactly 10 credits; execute only if the live Flow UI still matches the supplied preflight.
+- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in preparation. `ACT01_SCENE004_SHOT001` prompt is locked; Main_Barn Candidate 2 is owner-approved and all four references are reported attached. Shot001 has been generated (Media ID `db48f283-e7f7-4e0c-b208-ce998c2ac434`; 10 credits reported charged) and is awaiting owner review. No further generation is authorized.
 - The merged S01 master binary is outside GitHub; filename/export metadata have not been supplied.
 
 ## Agent start here — read only these files
