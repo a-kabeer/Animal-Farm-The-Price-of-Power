@@ -33,15 +33,9 @@
 
 Do not create duplicate status reports, diaries, checklists or summaries. Commit related updates together. Do not update README for ordinary shot changes.
 
-## Non-negotiable production rules
+## Production safety
 
-- One output per shot by default. This is not generation permission; obtain explicit owner authorization for the exact shot.
-- Immediately before Generate, recheck live price, model/mode, resolution, aspect ratio, duration, output count, exact references and verbatim prompt. Stop on any mismatch; never estimate credits.
-- Never silently replace approved references, prompts or settings.
-- A generated clip is not approved until owner review. Record reported facts separately from independently verified media.
-- Owner-confirmed inclusion in a completed master supersedes an earlier shot-level pending state.
-- Flow is not synced to GitHub. Record only owner-supplied reports/media; do not claim live verification.
-- Approved binaries stay outside GitHub by default. Preserve approved references and rejected/superseded evidence; do not delete audit material as clutter.
+Follow `00_FILM_BIBLE/Agent_Instructions_MASTER.md` for generation authorization, live preflight, review and evidence rules. This file is the single operational rule source; do not maintain a second copy here.
 
 ## Canonical references
 
@@ -50,4 +44,6 @@ Do not create duplicate status reports, diaries, checklists or summaries. Commit
 - Audio plan: `00_FILM_BIBLE/PRODUCTION_TRACKING/04_AUDIO_DIALOGUE_AND_NARRATION.md`
 - Major decisions: `00_FILM_BIBLE/PRODUCTION_TRACKING/09_CHANGE_HISTORY.csv`
 - Reference images and registers: `01_CHARACTERS/`, `02_LOCATIONS/`, `03_PROPS_AND_SYMBOLS/`
+
+**Archive boundary:** `assets/CONCEPT_ARCHIVE_NOT_MASTER/` contains historical, unapproved concepts. Do not inspect or use it for production unless the owner explicitly requests an archive review. Use only approved references listed in the Asset Register and active scene breakdown.
 
