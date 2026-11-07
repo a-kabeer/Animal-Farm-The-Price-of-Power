@@ -1,12 +1,22 @@
-# Production tracking contribution rules
+# Production Update Rules
 
-- Never overwrite an approved media file. Add a new version (`V02`, `V03`, etc.).
-- A queued job is not a rendered asset; only update status after retrieving the actual output.
-- Only mark a version `APPROVED` after user review.
-- Preserve rejected/superseded files and record why they were rejected.
-- Keep Flow asset IDs exactly as reported. Mark them `Agent-reported` if not independently verified.
-- Do not invent missing asset IDs, dialogue, narrator lines, file paths, credit costs or approvals.
-- Update all affected registers in one commit.
-- Scene duration totals must match the approved scene runtime.
-- Keep actual dialogue and narration separate from voice direction/outline.
-- Separate character master design from scene-specific props and costumes.
+Follow `00_FILM_BIBLE/Agent_Instructions_MASTER.md`. Keep updates in the existing source-of-truth files; do not create duplicate tracking documents.
+
+- **Shot update:** edit the relevant row in `02_SHOT_REGISTER.csv` (status, version, Flow ID, charge, metadata, review).
+- **New reusable asset:** also update `03_ASSET_REGISTER.csv`.
+- **Project milestone/count:** update `project_status.json` and `01_MASTER_PROGRESS_TRACKER.md`.
+- **Story/prompt/continuity change:** update only the affected `SCENE_BREAKDOWN.md`.
+- **Major owner decision:** append one concise entry to `09_CHANGE_HISTORY.csv`.
+- Commit related changes together.
+
+## Integrity
+
+- Never overwrite approved media; version new work (V02, V03…).
+- A queued job is not a generated asset. Record actual output only after it exists.
+- Only owner review can approve a version. Preserve rejected/superseded evidence.
+- Record Flow IDs exactly. Label unverified reports as agent-reported.
+- Never invent IDs, dialogue, costs, paths, approvals or missing metadata.
+- Keep dialogue/narration separate from voice direction. Keep character master design separate from temporary props/costumes.
+- Scene durations must equal the approved runtime.
+
+Do not duplicate full history or status in PR descriptions, new checklists or diaries.
