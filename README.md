@@ -8,7 +8,7 @@
 
 - 1/10 master sequences complete · 3 working scenes · 18 accepted source shots
 - Completed runtime: 03:00 / 30:00 (10%)
-- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in production. Shot001 V01 (Media ID `db48f283-e7f7-4e0c-b208-ce998c2ac434`) remains owner-rejected. V02 was generated once (Media ID `e8342e45-d960-4a2b-b300-1514d6738b92`; 10 credits reported charged) but has a sheep-count continuity defect: three sheep appear early and only two later, instead of exactly four throughout. V03 count-stable prompt is drafted and awaiting owner review; it is not authorized or generated. Shot002 remains planned, not authorized.
+- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in production. Shot001 V01 was rejected because the gathered animals were indistinct/absent; V02 (Media ID `e8342e45-d960-4a2b-b300-1514d6738b92`) failed the four-sheep count, showing three early and two later. Owner reports V03 generated as attempt 3, using a fixed camera and four sheep in one straight row; its media ID, actual charge and review result are pending. Do not assume the count defect is fixed. Shot002 remains planned, not authorized.
 - The merged S01 master binary is outside GitHub; filename/export metadata have not been supplied.
 
 ## Agent start here — read only these files
