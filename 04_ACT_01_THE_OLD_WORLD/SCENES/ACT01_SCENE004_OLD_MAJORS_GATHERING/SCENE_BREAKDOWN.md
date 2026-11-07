@@ -2,15 +2,15 @@
 
 **Master sequence:** S02 — Old Major's Dream (03:00–06:00)  
 **Working scene:** 01 of S02  
-**Status:** OWNER AUTHORIZED — Shot001 may be generated once at exactly 10 credits if the live Generate checkpoint still matches the owner's preflight.  
-**Generation authorization:** OWNER AUTHORIZED for exactly one output at exactly 10 credits. No video generated yet; 0 video credits spent at authorization.  
+**Status:** SHOT001 GENERATED — AWAITING OWNER REVIEW. Exactly one output reported; 10 credits charged (owner-reported).  
+**Execution:** Owner reports one output generated and exactly 10 credits charged on 7 November 2026. Media ID: `db48f283-e7f7-4e0c-b208-ce998c2ac434`. Uploaded MP4 independently inspected; status remains awaiting owner review.  
 **Prepared from owner-supplied report:** 7 November 2026.
 
 ## Shot register
 
 | Order | Shot ID | Title | Duration | Status |
 |---:|---|---|---:|---|
-| 1 | ACT01_SCENE004_SHOT001_V01 | Old Major's Gathering — Barn Interior Opening | 10s | PROMPT LOCKED — HOLD / NOT AUTHORIZED |
+| 1 | ACT01_SCENE004_SHOT001_V01 | Old Major's Gathering — Barn Interior Opening | 10s | GENERATED — AWAITING OWNER REVIEW |
 
 ## Required references
 
@@ -51,7 +51,19 @@ Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. 
 
 The 10-credit quote is owner-reported and must be rechecked in the live Flow UI immediately before Generate. The owner-reported reference attachment state must also be confirmed in the live shot workspace.
 
-## Locked prompt — enter verbatim
+## Shot001 execution result and preliminary media review
+
+- Flow display name: `Animals entering barn in moonlight`
+- Flow media ID: `db48f283-e7f7-4e0c-b208-ce998c2ac434`
+- Collection: `04_ACT_01_THE_OLD_WORLD` (`b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`)
+- Owner reports: one output, prompt entered verbatim, all four references attached, exactly 10 credits charged.
+- Uploaded MP4 independently inspected: 10.026667 seconds; 640×360; 24fps; H.264 video; AAC stereo 48kHz; 2,557,101 bytes.
+- Visual review: Boxer, Clover and Benjamin are distinguishable and visually consistent with their character references; the Main_Barn Candidate 2 layout, open central floor, timber rafters and moonlit entrance are retained. The trio enters and advances into the barn.
+- Prompt deviation: the additional animals intended to be waiting as background silhouettes are not clearly visible.
+- Audio: AAC stereo stream verified; subjective listening review has not been completed.
+- Review status: **GENERATED — AWAITING OWNER REVIEW**. Do not mark approved or initiate any further generation until owner decision.
+
+## Locked prompt — archived as generated input
 
 ```text
 SHOT ID: ACT01_SCENE004_SHOT001_V01
@@ -82,13 +94,14 @@ VISUAL QUALITY:
 Serious cinematic 3D animated feature-film drama, realistic animal anatomy, detailed natural fur and bristles, physically believable animal movement, atmospheric volumetric moonlight, detailed weathered timber, cinematic depth, restrained emotional performance, consistent 1940s English farm environment, 16:9 landscape. No cartoon comedy, no exaggerated expressions, no extra limbs, no duplicated animals, no morphing, no watermark.
 ```
 
-## Final pre-generation gate
+## Shot001 execution and review gate
 
-- [x] Main_Barn 16:9 master generated and owner-approved (Candidate 2).
-- [x] Main_Barn Flow media ID and collection ID recorded in the Asset Register.
-- [x] Boxer, Clover, Benjamin and Main_Barn reference IDs recorded; owner reports all four are attached in R2V.
-- [x] Shot prompt locked; reported output count is exactly one.
-- [x] Owner explicitly authorized exactly one output for this shot at exactly 10 credits.
-- [ ] At the live Generate checkpoint, verify the four exact attachments, locked prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output and displayed cost of exactly 10 credits.
+- [x] Main_Barn Candidate 2 owner-approved and recorded.
+- [x] Four exact references reported attached.
+- [x] Owner authorized exactly one output at exactly 10 credits.
+- [x] Flow reports one output generated and 10 credits charged.
+- [x] Uploaded MP4 metadata independently inspected.
+- [ ] Owner reviews and accepts/rejects this exact output.
+- [ ] Subjective audio listening review (optional separate editorial check).
 
-**Execution scope:** Generate this shot once only if the live UI still matches every authorized detail and displays exactly 10 credits. If anything differs, stop without generating. No retries or extra outputs. Record the actual Flow output and charge after execution; owner review is still required for approval.
+**Hold:** No further outputs, retries, retakes or Shot002 generation are authorized. This version remains awaiting owner review.
