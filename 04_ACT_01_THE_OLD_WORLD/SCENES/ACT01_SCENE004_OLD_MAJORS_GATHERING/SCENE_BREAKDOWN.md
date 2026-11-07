@@ -2,8 +2,8 @@
 
 **Master sequence:** S02 — Old Major's Dream (03:00–06:00)  
 **Working scene:** 01 of S02  
-**Status:** PREPARATION COMPLETE — Main_Barn Candidate 2 approved; Shot001 prompt locked; waiting final live preflight and explicit video-generation authorization.  
-**Generation authorization:** NONE. No video generated; 0 credits spent.  
+**Status:** OWNER AUTHORIZED — Shot001 may be generated once at exactly 10 credits if the live Generate checkpoint still matches the owner's preflight.  
+**Generation authorization:** OWNER AUTHORIZED for exactly one output at exactly 10 credits. No video generated yet; 0 video credits spent at authorization.  
 **Prepared from owner-supplied report:** 7 November 2026.
 
 ## Shot register
@@ -88,7 +88,7 @@ Serious cinematic 3D animated feature-film drama, realistic animal anatomy, deta
 - [x] Main_Barn Flow media ID and collection ID recorded in the Asset Register.
 - [x] Boxer, Clover, Benjamin and Main_Barn reference IDs recorded; owner reports all four are attached in R2V.
 - [x] Shot prompt locked; reported output count is exactly one.
-- [ ] Reconfirm the exact four attachments, prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds and live displayed price in the active Flow workspace.
-- [ ] Obtain explicit owner authorization for this exact video shot after the final preflight.
+- [x] Owner explicitly authorized exactly one output for this shot at exactly 10 credits.
+- [ ] At the live Generate checkpoint, verify the four exact attachments, locked prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output and displayed cost of exactly 10 credits.
 
-**Environment preparation is complete. Video generation remains on hold until the final live preflight passes and explicit shot-specific authorization is received.**
+**Execution scope:** Generate this shot once only if the live UI still matches every authorized detail and displays exactly 10 credits. If anything differs, stop without generating. No retries or extra outputs. Record the actual Flow output and charge after execution; owner review is still required for approval.
