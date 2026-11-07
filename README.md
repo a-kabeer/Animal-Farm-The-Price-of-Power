@@ -8,7 +8,7 @@
 
 - 1/10 master sequences complete · 3 working scenes · 18 accepted source shots
 - Completed runtime: 03:00 / 30:00 (10%)
-- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in production. `ACT01_SCENE004_SHOT001` prompt is locked; Main_Barn Candidate 2 is owner-approved and all four references are reported attached. Shot001 V01 (Media ID `db48f283-e7f7-4e0c-b208-ce998c2ac434`) was owner-rejected after review; 10 credits reported charged. Shot002 is planned to reveal the other gathering animals but is not authorized for generation.
+- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in production. `ACT01_SCENE004_SHOT001` prompt is locked; Main_Barn Candidate 2 is owner-approved and all four references are reported attached. Shot001 V01 (Media ID `db48f283-e7f7-4e0c-b208-ce998c2ac434`) remains owner-rejected; 10 credits reported charged. Shot001 V02 regeneration is requested and its revised prompt is drafted; final live preflight and current-price authorization are pending. Shot002 remains planned, not authorized.
 - The merged S01 master binary is outside GitHub; filename/export metadata have not been supplied.
 
 ## Agent start here — read only these files
