@@ -1,22 +1,19 @@
 # Approved Scenes Index
 
-## ACT01_SCENE001 — Manor Farm Establishing
+## S01 — The Hungry Farm (00:00–03:00)
 
-All six shot versions approved. See `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE001_MANOR_FARM_ESTABLISHING/SCENE_BREAKDOWN.md`.
+**MASTER COMPLETE — OWNER-CONFIRMED 7 November 2026.** The owner merged the three one-minute scene clips into one ready three-minute sequence.
 
-Approved shot versions: 001 V01, 002 V03, 003 V01, 004 V01, 005 V01, 006 V01.  
-**MASTER COMPLETE — project-owner confirmed 6 November 2026.** Six approved source clips remain locked. Final export filename and detailed technical metadata are not recorded in this repository.
+| Working scene | Timecode | Title | Approved shot versions |
+|---|---|---|---|
+| ACT01_SCENE001 | 00:00–01:00 | Manor Farm Establishing | 001 V01, 002 V03, 003 V01, 004 V01, 005 V01, 006 V01 |
+| ACT01_SCENE002 | 01:00–02:00 | The Animals' Work | 001 V01, 002 V01, 003 V01, 004 V01, 005 V02, 006 V02 |
+| ACT01_SCENE003 | 02:00–03:00 | The Burden of the Day | 001 V01, 002 V01, 003 V01, 004 V01, 005 V01, 006 V01 |
 
-## ACT01_SCENE002 — The Animals' Work
+All 18 source shots and Flow media IDs are in `02_SHOT_REGISTER.csv`. Scene003 prompts are in its `SCENE_BREAKDOWN.md`.
 
-All six shot versions approved. See `04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE002_THE_ANIMALS_WORK/SCENE_BREAKDOWN.md`.
+The merged S01 binary is not stored in GitHub. Filename and exact technical metadata remain unrecorded; the owner confirms it is ready.
 
-Approved shot versions: 001 V01, 002 V01, 003 V01, 004 V01, 005 V02, 006 V02.  
-**MASTER COMPLETE — project-owner confirmed 6 November 2026.** Approved shot video binaries and the final master remain excluded from this documentation package; final export filename and detailed technical metadata are not recorded here.
+## Next
 
-
-## In preparation — not yet approved
-
-### ACT01_SCENE003 — The Burden of the Day
-
-Six-shot / 60-second breakdown drafted for 02:00–03:00. Status: awaiting owner approval; no shots generated or approved. Do not add Scene 003 to the approved-scene list until all six clips and the scene master have been reviewed and the owner approves them.
+S02 — Old Major's Dream (03:00–06:00) is next to plan; it is not yet in detailed shot production.

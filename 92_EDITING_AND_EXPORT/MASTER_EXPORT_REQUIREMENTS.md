@@ -1,33 +1,17 @@
-# Master edit and export requirements
+# Master Edit and Export Requirements
 
-## Current scene export targets
+## Target for future scene masters
 
-- Container: MP4
-- Video codec: H.264
-- Aspect: 16:9 landscape
-- Target output: 1920×1080 Full HD
-- Target frame rate: 24 fps
-- Keep original approved clips untouched.
+- MP4 container; H.264 video; AAC audio.
+- 16:9 landscape; 1920×1080 Full HD; 24fps.
+- Preserve approved source clips; never overwrite original generations.
+- Verify exact runtime, shot order, picture continuity, audio, frame rate and codecs from the actual exported file.
+- Upscaling 360p sources to 1080p increases dimensions but does not restore native detail.
 
-## Scene 001
+## S01 — The Hungry Farm
 
-- A 360p source assembled file and 1080p upscale were produced in the working production workspace, but their binaries are intentionally excluded from this GitHub package.
-- Recorded metadata: 60.000 seconds; 640×360 source; 1920×1080 upscale; 24 fps; H.264; AAC stereo. Retrieve the files from the separate production media store when needed.
-- Still needs editorial review for exact six shot order, title tracking onto the gate sign, 0.5s dusk crossfade, music and SFX mix.
+**Status:** Owner-confirmed merged three-minute master ready (7 November 2026). The binary is not stored in this repository. Filename, exact duration, resolution, frame rate and codecs remain unverified.
 
-## Scene 002
+## S02–S10
 
-- Six Scene 002 shots are individually approved, but their video binaries are intentionally excluded from this GitHub package. Approved versions remain recorded in the Shot Register.
-- Scenebuilder assembly/export is pending.
-- Intended output: `ACT01_SCENE002_THE_ANIMALS_WORK_FINAL.mp4`.
-- After export, verify duration (60s), order, audio, transitions and 1080p output.
-
-## Final film audio tracks
-
-- A1 character dialogue
-- A2 narrator voice-over
-- A3 ambience and SFX
-- A4 score/music
-- A5 subtitles/captions if used
-
-Do not mark a title, crossfade, sound mix or export complete merely because it appears in a plan. Require the actual rendered master and review evidence.
+Apply the target settings after each sequence is planned and approved. Do not mark an export complete based only on an assembly plan; require an actual rendered file or owner confirmation, and record the evidence level.

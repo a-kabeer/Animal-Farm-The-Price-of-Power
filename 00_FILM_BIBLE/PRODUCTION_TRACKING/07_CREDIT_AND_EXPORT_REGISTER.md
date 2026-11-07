@@ -1,77 +1,25 @@
-# 07 — CREDIT & EXPORT REGISTER
+# Credit and Export Register
 
-## A. Estimated video-generation usage based on reported generations
+## Reported generation usage
 
-This is a **modelled estimate**, not an official Flow billing statement. It is calculated from the per-shot estimates stated by the Agent in the conversation. The Flow credit balance/history is authoritative.
+| Working scene | Generation usage | Credits | Evidence |
+|---|---|---:|---|
+| Scene001 | Multiple versions, including Shot002 V01/V02/V03 | 82 estimated | Agent-modelled estimate; not official billing |
+| Scene002 | Multiple versions, including Shot005 V01/V02 and Shot006 V01/V02 | 80 estimated | Agent-modelled estimate; not official billing |
+| Scene003 | Six shots, one output each | 60 reported actual | Owner-supplied Flow reports; not reconciled to account billing |
 
-### Scene 001
+Scene001 + Scene002 sum to 162 estimated credits. Scene003 reports six charges of 10 credits each (60). These have different evidence bases and must not be combined as verified account spend.
 
-| Shot | Generated versions reported | Estimated credits |
-|---|---|---:|
-| Shot 001 (12s) | V01 | 14 |
-| Shot 002 (10s) | V01 + V02 + V03 | 30 |
-| Shot 003 (10s) | V01 | 10 |
-| Shot 004 (10s) | V01 | 10 |
-| Shot 005 (8s) | V01 | 8 |
-| Shot 006 (10s) | V01 | 10 |
-| **Scene 001 estimate** | **8 video generations** | **82** |
+## S01 merged master
 
-Original approved-shot budget was 62 credits; Shot 002 required two additional 10-credit attempts, adding an estimated 20 credits.
+- Status: OWNER-CONFIRMED READY (7 November 2026).
+- Runtime: three minutes by owner report.
+- File name/path: not supplied.
+- Resolution, frame rate, codecs, file size and exact duration: not independently verified.
 
-### Scene 002
+## Export target for future masters
 
-| Shot | Generated versions reported | Estimated credits |
-|---|---|---:|
-| Shot 001 (12s) | V01 | 14 |
-| Shot 002 (10s) | V01 | 10 |
-| Shot 003 (10s) | V01 | 10 |
-| Shot 004 (10s) | V01 | 10 |
-| Shot 005 (8s) | V01 + V02 | 16 |
-| Shot 006 (10s) | V01 + V02 | 20 |
-| **Scene 002 estimate** | **8 video generations** | **80** |
-
-Original approved-shot budget was 62 credits; Shot 005 V02 adds an estimated 8 credits and Shot 006 V02 adds an estimated 10 credits.
-
-### Combined
-
-| Item | Estimated credits |
-|---|---:|
-| Scene 001 reported video generations | 82 |
-| Scene 002 reported video generations | 80 |
-| **Estimated total to date** | **162** |
-
-**Not included:** image generation, which the Agent reported as zero under the account's Pro/Plus entitlement; actual image charges are not independently verified. Also not included: upscale/export costs, any unreported retries, taxes/subscription charges, or any discrepancy between estimated and actual Flow charges.
-
-## B. Export file verification
-
-The following local files were checked with media metadata tools on 6 November 2026:
-
-| File | Duration | Resolution | FPS | Codecs | Status |
-|---|---:|---|---:|---|---|
-| `Untitled_Scene_11-06_10_46_40_20261106155030.mp4` | 60.000s | 640×360 | 24 | H.264 + AAC stereo, 48kHz | Source video exists; likely Scene 001 source upload; check full content against approved shot list |
-| `Animal_Farm_Scene_001_Full_HD_1080p.mp4` | 60.000s | 1920×1080 | 24 | H.264 + AAC stereo, 48kHz | Full HD upscale exists and metadata is verified; not yet independently confirmed that edit, title and audio meet the assembly sheet |
-
-### Scene 002 clip outputs available locally in this session
-
-- Shot 001: `Horse_pulling_cart_through_mud_d86c8a63.mp4` (12s)
-- Shot 002: `Horses_walking_alongside_hay_cart_d3a61af9.mp4` (10s)
-- Shot 003: `Donkey_walking_across_muddy_farm…_86a3c252.mp4` (10s)
-- Shot 004: `Boxer_exhaling_breath_vapor_844bd6fb.mp4` (10s)
-- Shot 005 V02: `Cows_and_sheep_looking_expectantly_93a65a39.mp4` (8s)
-- Shot 006 V02: `Horses_pulling_cart_at_dusk_e3c06bbd.mp4` (10s)
-
-The files above are available in this current working session. They are not evidence that ChatGPT has a live link to your Google Flow project.
-
-## C. Final quality target
-
-- Scene masters: 1920×1080 (Full HD), 16:9, target 24fps, MP4/H.264 with AAC audio.
-- For 360p source footage, upscaling increases output dimensions but cannot restore native detail that was not generated.
-- Confirm exact duration after edit; transitions/crossfades may alter total runtime unless clip lengths are adjusted accordingly.
-
-## D. Actual reported charges — Scene 003
-
-| Date | Shot | Flow media ID | Outputs | Reported actual credits charged | Metadata | Status |
-|---|---|---|---:|---:|---|---|
-| 2026-11-06 | ACT01_SCENE003_SHOT001_V01 | `8a46a89f-c131-4f63-868a-c729b7bf8c7c` | 1 | 10 | 10s; 640×360; 16:9; 24fps; audio present | Generated — awaiting owner review |
-
-**Evidence note:** Actual charge and output metadata are from the owner-supplied Flow Agent execution report. Reconcile against official Flow credit history if needed; the earlier Scene001/002 totals remain modelled estimates, not verified account billing.
+- MP4 / H.264; 16:9; 1920×1080 Full HD; 24fps; AAC audio.
+- Preserve approved source clips. Upscaling 360p to 1080p does not restore native detail.
+- Verify exact runtime, shot order, picture continuity, audio, frame rate and codecs from the actual exported file.
+- Always recheck the live Flow credit price before generation; prior prices are historical only.

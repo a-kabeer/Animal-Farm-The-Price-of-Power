@@ -1,31 +1,21 @@
-# Google Flow Agent Status Update Template
+# Flow Agent Status Update — Compact Template
 
-Use this format after every generation, edit, asset creation, assembly or export.
+Use this format for preflight or completed work. Do not repeat the production history.
 
 ```text
-TASK ID:
-OPERATION:
-STATUS: Prepared / Authorized / Queued / Generated / Review pending / Revision required / Approved / Rejected
-
-SOURCE ASSET IDs:
-REFERENCE ASSET IDs:
-MODEL / RESOLUTION / ASPECT / DURATION / OUTPUTS:
-DISPLAYED CREDIT COST:
-
-OUTPUT FILENAME:
-OUTPUT FLOW MEDIA ID:
-LOCAL FILE PATH:
-TECHNICAL METADATA: duration, width, height, fps, video codec, audio codec
-
-VISUAL REVIEW:
-AUDIO REVIEW:
-CONTINUITY REVIEW:
-USER DECISION:
-APPROVED VERSION:
-REJECTED/SUPERSEDED VERSIONS:
-CREDIT ACTUALLY CHARGED (if known):
-CHANGES TO ASSETS / CONTINUITY:
+SHOT / TASK ID:
+OPERATION: Preflight / Generate / Review / Assemble / Export
+STATUS:
+MODEL / MODE / RESOLUTION / ASPECT / DURATION / OUTPUTS:
+LIVE DISPLAYED PRICE:
+REFERENCES: exact names + IDs; attached or missing
+PROMPT: entered verbatim? yes/no
+GENERATION: performed? outputs? credits charged?
+MEDIA ID / ASSET NAME:
+METADATA: duration, resolution, fps, codecs, audio sample rate/channels
+REVIEW: visual / audio / continuity
+OWNER DECISION: pending / accepted / rejected
 NEXT ACTION:
-
-Distinguish Agent-reported storage from actual UI/file verification. Do not report a queued job as completed.
 ```
+
+Preflight is not authorization. Use one output per shot. Do not retry. Stop if price/settings/references/prompt differ. Distinguish Flow-reported details from independently verified media.
