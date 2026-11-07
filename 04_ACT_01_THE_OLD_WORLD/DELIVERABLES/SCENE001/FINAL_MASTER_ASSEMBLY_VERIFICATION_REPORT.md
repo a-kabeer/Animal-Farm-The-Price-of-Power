@@ -1,5 +1,7 @@
 # Final Master Assembly Verification Report — ACT01_SCENE001
 
+> **Historical verification record (6 November 2026).** The pending status below was superseded by the owner's confirmation that Scene 001 is master-complete on 6 November 2026 and that S01 is complete on 7 November 2026. Preserve this report as historical evidence; do not reopen the scene based on its old pending checklist. Current status: `01_MASTER_PROGRESS_TRACKER.md` and `99_APPROVED_SCENES/APPROVAL_INDEX.md`.
+
 **Scene:** Manor Farm Establishing
 **Timecode:** 00:00–01:00
 **Target runtime:** 60 seconds
