@@ -9,9 +9,9 @@
 | Scene003 | Six shots, one output each | 60 reported actual | Owner-supplied Flow reports; not reconciled to account billing |
 | Scene004 / Shot001 | One output; `db48f283-e7f7-4e0c-b208-ce998c2ac434` — OWNER-REJECTED | 10 reported actual | Owner-supplied Flow execution report; MP4 metadata independently inspected; output rejected after review; account billing/refund status not independently verified |
 | Scene004 / Shot001 V02 | One output; `e8342e45-d960-4a2b-b300-1514d6738b92` — COUNT/CONTINUITY DEFECT; NOT APPROVED | 10 reported actual | Owner-supplied Flow execution report; uploaded MP4 metadata independently inspected; required four-sheep count is not maintained; account billing not independently reconciled |
-| Scene004 / Shot001 V03 | Owner reports generated as attempt 3; media ID not supplied | Actual charge pending; preflight quote 10 credits only | Execution report not yet supplied; do not record quote as actual charge |
+| Scene004 / Shot001 V03 | One output; 1c0d083c-bbd4-4bda-a90b-97fc15e3dae4 — OWNER REJECTED | 10 reported actual | Owner execution report; MP4 metadata independently verified; one cow and three sheep visible; gate/entrance sequence missing |
 
-Scene001 + Scene002 sum to 162 estimated credits. Scene003 reports six charges of 10 credits each (60). Scene004 Shot001 V01 and V02 each report one 10-credit output (20 combined). These are owner-reported Flow charges, not independently reconciled account billing. V01 remains owner-rejected; V02 has a sheep-count continuity defect and is not approved. Owner reports V03 generated as attempt 3; its actual charge is not yet reported. The earlier 10-credit figure is only its preflight quote.
+Scene001 + Scene002 sum to 162 estimated credits. Scene003 reports six charges of 10 credits each (60). Scene004 Shot001 V01, V02 and V03 each report one 10-credit output (30 combined). These are owner-reported Flow charges, not independently reconciled account billing. V01–V03 are not approved. V03 failed both animal counts and the required gate-first entry action. V04 is prompt-only; no V04 credits spent or authorized.
 
 ## S01 merged master
 

@@ -1,56 +1,60 @@
 # Production Agent Instructions
 
-Project: **Animal Farm — The Price of Power**. 30-minute serious 3D animated drama set on a 1940s English farm.
+Project: Animal Farm — The Price of Power. 30-minute serious 3D animated drama set on a 1940s English farm.
 
 ## Read only what the task needs
+1. README.md — current milestone and routing.
+2. 00_FILM_BIBLE/PRODUCTION_TRACKING/01_MASTER_PROGRESS_TRACKER.md — current status / next action.
+3. The active scene's SCENE_BREAKDOWN.md — current prompt, references and lessons.
+4. Relevant rows in 02_SHOT_REGISTER.csv.
+5. 03_ASSET_REGISTER.csv only when checking reusable asset IDs.
 
-For routine production work, read:
-1. `README.md` — current milestone and routing.
-2. `00_FILM_BIBLE/PRODUCTION_TRACKING/01_MASTER_PROGRESS_TRACKER.md` — current status/next action.
-3. The active scene's `SCENE_BREAKDOWN.md` — current prompt, references and shot-specific lessons.
-4. Relevant rows in `02_SHOT_REGISTER.csv`.
-5. `03_ASSET_REGISTER.csv` only when checking reusable asset IDs.
+Do not scan the repository, reread completed scenes, open the original blueprint, or repeat status summaries unless required. Keep previous shot versions to short outcome notes; retain only the current full prompt.
 
-Do not scan the repository, reread completed scenes, open the original blueprint, or repeat status summaries unless the task explicitly requires it. The active scene breakdown is not an archive: keep previous versions as short outcome notes, not full duplicate prompts.
+## Owner / Google Flow boundaries
+- A prompt, audit, preflight report, or request to check/review means review only. Never treat it as generation authorization or issue an "Execute" command.
+- Record generation only after the owner reports it or provides the output. Do not claim to operate Google Flow unless a Flow tool is actually available and used.
+- Keep states distinct: prompt drafted → preflight passed → owner generated → owner reviewed / approved / rejected.
+- A live price quote is neither an actual charge nor authorization.
+- Never mark a generated shot approved without an explicit owner decision.
 
-## Non-negotiable owner / Flow boundaries
+## Mandatory Shot001 failure lessons
+These four attempts exposed different failure modes. Do not repeat them.
 
-- A prompt, audit, preflight report, or request to "check/verify/review" means **review only**. Do not treat it as generation authorization, do not issue an "Execute" command, and do not imply that the owner authorized spending.
-- Only record a Flow generation after the owner reports that it was generated or supplies an execution report/media. Never claim to click Generate or operate Flow unless an actual Flow tool is available and used.
-- Keep four states distinct: **prompt drafted → preflight passed → owner generated → owner reviewed/approved or rejected**. A live credit quote is not a charge or authorization.
-- If the owner says a shot was generated but omits the execution report, record only "owner-reported generated; media ID/cost/output details pending". Do not invent a media ID, actual charge, approval or quality result.
-- Never mark a generated shot approved without an explicit owner review decision.
+- V01: cows/sheep were vague or absent because they were described as background silhouettes and their group references were missing. Exact counts and approved group references must be explicit.
+- V02: six references and a four-sheep instruction still produced only three distinguishable sheep early and two later. Text counts do not guarantee temporal continuity.
+- V03: a fixed all-nine-at-frame-zero layout still produced only one visible cow and three sheep. The three main characters were already inside at the first frame, and the barn doors were already open. The requested entrance action was missing.
+- Do not assume a static composition or a repeated count sentence will force the model to obey. Give explicit screen positions, action order, time windows and review checkpoints.
 
-## Failure prevention: exact animal counts
+## Shot001 V04 sequence rules
+The story action is: six animals wait inside; the barn gate opens; Boxer, Clover and Benjamin enter afterward.
 
-Treat the Scene004 Shot001 V01/V02 failures as mandatory lessons; do not repeat their approach.
+- Start with exactly SIX residents already inside and visible: exactly TWO separate black-and-white cows on the left, and exactly FOUR separate white sheep on the right in one straight row at the same camera depth. Each animal must have a distinct visible head and full body; gaps between all individuals; no overlap, crop, shadow, post or trough obstruction.
+- At frame 0, the heavy double barn entrance doors / gate must be fully CLOSED. The central entry lane is empty. Boxer, Clover and Benjamin are outside and must NOT appear in the barn or doorway.
+- Show the gate visibly opening first. Do not show any of the three characters until both doors have finished opening.
+- Only after the gate is fully open: Boxer enters first, Clover second, Benjamin third. Each crosses the threshold once, with visible separation; no teleporting, duplicating, swapping order or appearing inside before entry.
+- Keep the two cows and four sheep stationary and visible during the entire door-opening and character-entry action. At the end, show exactly nine animals: two cows + four sheep + Boxer + Clover + Benjamin.
+- Do not write "exactly nine animals in every frame" for this staged entrance: the intended visible interior count is six before entry, then seven, eight and nine as the three characters enter.
+- Use one locked wide camera inside Main_Barn that shows the closed doors, both resident groups and a clear central entry lane. The entrants must not block the cow or sheep groups.
+- Use exact approved references only: Boxer 7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba; Clover b86cb0af-a9e4-4d02-8b25-0316f718481b; Benjamin 0595b453-1a9c-4c11-9359-fd79a6eeb951; The_Cows 29b393f6-15b1-4a74-bcba-8c23b73360f5; The_Sheep 0b75ce22-ee53-439b-9ca0-4d051731a362; Main_Barn a9354e0f-70dc-4f02-8567-de36d2ab41ab. Never use rejected V01/V02/V03 videos as ingredients.
+- Audio must follow visible action: latch only when released; hinge/wood creak only while doors move; outside wind swells after doors open; hoofbeats and straw crunch only while each character visibly walks; footfalls stop when the character stops. Add only quiet barn ambience and restrained, plausible cow/sheep sounds. No off-screen animals, dialogue, narration or music.
+- If a ten-second clip cannot clearly show the six residents, opening gate and three separate entries, redesign timing/framing before generation. Do not sacrifice count clarity for rushed action.
+- Before spending video credits on another count-critical shot, prefer an owner-approved still composition check showing all six waiting animals, closed doors and clear entry lane. If that still costs credits, disclose the live price and obtain separate owner approval first.
+- Review count and action order at opening, gate opening, each character's entry, middle and end. Missing/merged/hidden/duplicated animals or wrong order = continuity failure; do not approve.
 
-- **V01 failure:** cows/sheep were described vaguely as background silhouettes and were not clearly visible. Do not use phrases such as "a few animals", "other animals", "background animals" or "animal silhouettes" when an exact group matters. Name every group, exact count, approved group reference and screen position.
-- **V02 failure:** despite six references and a "four sheep" instruction, only three sheep were distinguishable early and only two later. A text count by itself did not preserve the group through motion. Do not assume that a correct opening frame guarantees count continuity.
-- **V03 count-safe layout:** keep exactly nine animals in separate zones: two cows on the left, Boxer/Clover/Benjamin in the centre, four sheep on the right. The four sheep must be in one straight horizontal row at the same camera depth, with a visible gap between every animal and all four full bodies, heads, necks and legs readable. No staggering, line-of-sight overlap, posts/troughs/shadows obscuring animals, or edge cropping.
-- All nine animals must already be in position at frame 0. For strict-count shots, no animal walks, enters, exits, crosses, changes place or passes behind another. Use a locked wide tripod camera; no dolly, pan, tilt, zoom, cut or reframing. Permit only tiny breathing/blinking/ear movement.
-- Use the exact approved master references. For this shot: Boxer `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`; Clover `b86cb0af-a9e4-4d02-8b25-0316f718481b`; Benjamin `0595b453-1a9c-4c11-9359-fd79a6eeb951`; The_Cows `29b393f6-15b1-4a74-bcba-8c23b73360f5`; The_Sheep `0b75ce22-ee53-439b-9ca0-4d051731a362`; Main_Barn `a9354e0f-70dc-4f02-8567-de36d2ab41ab`. Never substitute, silently omit, or use rejected V01/V02 videos as ingredients.
-- Before spending video credits on a count-critical scene, prefer a still composition check using the approved references: verify all nine animals and their separation in one frame first. If still-image generation costs credits, report its live price and obtain the owner's separate approval before spending. Do not skip this check silently; if no approved still is available, state that risk before recommending video generation.
-- If the selected resolution cannot make every animal individually countable, stop and propose a clearer composition/resolution or separate coverage; do not hide the problem in a prompt.
-- After generation, inspect the opening, middle and ending, plus representative points (0s, 2s, 4s, 6s, 8s and near the end). Count the animals at each point. Any missing, merged, obscured, duplicated or changing animal is a continuity defect: do not approve the shot; record the exact failure and wait for owner direction.
-
-## Continuity and visual rules
-
+## Continuity
 - Approved character, location and prop references are locked. Preserve identity, anatomy, proportions, coat markings and geography.
-- Distinguish permanent design from temporary shot props/costume. Boxer's work harness is temporary; Clover remains unharnessed unless the active shot says otherwise.
-- Respect story order. Do not introduce later characters, locations or events early.
-- Ignore `assets/CONCEPT_ARCHIVE_NOT_MASTER/` for production unless the owner explicitly requests archive review.
+- Boxer's work harness is temporary; Clover remains unharnessed unless the active shot says otherwise.
+- Respect story order. Ignore assets/CONCEPT_ARCHIVE_NOT_MASTER/ unless owner requests archive review.
 
 ## Generation preflight
-
-Before any owner-authorized generation, verify the live model/mode, resolution, aspect ratio, duration, output count, exact reference attachments, verbatim prompt and displayed price. Stop if anything differs. Default to exactly one output; no batches, previews, retries or retakes unless separately approved. Do not estimate or assume current prices.
+Before any separately authorized generation, verify live model/mode, resolution, aspect ratio, duration, output count, exact reference attachments, verbatim prompt and displayed price. Stop if anything differs. Default to one output; no batches, previews, retries or retakes unless separately approved. Never assume the previous price still applies.
 
 ## Update only canonical records
+- Shot/version/status/Flow ID/charge/review → 02_SHOT_REGISTER.csv
+- Project totals/next milestone → project_status.json and 01_MASTER_PROGRESS_TRACKER.md
+- Prompt, continuity and failure lessons → active SCENE_BREAKDOWN.md
+- New reusable asset → 03_ASSET_REGISTER.csv
+- Major owner decision → append one concise row to 09_CHANGE_HISTORY.csv
 
-- Shot/version/status/Flow ID/charge/review → `02_SHOT_REGISTER.csv`
-- Project totals/next milestone → `project_status.json` and `01_MASTER_PROGRESS_TRACKER.md`
-- Prompt, continuity and failure lessons → active `SCENE_BREAKDOWN.md`
-- New reusable asset → `03_ASSET_REGISTER.csv`
-- Major owner decision → append one concise row to `09_CHANGE_HISTORY.csv`
-
-Group related edits into one logical commit. Do not create duplicate diaries, checklists, full-history documents or repeated prompt copies. Keep historical versions to a short outcome, media ID and failure note; retain the current prompt only.
+Group related edits into one logical commit. Do not create duplicate diaries, checklists, full-history documents or repeated prompt copies.

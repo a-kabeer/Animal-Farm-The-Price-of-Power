@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — Shot001 V02 sheep-count defect recorded; V03 owner-reported generated as attempt 3; media/cost/review details pending"
+      "status": "IN PRODUCTION — V01–V03 rejected; V04 gate-first prompt drafted, not preflighted or authorized"
     },
     {
       "id": "S03",
@@ -115,10 +115,11 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "Obtain the V03 Flow media ID, actual output count, actual credits charged and execution settings from the owner; do not treat the 10-credit preflight quote as verified actual charge.",
-    "Inspect the V03 clip at opening, middle and end; count 2 cows, Boxer/Clover/Benjamin and all 4 sheep at each point, checking that the same four sheep remain visible throughout.",
-    "Record the V03 review result and owner accept/reject decision; do not approve automatically.",
-    "Do not generate another Shot001 version until V03 is reviewed and the owner gives a separate direction.",
+    "Owner reviews the V04 gate-first prompt in the Scene004 breakdown.",
+    "Perform a fresh live preflight for V04: confirm all six exact references, supported reference limit, model/mode, resolution, 16:9, 10 seconds, one output and current displayed price. Prefer a resolution that makes all six waiting animals individually countable; do not assume the previous 360p / 10-credit quote.",
+    "Obtain separate explicit owner authorization before Generate.",
+    "After execution, record actual media ID, output count, settings and actual credit charge. Inspect two cows and four sheep throughout, then confirm the gate opens before Boxer, Clover and Benjamin enter in that order.",
+    "Check audio sync: latch/hinges during gate movement; each set of hoofbeats only during that character's visible entry; footfalls stop when each stops. Wait for owner accept/reject decision.",
     "Keep Shot002 planned and unauthorized."
   ],
   "source_of_truth": {
@@ -133,7 +134,7 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 V03 OWNER-REPORTED GENERATED (ATTEMPT 3) — EXECUTION DETAILS AND OWNER REVIEW PENDING",
+    "status": "SHOT001 V03 OWNER-REJECTED — V04 GATE-FIRST PROMPT DRAFTED; AWAITING OWNER REVIEW / PREFLIGHT",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
@@ -318,7 +319,7 @@
         "id": "ACT01_SCENE004_SHOT001",
         "version": "V03",
         "title": "Old Major's Gathering — Count-Stable Full Gathering Visible",
-        "status": "OWNER-REPORTED GENERATED — EXECUTION DETAILS / REVIEW PENDING",
+        "status": "OWNER REJECTED — WRONG COUNTS AND ENTRANCE ORDER",
         "duration_seconds": 10,
         "proposed_settings": {
           "model": "Omni 1.2 Flash",
@@ -353,15 +354,71 @@
         "preflight_reported": true,
         "preparation_note": "Owner revised preparation report 2026-11-07: exact nine animals; four sheep in one straight row with clear gaps; all six exact master references reported attached; V02 not used as ingredient; Omni 1.2 Flash R2V, 360p, 16:9, 10 seconds, one output; live quote 10 credits; prompt entered verbatim. Preparation only; no generation; 0 credits spent. Await separate explicit owner authorization.",
         "owner_reported_generation": true,
-        "authorization_note": "Owner reports they generated V03 directly in Google Flow. No assistant generation action or authorization was involved.",
+        "authorization_note": "Owner rejected V03 and requested a new retake/prompt. No assistant generation or Flow action occurred.",
         "generation_attempt_number": 3,
         "preflight_quote_credits_reported": 10,
-        "actual_charge_credits_owner_reported": null,
-        "output_count_reported": null,
-        "media_id": null,
-        "execution_report": "Owner states Shot001 V03 has been generated as the third attempt. Flow media ID, display name, actual charge, output count, actual settings, technical metadata and clip/review results have not yet been provided.",
-        "review_decision": "AWAITING OWNER REVIEW",
-        "approved": false
+        "actual_charge_credits_owner_reported": 10,
+        "output_count_reported": 1,
+        "media_id": "1c0d083c-bbd4-4bda-a90b-97fc15e3dae4",
+        "execution_report": "Owner reports one output and exactly 10 credits charged. Media ID 1c0d083c-bbd4-4bda-a90b-97fc15e3dae4. Uploaded MP4 independently inspected; metadata and visible continuity defects recorded.",
+        "review_decision": "OWNER REJECTED — RETAKE REQUESTED",
+        "approved": false,
+        "asset_display_name": "Animals inside barn interior",
+        "collection": "04_ACT_01_The_Old_World",
+        "collection_id": "b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4",
+        "technical_metadata_independently_verified": {
+          "container_file": "/mnt/data/Animals_inside_barn_interior_1c0d083c.mp4",
+          "duration_seconds": 10.026667,
+          "width": 640,
+          "height": 360,
+          "frame_rate_fps": 24,
+          "video_codec": "H.264",
+          "audio_codec": "AAC",
+          "audio_sample_rate_hz": 48000,
+          "audio_channels": 2,
+          "file_size_bytes": 2287311
+        },
+        "visual_review": {
+          "status": "OWNER REJECTED FOR RETAKE — NOT APPROVED",
+          "findings": [
+            "Only one cow is visibly identifiable; required count is exactly two.",
+            "Only three sheep are visibly identifiable; required count is exactly four.",
+            "Boxer, Clover and Benjamin are already inside from the opening frame instead of entering after the gate opens.",
+            "The double barn doors are already open at the opening; no gate-opening action is shown."
+          ],
+          "inspection": "Uploaded video sampled at one-second intervals from 0s to 9s; stream metadata independently verified."
+        }
+      },
+      {
+        "id": "ACT01_SCENE004_SHOT001",
+        "version": "V04",
+        "title": "Old Major's Gathering — Gate Opens; Three Characters Enter",
+        "status": "PROMPT DRAFTED — AWAITING OWNER REVIEW; NOT PREFLIGHTED OR AUTHORIZED",
+        "duration_seconds": 10,
+        "proposed_settings": {
+          "model": "TBD at live preflight",
+          "mode": "TBD at live preflight",
+          "resolution": "TBD at live preflight",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 10,
+          "outputs": 1,
+          "live_credit_quote": null,
+          "price_authorized": false
+        },
+        "references": {
+          "Boxer": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
+          "Clover": "b86cb0af-a9e4-4d02-8b25-0316f718481b",
+          "Benjamin": "0595b453-1a9c-4c11-9359-fd79a6eeb951",
+          "The_Cows": "29b393f6-15b1-4a74-bcba-8c23b73360f5",
+          "The_Sheep": "0b75ce22-ee53-439b-9ca0-4d051731a362",
+          "Main_Barn": "a9354e0f-70dc-4f02-8567-de36d2ab41ab"
+        },
+        "prompt_status": "Gate-first timed sequence: six resident animals visible, barn gate opens, then Boxer/Clover/Benjamin enter in order; synced physical audio cues",
+        "generation_authorized": false,
+        "generated": false,
+        "credits_spent": 0,
+        "live_preflight_complete": false,
+        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md"
       }
     ]
   }

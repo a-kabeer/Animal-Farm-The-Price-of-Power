@@ -8,7 +8,7 @@
 
 - 1/10 master sequences complete · 3 working scenes · 18 accepted source shots
 - Completed runtime: 03:00 / 30:00 (10%)
-- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in production. Shot001 V01 was rejected because the gathered animals were indistinct/absent; V02 (Media ID `e8342e45-d960-4a2b-b300-1514d6738b92`) failed the four-sheep count, showing three early and two later. Owner reports V03 generated as attempt 3, using a fixed camera and four sheep in one straight row; its media ID, actual charge and review result are pending. Do not assume the count defect is fixed. Shot002 remains planned, not authorized.
+- Current work: **S02 — Old Major's Dream (03:00–06:00)** is in production. Shot001 V01–V03 are not approved. V03 (Media ID `1c0d083c-bbd4-4bda-a90b-97fc15e3dae4`; 10 credits reported) showed only one cow and three sheep; the three main characters were already inside and the barn doors already open at the start. V04 prompt now requires two cows and four sheep waiting inside, the closed gate opening visibly, then Boxer, Clover and Benjamin entering afterward in order. Audio is timed to gate movement and footsteps. V04 is prompt-only, not preflighted or authorized. Shot002 remains planned.
 - The merged S01 master binary is outside GitHub; filename/export metadata have not been supplied.
 
 ## Agent start here — read only these files

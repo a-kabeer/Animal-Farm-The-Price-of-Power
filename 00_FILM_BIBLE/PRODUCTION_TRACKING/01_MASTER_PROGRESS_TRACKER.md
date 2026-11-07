@@ -23,9 +23,9 @@ The owner confirmed on 7 November 2026 that all three one-minute clips were merg
 
 ## Next milestone
 
-**S02 — Old Major's Dream (03:00–06:00): IN PRODUCTION — V01 rejected; V02 failed sheep-count continuity; V03 owner-reported generated as attempt 3; execution details and review pending.**
+**S02 — Old Major's Dream (03:00–06:00): IN PRODUCTION — V01–V03 rejected; V04 gate-first prompt drafted, awaiting owner review and fresh preflight.**
 
-ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 V01 (media ID `db48f283-e7f7-4e0c-b208-ce998c2ac434`) was rejected because the other gathering animals were vague/absent. V02 (media ID `e8342e45-d960-4a2b-b300-1514d6738b92`) failed count continuity: three sheep were distinguishable early, but only two later instead of four. The V03 prompt addressed this with a fixed camera, three spatial zones and four sheep side-by-side in one straight row. The owner now reports V03 generated as attempt 3. Its media ID, actual charge, output count, technical metadata and visual review are pending; the previous 10-credit figure was only the preflight quote. Do not assume the count issue is fixed. Inspect the clip at opening, middle and end, then await owner review. Shot002 remains planned and unauthorized.
+ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 V01 was rejected because the gathered animals were vague/absent. V02 failed count continuity: three sheep early and two later instead of four. V03 (media ID 1c0d083c-bbd4-4bda-a90b-97fc15e3dae4; 10 credits owner-reported) was rejected: one cow and three sheep visible; Boxer, Clover and Benjamin already inside at the opening; barn doors already open, so the intended entrance action was missing. V04 prompt now stages the action in order: two cows and four sheep wait inside; closed double doors open; Boxer, Clover and Benjamin enter afterward in sequence; sound effects follow the visible latch, door and hoofstep actions. V04 is drafted only—not preflighted, generated or authorized. Shot002 remains planned and unauthorized.
 
 ## Minimal update path
 
