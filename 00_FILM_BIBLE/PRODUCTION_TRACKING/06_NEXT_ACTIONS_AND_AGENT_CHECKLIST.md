@@ -379,8 +379,9 @@
 - [x] Deviations documented: sky remains pink-grey rather than cool blue night; doorway glow not clearly visible.
 - [x] Assistant recommendation: retain V01; no retake; apply cool-blue grade and subtle warm doorway-glow treatment in NLE if practical.
 - [ ] Complete subjective listening review of native ambient audio.
-- [ ] Owner review/acceptance pending; do not mark approved without explicit owner decision.
-- [ ] After Shot006 acceptance, assemble Scene003 master to 60 seconds.
+- [x] Owner confirmed Shot006 is included in the completed merged S01 master; acceptance by inclusion supersedes the earlier awaiting-review state.
+- [x] Owner confirmed the three one-minute sub-scenes are merged into the ready three-minute S01 master.
+- [ ] Optional archive QA: listen through the native ambient audio if a separate sound-quality check is still desired.
 
 
 ### S01 — The Hungry Farm final three-minute master (7 November 2026)
