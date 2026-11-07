@@ -2,7 +2,7 @@
 
 **Master sequence:** S02 — Old Major's Dream (03:00–06:00)  
 **Working scene:** 01 of S02  
-**Status:** SHOT001 V01 OWNER-REJECTED. Shot002 planned to reveal the other gathering animals. No further generation authorized.  
+**Status:** SHOT001 V01 OWNER-REJECTED; V02 regeneration requested and prompt drafted. V02 not generated; final live preflight and credit authorization required.  
 **Execution:** One output reported; 10 credits charged (owner-reported). Media ID: `db48f283-e7f7-4e0c-b208-ce998c2ac434`. Uploaded MP4 metadata and visuals inspected. Owner rejected V01 on 7 November 2026; preserve as rejected evidence. No replacement authorized.  
 **Prepared from owner-supplied report:** 7 November 2026.
 
@@ -11,6 +11,7 @@
 | Order | Shot ID | Title | Duration | Status |
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE004_SHOT001_V01 | Old Major's Gathering — Barn Interior Opening | 10s | OWNER-REJECTED V01 |
+| 1 | ACT01_SCENE004_SHOT001_V02 | Old Major's Gathering — Full Animal Gathering Visible | 10s | REGENERATION REQUESTED — PROMPT DRAFTED / NOT GENERATED |
 | 2 | ACT01_SCENE004_SHOT002_V01 | The Other Animals Gather | 10s | PLANNED — NOT AUTHORIZED |
 
 ## Required references
@@ -62,6 +63,74 @@ Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. 
 - Audio: AAC stereo stream verified; subjective listening review has not been completed.
 - Owner decision (7 November 2026): **REJECTED V01**. Preserve the output and its media ID as rejected evidence. Do not mark approved or generate a replacement.
 - Submitted review text: “Accept Shot001. Introduce the other gathering animals in Shot002.” The first sentence conflicts with the explicit REJECT instruction; the explicit rejection governs. The actionable Shot002 note is to show the other gathering animals clearly.
+
+## Shot001 V02 regeneration plan — full gathering must be visible
+
+**Version:** `ACT01_SCENE004_SHOT001_V02`  
+**Status:** REGENERATION REQUESTED — PROMPT DRAFTED / NOT GENERATED / FINAL PREFLIGHT REQUIRED  
+**Reason:** V01 was rejected because the other gathered animals were not clearly visible. V01 remains preserved as rejected evidence; do not use its video as an ingredient.
+
+### Required references for V02
+- Boxer: `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`
+- Clover: `b86cb0af-a9e4-4d02-8b25-0316f718481b`
+- Benjamin: `0595b453-1a9c-4c11-9359-fd79a6eeb951`
+- The_Cows (exactly two): `29b393f6-15b1-4a74-bcba-8c23b73360f5`
+- The_Sheep (exactly four): `0b75ce22-ee53-439b-9ca0-4d051731a362`
+- Main_Barn: `a9354e0f-70dc-4f02-8567-de36d2ab41ab`
+
+All six references are proposed for attachment. Confirm the live Flow model's supported reference count before execution. If six references cannot be attached together, stop and report; do not silently omit or substitute any asset.
+
+### Revised Google Flow prompt — V02
+
+```text
+SHOT ID: ACT01_SCENE004_SHOT001_V02
+Duration: 10 seconds, 16:9 landscape.
+
+EXACT MASTER REFERENCES:
+Use the exact approved references for Boxer, Clover, Benjamin, The_Cows, The_Sheep and Main_Barn. Preserve every character's identity, anatomy, proportions, coat colors, markings and individual appearance. Preserve the exact approved Main_Barn architecture.
+
+ANIMAL COUNT — CRITICAL:
+The shot must clearly show exactly NINE animals throughout the readable main composition:
+- THREE entering animals: Boxer, Clover and Benjamin, matching their exact approved character references.
+- TWO gathered dairy cows: exactly two black-and-white cows, matching The_Cows reference.
+- FOUR gathered sheep: exactly four white sheep, matching The_Sheep reference.
+Do not add, remove, duplicate, merge or hide any of these nine animals. Every animal must be visually distinguishable. The two cows and four sheep must be clearly visible as actual animals, not vague shadows or indistinct silhouettes.
+
+SHOT AND BLOCKING:
+A cinematic wide establishing shot from inside the approved 1940s English timber barn, facing the open double entrance doors. The cool blue night is visible outside.
+
+At the beginning of the shot, the two approved cows are already standing together along the LEFT interior wall, and the four approved sheep are already gathered together along the RIGHT interior wall. Keep all six gathered animals in the visible middle-ground, with their heads and bodies unobstructed and enough separation to count each individual clearly.
+
+Boxer, Clover and Benjamin enter through the open double doors and walk naturally onto the straw-covered floor toward the open central gathering space. Their entrance must not block or cover the cows or sheep. Keep all nine animals visible in the wide composition at the same time for most of the shot.
+
+CAMERA:
+Use a stable wide composition with only a very slow, subtle backward dolly. Do not pan away from the gathered animals. Do not zoom in. Do not cut. Maintain enough depth and width to keep the three entering animals and the six waiting animals clearly visible together.
+
+ENVIRONMENT:
+Use the exact Main_Barn interior reference: weathered timber beams, large overhead rafters, hayloft, straw-covered floor, wall-side feeding troughs and open central gathering floor. Preserve the open double entrance and established barn layout. Do not redesign or relocate the doors, rafters, walls or troughs.
+
+LIGHTING:
+Cool blue moonlight enters through the open double doors and small gaps in the timber. Add subtle volumetric shafts and restrained dust motes. The interior must remain atmospheric but bright enough to clearly read the faces, markings and full bodies of all nine animals. Do not let the background fall into black shadow.
+
+ACTION AND PERFORMANCE:
+The three entering animals move quietly and naturally. The cows make only subtle head turns toward the entrance. The sheep remain grouped, with slight natural shifts and attentive posture. Avoid complex crossing paths or overlapping bodies. Keep movements restrained and physically believable.
+
+AUDIO:
+Natural nighttime barn ambience only: soft hoofsteps on straw, slight straw movement, subtle cow lowing, faint sheep bleats, gentle timber creaks and soft evening wind outside. No dialogue, no narration and no background music.
+
+CONTINUITY:
+Preserve the visual style established in the completed S01 master and the approved Main_Barn reference. Do not introduce Old Major, Napoleon or Snowball as identifiable characters in this shot. Do not show humans, dogs, extra horses, extra donkeys, extra cows, extra sheep, modern objects, clothing, accessories, text or subtitles.
+
+VISUAL QUALITY:
+Serious cinematic 3D animated feature-film drama, realistic animal anatomy, detailed natural fur and wool, physically believable motion, consistent 1940s English farm environment, restrained expressions, readable animal separation, atmospheric moonlight and cinematic depth. No cartoon comedy, no exaggerated expressions, no extra limbs, no duplicated animals, no morphing, no hidden/obscured animals and no watermark.
+```
+
+### V02 live preflight — not yet completed
+- Proposed starting settings, subject to live verification: Omni 1.2 Flash; R2V; 360p; 16:9; 10 seconds; exactly one output.
+- Confirm whether Omni 1.2 Flash supports all six exact references in one R2V job.
+- Confirm the exact revised prompt is entered verbatim.
+- Record the live displayed price. The previous V01 charge of 10 credits is historical and is **not** authorization for V02.
+- No generation, preview, retry or credit spend is authorized by this preparation update. Obtain a final shot-specific authorization after the live preflight.
 
 ## Shot002 plan — The Other Animals Gather
 
@@ -164,4 +233,4 @@ Serious cinematic 3D animated feature-film drama, realistic animal anatomy, deta
 - [ ] Owner approves the Shot002 plan and exact prompt.
 - [ ] Separate live preflight and explicit owner authorization for Shot002.
 
-**Hold:** Shot002 is planning-only. Do not generate it, replace Shot001, retry, or spend credits until Shot002 is explicitly authorized.
+**Hold:** Shot001 V02 has been requested and prepared but not generated. Recheck the six-reference limit, prompt, settings and live quote, then obtain explicit final generation authorization. Shot002 remains planning-only.
