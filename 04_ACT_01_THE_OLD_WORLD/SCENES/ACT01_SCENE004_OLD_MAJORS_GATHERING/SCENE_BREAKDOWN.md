@@ -2,7 +2,7 @@
 
 **Master sequence:** S02 — Old Major's Dream (03:00–06:00)  
 **Working scene:** 01 of S02  
-**Status:** SHOT001 V01 OWNER-REJECTED; V02 generation authorized for exactly one output at 10 credits. Awaiting execution in Google Flow; no V02 video generated yet.  
+**Status:** SHOT001 V01 OWNER-REJECTED; V02 prompt and live preflight complete. Awaiting explicit generation authorization; no V02 video generated.  
 **Execution:** One output reported; 10 credits charged (owner-reported). Media ID: `db48f283-e7f7-4e0c-b208-ce998c2ac434`. Uploaded MP4 metadata and visuals inspected. Owner rejected V01 on 7 November 2026; preserve as rejected evidence. No replacement authorized.  
 **Prepared from owner-supplied report:** 7 November 2026.
 
@@ -11,7 +11,7 @@
 | Order | Shot ID | Title | Duration | Status |
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE004_SHOT001_V01 | Old Major's Gathering — Barn Interior Opening | 10s | OWNER-REJECTED V01 |
-| 1 | ACT01_SCENE004_SHOT001_V02 | Old Major's Gathering — Full Animal Gathering Visible | 10s | GENERATION AUTHORIZED — AWAITING FLOW EXECUTION |
+| 1 | ACT01_SCENE004_SHOT001_V02 | Old Major's Gathering — Full Animal Gathering Visible | 10s | FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION |
 | 2 | ACT01_SCENE004_SHOT002_V01 | The Other Animals Gather | 10s | PLANNED — NOT AUTHORIZED |
 
 ## Required references
@@ -67,7 +67,7 @@ Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. 
 ## Shot001 V02 regeneration plan — full gathering must be visible
 
 **Version:** `ACT01_SCENE004_SHOT001_V02`  
-**Status:** OWNER-AUTHORIZED — EXACTLY ONE OUTPUT / 10 CREDITS; AWAITING FLOW EXECUTION  
+**Status:** REGENERATION REQUESTED — PROMPT DRAFTED / NOT GENERATED / FINAL PREFLIGHT REQUIRED  
 **Reason:** V01 was rejected because the other gathered animals were not clearly visible. V01 remains preserved as rejected evidence; do not use its video as an ingredient.
 
 ### Owner-reported final preflight — 7 November 2026
@@ -82,16 +82,9 @@ Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. 
 - Locked V02 prompt: entered verbatim (owner report)
 - Live displayed price: 10 credits (owner-reported quote)
 - Generation: NOT PERFORMED; credits spent: 0
-- Status: **PREFLIGHT PASSED — OWNER AUTHORIZED ONE OUTPUT AT 10 CREDITS; AWAITING FLOW EXECUTION**
+- Status: **PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**
 
-### Owner authorization — 7 November 2026
-- Owner command supplied in chat: `Execute Shot 001 V02`.
-- Scope: exactly one 10-second video output using Omni 1.2 Flash, R2V, 360p (640×360), 16:9, the locked V02 prompt and all six listed references.
-- Authorized price: exactly 10 credits; no second output, preview, retry or automatic retake is authorized.
-- Current execution state: **AUTHORIZED, NOT GENERATED; 0 credits spent**.
-- Flow execution remains pending. This chat cannot operate the Google Flow Generate control.
-
-At the live Generate checkpoint, reconfirm all settings, the verbatim prompt, all six exact attachments and the displayed price of exactly 10 credits. Stop without generating if any item differs.
+The 10-credit quote is not authorization to spend. Recheck the live display and all six attachments immediately before Generate; stop if anything differs.
 
 ### Required references for V02
 - Boxer: `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`
@@ -158,10 +151,9 @@ Serious cinematic 3D animated feature-film drama, realistic animal anatomy, deta
 - [x] Locked V02 prompt reported entered verbatim.
 - [x] Live price reported as 10 credits.
 - [x] No generation performed; 0 credits spent.
-- [x] Owner authorization received: exactly one output at exactly 10 credits.
-- [ ] Generate the single authorized output in Google Flow and record its media ID and actual charge.
+- [ ] Receive separate explicit owner authorization to generate V02 for exactly one output at the live-confirmed 10-credit price.
 
-**Execution status:** V02 is authorized but not generated. Exactly one output and 10 credits are authorized. Recheck every setting, reference, prompt and the displayed 10-credit price at Generate; stop on any mismatch. No credits have been spent in the recorded execution.
+**Hold:** V02 is not generated. The 10-credit quote is not permission to spend. Recheck every setting and the displayed price at Generate; stop if any detail differs.
 
 ## Shot002 plan — The Other Animals Gather
 
@@ -264,4 +256,4 @@ Serious cinematic 3D animated feature-film drama, realistic animal anatomy, deta
 - [ ] Owner approves the Shot002 plan and exact prompt.
 - [ ] Separate live preflight and explicit owner authorization for Shot002.
 
-**Status:** Shot001 V02 is owner-authorized for exactly one output at 10 credits, but Flow execution is still pending. Record the Flow media ID and actual charge only after the owner supplies an execution report. Shot002 remains planning-only and unauthorized.
+**Hold:** Shot001 V02 has been requested and prepared but not generated. Recheck the six-reference limit, prompt, settings and live quote, then obtain explicit final generation authorization. Shot002 remains planning-only.
