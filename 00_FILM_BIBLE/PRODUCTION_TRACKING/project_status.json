@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — Shot001 V02 generated; sheep count drifts from three to two instead of four; V03 prompt drafted for owner review"
+      "status": "IN PRODUCTION — Shot001 V02 has sheep-count defect; V03 final preflight passed at owner-reported 10-credit quote; generation authorization pending"
     },
     {
       "id": "S03",
@@ -115,10 +115,10 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "Owner reviews the revised V03 prompt in the Scene004 breakdown.",
-    "If V03 is approved for preparation, perform a fresh Flow preflight: verify all six exact references, supported reference count, prompt, model/settings, one output and live credit quote.",
-    "Obtain separate owner authorization before V03 generation; do not assume the previous 10-credit quote still applies.",
-    "After any V03 execution, record the Flow media ID and actual charge, inspect the animal count throughout the clip and wait for owner review.",
+    "Owner reviews the revised V03 final preflight record; no more prompt changes required unless owner identifies an issue.",
+    "Obtain separate explicit owner authorization before V03 generation; do not treat the 10-credit quote as permission to spend.",
+    "Immediately before Generate, reconfirm the six exact references, revised prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output and live quote of exactly 10 credits; stop if anything differs.",
+    "After any V03 execution, record its Flow media ID and actual charge, inspect the count throughout the clip and wait for owner review.",
     "Keep Shot002 planned but unauthorized."
   ],
   "source_of_truth": {
@@ -133,7 +133,7 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 V02 GENERATED — SHEEP COUNT/CONTINUITY DEFECT; V03 PROMPT DRAFTED, NOT AUTHORIZED",
+    "status": "SHOT001 V02 COUNT DEFECT — V03 FINAL PREFLIGHT PASSED; AWAITING EXPLICIT GENERATION AUTHORIZATION",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
@@ -318,15 +318,17 @@
         "id": "ACT01_SCENE004_SHOT001",
         "version": "V03",
         "title": "Old Major's Gathering — Count-Stable Full Gathering Visible",
-        "status": "PROMPT DRAFTED — AWAITING OWNER REVIEW; NOT AUTHORIZED",
+        "status": "FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
         "duration_seconds": 10,
         "proposed_settings": {
-          "model": "Reconfirm at live preflight",
-          "mode": "Reference-to-Video (R2V) — proposed",
-          "resolution": "360p (640x360) — proposed",
+          "model": "Omni 1.2 Flash",
+          "mode": "Reference-to-Video (R2V)",
+          "resolution": "360p (640x360)",
           "aspect_ratio": "16:9",
+          "duration_seconds": 10,
           "outputs": 1,
-          "live_credit_quote": null,
+          "live_credit_quote": 10,
+          "quote_source": "Owner-reported live Flow display 2026-11-07",
           "price_authorized": false
         },
         "references": {
@@ -337,11 +339,19 @@
           "The_Sheep": "0b75ce22-ee53-439b-9ca0-4d051731a362",
           "Main_Barn": "a9354e0f-70dc-4f02-8567-de36d2ab41ab"
         },
-        "prompt_status": "Drafted in canonical scene breakdown; fixed animal positions, fixed camera and count continuity constraints",
+        "prompt_status": "Revised V03 prompt entered verbatim; four sheep in one straight horizontal row at same camera depth; all nine animals stationary",
         "generation_authorized": false,
         "generated": false,
         "credits_spent": 0,
-        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md"
+        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md",
+        "references_attached_reported": true,
+        "reference_limit_check": {
+          "supported_max_image_references": 10,
+          "attached_count": 6,
+          "result": "Within reported model limit"
+        },
+        "preflight_reported": true,
+        "preparation_note": "Owner revised preparation report 2026-11-07: exact nine animals; four sheep in one straight row with clear gaps; all six exact master references reported attached; V02 not used as ingredient; Omni 1.2 Flash R2V, 360p, 16:9, 10 seconds, one output; live quote 10 credits; prompt entered verbatim. Preparation only; no generation; 0 credits spent. Await separate explicit owner authorization."
       }
     ]
   }
