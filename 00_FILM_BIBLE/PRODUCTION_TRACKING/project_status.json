@@ -163,7 +163,7 @@
           }
         },
         "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md",
-        "all_four_references_attached": "Owner-reported; recheck in live Flow workspace before Generate",
+        "all_four_references_attached": "Owner reports all four exact references were attached to this completed R2V generation.",
         "prompt_status": "Locked / entered verbatim",
         "owner_authorization": {
           "command": "Execute Shot 001",
