@@ -2,7 +2,7 @@
 
 **Master sequence:** S02 — Old Major's Dream (03:00–06:00)  
 **Working scene:** 01 of S02  
-**Status:** SHOT001 V01 owner-rejected; V02 generated but has a sheep-count continuity defect; V03 prompt drafted and awaiting owner review. V03 is not authorized or generated.  
+**Status:** SHOT001 V01 owner-rejected; V02 has a sheep-count continuity defect; V03 revised prompt and owner-reported final preflight passed. Awaiting explicit generation authorization; no V03 video generated.  
 **Execution:** One output reported; 10 credits charged (owner-reported). Media ID: `db48f283-e7f7-4e0c-b208-ce998c2ac434`. Uploaded MP4 metadata and visuals inspected. Owner rejected V01 on 7 November 2026; preserve as rejected evidence. No replacement authorized.  
 **Prepared from owner-supplied report:** 7 November 2026.
 
