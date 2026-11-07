@@ -38,7 +38,7 @@
 | Character references | Boxer, Clover and Benjamin approved references recorded in Asset Register |
 | Locations | Existing Manor_Farm_Exterior and Barn_Exterior references; exterior-only scene; no Main_Barn interior asset required |
 | Dialogue | Two original adaptation lines for Clover and Boxer; both exact lines owner-approved 6 November 2026; audio not generated |
-| Generation | Shot001 V01 accepted for editing (cool-blue NLE match pending); Shot002 V01 generated and inspected (10 credits reported charged), awaiting owner approval; late-shot push-in crops forelegs; Shots003–006 not generated |
+| Generation / assembly | All six Scene003 shots are included in the owner-confirmed merged S01 master; Scene003 is master-complete (7 Nov 2026). Earlier shot-level continuity notes are retained for archive; they do not block S01 completion. |
 
 ## Active project settings (the workflow actually used so far)
 
@@ -321,7 +321,7 @@ The initial prompt mismatch was corrected and remains documented. **Current stat
 
 All three animals read correctly and move toward the red barn; wide rear three-quarter framing and continuous pull-back work; no Old Major or meeting appears. Two deviations: the sky remains pink-grey twilight rather than cool blue night, and the warm doorway glow is not clearly visible. Apply a cool-blue dusk-to-night grade and add a subtle warm doorway light in post if practical. Audio stream metadata verified; subjective listening pending.
 
-**Assistant recommendation: retain V01 for editing — no retake recommended.** Status: **GENERATED — AWAITING OWNER REVIEW**. Owner approval pending.
+**Assistant recommendation before assembly: retain V01 for editing — no retake recommended.** This pending-review status was superseded when the owner confirmed the three-scene S01 master was merged and ready on 7 November 2026.
 
 
 ## S01 — The Hungry Farm: three-minute master completed (owner-confirmed 7 November 2026)
