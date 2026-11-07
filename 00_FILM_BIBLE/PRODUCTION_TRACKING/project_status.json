@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "NEXT — planning"
+      "status": "PREPARATION IN PROGRESS — ACT01_SCENE004_SHOT001 prompt locked; Main_Barn reference pending; no video generation authorized"
     },
     {
       "id": "S03",
@@ -115,9 +115,10 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "Plan S02 — Old Major's Dream (03:00–06:00) as three one-minute working scenes.",
-    "Approve Old Major, Napoleon and Snowball visual references; confirm night-gathering barn environment and crowd layout.",
-    "Create S02 scene breakdowns before preparing or authorizing any Flow generation."
+    "Prepare/verify a 16:9 Main_Barn interior master reference with Nano Banana 2.1; obtain owner approval and record the final local path and Flow asset ID in the Asset Register.",
+    "After Main_Barn approval, attach the three existing character references and repeat the live preflight for ACT01_SCENE004_SHOT001.",
+    "Do not generate ACT01_SCENE004_SHOT001 unless the owner explicitly authorizes this exact shot after the final live preflight; current report is preparation-only, with 0 credits spent.",
+    "Continue planning the remaining S02 working scenes and shot breakdowns."
   ],
   "source_of_truth": {
     "shot_status": "00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv",
@@ -126,5 +127,36 @@
     "sequence_outline": "91_SCREENPLAY_AND_DIALOGUE/MASTER_STORY_MAP_30_MIN.md",
     "human_dashboard": "00_FILM_BIBLE/PRODUCTION_TRACKING/01_MASTER_PROGRESS_TRACKER.md"
   },
-  "sync": "No live Google Flow/GitHub synchronization; owner-supplied reports and uploaded media are recorded manually."
+  "sync": "No live Google Flow/GitHub synchronization; owner-supplied reports and uploaded media are recorded manually.",
+  "current_working_scene": {
+    "id": "ACT01_SCENE004",
+    "title": "Old Major's Gathering",
+    "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
+    "status": "PREPARATION IN PROGRESS",
+    "shots": [
+      {
+        "id": "ACT01_SCENE004_SHOT001",
+        "version": "V01",
+        "title": "Old Major's Gathering — Barn Interior Opening",
+        "status": "PROMPT LOCKED — HOLD / NOT AUTHORIZED",
+        "duration_seconds": 10,
+        "model_reported": "Omni 1.2 Flash",
+        "mode_reported": "Reference-to-Video (R2V)",
+        "resolution_reported": "360p (640x360)",
+        "aspect_ratio": "16:9",
+        "outputs": 1,
+        "live_quote_credits_reported": 10,
+        "credits_spent": 0,
+        "generated": false,
+        "generation_authorized": false,
+        "references": {
+          "Boxer": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
+          "Clover": "b86cb0af-a9e4-4d02-8b25-0316f718481b",
+          "Benjamin": "0595b453-1a9c-4c11-9359-fd79a6eeb951",
+          "Main_Barn": "16:9 master reference pending; no Flow asset ID recorded"
+        },
+        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md"
+      }
+    ]
+  }
 }
