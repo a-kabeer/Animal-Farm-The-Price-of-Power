@@ -25,7 +25,7 @@ The owner confirmed on 7 November 2026 that all three one-minute clips were merg
 
 **S02 — Old Major's Dream (03:00–06:00): PREPARATION IN PROGRESS.**
 
-ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 prompt is locked in its scene breakdown. Boxer, Clover and Benjamin references are reported ready. Main_Barn 16:9 master interior reference is pending preparation with Nano Banana 2.1 and owner approval. Shot001 preflight report: Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output, 10-credit quote; no video generated and 0 credits spent. No generation authorization has been given. Continue planning the rest of S02; obtain separate explicit authorization before generating any shot.
+ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 prompt is locked in its scene breakdown. Main_Barn Candidate 2 is owner-approved (Flow media ID `a9354e0f-70dc-4f02-8567-de36d2ab41ab`; collection ID `b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`). Boxer, Clover, Benjamin and Main_Barn are all reported attached in the R2V workspace. Reported video preflight: Omni 1.2 Flash, 360p, 16:9, 10 seconds, one output, 10-credit quote. Environment preparation is complete; recheck every live setting/attachment/price immediately before Generate. No video generated, 0 credits spent, and no generation authorization has been given.
 
 ## Minimal update path
 
