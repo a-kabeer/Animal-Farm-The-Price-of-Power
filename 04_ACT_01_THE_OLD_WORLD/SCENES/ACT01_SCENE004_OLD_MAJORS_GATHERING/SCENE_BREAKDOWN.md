@@ -154,14 +154,14 @@ VISUAL QUALITY:
 Serious cinematic 3D animated feature-film drama, realistic animal anatomy, detailed natural fur and bristles, physically believable animal movement, atmospheric volumetric moonlight, detailed weathered timber, cinematic depth, restrained emotional performance, consistent 1940s English farm environment, 16:9 landscape. No cartoon comedy, no exaggerated expressions, no extra limbs, no duplicated animals, no morphing, no watermark.
 ```
 
-## Shot001 execution and review gate
+## Shot001 decision and Shot002 generation gate
 
-- [x] Main_Barn Candidate 2 owner-approved and recorded.
-- [x] Four exact references reported attached.
-- [x] Owner authorized exactly one output at exactly 10 credits.
-- [x] Flow reports one output generated and 10 credits charged.
+- [x] Shot001 V01 generated once; 10 credits reported charged.
 - [x] Uploaded MP4 metadata independently inspected.
-- [ ] Owner reviews and accepts/rejects this exact output.
-- [ ] Subjective audio listening review (optional separate editorial check).
+- [x] Owner rejected Shot001 V01 on 7 November 2026; review is closed.
+- [x] Rejected media ID retained as evidence; no replacement/retake authorized.
+- [x] Shot002 plan and prompt drafted to show the other gathering animals clearly.
+- [ ] Owner approves the Shot002 plan and exact prompt.
+- [ ] Separate live preflight and explicit owner authorization for Shot002.
 
-**Hold:** No further outputs, retries, retakes or Shot002 generation are authorized. This version remains awaiting owner review.
+**Hold:** Shot002 is planning-only. Do not generate it, replace Shot001, retry, or spend credits until Shot002 is explicitly authorized.
