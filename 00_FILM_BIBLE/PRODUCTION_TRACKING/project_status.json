@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — Shot001 V02 has sheep-count defect; V03 final preflight passed at owner-reported 10-credit quote; generation authorization pending"
+      "status": "IN PRODUCTION — Shot001 V02 sheep-count defect recorded; V03 owner-reported generated as attempt 3; media/cost/review details pending"
     },
     {
       "id": "S03",
@@ -115,11 +115,11 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "Owner reviews the revised V03 final preflight record; no more prompt changes required unless owner identifies an issue.",
-    "Obtain separate explicit owner authorization before V03 generation; do not treat the 10-credit quote as permission to spend.",
-    "Immediately before Generate, reconfirm the six exact references, revised prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output and live quote of exactly 10 credits; stop if anything differs.",
-    "After any V03 execution, record its Flow media ID and actual charge, inspect the count throughout the clip and wait for owner review.",
-    "Keep Shot002 planned but unauthorized."
+    "Obtain the V03 Flow media ID, actual output count, actual credits charged and execution settings from the owner; do not treat the 10-credit preflight quote as verified actual charge.",
+    "Inspect the V03 clip at opening, middle and end; count 2 cows, Boxer/Clover/Benjamin and all 4 sheep at each point, checking that the same four sheep remain visible throughout.",
+    "Record the V03 review result and owner accept/reject decision; do not approve automatically.",
+    "Do not generate another Shot001 version until V03 is reviewed and the owner gives a separate direction.",
+    "Keep Shot002 planned and unauthorized."
   ],
   "source_of_truth": {
     "shot_status": "00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv",
@@ -133,7 +133,7 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 V02 COUNT DEFECT — V03 FINAL PREFLIGHT PASSED; AWAITING EXPLICIT GENERATION AUTHORIZATION",
+    "status": "SHOT001 V03 OWNER-REPORTED GENERATED (ATTEMPT 3) — EXECUTION DETAILS AND OWNER REVIEW PENDING",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
@@ -318,7 +318,7 @@
         "id": "ACT01_SCENE004_SHOT001",
         "version": "V03",
         "title": "Old Major's Gathering — Count-Stable Full Gathering Visible",
-        "status": "FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
+        "status": "OWNER-REPORTED GENERATED — EXECUTION DETAILS / REVIEW PENDING",
         "duration_seconds": 10,
         "proposed_settings": {
           "model": "Omni 1.2 Flash",
@@ -340,9 +340,9 @@
           "Main_Barn": "a9354e0f-70dc-4f02-8567-de36d2ab41ab"
         },
         "prompt_status": "Revised V03 prompt entered verbatim; four sheep in one straight horizontal row at same camera depth; all nine animals stationary",
-        "generation_authorized": false,
-        "generated": false,
-        "credits_spent": 0,
+        "generation_authorized": null,
+        "generated": true,
+        "credits_spent": null,
         "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md",
         "references_attached_reported": true,
         "reference_limit_check": {
@@ -351,7 +351,17 @@
           "result": "Within reported model limit"
         },
         "preflight_reported": true,
-        "preparation_note": "Owner revised preparation report 2026-11-07: exact nine animals; four sheep in one straight row with clear gaps; all six exact master references reported attached; V02 not used as ingredient; Omni 1.2 Flash R2V, 360p, 16:9, 10 seconds, one output; live quote 10 credits; prompt entered verbatim. Preparation only; no generation; 0 credits spent. Await separate explicit owner authorization."
+        "preparation_note": "Owner revised preparation report 2026-11-07: exact nine animals; four sheep in one straight row with clear gaps; all six exact master references reported attached; V02 not used as ingredient; Omni 1.2 Flash R2V, 360p, 16:9, 10 seconds, one output; live quote 10 credits; prompt entered verbatim. Preparation only; no generation; 0 credits spent. Await separate explicit owner authorization.",
+        "owner_reported_generation": true,
+        "authorization_note": "Owner reports they generated V03 directly in Google Flow. No assistant generation action or authorization was involved.",
+        "generation_attempt_number": 3,
+        "preflight_quote_credits_reported": 10,
+        "actual_charge_credits_owner_reported": null,
+        "output_count_reported": null,
+        "media_id": null,
+        "execution_report": "Owner states Shot001 V03 has been generated as the third attempt. Flow media ID, display name, actual charge, output count, actual settings, technical metadata and clip/review results have not yet been provided.",
+        "review_decision": "AWAITING OWNER REVIEW",
+        "approved": false
       }
     ]
   }
