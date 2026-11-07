@@ -2,7 +2,7 @@
 
 **Master sequence:** S02 — Old Major's Dream (03:00–06:00)  
 **Working scene:** 01 of S02  
-**Status:** SHOT001 V01 OWNER-REJECTED; V02 prompt and live preflight complete. Awaiting explicit generation authorization; no V02 video generated.  
+**Status:** SHOT001 V01 owner-rejected; V02 generated but has a sheep-count continuity defect; V03 prompt drafted and awaiting owner review. V03 is not authorized or generated.  
 **Execution:** One output reported; 10 credits charged (owner-reported). Media ID: `db48f283-e7f7-4e0c-b208-ce998c2ac434`. Uploaded MP4 metadata and visuals inspected. Owner rejected V01 on 7 November 2026; preserve as rejected evidence. No replacement authorized.  
 **Prepared from owner-supplied report:** 7 November 2026.
 
@@ -11,7 +11,8 @@
 | Order | Shot ID | Title | Duration | Status |
 |---:|---|---|---:|---|
 | 1 | ACT01_SCENE004_SHOT001_V01 | Old Major's Gathering — Barn Interior Opening | 10s | OWNER-REJECTED V01 |
-| 1 | ACT01_SCENE004_SHOT001_V02 | Old Major's Gathering — Full Animal Gathering Visible | 10s | FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION |
+| 1 | ACT01_SCENE004_SHOT001_V02 | Old Major's Gathering — Full Animal Gathering Visible | 10s | GENERATED — COUNT/CONTINUITY DEFECT; AWAITING OWNER REVIEW |
+| 1 | ACT01_SCENE004_SHOT001_V03 | Old Major's Gathering — Count-Stable Full Gathering Visible | 10s | PROMPT DRAFTED — NOT AUTHORIZED |
 | 2 | ACT01_SCENE004_SHOT002_V01 | The Other Animals Gather | 10s | PLANNED — NOT AUTHORIZED |
 
 ## Required references
@@ -67,7 +68,7 @@ Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. 
 ## Shot001 V02 regeneration plan — full gathering must be visible
 
 **Version:** `ACT01_SCENE004_SHOT001_V02`  
-**Status:** REGENERATION REQUESTED — PROMPT DRAFTED / NOT GENERATED / FINAL PREFLIGHT REQUIRED  
+**Status:** GENERATED — COUNT/CONTINUITY DEFECT; OWNER REVIEW / REPLACEMENT PROMPT IN PROGRESS  
 **Reason:** V01 was rejected because the other gathered animals were not clearly visible. V01 remains preserved as rejected evidence; do not use its video as an ingredient.
 
 ### Owner-reported final preflight — 7 November 2026
@@ -81,7 +82,7 @@ Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. 
 - Reference limit: Omni 1.2 Flash reported to support up to 10 image references; six are within that limit
 - Locked V02 prompt: entered verbatim (owner report)
 - Live displayed price: 10 credits (owner-reported quote)
-- Generation: NOT PERFORMED; credits spent: 0
+- Generation at time of preflight: not yet performed; credits spent at that time: 0
 - Status: **PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**
 
 The 10-credit quote is not authorization to spend. Recheck the live display and all six attachments immediately before Generate; stop if anything differs.
@@ -141,7 +142,7 @@ VISUAL QUALITY:
 Serious cinematic 3D animated feature-film drama, realistic animal anatomy, detailed natural fur and wool, physically believable motion, consistent 1940s English farm environment, restrained expressions, readable animal separation, atmospheric moonlight and cinematic depth. No cartoon comedy, no exaggerated expressions, no extra limbs, no duplicated animals, no morphing, no hidden/obscured animals and no watermark.
 ```
 
-### V02 execution gate — preflight complete, authorization pending
+### V02 execution gate — completed
 - [x] Omni 1.2 Flash selected.
 - [x] R2V selected.
 - [x] 360p (640×360), 16:9, 10 seconds.
@@ -151,9 +152,104 @@ Serious cinematic 3D animated feature-film drama, realistic animal anatomy, deta
 - [x] Locked V02 prompt reported entered verbatim.
 - [x] Live price reported as 10 credits.
 - [x] No generation performed; 0 credits spent.
-- [ ] Receive separate explicit owner authorization to generate V02 for exactly one output at the live-confirmed 10-credit price.
+- [x] One V02 output subsequently reported generated; 10 credits charged (owner-reported).
 
-**Hold:** V02 is not generated. The 10-credit quote is not permission to spend. Recheck every setting and the displayed price at Generate; stop if any detail differs.
+**V02 outcome:** One output generated and preserved. The actual charge was reported as 10 credits. The sheep count does not remain correct throughout the clip; see the review below. Do not treat V02 as approved.
+
+
+## Shot001 V02 execution result and count review — 7 November 2026
+
+- Flow display name: `Animals entering barn at night`
+- Flow media ID: `e8342e45-d960-4a2b-b300-1514d6738b92`
+- Collection: `04_ACT_01_The_Old_World` (`b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`)
+- Owner reports: exactly one output generated; 10 credits charged; all six master references attached; locked V02 prompt used verbatim.
+- Uploaded MP4 inspected: 10.026667 seconds; 640×360; 24fps; H.264 video; AAC stereo 48kHz; 2,672,375 bytes.
+- Visual count defect: three sheep are distinguishable in the opening frames; later frames show only two clearly. The required four sheep are not present and consistently readable throughout the shot.
+- Decision state: **GENERATED — COUNT/CONTINUITY DEFECT; NOT APPROVED**. The owner has requested a better replacement prompt. Do not mark V02 approved. No V03 generation is authorized.
+
+## Shot001 V03 replacement prompt — count and position locked
+
+**Version:** `ACT01_SCENE004_SHOT001_V03`  
+**Status:** PROMPT DRAFTED — NOT SENT TO FLOW / NOT AUTHORIZED  
+**Change from V02:** Remove all animal and camera movement. All nine animals are already in fixed, separated positions from the opening frame through the final frame. The four sheep are individually spaced in a shallow row on the right, not overlapping one another.
+
+### Google Flow prompt
+
+```text
+SHOT ID: ACT01_SCENE004_SHOT001_V03
+Duration: 10 seconds, 16:9 landscape, one continuous shot.
+
+MASTER REFERENCES — USE ONLY THESE SIX:
+1. Boxer — exact approved character reference.
+2. Clover — exact approved character reference.
+3. Benjamin — exact approved character reference.
+4. The_Cows — the exact group of TWO black-and-white dairy cows.
+5. The_Sheep — the exact group of FOUR white sheep.
+6. Main_Barn — the exact approved 1940s timber barn interior.
+
+Preserve the identities, species, body shapes, proportions, coat colours, markings and individual appearances from all six references. Do not use the previous V02 video as an ingredient or visual reference. Do not invent replacement animals.
+
+ABSOLUTE ANIMAL COUNT — MOST IMPORTANT:
+There must be EXACTLY NINE animals in the frame from the first frame to the final frame:
+- THREE central animals only: Boxer, Clover and Benjamin.
+- EXACTLY TWO dairy cows only.
+- EXACTLY FOUR sheep only.
+
+The four sheep must be the SAME FOUR individual sheep shown in the approved The_Sheep reference. Do not reduce the group to three or two. Do not reinterpret the group as a different flock. Do not add or remove a lamb. Do not duplicate, merge, swap, hide or transform any sheep.
+
+COUNT AND POSITION LOCK:
+Keep the nine animals in three separate, clearly defined zones for the entire 10 seconds:
+- LEFT ZONE: exactly TWO cows, standing side by side near the left wall. Keep both heads and both full bodies separately visible.
+- CENTRE ZONE: Boxer, Clover and Benjamin, exactly THREE animals, standing in the open central aisle just inside the barn entrance. Keep all three bodies separate and fully visible.
+- RIGHT ZONE: exactly FOUR sheep, standing in one shallow, slightly staggered row along the right wall. Arrange them with clear gaps between their heads and bodies. Each of the four sheep must have its own unmistakably visible head, neck and body. Keep all four full bodies inside the frame. Do not line them up directly behind one another. Do not let one sheep cover another.
+
+ALL NINE ANIMALS ARE ALREADY IN THESE POSITIONS AT THE START. Do not animate an entrance. Do not let any animal walk away, enter, exit, cross paths, move behind another animal or leave the frame. Do not let any animal become hidden by another animal, a post, a trough, a shadow or the edge of the image.
+
+CAMERA — LOCKED:
+Use a fixed tripod camera in a wide, eye-level composition from inside Main_Barn, facing the open double doors. Show the left cow group, all three central characters and the right sheep group together. Leave enough space around every animal so no head, body or legs are cropped.
+The camera must remain completely still for the full 10 seconds:
+- no dolly
+- no pan
+- no tilt
+- no zoom
+- no reframing
+- no cut
+- no camera shake
+
+MOTION — MINIMAL:
+All nine animals remain in their assigned positions for the entire shot. Only tiny natural breathing, occasional blinking and very slight ear movement are allowed. No walking, stepping, turning around, grouping changes or body repositioning. Keep the four sheep still and individually separated throughout.
+
+FRAME-TO-FRAME CONTINUITY:
+The animal count and identities must remain unchanged in every frame. The same four sheep must be visible at 0 seconds, 2 seconds, 4 seconds, 6 seconds, 8 seconds and 10 seconds. The two cows and three central characters must also remain visible at every one of these moments. No animal may appear, disappear, multiply, split, merge, morph, change species, change size or be replaced during the shot. Do not create a transition that changes the animal count.
+
+ENVIRONMENT:
+Use the exact approved Main_Barn interior: weathered timber beams, large overhead rafters, hayloft, straw-covered floor, wall-side feeding troughs and open central gathering space. Preserve the double entrance and established barn layout. Do not redesign or relocate any architectural feature. Keep posts and troughs away from the animals so they do not obscure any body.
+
+LIGHTING:
+Cool blue moonlight enters through the open double doors and small gaps in the timber. Keep the interior evenly exposed enough to count and distinguish every animal. No animal may disappear into deep shadow. Preserve a serious cinematic nighttime atmosphere, with subtle dust in the light shafts.
+
+AUDIO:
+Quiet nighttime barn ambience only: soft wind outside, very faint timber creaks and subtle animal breathing. No dialogue, no narration and no background music.
+
+CONTINUITY RESTRICTIONS:
+Do not introduce Old Major, Napoleon or Snowball as identifiable characters. No humans, dogs, chickens, extra horses, extra donkeys, extra cows, extra sheep, extra lambs or any other animals. No clothing, accessories, modern objects, text or subtitles.
+
+VISUAL STYLE:
+Serious cinematic 3D animated feature-film drama. Realistic animal anatomy, natural fur and wool, physically believable stillness, detailed weathered timber, restrained expressions, cinematic moonlight and a consistent 1940s English farm environment. No cartoon comedy, no exaggerated expressions, no extra limbs, no duplicated animals, no morphing, no hidden or obscured animals, no count changes and no watermark.
+```
+
+### V03 pre-generation gate
+
+- [x] Exact count requirement stated: three central characters, two cows and four sheep.
+- [x] Four sheep assigned a dedicated zone with visible separation.
+- [x] Same four sheep required in every frame; no entry, exit, walking, overlap or camera movement.
+- [x] V02 output excluded as a visual ingredient; use only the six approved master references.
+- [ ] Owner reviews the V03 prompt.
+- [ ] Confirm all six exact references and live model limits in Flow.
+- [ ] Recheck the live model, mode, resolution, aspect ratio, duration, output count and displayed credit price.
+- [ ] Obtain separate owner authorization before any V03 generation.
+
+**Hold:** This is a prompt revision only. No V03 video has been generated and no V03 credits are authorized.
 
 ## Shot002 plan — The Other Animals Gather
 
@@ -256,4 +352,4 @@ Serious cinematic 3D animated feature-film drama, realistic animal anatomy, deta
 - [ ] Owner approves the Shot002 plan and exact prompt.
 - [ ] Separate live preflight and explicit owner authorization for Shot002.
 
-**Hold:** Shot001 V02 has been requested and prepared but not generated. Recheck the six-reference limit, prompt, settings and live quote, then obtain explicit final generation authorization. Shot002 remains planning-only.
+**Current hold:** V02 has a sheep-count continuity defect. V03 prompt is drafted below but has not been sent to Flow or authorized. Recheck live settings and price and obtain owner authorization before any V03 generation. Shot002 remains planning-only.
