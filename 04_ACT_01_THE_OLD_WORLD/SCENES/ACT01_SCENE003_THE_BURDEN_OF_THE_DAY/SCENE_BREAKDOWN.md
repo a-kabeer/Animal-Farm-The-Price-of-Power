@@ -4,7 +4,7 @@
 **Master sequence:** S01 — The Hungry Farm  
 **Timecode:** 02:00–03:00  
 **Target runtime:** 60 seconds  
-**Status:** SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE REQUIRED; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 V01 GENERATED — AWAITING OWNER REVIEW  
+**Status:** MASTER COMPLETE — ALL SIX SHOTS INCLUDED IN OWNER-CONFIRMED S01 THREE-MINUTE MASTER (7 NOVEMBER 2026)  
 **Shot count:** 6 planned shots × 10 seconds  
 **Generation authorization (6 November 2026):** The owner explicitly authorized exactly one generation of Shot001, one output, subject to the exact 10-credit live price and locked settings/references. Flow Agent reports this single authorized generation completed and 10 credits were charged. The authorization is consumed; no retake or other shot is authorized.
 
@@ -673,3 +673,21 @@ The earlier preflight mismatch remains documented in Section 28 as rejected and 
 Verified metadata: 10.000s video; 640×360; 16:9; 24fps; H.264/AVC; AAC stereo 48kHz; 2,777,152-byte file. The audio stream is present; subjective listening review remains pending. No dialogue or narration is intended.
 
 **Approval state:** GENERATED — AWAITING OWNER REVIEW. Assistant recommendation is not owner sign-off. Do not mark Shot006 approved until the project owner explicitly accepts or rejects V01.
+
+
+## 31. Scene003 and S01 owner-confirmed master completion — 7 November 2026
+
+The project owner confirms that the three one-minute clips have been merged and the resulting three-minute S01 master is ready.
+
+**Scene003 — The Burden of the Day (02:00–03:00): MASTER COMPLETE.** All six planned ten-second shots are included in the owner-confirmed S01 master. Shot006's previous generated/awaiting-review status is superseded by acceptance through inclusion in the completed merged master.
+
+**S01 — The Hungry Farm (00:00–03:00): MASTER COMPLETE — OWNER-CONFIRMED.**
+
+- Scene001: 00:00–01:00 — complete.
+- Scene002: 01:00–02:00 — complete.
+- Scene003: 02:00–03:00 — complete.
+- Combined runtime: 180 seconds / 3 minutes, per owner confirmation.
+
+The merged MP4 has not been uploaded to this conversation. Its filename and technical metadata remain unverified and should be added to the register when available. This does not change the owner's confirmation that the sequence is ready.
+
+**Next sequence:** S02 — Old Major's Dream (03:00–06:00).
