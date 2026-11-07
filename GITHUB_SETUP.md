@@ -34,25 +34,19 @@ git remote add origin <YOUR_GITHUB_REPO_URL>
 git push -u origin main
 ```
 
-## 5. Update the project after each production session
+## 5. Fast project update workflow
 
-After every new shot generation/review/approval/rejection/export:
+Do not update every document after each shot.
 
-1. Store new approved media in the external media store by default; if the owner chooses to version it in GitHub, add it to `MEDIA/APPROVED` using Git LFS. Rejected/superseded audit media belongs in `MEDIA/REJECTED_AND_SUPERSEDED`.
-2. Update `02_SHOT_REGISTER.csv` with version, status, duration, asset IDs, prompt, credits and review notes.
-3. Update `03_ASSET_REGISTER.csv` for new character/location/prop references.
-4. Append the decision to `05_DECISION_AND_CONTINUITY_LOG.md` and `09_CHANGE_HISTORY.csv`.
-5. Update `01_MASTER_PROGRESS_TRACKER.md` and `project_status.json`.
-6. Update scene breakdown and master assembly status.
-7. Commit and push the changes.
+- **Normal shot update:** change `02_SHOT_REGISTER.csv` and `project_status.json`.
+- **New reusable asset/reference:** also change `03_ASSET_REGISTER.csv`.
+- **Story, prompt or continuity change:** change only the affected `SCENE_BREAKDOWN.md`.
+- **Major owner decision or sequence milestone:** append one row to `09_CHANGE_HISTORY.csv`.
+- Update the human dashboard or README only when the overall milestone/next action changes.
+- Keep approved video binaries in external media storage by default. If the owner chooses GitHub, use Git LFS. Rejected/superseded media stays in the audit folder.
+- Commit the related changes together.
 
-Suggested commit style:
-
-```bash
-git add .
-git commit -m "Approve ACT01_SCENE002_SHOT007_V01"
-git push
-```
+The Shot Register is the source of truth for shot versions, Flow media IDs, charges, metadata and review notes. The Asset Register is the source of truth for reusable reference IDs. Do not duplicate the same event in a long diary, several checklists and multiple status boards.
 
 ## 6. Ask ChatGPT to track the GitHub project
 
