@@ -23,9 +23,9 @@ The owner confirmed on 7 November 2026 that all three one-minute clips were merg
 
 ## Next milestone
 
-**S02 — Old Major's Dream (03:00–06:00): PLANNING NOT STARTED.**
+**S02 — Old Major's Dream (03:00–06:00): PREPARATION IN PROGRESS.**
 
-Plan the sequence, split it into working scenes, approve Old Major/Napoleon/Snowball visual references, confirm the night-gathering barn environment and crowd layout, then create shot breakdowns. No generation until prompts/references are finalized and each shot receives separate authorization.
+ACT01_SCENE004 — Old Major's Gathering is the first working scene. Shot001 prompt is locked in its scene breakdown. Boxer, Clover and Benjamin references are reported ready. Main_Barn 16:9 master interior reference is pending preparation with Nano Banana 2.1 and owner approval. Shot001 preflight report: Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output, 10-credit quote; no video generated and 0 credits spent. No generation authorization has been given. Continue planning the rest of S02; obtain separate explicit authorization before generating any shot.
 
 ## Minimal update path
 
