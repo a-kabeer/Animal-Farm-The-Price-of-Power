@@ -1,48 +1,53 @@
 # Animal Farm — The Price of Power
 
-30-minute cinematic 3D animated film production project. Google Flow is used for generation; final editing and audio work are handled in an NLE.
+30-minute cinematic 3D animated adaptation. Google Flow for generation; external NLE for final edit/audio.
 
-## Current status — 7 November 2026
+## Current milestone — 7 November 2026
 
-**S01 — The Hungry Farm (00:00–03:00) is complete.** The owner confirms the three one-minute scenes have been merged into a ready three-minute master.
+**S01 — The Hungry Farm (00:00–03:00) is complete.** Owner confirms its three one-minute scenes are merged into a ready three-minute master.
 
-- Completed master sequences: **1 / 10**
-- Completed working scenes: **3**
-- Accepted source shots: **18**
-- Completed runtime: **03:00 / 30:00 (10%)**
-- Next: **S02 — Old Major's Dream (03:00–06:00)** — planning and character/location preparation.
+- 1/10 master sequences complete · 3 working scenes · 18 accepted source shots
+- Completed runtime: 03:00 / 30:00 (10%)
+- Next: **S02 — Old Major's Dream (03:00–06:00)** — plan three working scenes and prepare/approve required references.
+- The merged S01 master binary is outside GitHub; filename/export metadata have not been supplied.
 
-The merged S01 master file is not stored in this repository. Its filename and technical export metadata are not yet recorded.
+## Agent start here — read only these files
 
-## Open only what the task needs
+1. `00_FILM_BIBLE/Agent_Instructions_MASTER.md` — short rules and generation gate.
+2. `00_FILM_BIBLE/PRODUCTION_TRACKING/01_MASTER_PROGRESS_TRACKER.md` — current milestone and next action.
+3. The relevant scene's `SCENE_BREAKDOWN.md` — read only for the active scene/task.
+4. `00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv` — exact shot states, versions, Flow IDs and review notes.
+5. `00_FILM_BIBLE/PRODUCTION_TRACKING/03_ASSET_REGISTER.csv` — consult only for required reusable assets.
 
-| Need | Canonical file |
+**Do not read the whole repository or original blueprint for a routine task.** Open other files only when the task requires them.
+
+## Update only what changed
+
+| Event | Update |
 |---|---|
-| Current progress and next action | [Master Progress Tracker](00_FILM_BIBLE/PRODUCTION_TRACKING/01_MASTER_PROGRESS_TRACKER.md) |
-| Machine-readable status | [project_status.json](00_FILM_BIBLE/PRODUCTION_TRACKING/project_status.json) |
-| Approved versions, media IDs and review notes | [Shot Register](00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv) |
-| Character/location/prop IDs | [Asset Register](00_FILM_BIBLE/PRODUCTION_TRACKING/03_ASSET_REGISTER.csv) |
-| 10-sequence story outline | [Master Story Map](91_SCREENPLAY_AND_DIALOGUE/MASTER_STORY_MAP_30_MIN.md) |
-| Current shot prompts | Each scene's `SCENE_BREAKDOWN.md` |
-| Audio and approved dialogue | [Audio / Dialogue Tracker](00_FILM_BIBLE/PRODUCTION_TRACKING/04_AUDIO_DIALOGUE_AND_NARRATION.md) |
-| Original production plan | [Original Blueprint](00_FILM_BIBLE/Animal_Farm_Google_Flow_Blueprint_ORIGINAL.md) |
+| Shot status, version, Flow ID, cost, metadata or review | `02_SHOT_REGISTER.csv` |
+| New reusable character/location/prop | Also `03_ASSET_REGISTER.csv` |
+| Project totals or next milestone | `project_status.json` and `01_MASTER_PROGRESS_TRACKER.md` |
+| Story, prompt or continuity change | Only affected `SCENE_BREAKDOWN.md` |
+| Major owner decision | Append one concise row to `09_CHANGE_HISTORY.csv` |
 
-## Fast update rule
+Do not create duplicate status reports, diaries, checklists or summaries. Commit related updates together. Do not update README for ordinary shot changes.
 
-For a normal shot update, use only:
-1. `02_SHOT_REGISTER.csv` — status, Flow ID, charge report, metadata and review note.
-2. `project_status.json` — current project/scene counts and next action.
-3. `03_ASSET_REGISTER.csv` only when a new asset/reference is created.
+## Non-negotiable production rules
 
-Change a scene breakdown only when its story, prompt or continuity requirement changes. Add major owner decisions to `09_CHANGE_HISTORY.csv`. Update this README only when the project structure or milestone status changes.
+- One output per shot by default. This is not generation permission; obtain explicit owner authorization for the exact shot.
+- Immediately before Generate, recheck live price, model/mode, resolution, aspect ratio, duration, output count, exact references and verbatim prompt. Stop on any mismatch; never estimate credits.
+- Never silently replace approved references, prompts or settings.
+- A generated clip is not approved until owner review. Record reported facts separately from independently verified media.
+- Owner-confirmed inclusion in a completed master supersedes an earlier shot-level pending state.
+- Flow is not synced to GitHub. Record only owner-supplied reports/media; do not claim live verification.
+- Approved binaries stay outside GitHub by default. Preserve approved references and rejected/superseded evidence; do not delete audit material as clutter.
 
-## Production safeguards
+## Canonical references
 
-- One output per shot by default; this is not generation permission.
-- Every new render needs separate, explicit shot-specific owner authorization.
-- Recheck the live Flow price, selectors, prompt and exact references immediately before Generate.
-- Never estimate live credits or silently substitute references/prompts/settings.
-- Mark a generated clip approved only after owner review. Owner-confirmed inclusion in a completed master supersedes an earlier shot-level pending state.
-- Google Flow does not sync automatically with this repository; user-supplied Flow reports/media are recorded here.
+- Story outline: `91_SCREENPLAY_AND_DIALOGUE/MASTER_STORY_MAP_30_MIN.md`
+- Approved source plan/archive: `00_FILM_BIBLE/Animal_Farm_Google_Flow_Blueprint_ORIGINAL.md` (archive; not routine reading)
+- Audio plan: `00_FILM_BIBLE/PRODUCTION_TRACKING/04_AUDIO_DIALOGUE_AND_NARRATION.md`
+- Major decisions: `00_FILM_BIBLE/PRODUCTION_TRACKING/09_CHANGE_HISTORY.csv`
+- Reference images and registers: `01_CHARACTERS/`, `02_LOCATIONS/`, `03_PROPS_AND_SYMBOLS/`
 
-Approved video binaries remain outside GitHub. Rejected/superseded media is retained in the audit-only folder.
