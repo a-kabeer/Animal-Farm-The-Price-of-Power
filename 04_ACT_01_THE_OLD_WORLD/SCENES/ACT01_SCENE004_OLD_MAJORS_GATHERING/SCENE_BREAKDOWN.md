@@ -2,7 +2,7 @@
 
 **Master sequence:** S02 — Old Major's Dream (03:00–06:00)  
 **Working scene:** 01 of S02  
-**Status:** SHOT001 V01 OWNER-REJECTED; V02 regeneration requested and prompt drafted. V02 not generated; final live preflight and credit authorization required.  
+**Status:** SHOT001 V01 OWNER-REJECTED; V02 prompt and live preflight complete. Awaiting explicit generation authorization; no V02 video generated.  
 **Execution:** One output reported; 10 credits charged (owner-reported). Media ID: `db48f283-e7f7-4e0c-b208-ce998c2ac434`. Uploaded MP4 metadata and visuals inspected. Owner rejected V01 on 7 November 2026; preserve as rejected evidence. No replacement authorized.  
 **Prepared from owner-supplied report:** 7 November 2026.
 
@@ -70,6 +70,22 @@ Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. 
 **Status:** REGENERATION REQUESTED — PROMPT DRAFTED / NOT GENERATED / FINAL PREFLIGHT REQUIRED  
 **Reason:** V01 was rejected because the other gathered animals were not clearly visible. V01 remains preserved as rejected evidence; do not use its video as an ingredient.
 
+### Owner-reported final preflight — 7 November 2026
+- Model: Omni 1.2 Flash
+- Mode: Reference-to-Video (R2V)
+- Resolution: 360p (640×360)
+- Aspect ratio: 16:9 landscape
+- Duration: 10 seconds
+- Output count: exactly 1
+- Six exact references: Boxer, Clover, Benjamin, The_Cows, The_Sheep and Main_Barn — all reported attached
+- Reference limit: Omni 1.2 Flash reported to support up to 10 image references; six are within that limit
+- Locked V02 prompt: entered verbatim (owner report)
+- Live displayed price: 10 credits (owner-reported quote)
+- Generation: NOT PERFORMED; credits spent: 0
+- Status: **PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION**
+
+The 10-credit quote is not authorization to spend. Recheck the live display and all six attachments immediately before Generate; stop if anything differs.
+
 ### Required references for V02
 - Boxer: `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba`
 - Clover: `b86cb0af-a9e4-4d02-8b25-0316f718481b`
@@ -125,12 +141,19 @@ VISUAL QUALITY:
 Serious cinematic 3D animated feature-film drama, realistic animal anatomy, detailed natural fur and wool, physically believable motion, consistent 1940s English farm environment, restrained expressions, readable animal separation, atmospheric moonlight and cinematic depth. No cartoon comedy, no exaggerated expressions, no extra limbs, no duplicated animals, no morphing, no hidden/obscured animals and no watermark.
 ```
 
-### V02 live preflight — not yet completed
-- Proposed starting settings, subject to live verification: Omni 1.2 Flash; R2V; 360p; 16:9; 10 seconds; exactly one output.
-- Confirm whether Omni 1.2 Flash supports all six exact references in one R2V job.
-- Confirm the exact revised prompt is entered verbatim.
-- Record the live displayed price. The previous V01 charge of 10 credits is historical and is **not** authorization for V02.
-- No generation, preview, retry or credit spend is authorized by this preparation update. Obtain a final shot-specific authorization after the live preflight.
+### V02 execution gate — preflight complete, authorization pending
+- [x] Omni 1.2 Flash selected.
+- [x] R2V selected.
+- [x] 360p (640×360), 16:9, 10 seconds.
+- [x] Exactly one output selected.
+- [x] All six exact references reported attached.
+- [x] Six references are within the reported 10-reference model limit.
+- [x] Locked V02 prompt reported entered verbatim.
+- [x] Live price reported as 10 credits.
+- [x] No generation performed; 0 credits spent.
+- [ ] Receive separate explicit owner authorization to generate V02 for exactly one output at the live-confirmed 10-credit price.
+
+**Hold:** V02 is not generated. The 10-credit quote is not permission to spend. Recheck every setting and the displayed price at Generate; stop if any detail differs.
 
 ## Shot002 plan — The Other Animals Gather
 
