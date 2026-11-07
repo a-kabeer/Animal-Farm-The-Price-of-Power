@@ -343,7 +343,7 @@
         "prompt_status": "Revised V03 prompt entered verbatim; four sheep in one straight horizontal row at same camera depth; all nine animals stationary",
         "generation_authorized": null,
         "generated": true,
-        "credits_spent": null,
+        "credits_spent": 10,
         "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md",
         "references_attached_reported": true,
         "reference_limit_check": {
@@ -361,7 +361,7 @@
         "output_count_reported": 1,
         "media_id": "1c0d083c-bbd4-4bda-a90b-97fc15e3dae4",
         "execution_report": "Owner reports one output and exactly 10 credits charged. Media ID 1c0d083c-bbd4-4bda-a90b-97fc15e3dae4. Uploaded MP4 independently inspected; metadata and visible continuity defects recorded.",
-        "review_decision": "OWNER REJECTED — RETAKE REQUESTED",
+        "review_decision": "OWNER REJECTED — WRONG COUNTS AND ENTRANCE ORDER",
         "approved": false,
         "asset_display_name": "Animals inside barn interior",
         "collection": "04_ACT_01_The_Old_World",
