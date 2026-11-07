@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — Shot001 V01 owner-rejected; Shot002 planned and awaiting owner approval; no new generation authorized"
+      "status": "IN PRODUCTION — Shot001 V01 rejected; V02 regeneration requested and prompt drafted; final preflight/credit authorization pending"
     },
     {
       "id": "S03",
@@ -115,9 +115,10 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "Owner reviews the Shot002 plan and prompt in ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md.",
-    "If approved, run a separate live preflight for ACT01_SCENE004_SHOT002_V01 using The_Cows, The_Sheep and Main_Barn; record actual model/settings/price.",
-    "Do not generate Shot002 or any replacement/retake until separate explicit owner authorization is received."
+    "In Google Flow, check whether the selected R2V model supports all six exact references required by Shot001 V02; stop and report if it does not.",
+    "Perform live preflight for Shot001 V02 using the exact V02 prompt and references; confirm model, mode, resolution, aspect, duration, one output and current displayed credit price.",
+    "Obtain explicit final authorization for the displayed V02 price before Generate. The previous V01 10-credit charge does not authorize V02.",
+    "Do not generate Shot002 while Shot001 V02 is being prepared/reviewed; Shot002 remains planned but not authorized."
   ],
   "source_of_truth": {
     "shot_status": "00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv",
@@ -131,7 +132,7 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 V01 OWNER-REJECTED — SHOT002 PLAN DRAFTED; NO GENERATION AUTHORIZED",
+    "status": "SHOT001 V01 REJECTED — V02 REGENERATION REQUESTED; PROMPT DRAFTED; FINAL PREFLIGHT AND CREDIT AUTHORIZATION REQUIRED",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
@@ -243,6 +244,35 @@
         "generated": false,
         "generation_authorized": false,
         "credits_spent": 0,
+        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md"
+      },
+      {
+        "id": "ACT01_SCENE004_SHOT001",
+        "version": "V02",
+        "title": "Old Major's Gathering — Full Animal Gathering Visible",
+        "status": "REGENERATION REQUESTED — PROMPT DRAFTED / NOT GENERATED / FINAL PREFLIGHT REQUIRED",
+        "duration_seconds": 10,
+        "proposed_settings": {
+          "model": "Omni 1.2 Flash (proposed; verify live availability)",
+          "mode": "Reference-to-Video (R2V; proposed)",
+          "resolution": "360p (640x360; proposed)",
+          "aspect_ratio": "16:9",
+          "outputs": 1,
+          "live_credit_quote": null,
+          "price_authorized": false
+        },
+        "references": {
+          "Boxer": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
+          "Clover": "b86cb0af-a9e4-4d02-8b25-0316f718481b",
+          "Benjamin": "0595b453-1a9c-4c11-9359-fd79a6eeb951",
+          "The_Cows": "29b393f6-15b1-4a74-bcba-8c23b73360f5",
+          "The_Sheep": "0b75ce22-ee53-439b-9ca0-4d051731a362",
+          "Main_Barn": "a9354e0f-70dc-4f02-8567-de36d2ab41ab"
+        },
+        "generation_authorized": false,
+        "generated": false,
+        "credits_spent": 0,
+        "preparation_note": "Owner requested Shot001 regeneration after V01 rejection. Revised prompt requires all nine animals to be clearly visible. Confirm Omni supports six references; if not, stop and report rather than omit assets.",
         "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md"
       }
     ]
