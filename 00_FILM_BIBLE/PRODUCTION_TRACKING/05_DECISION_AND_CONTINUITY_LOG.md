@@ -242,3 +242,19 @@ Uploaded MP4 independently inspected. Metadata: 10s; 640×360; 24fps; 16:9; H.26
 Deviations: sky stays pink-grey twilight rather than reaching cool blue night; a separate warm glow inside the barn doorway is not clearly visible. Recommended NLE treatment: cool-blue dusk-to-night grade and subtle warm doorway glow if practical. Subjective audio listening review pending.
 
 **Assistant recommendation:** retain V01 for editing; no retake recommended. **Owner approval pending.**
+
+
+## R. S01 — The Hungry Farm merged master completed (owner-confirmed 7 November 2026)
+
+The project owner explicitly confirmed: **“I have merged these 3 one-minute clips; it is ready.”** Record S01 as **MASTER COMPLETE — OWNER-CONFIRMED**.
+
+The completed sequence consists of:
+1. Scene001 — Manor Farm Establishing — 00:00–01:00.
+2. Scene002 — The Animals' Work — 01:00–02:00.
+3. Scene003 — The Burden of the Day — 02:00–03:00.
+
+The combined master runtime is recorded as three minutes (180 seconds) by owner report. Project totals are updated to 3/10 master sequences, 3 completed working scenes, 18 approved source shots, 180 seconds complete, and 10.0% of the 30-minute target.
+
+All six Scene003 shots are accepted as included in the owner-confirmed merged master; this supersedes Shot006's prior “awaiting owner review” status for S01. The merged export file has not been supplied here, so its filename and technical metadata remain unverified. Do not infer resolution, frame rate, codecs, exact byte size or file path.
+
+**Next:** Begin S02 — Old Major's Dream (03:00–06:00). Keep S01 closed unless the owner reports a defect.
