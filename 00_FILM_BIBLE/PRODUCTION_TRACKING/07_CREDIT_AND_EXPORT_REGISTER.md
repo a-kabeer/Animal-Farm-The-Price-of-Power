@@ -8,9 +8,8 @@
 | Scene002 | Multiple versions, including Shot005 V01/V02 and Shot006 V01/V02 | 80 estimated | Agent-modelled estimate; not official billing |
 | Scene003 | Six shots, one output each | 60 reported actual | Owner-supplied Flow reports; not reconciled to account billing |
 | Scene004 / Shot001 | One output; `db48f283-e7f7-4e0c-b208-ce998c2ac434` — OWNER-REJECTED | 10 reported actual | Owner-supplied Flow execution report; MP4 metadata independently inspected; output rejected after review; account billing/refund status not independently verified |
-| Scene004 / Shot001 V02 | Owner-authorized: exactly one output at 10 credits; not yet generated | 0 spent; 10 authorized | Owner-issued command 2026-11-07; execution and billing pending Flow report |
 
-Scene001 + Scene002 sum to 162 estimated credits. Scene003 reports six charges of 10 credits each (60); Scene004 Shot001 reports 10 credits. These are owner/agent-reported Flow charges, not independently reconciled account billing. Shot001 V01's 10-credit charge remains recorded despite owner rejection; no refund has been reported. Shot001 V02 final preflight is reported passed at a 10-credit live quote and the owner has authorized exactly one output at that exact price. V02 is not generated; 0 credits have been spent. Record the actual charge only after Flow execution is reported; stop if the live price is not exactly 10 credits.
+Scene001 + Scene002 sum to 162 estimated credits. Scene003 reports six charges of 10 credits each (60); Scene004 Shot001 reports 10 credits. These are owner/agent-reported Flow charges, not independently reconciled account billing. Shot001 V01's 10-credit charge remains recorded despite owner rejection; no refund has been reported. Shot001 V02 final preflight is reported passed at a 10-credit live quote; it is not generated, 0 credits spent and no new credit spend authorized.
 
 ## S01 merged master
 
