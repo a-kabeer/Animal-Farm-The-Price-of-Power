@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — Shot001 V01 rejected; V02 preflight passed at owner-reported 10 credits; generation authorization pending"
+      "status": "IN PRODUCTION — Shot001 V02 generated; sheep count drifts from three to two instead of four; V03 prompt drafted for owner review"
     },
     {
       "id": "S03",
@@ -115,10 +115,11 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "Obtain explicit owner authorization for exactly one output of ACT01_SCENE004_SHOT001_V02 at the owner-reported live price of 10 credits.",
-    "Immediately before Generate, reconfirm all six exact references, verbatim V02 prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds, one output and displayed price of exactly 10 credits; stop if any difference appears.",
-    "After generation, record Flow media ID, actual charge and inspected technical metadata; wait for owner review before approval.",
-    "Keep Shot002 planned but unauthorized until a separate owner decision."
+    "Owner reviews the revised V03 prompt in the Scene004 breakdown.",
+    "If V03 is approved for preparation, perform a fresh Flow preflight: verify all six exact references, supported reference count, prompt, model/settings, one output and live credit quote.",
+    "Obtain separate owner authorization before V03 generation; do not assume the previous 10-credit quote still applies.",
+    "After any V03 execution, record the Flow media ID and actual charge, inspect the animal count throughout the clip and wait for owner review.",
+    "Keep Shot002 planned but unauthorized."
   ],
   "source_of_truth": {
     "shot_status": "00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv",
@@ -132,7 +133,7 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 V01 REJECTED — V02 FINAL PREFLIGHT PASSED; AWAITING EXPLICIT GENERATION AUTHORIZATION",
+    "status": "SHOT001 V02 GENERATED — SHEEP COUNT/CONTINUITY DEFECT; V03 PROMPT DRAFTED, NOT AUTHORIZED",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
@@ -250,7 +251,7 @@
         "id": "ACT01_SCENE004_SHOT001",
         "version": "V02",
         "title": "Old Major's Gathering — Full Animal Gathering Visible",
-        "status": "FINAL PREFLIGHT PASSED — AWAITING EXPLICIT GENERATION AUTHORIZATION",
+        "status": "GENERATED — COUNT/CONTINUITY DEFECT; AWAITING OWNER REVIEW",
         "duration_seconds": 10,
         "proposed_settings": {
           "model": "Omni 1.2 Flash",
@@ -271,9 +272,9 @@
           "The_Sheep": "0b75ce22-ee53-439b-9ca0-4d051731a362",
           "Main_Barn": "a9354e0f-70dc-4f02-8567-de36d2ab41ab"
         },
-        "generation_authorized": false,
-        "generated": false,
-        "credits_spent": 0,
+        "generation_authorized": true,
+        "generated": true,
+        "credits_spent": 10,
         "preparation_note": "Owner final preflight report received 2026-11-07. All six exact references attached; Omni 1.2 Flash supports up to 10 references (owner-reported); prompt entered verbatim; live quote 10 credits. Preparation only; await separate explicit authorization.",
         "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md",
         "references_attached_reported": true,
@@ -282,7 +283,65 @@
           "attached_count": 6,
           "result": "Within reported model limit"
         },
-        "prompt_entered_verbatim_reported": true
+        "prompt_entered_verbatim_reported": true,
+        "actual_charge_credits_owner_reported": 10,
+        "output_count_reported": 1,
+        "media_id": "e8342e45-d960-4a2b-b300-1514d6738b92",
+        "asset_display_name": "Animals entering barn at night",
+        "collection": "04_ACT_01_The_Old_World",
+        "collection_id": "b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4",
+        "technical_metadata_independently_verified": {
+          "container_file": "/mnt/data/Animals_entering_barn_at_night_e8342e45.mp4",
+          "duration_seconds": 10.026667,
+          "width": 640,
+          "height": 360,
+          "frame_rate_fps": 24,
+          "video_codec": "H.264",
+          "audio_codec": "AAC",
+          "audio_sample_rate_hz": 48000,
+          "audio_channels": 2,
+          "file_size_bytes": 2672375
+        },
+        "visual_review": {
+          "status": "COUNT/CONTINUITY DEFECT — NOT APPROVED",
+          "findings": [
+            "Three sheep are visually distinguishable in early frames.",
+            "Only two sheep remain clearly visible in later frames.",
+            "The required count is exactly four sheep, continuously visible throughout the shot."
+          ],
+          "remedy": "V03 prompt drafted with four separately positioned sheep, all animals static, fixed tripod camera and no occlusion."
+        },
+        "approved": false,
+        "review_decision": "AWAITING OWNER REVIEW"
+      },
+      {
+        "id": "ACT01_SCENE004_SHOT001",
+        "version": "V03",
+        "title": "Old Major's Gathering — Count-Stable Full Gathering Visible",
+        "status": "PROMPT DRAFTED — AWAITING OWNER REVIEW; NOT AUTHORIZED",
+        "duration_seconds": 10,
+        "proposed_settings": {
+          "model": "Reconfirm at live preflight",
+          "mode": "Reference-to-Video (R2V) — proposed",
+          "resolution": "360p (640x360) — proposed",
+          "aspect_ratio": "16:9",
+          "outputs": 1,
+          "live_credit_quote": null,
+          "price_authorized": false
+        },
+        "references": {
+          "Boxer": "7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba",
+          "Clover": "b86cb0af-a9e4-4d02-8b25-0316f718481b",
+          "Benjamin": "0595b453-1a9c-4c11-9359-fd79a6eeb951",
+          "The_Cows": "29b393f6-15b1-4a74-bcba-8c23b73360f5",
+          "The_Sheep": "0b75ce22-ee53-439b-9ca0-4d051731a362",
+          "Main_Barn": "a9354e0f-70dc-4f02-8567-de36d2ab41ab"
+        },
+        "prompt_status": "Drafted in canonical scene breakdown; fixed animal positions, fixed camera and count continuity constraints",
+        "generation_authorized": false,
+        "generated": false,
+        "credits_spent": 0,
+        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md"
       }
     ]
   }
