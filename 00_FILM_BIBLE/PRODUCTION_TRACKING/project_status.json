@@ -22,7 +22,7 @@
       "id": "S02",
       "timecode": "03:00–06:00",
       "title": "Old Major's Dream",
-      "status": "IN PRODUCTION — ACT01_SCENE004_SHOT001 generated; awaiting owner review"
+      "status": "IN PRODUCTION — Shot001 V01 owner-rejected; Shot002 planned and awaiting owner approval; no new generation authorized"
     },
     {
       "id": "S03",
@@ -115,9 +115,9 @@
     "note": "Scene001–002 figures are estimates; Scene003 charges are Flow-reported. Do not aggregate these as verified account billing."
   },
   "next_actions": [
-    "Owner reviews ACT01_SCENE004_SHOT001_V01 and decides whether to accept or reject this exact output; record decision and any editorial notes.",
-    "Do not generate Shot002, retry Shot001 or create another take until separately authorized by the owner.",
-    "After Shot001 decision, continue planning the remaining ACT01_SCENE004 shots."
+    "Owner reviews the Shot002 plan and prompt in ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md.",
+    "If approved, run a separate live preflight for ACT01_SCENE004_SHOT002_V01 using The_Cows, The_Sheep and Main_Barn; record actual model/settings/price.",
+    "Do not generate Shot002 or any replacement/retake until separate explicit owner authorization is received."
   ],
   "source_of_truth": {
     "shot_status": "00_FILM_BIBLE/PRODUCTION_TRACKING/02_SHOT_REGISTER.csv",
@@ -131,13 +131,13 @@
     "id": "ACT01_SCENE004",
     "title": "Old Major's Gathering",
     "timecode": "03:00–04:00 (provisional working-scene allocation within S02)",
-    "status": "SHOT001 GENERATED — AWAITING OWNER REVIEW; NO FURTHER GENERATION AUTHORIZED",
+    "status": "SHOT001 V01 OWNER-REJECTED — SHOT002 PLAN DRAFTED; NO GENERATION AUTHORIZED",
     "shots": [
       {
         "id": "ACT01_SCENE004_SHOT001",
         "version": "V01",
         "title": "Old Major's Gathering — Barn Interior Opening",
-        "status": "GENERATED — AWAITING OWNER REVIEW",
+        "status": "REJECTED — OWNER DECISION",
         "duration_seconds": 10,
         "model_reported": "Omni 1.2 Flash",
         "mode_reported": "Reference-to-Video (R2V)",
@@ -202,7 +202,48 @@
             "The additional animals specified as gathered background silhouettes are not clearly visible."
           ],
           "audio": "AAC stereo stream present; subjective listening review not completed."
-        }
+        },
+        "approved": false,
+        "review_decision": "REJECTED",
+        "review_decision_date": "2026-11-07",
+        "review_notes": {
+          "submitted": "Accept Shot001. Introduce the other gathering animals in Shot002.",
+          "conflict": "The phrase 'Accept Shot001' conflicts with the explicit REJECT instruction. The explicit rejection governs.",
+          "actionable_direction": "Introduce the other gathering animals clearly in Shot002."
+        },
+        "no_retake_authorized": true,
+        "no_replacement_authorized": true
+      },
+      {
+        "id": "ACT01_SCENE004_SHOT002",
+        "version": "V01 (planned)",
+        "title": "The Other Animals Gather",
+        "status": "PLANNED — PROMPT DRAFTED / NOT AUTHORIZED",
+        "duration_seconds": 10,
+        "proposed_settings": {
+          "aspect_ratio": "16:9",
+          "outputs": 1,
+          "model": "TBD at live preflight",
+          "mode": "TBD at live preflight",
+          "resolution": "TBD at live preflight",
+          "live_credit_quote": null
+        },
+        "references": {
+          "The_Cows": "29b393f6-15b1-4a74-bcba-8c23b73360f5",
+          "The_Sheep": "0b75ce22-ee53-439b-9ca0-4d051731a362",
+          "Main_Barn": "a9354e0f-70dc-4f02-8567-de36d2ab41ab"
+        },
+        "visual_requirements": [
+          "Exactly two approved black-and-white dairy cows, fully visible on the left.",
+          "Exactly four approved white sheep, fully visible on the right.",
+          "All six animals are individually distinguishable and unobstructed.",
+          "Keep the central gathering floor open; preserve Main_Barn Candidate 2 architecture.",
+          "Do not use rejected Shot001 V01 as a visual ingredient."
+        ],
+        "generated": false,
+        "generation_authorized": false,
+        "credits_spent": 0,
+        "canonical_breakdown": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE004_OLD_MAJORS_GATHERING/SCENE_BREAKDOWN.md"
       }
     ]
   }
