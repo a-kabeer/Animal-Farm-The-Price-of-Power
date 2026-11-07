@@ -2,7 +2,7 @@
 
 **Master sequence:** S02 — Old Major's Dream (03:00–06:00)  
 **Working scene:** 01 of S02  
-**Status:** PREPARATION IN PROGRESS — Shot001 prompt locked; Main_Barn master reference pending.  
+**Status:** PREPARATION COMPLETE — Main_Barn Candidate 2 approved; Shot001 prompt locked; waiting final live preflight and explicit video-generation authorization.  
 **Generation authorization:** NONE. No video generated; 0 credits spent.  
 **Prepared from owner-supplied report:** 7 November 2026.
 
@@ -19,11 +19,23 @@
 | Boxer | `7e912af3-0d8f-45d1-8c7a-bfffa6cee3ba` | Existing approved reference; attach exact asset |
 | Clover | `b86cb0af-a9e4-4d02-8b25-0316f718481b` | Existing approved reference; attach exact asset |
 | Benjamin | `0595b453-1a9c-4c11-9359-fd79a6eeb951` | Existing approved reference; attach exact asset |
-| Main_Barn interior | Not recorded | Prepare/verify a 16:9 master environment reference with Nano Banana 2.1; obtain approval and record its ID/path before video generation |
+| Main_Barn interior | `a9354e0f-70dc-4f02-8567-de36d2ab41ab` | OWNER-APPROVED — Candidate 2; Nano Banana 2.1; 16:9 1376×768; Google Flow collection ID `b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4` |
 
-The Main_Barn interior is described in the Film Bible, but the current Asset Register has no approved Flow asset ID for it. Do not treat the description alone as an attached ingredient. Do not substitute Barn_Exterior.
+Owner selected Candidate 2 on 7 November 2026 as the master Main_Barn interior. The approved Flow media ID and collection are recorded in the Asset Register. Preserve this environment's open central floor, balanced rafters and double entrance; do not substitute Barn_Exterior.
 
-## Reported preflight — 7 November 2026
+## Approved environment reference and reported video preflight — 7 November 2026
+
+- Main_Barn image model: Nano Banana 2.1
+- Options generated: 2; owner selected Candidate 2
+- Selected image media ID: `a9354e0f-70dc-4f02-8567-de36d2ab41ab`
+- Display name: `Interior of 1940s timber barn`
+- Image dimensions: 1376×768 (16:9)
+- Target Flow collection: `04_ACT_01_THE_OLD_WORLD` (`b3ce6fcf-8cf6-40cc-b378-4e989a09e4c4`)
+- Environment reference status: **OWNER-APPROVED MASTER**
+- Image-generation credit usage: 0 credits reported
+- Owner reports all four references are now attached to the R2V video preflight.
+
+
 
 - Model: Omni 1.2 Flash
 - Mode: Reference-to-Video (R2V)
@@ -37,7 +49,7 @@ The Main_Barn interior is described in the Film Bible, but the current Asset Reg
 - Credits spent: 0
 - Authorization: not granted
 
-These settings and quote are a preparation report, not a future guarantee or permission to generate.
+The 10-credit quote is owner-reported and must be rechecked in the live Flow UI immediately before Generate. The owner-reported reference attachment state must also be confirmed in the live shot workspace.
 
 ## Locked prompt — enter verbatim
 
@@ -70,12 +82,13 @@ VISUAL QUALITY:
 Serious cinematic 3D animated feature-film drama, realistic animal anatomy, detailed natural fur and bristles, physically believable animal movement, atmospheric volumetric moonlight, detailed weathered timber, cinematic depth, restrained emotional performance, consistent 1940s English farm environment, 16:9 landscape. No cartoon comedy, no exaggerated expressions, no extra limbs, no duplicated animals, no morphing, no watermark.
 ```
 
-## Pre-generation hold checklist
+## Final pre-generation gate
 
-1. Create/verify the Main_Barn 16:9 interior master image with Nano Banana 2.1.
-2. Owner approves the environment reference; record its exact Flow asset ID and local path in the Asset Register.
-3. Attach the exact Boxer, Clover and Benjamin references plus the approved Main_Barn reference.
-4. Recheck the live model, R2V mode, resolution, aspect ratio, duration, output count, exact prompt and displayed price.
-5. Obtain explicit owner authorization for this exact shot before generating exactly one output.
+- [x] Main_Barn 16:9 master generated and owner-approved (Candidate 2).
+- [x] Main_Barn Flow media ID and collection ID recorded in the Asset Register.
+- [x] Boxer, Clover, Benjamin and Main_Barn reference IDs recorded; owner reports all four are attached in R2V.
+- [x] Shot prompt locked; reported output count is exactly one.
+- [ ] Reconfirm the exact four attachments, prompt, Omni 1.2 Flash, R2V, 360p, 16:9, 10 seconds and live displayed price in the active Flow workspace.
+- [ ] Obtain explicit owner authorization for this exact video shot after the final preflight.
 
-**Do not generate, retry, preview or spend credits while this hold remains in place.**
+**Environment preparation is complete. Video generation remains on hold until the final live preflight passes and explicit shot-specific authorization is received.**
