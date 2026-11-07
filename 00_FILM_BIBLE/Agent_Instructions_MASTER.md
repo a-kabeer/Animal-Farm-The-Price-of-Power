@@ -17,6 +17,7 @@ Do not scan all folders, read the original blueprint, or reopen completed scenes
 - Approved character, location and prop references are locked. Do not redesign identity, anatomy, markings, proportions, wardrobe or geography.
 - Distinguish permanent design from temporary shot-specific props/costume. Boxer's work harness is temporary; Clover remains unharnessed unless the active shot explicitly says otherwise.
 - Use only references and exact prompt specified by the active scene breakdown. No silent substitutions or extra assets.
+- Ignore `assets/CONCEPT_ARCHIVE_NOT_MASTER/` for production; it contains unapproved historical concepts, not valid generation references.
 - Respect story order. Do not introduce later characters, locations or events early.
 
 ## Generation authorization gate
