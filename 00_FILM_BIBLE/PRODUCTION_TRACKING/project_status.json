@@ -1182,7 +1182,8 @@
             "The sky remains noticeably pink-grey twilight at the end rather than reaching the intended cool blue night. The upper sky is cooler/darker but a blue-hour/night transition is not fully realized.",
             "The required soft warm glow through the barn doorway is not clearly legible as an interior doorway light. Some warm illumination falls on the animals, but the doorway itself does not read as a distinct glowing destination."
           ],
-          "recommendation": "Retain V01 for editing; no retake recommended. Apply a cool-blue dusk-to-night grade and, if practical, add a subtle warm glow inside the barn doorway during NLE compositing/color work. Preserve the current animal movement and pull-back."
+          "recommendation": "Retain V01 for editing; no retake recommended. Apply a cool-blue dusk-to-night grade and, if practical, add a subtle warm glow inside the barn doorway during NLE compositing/color work. Preserve the current animal movement and pull-back.",
+          "approval_note": "Owner later confirmed that the three one-minute scenes were merged and ready as S01; Shot006 is therefore accepted by inclusion in that master."
         },
         "reviewed_timestamps_seconds": [
           0.5,
@@ -1226,5 +1227,6 @@
       "policy": "Exactly one video output per shot by default. No batches, automatic variations, retakes, previews or retries. Do not ask the owner to choose output count; use one.",
       "scope_note": "This is an output-count preference only. Generation of each new shot still requires its own explicit shot-specific authorization and final live UI price/settings check."
     }
-  }
+  },
+  "completed_master_sequences": 1
 }
