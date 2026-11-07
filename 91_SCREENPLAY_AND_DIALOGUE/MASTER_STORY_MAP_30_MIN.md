@@ -5,7 +5,7 @@
 | Sequence | Timecode | Title | Core story beats | Status |
 |---|---|---|---|---|
 | S01 | 00:00–03:00 | The Hungry Farm | Establish Manor Farm; Jones neglects animals; Boxer/Clover hardship; Benjamin observes. | **COMPLETE — owner-confirmed merged three-minute master (7 Nov 2026)** |
-| S02 | 03:00–06:00 | Old Major's Dream | Night gathering; Old Major explains exploitation and imagines freedom; Napoleon watches. | **NEXT — planning** |
+| S02 | 03:00–06:00 | Old Major's Dream | Night gathering; Old Major explains exploitation and imagines freedom; Napoleon watches. | **IN PRODUCTION — Shot001 V01 rejected; Shot002 plan drafted, not authorized** |
 | S03 | 06:00–09:00 | The Rebellion | Hunger triggers revolt; animals drive humans away. | Outline only |
 | S04 | 09:00–12:00 | A New Order | Celebration; pigs organize the farm; commandments; harvest and optimism. | Outline only |
 | S05 | 12:00–15:00 | Two Visions | Snowball proposes windmill; Napoleon opposes; debate and propaganda. | Outline only |
