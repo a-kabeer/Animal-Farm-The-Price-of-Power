@@ -4,18 +4,28 @@
   "updated": "2026-11-07",
   "baseline_source": "User-uploaded blueprint + production conversation + current uploaded media",
   "master_sequences": 10,
-  "approved_working_scenes": 2,
-  "approved_shots": 12,
-  "approved_footage_seconds": 120,
-  "coverage_pct_of_target_runtime": 6.7,
+  "approved_working_scenes": 3,
+  "approved_shots": 18,
+  "approved_footage_seconds": 180,
+  "coverage_pct_of_target_runtime": 10,
   "master_sequence_S01": {
     "timecode": "00:00-03:00",
-    "status": "Scenes 001 and 002 master-complete; Scene 003 Shot001 and Shot002 accepted for editing; remaining Scene 003 shots not generated",
+    "status": "MASTER COMPLETE — OWNER-CONFIRMED MERGED THREE-MINUTE CLIP READY (2026-11-07)",
     "working_scenes": [
       "ACT01_SCENE001 00:00-01:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
       "ACT01_SCENE002 01:00-02:00 — MASTER COMPLETE (owner-confirmed 2026-11-06)",
-      "ACT01_SCENE003 02:00–03:00 — SHOT001 V01 ACCEPTED FOR EDITING (COLOR MATCH REQUIRED); SHOT002 V01 ACCEPTED FOR EDITING (MINOR FRAMING DEVIATION); remaining four shots not generated"
-    ]
+      "ACT01_SCENE003 02:00–03:00 — MASTER COMPLETE; six shots generated and accepted into the owner-merged S01 master (owner-confirmed 2026-11-07)"
+    ],
+    "assembly": {
+      "status": "COMPLETE — OWNER-REPORTED MERGED MASTER READY",
+      "owner_confirmation_date": "2026-11-07",
+      "assembly_scope": "Three one-minute sub-scenes merged in story order: Scene001 (00:00–01:00), Scene002 (01:00–02:00), Scene003 (02:00–03:00).",
+      "target_runtime_seconds": 180,
+      "actual_runtime_seconds": "OWNER-REPORTED THREE MINUTES; exact media duration not independently verified",
+      "actual_rendered_mp4": "OWNER CONFIRMS MERGED THREE-MINUTE MASTER IS READY; filename/path not supplied and binary not uploaded in this conversation",
+      "technical_metadata": "NOT PROVIDED — resolution, frame rate, codecs and exact file size remain unverified",
+      "independent_media_inspection": "PENDING — owner reports master ready; merged file not supplied for inspection"
+    }
   },
   "scene001": {
     "duration_seconds": 60,
@@ -131,13 +141,12 @@
     "actual_billing_verified": false
   },
   "next_actions": [
-    "Owner review/acceptance of ACT01_SCENE003_SHOT006_V01; assistant recommends retain with cool-blue night grade and subtle warm doorway-glow treatment.",
-    "Complete post-production for Scene003 Shots001–006, including color continuity, dialogue dubbing, Shot005 crop/reframe and Shot006 doorway glow.",
-    "Once Shot006 is accepted, assemble Scene003 to exactly 60 seconds and obtain owner approval.",
-    "Verify complete S01 across Scenes001–003, then prepare S02."
+    "Begin S02 — Old Major's Dream (03:00–06:00): plan the sequence and its working scenes, confirm Old Major character continuity and barn/night-gathering environment requirements, and build the shot breakdown.",
+    "Record the S01 merged master filename and exact technical metadata when the owner supplies the export or metadata report; owner-confirmed completion is already recorded.",
+    "Keep individual Scene003 edit notes in the production archive for reference; do not treat them as blockers to S01 completion."
   ],
   "sync_status": "No automatic live sync with Google Flow or ChatGPT; update repository and re-upload latest tracking files when continuing",
-  "master_complete_working_scenes": 2,
+  "master_complete_working_scenes": 3,
   "planned_working_scenes": 3,
   "scene003": {
     "working_title": "The Burden of the Day",
@@ -152,7 +161,7 @@
       10,
       10
     ],
-    "status": "SHOT001 V01 OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED; SHOT002 V01 OWNER ACCEPTED FOR EDITING — MINOR FRAMING DEVIATION; SHOT003 V01 OWNER ACCEPTED FOR POST-PRODUCTION EDITING — NO RETAKE; SHOT004 V01 OWNER ACCEPTED FOR EDITING — NO RETAKE; SHOT005 V01 OWNER ACCEPTED FOR EDITING — CROP/REFRAME AROUND UNEXPECTED WOODEN POST; SHOT006 V01 GENERATED — AWAITING OWNER REVIEW",
+    "status": "MASTER COMPLETE — SIX SHOTS INCLUDED IN OWNER-CONFIRMED S01 THREE-MINUTE MASTER (2026-11-07)",
     "dialogue": {
       "Clover": "You have carried enough for one day, Boxer.",
       "Boxer": "The work still needs doing, Clover.",
@@ -253,7 +262,7 @@
       "authorization_consumed": true,
       "authorized_output_count": 1
     },
-    "next_step": "Owner review of ACT01_SCENE003_SHOT006_V01 (media ID 89104e8d-e999-469f-b810-cc94725cf955). Assistant recommends retain V01 for editing; apply cool-blue dusk-to-night grade and add subtle warm doorway glow if practical. Owner approval pending. Once Shot006 is accepted, assemble all six 10-second shots into Scene003 and review the 60-second master.",
+    "next_step": "S01 — The Hungry Farm is complete as an owner-confirmed three-minute merged master. Next production milestone: begin planning and preparing S02 — Old Major's Dream (03:00–06:00).",
     "shot001_execution": {
       "status": "OWNER ACCEPTED FOR EDITING — COLOR MATCH REQUIRED",
       "shot_id": "ACT01_SCENE003_SHOT001_V01",
@@ -761,11 +770,9 @@
       "owner_acceptance_note": "Owner said 'next please' following the detailed Shot004 review and recommendation to retain V01; recorded as acceptance for editing and progression to Shot005."
     },
     "next_actions": [
-      "Owner review/acceptance of Scene003 Shot006 V01; assistant recommends retain with cool-blue night grade and subtle warm doorway-glow treatment.",
-      "Complete post-production for Scene003 Shots001–006: continuity color grading, exact Clover and Boxer dialogue dubbing/synchronization, Shot005 wooden-post crop/reframe, Shot006 warm doorway glow, and subjective ambient-audio listening.",
-      "After Shot006 is owner-approved, assemble the six shots into the 60-second Scene003 master and perform continuity, timing, and audio review.",
-      "Obtain owner approval for the completed Scene003 master.",
-      "Verify complete S01 across Scenes001–003, then prepare S02."
+      "Begin S02 — Old Major's Dream (03:00–06:00): review the story beats, scene breakdown, character and environment continuity, and shot plan before Flow preparation.",
+      "Retain Scene003 post-production notes in the edit archive: cool-blue grading, Shot005 wooden-post crop/reframe, Shot006 cool-blue night treatment and doorway glow, dialogue dubbing for Clover and Boxer, and ambient-audio checks. The owner reports the merged S01 master is ready; these notes are not independently verified against the final merged file.",
+      "When the S01 master file is available, record its filename, exact duration, resolution, frame rate and codec metadata; this is documentation only and does not block S01's owner-confirmed completion."
     ],
     "shot004_generation_authorization": {
       "audit_date": "2026-11-07",
@@ -965,7 +972,7 @@
     "shot006_preparation": {
       "shot_id": "ACT01_SCENE003_SHOT006_V01",
       "title": "Night Settles over the Farm",
-      "status": "GENERATED — AWAITING OWNER REVIEW",
+      "status": "OWNER ACCEPTED AS PART OF COMPLETED S01 MASTER — NO RETAKE",
       "preparation_task": "04_ACT_01_THE_OLD_WORLD/SCENES/ACT01_SCENE003_THE_BURDEN_OF_THE_DAY/FLOW_AGENT_PREPARATION_TASK_SHOT006.md",
       "prompt_status": "Canonical Scene Breakdown prompt copied verbatim into the task; locked for preflight",
       "model_target": "Omni 1.2 Flash — verify live selector",
@@ -1006,7 +1013,7 @@
       "no_generation_performed": false,
       "stop_after_preflight": false,
       "authorization_required": "The single Shot006 authorization has been consumed. No retake, alternate, additional output or further shot generation is authorized without a separate explicit owner authorization.",
-      "next_action": "Await separate explicit owner authorization for exactly one output at exactly 10 credits, conditional on final live UI recheck. Do not generate or preview before authorization.",
+      "next_action": "S01 complete. Move to S02 planning. Shot006 is accepted as part of the owner-confirmed merged master; no retake.",
       "initial_preflight_report": {
         "report_date": "2026-11-07",
         "report_source": "Owner-supplied Flow Agent preparation report",
@@ -1111,8 +1118,8 @@
       },
       "authorization_consumed": true,
       "execution_status": "CONSUMED — exactly one output reported generated at 10 credits; MP4 independently inspected",
-      "owner_visual_review": "DETAILED ASSISTANT REVIEW COMPLETED — RECOMMEND RETAIN V01 FOR EDITING WITH NIGHT-COLOR AND DOORWAY-GLOW NOTES; OWNER DECISION PENDING",
-      "owner_approval": false,
+      "owner_visual_review": "OWNER CONFIRMED THE MERGED THREE-MINUTE S01 MASTER IS READY AND INCLUDES SCENE003; Shot006 accepted by inclusion in owner-confirmed master (2026-11-07).",
+      "owner_approval": true,
       "retakes_authorized": false,
       "next_shot_authorized": false,
       "execution_report": {
@@ -1186,12 +1193,31 @@
           9.5
         ],
         "review_date": "2026-11-07",
-        "owner_visual_review": "PENDING — detailed assistant review completed; awaiting explicit owner decision",
-        "owner_approval": false,
-        "editorial_status": "GENERATED — AWAITING OWNER REVIEW; assistant recommends retain V01 with cool-blue night grade and subtle warm doorway-glow correction",
+        "owner_visual_review": "OWNER CONFIRMED THE MERGED THREE-MINUTE S01 MASTER IS READY AND INCLUDES SCENE003; Shot006 accepted by inclusion in owner-confirmed master (2026-11-07).",
+        "owner_approval": true,
+        "editorial_status": "OWNER ACCEPTED AS PART OF COMPLETED S01 MASTER — no retake.",
         "retake_authorized": false,
         "next_shot_authorized": false
-      }
+      },
+      "editorial_status": "OWNER ACCEPTED AS PART OF COMPLETED S01 MASTER; final shot incorporated in owner-confirmed merged sequence. No retake.",
+      "owner_acceptance_date": "2026-11-07",
+      "owner_acceptance_note": "Owner confirmed all three one-minute sub-scenes have been merged into the ready three-minute S01 master."
+    },
+    "assembly": {
+      "status": "COMPLETE — INCLUDED IN OWNER-MERGED S01 MASTER",
+      "owner_confirmation_date": "2026-11-07",
+      "shot_order": [
+        "ACT01_SCENE003_SHOT001_V01",
+        "ACT01_SCENE003_SHOT002_V01",
+        "ACT01_SCENE003_SHOT003_V01",
+        "ACT01_SCENE003_SHOT004_V01",
+        "ACT01_SCENE003_SHOT005_V01",
+        "ACT01_SCENE003_SHOT006_V01"
+      ],
+      "target_runtime_seconds": 60,
+      "assembly_confirmation": "Owner confirms Scene001, Scene002 and Scene003 one-minute clips have been merged into a ready three-minute S01 master.",
+      "standalone_scene003_export": "NOT SEPARATELY REPORTED — Scene003 is tracked as included in the final S01 master.",
+      "technical_metadata": "Not supplied; not independently verified."
     }
   },
   "production_defaults": {
